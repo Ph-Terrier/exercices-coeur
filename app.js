@@ -6,7 +6,10 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "data/exercices.json";
+  // build stamp written by scripts/deploy_site.sh into <meta name="build">, so that a
+  // new deployment fetches fresh data instead of a cached copy (GitHub Pages: max-age 600 s)
+  const BUILD = (document.querySelector('meta[name="build"]') || {}).content || "dev";
+  const DATA_URL = "data/exercices.json?b=" + BUILD;
   const STORE_KEY = "quiz_generator_progress_v1";
   const SERIES_SIZE = 10;
   const TYPE_LABELS = {
