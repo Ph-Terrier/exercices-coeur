@@ -2757,7 +2757,7 @@
         55,
         57
       ],
-      "explanation": "Les artères ont une paroi épaisse, une média développée et une forte élasticité pour supporter la pression ; les veines ont une paroi mince, une lumière large et des valvules anti-reflux, et servent de réservoir : elles contiennent environ 60 % du volume sanguin (slides 55 et 57).",
+      "explanation": "Les artères ont une paroi épaisse, une média développée et une forte élasticité pour supporter la pression, et leur lumière reste béante ; les veines ont une paroi mince et souple, une lumière large qui peut se collaber, des valvules anti-reflux, et servent de réservoir : elles contiennent environ 60 % du volume sanguin (slides 55 et 57, cours oral).",
       "categories": [
         "Artère",
         "Veine"
@@ -2772,7 +2772,7 @@
           "category": "Veine"
         },
         {
-          "text": "Lumière plus large",
+          "text": "Lumière large, qui s'aplatit (se collabe) quand le vaisseau est peu rempli",
           "category": "Veine"
         },
         {
@@ -2850,8 +2850,8 @@
       "source_slides": [
         55
       ],
-      "explanation": "Intima (endothélium), média (muscle lisse et fibres élastiques), adventice (tissu conjonctif, nerfs et vasa vasorum). Paroi épaisse et média développée dans les artères ; paroi mince, lumière large et valvules dans les veines (slide 55).",
-      "text": "La tunique interne, ou ___, est une fine couche de cellules endothéliales. La tunique moyenne, ou ___, contient le muscle lisse qui règle le diamètre du vaisseau. La tunique externe, ou ___, est faite de tissu conjonctif et contient les vasa vasorum. Les ___ ont une paroi plus épaisse ; les ___ ont une lumière plus large et des valvules.",
+      "explanation": "Intima (endothélium), média (muscle lisse et fibres élastiques), adventice (tissu conjonctif, nerfs et vasa vasorum). Paroi épaisse et média développée dans les artères, dont la lumière reste béante ; paroi mince et compliante (distensible) dans les veines, dont la lumière large peut se collaber, avec des valvules anti-reflux (slide 55 et cours oral).",
+      "text": "La tunique interne, ou ___, est une fine couche de cellules endothéliales. La tunique moyenne, ou ___, contient le muscle lisse qui règle le diamètre du vaisseau. La tunique externe, ou ___, est faite de tissu conjonctif et contient les vasa vasorum. Les ___ ont une paroi épaisse et une lumière qui reste ouverte (béante) ; les ___, à paroi mince et souple, s'aplatissent (se collabent) quand elles sont peu remplies et possèdent des valvules.",
       "blanks": [
         "intima",
         "média",
