@@ -128,3 +128,50 @@ button { font: inherit; cursor: pointer; }
 .match-row.correct { border-color: var(--green); background: var(--green-bg); }
 .match-row.wrong { border-color: var(--red); background: var(--red-bg); }
 .answer-list { margin: 4px 0 8px; padding-left: 22px; }
+
+/* ---- formats ajoutés le 2026-09-22 (soir) : direction, classify, cloze, steps, diagram, flashcard ---- */
+.check { margin-top: 4px; }
+.steps { display: grid; gap: 10px; }
+.step { border-left: 4px solid var(--line); padding-left: 10px; }
+.step.correct { border-left-color: var(--green); }
+.step.wrong { border-left-color: var(--red); }
+.step-result { margin: 6px 0 0; font-weight: 600; }
+.step.correct .step-result { color: var(--green); }
+.step.wrong .step-result { color: var(--red); }
+.classify { display: grid; gap: 8px; }
+.cls-row { background: #fff; border: 2px solid var(--line); border-radius: var(--radius); padding: 10px 12px; display: grid; gap: 8px; min-width: 0; }
+.cls-text { font-weight: 600; }
+.cls-btns { display: flex; flex-wrap: wrap; gap: 6px; }
+.cls-btn { background: var(--bg); border: 2px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 0.95rem; }
+.cls-btn.selected { border-color: var(--blue); background: #e3edf7; color: var(--blue-dark); font-weight: 600; }
+.cls-btn:disabled { cursor: default; color: var(--ink); }
+.cls-btn.correct { border-color: var(--green); background: var(--green-bg); font-weight: 600; }
+.cls-row.correct { border-color: var(--green); background: var(--green-bg); }
+.cls-row.wrong { border-color: var(--red); background: var(--red-bg); }
+.cls-row.wrong .cls-btn.selected:not(.correct) { border-color: var(--red); background: var(--red-bg); }
+.cloze-text { line-height: 2.1; font-size: 1.05rem; margin: 0 0 8px; }
+.cloze-text select.blank { font: inherit; font-size: 1rem; padding: 3px 6px; border: 2px solid var(--blue); border-radius: 8px; background: #fff; margin: 0 2px; max-width: 100%; vertical-align: baseline; }
+.cloze-text select.blank.correct { border-color: var(--green); background: var(--green-bg); }
+.cloze-text select.blank.wrong { border-color: var(--red); background: var(--red-bg); }
+.cloze-answer { line-height: 1.7; }
+.cloze-answer strong { color: var(--green); }
+.diagram-svg { width: 100%; height: auto; display: block; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); margin: 4px 0 10px; }
+.dg-edge { fill: none; stroke: #8a94a6; stroke-width: 0.6; }
+.dg-arrowhead { fill: #8a94a6; }
+.dg-node rect { fill: #fff; stroke: var(--line); stroke-width: 0.6; }
+.dg-node.fixed rect { fill: #eef2f7; stroke: #c3ccd9; }
+.dg-node.fill rect { stroke: var(--blue); stroke-dasharray: 1.4 1; cursor: pointer; }
+.dg-node.fill.filled rect { stroke-dasharray: none; fill: #e3edf7; }
+.dg-node.fill.active rect { stroke-width: 1.2; fill: #fff8e1; }
+.dg-node.correct rect { fill: var(--green-bg); stroke: var(--green); stroke-dasharray: none; }
+.dg-node.wrong rect { fill: var(--red-bg); stroke: var(--red); stroke-dasharray: none; }
+.dg-node text { fill: var(--ink); pointer-events: none; }
+.dg-node text.dg-num { fill: var(--blue); font-weight: 700; font-size: 4.2px; }
+.dg-node.fixed text { fill: #4b5563; }
+.palette { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.palette .pool-item { width: auto; min-height: 40px; padding: 8px 12px; font-size: 0.95rem; }
+.palette .pool-item.used { opacity: 0.45; }
+.flash .reveal { width: 100%; }
+.fc-answer { background: #fff; border: 2px solid var(--blue); border-radius: var(--radius); padding: 12px 14px; margin: 8px 0; line-height: 1.5; }
+.fc-grade { display: grid; gap: 8px; }
+.fc-grade p { margin: 4px 0 0; }

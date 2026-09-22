@@ -19,6 +19,16 @@
       "approved": "Philippe Terrier, 2026-09-22, validation en chat après relecture du v2 (« Version validée, j'ai enregistrer sur kahoot, tu peux commit ») ; kahoot enregistré par l'auteur lui-même"
     },
     {
+      "id": "SPHANACR-coeur-web-v1",
+      "part": "Le cœur",
+      "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : le cœur",
+      "scope": "Partie cœur, slides 5 à 51 ; exercices à formats variés, sans QCM, pour le site web",
+      "n_items": 28,
+      "generated": "2026-09-22",
+      "model": "claude-fable-5-1",
+      "approved": ""
+    },
+    {
       "id": "SPHANACR-vaisseaux-v1",
       "part": "Vaisseaux et pression",
       "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : vaisseaux et pression artérielle",
@@ -29,11 +39,11 @@
       "approved": ""
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2",
       "part": "Vaisseaux et pression",
       "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : vaisseaux et pression artérielle",
       "scope": "Partie vaisseaux et pression, slides 52 à 94 ; exercices à formats multiples pour le site web",
-      "n_items": 16,
+      "n_items": 35,
       "generated": "2026-09-22",
       "model": "claude-fable-5-1",
       "approved": ""
@@ -44,37 +54,37 @@
       "id": "LO1",
       "short_title": "Structures du cœur et leurs fonctions",
       "part": "Le cœur",
-      "n_items": 6
+      "n_items": 13
     },
     {
       "id": "LO2",
       "short_title": "Parcours du sang : circulations pulmonaire et systémique",
       "part": "Le cœur",
-      "n_items": 4
+      "n_items": 10
     },
     {
       "id": "LO3",
       "short_title": "Cycle cardiaque : conduction, électrophysiologie et phases mécaniques",
       "part": "Le cœur",
-      "n_items": 8
+      "n_items": 21
     },
     {
       "id": "LO8",
       "short_title": "Régulation neurologique et hormonale du rythme cardiaque",
       "part": "Le cœur",
-      "n_items": 2
+      "n_items": 4
     },
     {
       "id": "LO1_vaisseaux",
       "short_title": "Structures des vaisseaux et leurs fonctions",
       "part": "Vaisseaux et pression",
-      "n_items": 8
+      "n_items": 13
     },
     {
       "id": "LO4",
       "short_title": "Lois de la circulation : pressions, résistances, débits",
       "part": "Vaisseaux et pression",
-      "n_items": 18
+      "n_items": 32
     }
   ],
   "items": [
@@ -906,6 +916,933 @@
       ]
     },
     {
+      "id": "SPHANACR-coeur-web-v1-C001",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "ordering",
+      "lo": "LO2",
+      "topic": "Parcours du sang — cœur droit et circulation pulmonaire",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le sang pauvre en oxygène revient des organes et doit être envoyé aux poumons.",
+      "lead_in": "Remettre dans l'ordre les structures traversées, des veines caves aux poumons.",
+      "options": [],
+      "source_slides": [
+        8,
+        9,
+        10
+      ],
+      "items": [
+        "Veines caves supérieure et inférieure",
+        "Oreillette droite",
+        "Valve auriculo-ventriculaire droite",
+        "Ventricule droit",
+        "Valve pulmonaire",
+        "Tronc et artères pulmonaires",
+        "Capillaires pulmonaires"
+      ],
+      "explanation": "Le sang pauvre en oxygène entre dans l'oreillette droite par les veines caves, franchit la valve auriculo-ventriculaire droite, est éjecté par le ventricule droit à travers la valve pulmonaire dans le tronc pulmonaire, puis rejoint les capillaires des poumons où il se charge en oxygène (slides 9 et 10)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C002",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "ordering",
+      "lo": "LO2",
+      "topic": "Parcours du sang — cœur gauche et circulation systémique",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le sang riche en oxygène revient des poumons et doit être envoyé à tous les organes.",
+      "lead_in": "Remettre dans l'ordre les structures traversées, des veines pulmonaires aux organes.",
+      "options": [],
+      "source_slides": [
+        8,
+        9,
+        10
+      ],
+      "items": [
+        "Veines pulmonaires",
+        "Oreillette gauche",
+        "Valve auriculo-ventriculaire gauche",
+        "Ventricule gauche",
+        "Valve aortique",
+        "Aorte",
+        "Capillaires des organes"
+      ],
+      "explanation": "Les quatre veines pulmonaires ramènent le sang oxygéné dans l'oreillette gauche ; il franchit la valve auriculo-ventriculaire gauche, est éjecté par le ventricule gauche à travers la valve aortique dans l'aorte, puis distribué aux capillaires de tous les organes (slides 9 et 10)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C003",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "diagram",
+      "lo": "LO2",
+      "topic": "Double circulation — schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le sang parcourt une double boucle : la circulation pulmonaire et la circulation systémique.",
+      "lead_in": "Compléter le schéma en plaçant chaque structure à sa place (les flèches suivent le sens du sang).",
+      "options": [],
+      "source_slides": [
+        8,
+        9,
+        10
+      ],
+      "explanation": "Cœur droit et circulation pulmonaire : veines caves, oreillette droite, ventricule droit, artère pulmonaire, poumons. Cœur gauche et circulation systémique : veines pulmonaires, oreillette gauche, ventricule gauche, aorte, organes. Les artères coronaires et le sinus coronaire appartiennent à la vascularisation propre du cœur, pas à cette boucle (slides 8 à 10).",
+      "distractors": [
+        "Artères coronaires",
+        "Sinus coronaire"
+      ],
+      "nodes": [
+        {
+          "id": "poumons",
+          "label": "Poumons",
+          "x": 36,
+          "y": 2,
+          "w": 28,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "vp",
+          "label": "Veines pulmonaires",
+          "x": 68,
+          "y": 15,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "og",
+          "label": "Oreillette gauche",
+          "x": 68,
+          "y": 29,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "vg",
+          "label": "Ventricule gauche",
+          "x": 68,
+          "y": 43,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "aorte",
+          "label": "Aorte",
+          "x": 68,
+          "y": 57,
+          "w": 30,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "organes",
+          "label": "Organes (tissus)",
+          "x": 36,
+          "y": 69,
+          "w": 28,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "vc",
+          "label": "Veines caves",
+          "x": 2,
+          "y": 57,
+          "w": 30,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "od",
+          "label": "Oreillette droite",
+          "x": 2,
+          "y": 43,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "vd",
+          "label": "Ventricule droit",
+          "x": 2,
+          "y": 29,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "ap",
+          "label": "Artère pulmonaire",
+          "x": 2,
+          "y": 15,
+          "w": 30,
+          "h": 10
+        }
+      ],
+      "edges": [
+        [
+          "poumons",
+          "vp"
+        ],
+        [
+          "vp",
+          "og"
+        ],
+        [
+          "og",
+          "vg"
+        ],
+        [
+          "vg",
+          "aorte"
+        ],
+        [
+          "aorte",
+          "organes"
+        ],
+        [
+          "organes",
+          "vc"
+        ],
+        [
+          "vc",
+          "od"
+        ],
+        [
+          "od",
+          "vd"
+        ],
+        [
+          "vd",
+          "ap"
+        ],
+        [
+          "ap",
+          "poumons"
+        ]
+      ],
+      "width": 100,
+      "height": 80,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C004",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "classify",
+      "lo": "LO2",
+      "topic": "Nature du sang selon le vaisseau ou la cavité",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Dans le schéma de la double circulation, le rouge désigne le sang riche en oxygène et le bleu le sang pauvre en oxygène.",
+      "lead_in": "Classer chaque structure selon la nature du sang qu'elle contient.",
+      "options": [],
+      "source_slides": [
+        8,
+        10
+      ],
+      "explanation": "Le cœur droit et l'artère pulmonaire contiennent du sang pauvre en oxygène qui part vers les poumons ; les veines pulmonaires, le cœur gauche et l'aorte contiennent du sang riche en oxygène qui part vers les organes. L'artère pulmonaire et les veines pulmonaires sont les exceptions à la règle « artère = sang oxygéné, veine = sang désoxygéné » (slides 8 et 10).",
+      "categories": [
+        "Sang riche en oxygène",
+        "Sang pauvre en oxygène"
+      ],
+      "elements": [
+        {
+          "text": "Veines pulmonaires",
+          "category": "Sang riche en oxygène"
+        },
+        {
+          "text": "Artère pulmonaire",
+          "category": "Sang pauvre en oxygène"
+        },
+        {
+          "text": "Aorte",
+          "category": "Sang riche en oxygène"
+        },
+        {
+          "text": "Veines caves",
+          "category": "Sang pauvre en oxygène"
+        },
+        {
+          "text": "Ventricule gauche",
+          "category": "Sang riche en oxygène"
+        },
+        {
+          "text": "Oreillette droite",
+          "category": "Sang pauvre en oxygène"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C005",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "cloze",
+      "lo": "LO2",
+      "topic": "Parcours du sang — texte à trous",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter le trajet du sang à travers le cœur.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        8,
+        9,
+        10
+      ],
+      "explanation": "Veines caves, oreillette droite, ventricule droit, artère pulmonaire ; puis veines pulmonaires, oreillette gauche, ventricule gauche, aorte (slides 9 et 10).",
+      "text": "Le sang pauvre en oxygène arrive dans l'oreillette ___ par les veines ___. Il passe dans le ventricule droit, qui l'envoie aux poumons par l'artère ___. Il revient au cœur par les veines ___, dans l'oreillette ___, avant d'être propulsé dans l'aorte par le ventricule gauche.",
+      "blanks": [
+        "droite",
+        "caves",
+        "pulmonaire",
+        "pulmonaires",
+        "gauche"
+      ],
+      "distractors": [
+        "coronaires",
+        "aortique"
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C006",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "true_false",
+      "lo": "LO2",
+      "topic": "Contraction simultanée des deux côtés du cœur",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        10
+      ],
+      "statement": "Les deux côtés du cœur, droit et gauche, se contractent en même temps.",
+      "correct": true,
+      "rationale": "Vrai. Les deux oreillettes se contractent ensemble, puis les deux ventricules : à chaque battement, le cœur droit envoie le sang aux poumons pendant que le cœur gauche l'envoie aux organes (slide 10)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C007",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "matching",
+      "lo": "LO1",
+      "topic": "Tuniques de la paroi cardiaque et péricarde",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "La paroi du cœur comprend trois tuniques, entourées par le péricarde.",
+      "lead_in": "Associer chaque couche à sa description.",
+      "options": [],
+      "source_slides": [
+        25,
+        26
+      ],
+      "explanation": "De l'intérieur vers l'extérieur : endocarde, myocarde, épicarde (feuillet viscéral du péricarde séreux), cavité péricardique avec son liquide, feuillet pariétal, puis péricarde fibreux qui fixe le cœur au diaphragme et aux gros vaisseaux (slides 25 et 26).",
+      "pairs": [
+        {
+          "left": "Endocarde",
+          "right": "Tunique interne qui tapisse les cavités du cœur"
+        },
+        {
+          "left": "Myocarde",
+          "right": "Muscle cardiaque qui assure la contraction"
+        },
+        {
+          "left": "Épicarde (péricarde viscéral)",
+          "right": "Feuillet séreux collé à la surface du cœur"
+        },
+        {
+          "left": "Péricarde fibreux",
+          "right": "Enveloppe externe résistante fixée au diaphragme"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C008",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "matching",
+      "lo": "LO1",
+      "topic": "Valves cardiaques et leur position",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le cœur possède quatre valves qui imposent un sens unique au sang.",
+      "lead_in": "Associer chaque valve à sa position.",
+      "options": [],
+      "source_slides": [
+        9,
+        27
+      ],
+      "explanation": "Les deux valves auriculo-ventriculaires séparent chaque oreillette de son ventricule ; les valves pulmonaire et aortique séparent chaque ventricule de l'artère qui en part (slides 9 et 27).",
+      "pairs": [
+        {
+          "left": "Valve auriculo-ventriculaire droite",
+          "right": "Entre l'oreillette droite et le ventricule droit"
+        },
+        {
+          "left": "Valve auriculo-ventriculaire gauche",
+          "right": "Entre l'oreillette gauche et le ventricule gauche"
+        },
+        {
+          "left": "Valve pulmonaire",
+          "right": "Entre le ventricule droit et le tronc pulmonaire"
+        },
+        {
+          "left": "Valve aortique",
+          "right": "Entre le ventricule gauche et l'aorte"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C009",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "classify",
+      "lo": "LO1",
+      "topic": "Muscle cardiaque et muscle squelettique",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le myocarde est un muscle strié, comme les muscles squelettiques, mais il en diffère sur plusieurs points.",
+      "lead_in": "Classer chaque caractéristique selon le type de muscle.",
+      "options": [],
+      "source_slides": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "explanation": "Le muscle cardiaque est fait de cellules ramifiées à un noyau, reliées par des disques intercalaires (desmosomes pour la cohésion, jonctions communicantes pour le passage de l'influx) ; il se contracte involontairement et n'a pas besoin d'innervation propre à chaque fibre. Le muscle squelettique est fait de fibres longues plurinucléées, à contraction volontaire, chacune innervée (slides 20 à 23).",
+      "categories": [
+        "Muscle cardiaque",
+        "Muscle squelettique"
+      ],
+      "elements": [
+        {
+          "text": "Fibres ramifiées reliées par des disques intercalaires",
+          "category": "Muscle cardiaque"
+        },
+        {
+          "text": "Contraction sous contrôle volontaire",
+          "category": "Muscle squelettique"
+        },
+        {
+          "text": "Un seul noyau central par cellule",
+          "category": "Muscle cardiaque"
+        },
+        {
+          "text": "Fibres longues à plusieurs noyaux",
+          "category": "Muscle squelettique"
+        },
+        {
+          "text": "L'influx passe de cellule en cellule par les jonctions communicantes",
+          "category": "Muscle cardiaque"
+        },
+        {
+          "text": "Chaque fibre reçoit sa propre innervation motrice",
+          "category": "Muscle squelettique"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C010",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "cloze",
+      "lo": "LO1",
+      "topic": "Péricarde — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description des feuillets protecteurs du cœur.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        25
+      ],
+      "explanation": "Péricarde fibreux à l'extérieur ; péricarde séreux en deux feuillets, pariétal (contre le fibreux) et viscéral (contre le cœur, c'est l'épicarde) ; entre eux, la cavité péricardique et son liquide lubrifiant (slide 25).",
+      "text": "Le péricarde ___ est la couche externe résistante qui fixe le cœur au diaphragme et aux gros vaisseaux. Le péricarde séreux comprend un feuillet ___, accolé au péricarde fibreux, et un feuillet ___ (l'épicarde), accolé à la surface du cœur. Entre ces deux feuillets, la cavité péricardique contient le liquide ___, qui réduit les frottements à chaque battement.",
+      "blanks": [
+        "fibreux",
+        "pariétal",
+        "viscéral",
+        "péricardique"
+      ],
+      "distractors": [
+        "myocardique",
+        "endocardique"
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C011",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "flashcard",
+      "lo": "LO1",
+      "topic": "Artères coronaires — origine",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        21,
+        31
+      ],
+      "answer": "Elles naissent au tout début de l'aorte, au niveau de la valve aortique. Elles reçoivent environ 5 % du sang éjecté dans l'aorte à chaque systole, une part importante par rapport à la masse du cœur ; le ventricule gauche en reçoit le plus (notes de la slide 21, slide 31).",
+      "prompt": "D'où naissent les artères coronaires, et quelle part du sang éjecté reçoivent-elles ?"
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C012",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "flashcard",
+      "lo": "LO1",
+      "topic": "Drainage veineux du cœur",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        18,
+        21
+      ],
+      "answer": "Les veines cardiaques se réunissent dans le sinus coronaire, qui s'ouvre dans l'oreillette droite. Une petite partie du sang veineux passe directement dans les cavités par de petits canaux veineux (slides 18 et 21).",
+      "prompt": "Par quelle voie le sang veineux du myocarde retourne-t-il dans les cavités du cœur ?"
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C013",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "true_false",
+      "lo": "LO1",
+      "topic": "Épaisseur des parois ventriculaires",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        27,
+        34
+      ],
+      "statement": "La paroi du ventricule droit est plus épaisse que celle du ventricule gauche.",
+      "correct": false,
+      "rationale": "Faux. C'est la paroi du ventricule gauche qui est la plus épaisse : il propulse le sang dans toute la circulation systémique, à une pression d'environ 120 mmHg, contre environ 30 mmHg pour le ventricule droit vers les poumons (slide 27 et notes de la slide 34)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C014",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "ordering",
+      "lo": "LO3",
+      "topic": "Conduction de l'influx — tissu cardionecteur",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "L'influx électrique naît dans le cœur lui-même et parcourt le tissu de conduction.",
+      "lead_in": "Remettre dans l'ordre les structures parcourues par l'influx.",
+      "options": [],
+      "source_slides": [
+        34,
+        40
+      ],
+      "items": [
+        "Nœud sinusal",
+        "Nœud auriculo-ventriculaire",
+        "Faisceau de His",
+        "Branches droite et gauche du faisceau",
+        "Fibres de Purkinje",
+        "Cellules musculaires ventriculaires"
+      ],
+      "explanation": "L'influx naît au nœud sinusal (pacemaker), marque un arrêt de 0,1 s au nœud auriculo-ventriculaire, descend par le faisceau de His et ses deux branches dans le septum interventriculaire, puis est distribué par les fibres de Purkinje aux cellules musculaires des ventricules (slides 34 et 40)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C015",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "ordering",
+      "lo": "LO3",
+      "topic": "Phases du cycle cardiaque (ventricule)",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Le cycle d'un ventricule enchaîne des phases de remplissage, de contraction et de relaxation.",
+      "lead_in": "Remettre les phases dans l'ordre, en commençant par le remplissage passif.",
+      "options": [],
+      "source_slides": [
+        45,
+        46,
+        47
+      ],
+      "items": [
+        "Remplissage ventriculaire passif",
+        "Systole auriculaire : fin du remplissage",
+        "Contraction isovolumétrique",
+        "Éjection ventriculaire",
+        "Relaxation isovolumétrique"
+      ],
+      "explanation": "Remplissage passif pendant la diastole, complété par la systole auriculaire ; contraction isovolumétrique (toutes les valves fermées, la pression monte) ; éjection dès que la valve aortique s'ouvre ; relaxation isovolumétrique (toutes les valves fermées, la pression chute) avant un nouveau remplissage (slides 45 à 47)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C016",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "matching",
+      "lo": "LO3",
+      "topic": "Ondes de l'ECG et événements électriques",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "L'électrocardiogramme enregistre l'activité électrique du cœur à chaque cycle.",
+      "lead_in": "Associer chaque élément du tracé à l'événement qu'il traduit.",
+      "options": [],
+      "source_slides": [
+        35,
+        41
+      ],
+      "explanation": "L'onde P traduit la dépolarisation auriculaire, le complexe QRS la dépolarisation ventriculaire et l'onde T la repolarisation ventriculaire ; l'intervalle PQ correspond au temps de passage de l'influx des oreillettes aux ventricules, avec l'arrêt de 0,1 s au nœud auriculo-ventriculaire (slides 35 et 41).",
+      "pairs": [
+        {
+          "left": "Onde P",
+          "right": "Dépolarisation des oreillettes"
+        },
+        {
+          "left": "Complexe QRS",
+          "right": "Dépolarisation des ventricules"
+        },
+        {
+          "left": "Onde T",
+          "right": "Repolarisation des ventricules"
+        },
+        {
+          "left": "Intervalle PQ",
+          "right": "Délai de l'influx au nœud auriculo-ventriculaire"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C017",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "matching",
+      "lo": "LO3",
+      "topic": "Ouverture et fermeture des valves — gradients de pression",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Les valves n'ont pas de commande propre : elles s'ouvrent et se ferment selon les pressions de part et d'autre.",
+      "lead_in": "Associer chaque événement à la condition de pression qui le provoque.",
+      "options": [],
+      "source_slides": [
+        28,
+        29,
+        47
+      ],
+      "explanation": "Au début de la systole, la pression ventriculaire dépasse celle des oreillettes et ferme les valves auriculo-ventriculaires (B1) ; quand elle dépasse la pression aortique, la valve aortique s'ouvre et l'éjection commence. En diastole, la pression ventriculaire chute : sous la pression aortique, la valve aortique se ferme (B2) ; sous la pression auriculaire, les valves auriculo-ventriculaires s'ouvrent et le remplissage reprend (slides 28, 29 et 47).",
+      "pairs": [
+        {
+          "left": "Fermeture des valves auriculo-ventriculaires (bruit B1)",
+          "right": "La pression ventriculaire dépasse la pression auriculaire"
+        },
+        {
+          "left": "Ouverture de la valve aortique",
+          "right": "La pression ventriculaire dépasse la pression aortique"
+        },
+        {
+          "left": "Fermeture de la valve aortique (bruit B2)",
+          "right": "La pression ventriculaire redescend sous la pression aortique"
+        },
+        {
+          "left": "Ouverture des valves auriculo-ventriculaires",
+          "right": "La pression ventriculaire redescend sous la pression auriculaire"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C018",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "classify",
+      "lo": "LO3",
+      "topic": "Systole et diastole ventriculaires",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Chaque événement du cycle appartient soit à la systole, soit à la diastole du ventricule.",
+      "lead_in": "Classer chaque événement.",
+      "options": [],
+      "source_slides": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "explanation": "La systole ventriculaire regroupe la contraction isovolumétrique et l'éjection (valve aortique ouverte) ; la diastole ventriculaire regroupe la relaxation isovolumétrique et le remplissage (valves auriculo-ventriculaires ouvertes). Les bruits B1 et B2 marquent le début de chacune (slides 44 à 47).",
+      "categories": [
+        "Systole ventriculaire",
+        "Diastole ventriculaire"
+      ],
+      "elements": [
+        {
+          "text": "Éjection du sang dans l'aorte",
+          "category": "Systole ventriculaire"
+        },
+        {
+          "text": "Remplissage des ventricules",
+          "category": "Diastole ventriculaire"
+        },
+        {
+          "text": "Contraction isovolumétrique",
+          "category": "Systole ventriculaire"
+        },
+        {
+          "text": "Relaxation isovolumétrique",
+          "category": "Diastole ventriculaire"
+        },
+        {
+          "text": "Valves auriculo-ventriculaires ouvertes",
+          "category": "Diastole ventriculaire"
+        },
+        {
+          "text": "Valve aortique ouverte",
+          "category": "Systole ventriculaire"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C019",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "steps",
+      "lo": "LO3",
+      "topic": "Durée du cycle et de la diastole — calcul guidé",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Un cœur bat à 75 battements par minute. Dans ce cours, un cycle comprend la systole auriculaire (0,1 s), la systole ventriculaire (0,3 s) et la diastole.",
+      "lead_in": "Calculer pas à pas la durée de la diastole.",
+      "options": [],
+      "source_slides": [
+        33,
+        44
+      ],
+      "formula": "Durée du cycle = 60 / FC ; diastole = cycle − (systole auriculaire + systole ventriculaire)",
+      "worked_solution": "60 / 75 = 0,8 s par cycle. Systoles : 0,1 + 0,3 = 0,4 s. Diastole : 0,8 − 0,4 = 0,4 s.\nLe cœur se repose donc la moitié du temps (notes de la slide 33, slide 44).",
+      "steps": [
+        {
+          "prompt": "Durée d'un cycle cardiaque, en secondes (60 s divisées par la fréquence)",
+          "answer": {
+            "value": 0.8,
+            "tolerance": 0.01,
+            "unit": "s"
+          },
+          "hint": "Il y a 75 cycles en 60 secondes."
+        },
+        {
+          "prompt": "Durée cumulée des deux systoles, en secondes",
+          "answer": {
+            "value": 0.4,
+            "tolerance": 0.01,
+            "unit": "s"
+          },
+          "hint": "Additionner 0,1 s et 0,3 s."
+        },
+        {
+          "prompt": "Durée de la diastole, en secondes",
+          "answer": {
+            "value": 0.4,
+            "tolerance": 0.01,
+            "unit": "s"
+          },
+          "hint": "Ce qui reste du cycle une fois les systoles retirées."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C020",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "steps",
+      "lo": "LO3",
+      "topic": "Volume d'éjection et débit cardiaque — calcul guidé",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Au repos, le ventricule gauche contient 120 ml de sang en fin de diastole (VTD) et 50 ml en fin de systole (VTS). La fréquence cardiaque est de 70 battements par minute.",
+      "lead_in": "Calculer pas à pas le débit cardiaque.",
+      "options": [],
+      "source_slides": [
+        45,
+        47,
+        67
+      ],
+      "formula": "VS = VTD − VTS ; DC = FC × VS",
+      "worked_solution": "VS = 120 − 50 = 70 ml. DC = 70 × 70 = 4 900 ml/min = 4,9 l/min, soit environ 5 l/min :\nle cœur pompe chaque minute l'équivalent du volume sanguin total d'un adulte (slides 45, 47 et 67).",
+      "steps": [
+        {
+          "prompt": "Volume d'éjection systolique (VS), en ml",
+          "answer": {
+            "value": 70,
+            "tolerance": 0,
+            "unit": "ml"
+          },
+          "hint": "Ce que le ventricule contenait, moins ce qui reste après l'éjection."
+        },
+        {
+          "prompt": "Débit cardiaque, en ml/min (VS multiplié par la fréquence)",
+          "answer": {
+            "value": 4900,
+            "tolerance": 0,
+            "unit": "ml/min"
+          },
+          "hint": "70 ml à chaque battement, 70 battements par minute."
+        },
+        {
+          "prompt": "Débit cardiaque, en l/min",
+          "answer": {
+            "value": 4.9,
+            "tolerance": 0.05,
+            "unit": "l/min"
+          },
+          "hint": "1 000 ml font 1 litre."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C021",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "direction",
+      "lo": "LO3",
+      "topic": "Fréquence cardiaque et durée de la diastole",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        44,
+        80
+      ],
+      "statement": "La fréquence cardiaque augmente fortement (tachycardie). La durée de la diastole, pendant laquelle les ventricules se remplissent :",
+      "correct": "down",
+      "rationale": "Diminue. Le cycle raccourcit et c'est surtout la diastole qui se réduit : le temps disponible pour le remplissage ventriculaire diminue (slides 44 et 80)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C022",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "direction",
+      "lo": "LO3",
+      "topic": "Volume télédiastolique et volume d'éjection",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        45,
+        47
+      ],
+      "statement": "Le volume télédiastolique augmente et le volume télésystolique ne change pas. Le volume d'éjection :",
+      "correct": "up",
+      "rationale": "Augmente. VS = VTD − VTS : si le ventricule contient plus de sang en fin de diastole pour un même volume résiduel, il en éjecte davantage (slides 45 et 47)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C023",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "direction",
+      "lo": "LO3",
+      "topic": "Contraction isovolumétrique et volume ventriculaire",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        45,
+        47
+      ],
+      "statement": "Pendant la contraction isovolumétrique, toutes les valves sont fermées et le ventricule se contracte. Le volume de sang dans le ventricule :",
+      "correct": "same",
+      "rationale": "Ne change pas. Les valves fermées empêchent toute entrée ou sortie de sang : la pression monte à volume constant, d'où le nom « isovolumétrique » (slides 45 et 47)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C024",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "cloze",
+      "lo": "LO3",
+      "topic": "Tissu de conduction — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description du trajet de l'influx.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        24,
+        34,
+        40
+      ],
+      "explanation": "Nœud sinusal (pacemaker, 60 à 80/min), nœud auriculo-ventriculaire (arrêt de 0,1 s, pacemaker de secours à 40 à 60/min), faisceau de His et ses branches, fibres de Purkinje (notes de la slide 24, slides 34 et 40).",
+      "text": "Le nœud ___ est le pacemaker du cœur : il émet 60 à 80 impulsions par minute. L'influx est ensuite retardé d'environ 0,1 s au nœud ___, ce qui laisse aux ___ le temps de terminer leur contraction avant celle des ventricules. Il descend enfin par le faisceau de ___ et ses branches, puis par les fibres de ___ jusqu'aux cellules musculaires des ventricules.",
+      "blanks": [
+        "sinusal",
+        "auriculo-ventriculaire",
+        "oreillettes",
+        "His",
+        "Purkinje"
+      ],
+      "distractors": [
+        "ventricules",
+        "aortique"
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C025",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "flashcard",
+      "lo": "LO3",
+      "topic": "Relaxation isovolumétrique",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        46,
+        47
+      ],
+      "answer": "Les ventricules se relâchent alors que toutes les valves sont fermées : le volume ventriculaire ne change pas et la pression chute. Quand elle passe sous la pression des oreillettes, les valves auriculo-ventriculaires s'ouvrent et le remplissage commence (slides 46 et 47).",
+      "prompt": "Que se passe-t-il pendant la relaxation isovolumétrique ?"
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C026",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "true_false",
+      "lo": "LO3",
+      "topic": "Volumes éjectés par les deux ventricules",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        34
+      ],
+      "statement": "Les deux ventricules éjectent le même volume de sang à chaque battement.",
+      "correct": true,
+      "rationale": "Vrai. Les deux ventricules éjectent environ 70 ml ; ce qui diffère est la pression d'éjection, environ 120 mmHg dans l'aorte contre 30 mmHg dans l'artère pulmonaire, d'où la paroi plus épaisse du ventricule gauche (notes de la slide 34)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C027",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "direction",
+      "lo": "LO8",
+      "topic": "Nerf vague et fréquence du nœud sinusal",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        32,
+        35
+      ],
+      "statement": "La stimulation du nerf vague (parasympathique) augmente. La fréquence de décharge du nœud sinusal :",
+      "correct": "down",
+      "rationale": "Diminue. Le nerf vague, issu du centre cardio-inhibiteur du bulbe rachidien, ralentit le nœud sinusal ; le cœur reste autorythmique, mais sa fréquence intrinsèque est modulée (slides 32 et 35)."
+    },
+    {
+      "id": "SPHANACR-coeur-web-v1-C028",
+      "batch": "SPHANACR-coeur-web-v1",
+      "type": "flashcard",
+      "lo": "LO8",
+      "topic": "Autorythmicité du cœur",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        32
+      ],
+      "answer": "Il génère lui-même ses impulsions électriques, à partir du nœud sinusal, et bat indépendamment du contrôle nerveux ou hormonal. Les fibres sympathiques et parasympathiques ne font qu'augmenter ou diminuer cette fréquence intrinsèque (slide 32).",
+      "prompt": "Que signifie « le cœur est autorythmique » ?"
+    },
+    {
       "id": "SPHANACR-vaisseaux-v1-Q001",
       "batch": "SPHANACR-vaisseaux-v1",
       "type": "mcq",
@@ -1318,8 +2255,8 @@
       ]
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W001",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W001",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "numeric",
       "lo": "LO4",
       "topic": "Débit cardiaque — DC = FC × VS",
@@ -1343,8 +2280,8 @@
       "hint": "Multiplier la fréquence par le volume éjecté à chaque battement, puis convertir les millilitres en litres."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W002",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W002",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "numeric",
       "lo": "LO4",
       "topic": "Pression artérielle moyenne — PAM",
@@ -1366,8 +2303,8 @@
       "hint": "La diastole dure plus longtemps que la systole : la PAM pondère la diastolique deux fois plus."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W003",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W003",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "numeric",
       "lo": "LO4",
       "topic": "Volume d'éjection — VS = VTD − VTS",
@@ -1391,8 +2328,8 @@
       "hint": "Le volume éjecté est la différence entre ce que le ventricule contenait et ce qui reste."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W004",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W004",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "numeric",
       "lo": "LO4",
       "topic": "Résistance et rayon — loi de Poiseuille",
@@ -1416,8 +2353,8 @@
       "hint": "Élever 2 à la puissance 4."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W005",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W005",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "numeric",
       "lo": "LO4",
       "topic": "Pression différentielle",
@@ -1440,8 +2377,8 @@
       "hint": "Soustraire la diastolique de la systolique."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W006",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W006",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "numeric",
       "lo": "LO4",
       "topic": "Pression, débit et résistance — P = Q × R",
@@ -1464,8 +2401,8 @@
       "hint": "Comparer les deux débits par un rapport."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W007",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W007",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "ordering",
       "lo": "LO4",
       "topic": "Pression sanguine le long du circuit systémique",
@@ -1488,8 +2425,8 @@
       "explanation": "L'aorte reçoit le sang éjecté (80 à 120 mmHg) ; la pression chute surtout dans les artérioles, atteint environ 40 mmHg à l'entrée des capillaires, puis continue de baisser dans les veinules et les veines jusqu'à une valeur proche de 0 dans les veines caves (slides 87 et 89)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W008",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W008",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "ordering",
       "lo": "LO1_vaisseaux",
       "topic": "Parcours du sang dans la circulation systémique",
@@ -1516,8 +2453,8 @@
       "explanation": "Le sang passe de l'aorte aux artères, puis aux artérioles qui règlent le débit, aux capillaires où se font les échanges, puis aux veinules, aux veines et enfin aux veines caves qui se jettent dans l'oreillette droite (slides 8, 10, 58)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W009",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W009",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "ordering",
       "lo": "LO4",
       "topic": "Mesure auscultatoire de la pression artérielle",
@@ -1539,8 +2476,8 @@
       "explanation": "Installation, inflation au-dessus de la systolique, déflation progressive ; le premier bruit de Korotkoff marque la pression systolique, la disparition des bruits la pression diastolique (slide 78)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W010",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W010",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "matching",
       "lo": "LO1_vaisseaux",
       "topic": "Tuniques de la paroi vasculaire et leurs rôles",
@@ -1569,8 +2506,8 @@
       ]
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W011",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W011",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "matching",
       "lo": "LO4",
       "topic": "Grandeurs hémodynamiques et définitions",
@@ -1599,8 +2536,8 @@
       ]
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W012",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W012",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "true_false",
       "lo": "LO4",
       "topic": "Siège de la résistance vasculaire",
@@ -1618,8 +2555,8 @@
       "rationale": "Vrai. Le diamètre des artérioles, réglé par leur muscle lisse, est le principal déterminant de la résistance (slides 59 et 74)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W013",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W013",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "true_false",
       "lo": "LO4",
       "topic": "Pression artérielle moyenne",
@@ -1636,8 +2573,8 @@
       "rationale": "Faux. La diastole dure plus longtemps que la systole : PAM = 1/3 Psyst + 2/3 Pdiast, ce qui donne 93 mmHg pour 120/80, non 100 (slide 85)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W014",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W014",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "true_false",
       "lo": "LO1_vaisseaux",
       "topic": "Répartition du volume sanguin",
@@ -1654,8 +2591,8 @@
       "rationale": "Vrai. Les veines et veinules systémiques contiennent environ 60 % du volume sanguin ; extensibles, elles servent de réservoir (slide 57)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W015",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W015",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "true_false",
       "lo": "LO1_vaisseaux",
       "topic": "Retour veineux et volume sanguin",
@@ -1672,8 +2609,8 @@
       "rationale": "Faux. L'hypovolémie diminue le retour veineux ; ce sont la pompe musculaire, la pompe respiratoire, le tonus veineux et un volume sanguin élevé qui l'augmentent (slide 81)."
     },
     {
-      "id": "SPHANACR-vaisseaux-web-v1-W016",
-      "batch": "SPHANACR-vaisseaux-web-v1",
+      "id": "SPHANACR-vaisseaux-web-v2-W016",
+      "batch": "SPHANACR-vaisseaux-web-v2",
       "type": "true_false",
       "lo": "LO4",
       "topic": "Rayon et résistance",
@@ -1689,6 +2626,628 @@
       "statement": "Quand le rayon d'un vaisseau diminue, sa résistance diminue aussi.",
       "correct": false,
       "rationale": "Faux. La résistance est inversement proportionnelle au rayon à la puissance 4 : un rayon plus petit augmente fortement la résistance (slides 69 et 70)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W017",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Vasodilatation des artérioles et pression artérielle",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        69,
+        71,
+        74
+      ],
+      "statement": "Les artérioles se dilatent (vasodilatation) et le débit cardiaque ne change pas. La pression artérielle :",
+      "correct": "down",
+      "rationale": "Diminue. P = Q × R : la vasodilatation des artérioles abaisse la résistance ; à débit constant, la pression baisse (slides 69, 71 et 74)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W018",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Viscosité du sang et résistance",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        69,
+        72
+      ],
+      "statement": "La viscosité du sang augmente (par exemple lors d'une déshydratation). La résistance à l'écoulement :",
+      "correct": "up",
+      "rationale": "Augmente. La résistance est proportionnelle à la longueur des vaisseaux et à la viscosité du sang, et inversement proportionnelle au rayon à la puissance 4 (slides 69 et 72)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W019",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Retour veineux et précharge",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        79,
+        80
+      ],
+      "statement": "Le retour veineux augmente. Le volume télédiastolique (la précharge) :",
+      "correct": "up",
+      "rationale": "Augmente. La précharge dépend du remplissage, donc du retour veineux ; un ventricule plus rempli en fin de diastole éjecte ensuite un plus grand volume (slides 79 et 80)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W020",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Fréquence cardiaque et débit cardiaque",
+      "bloom": "analyze",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        67,
+        73
+      ],
+      "statement": "La fréquence cardiaque augmente et le volume d'éjection ne change pas. Le débit cardiaque :",
+      "correct": "up",
+      "rationale": "Augmente. DC = FC × VS : à volume d'éjection constant, le débit varie comme la fréquence (slides 67 et 73)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W021",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Pompe respiratoire et retour veineux",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        62,
+        81
+      ],
+      "statement": "À l'inspiration, la pression dans le thorax devient négative. Le retour veineux vers le cœur droit :",
+      "correct": "up",
+      "rationale": "Augmente. C'est la pompe respiratoire : la pression intrathoracique négative aspire le sang des grosses veines vers le cœur (slide 81 et notes de la slide 62)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W022",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Durée de la diastole et remplissage",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        79,
+        80
+      ],
+      "statement": "La durée de la diastole diminue (fréquence cardiaque très élevée). Le remplissage ventriculaire :",
+      "correct": "down",
+      "rationale": "Diminue. Le remplissage dépend du retour veineux et de la durée de la diastole ; quand celle-ci raccourcit, le ventricule a moins de temps pour se remplir (slides 79 et 80)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W023",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "classify",
+      "lo": "LO1_vaisseaux",
+      "topic": "Artère ou veine ?",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Artères et veines ont la même organisation en trois tuniques, mais des parois et des rôles différents.",
+      "lead_in": "Classer chaque caractéristique.",
+      "options": [],
+      "source_slides": [
+        55,
+        57
+      ],
+      "explanation": "Les artères ont une paroi épaisse, une média développée et une forte élasticité pour supporter la pression ; les veines ont une paroi mince, une lumière large et des valvules anti-reflux, et servent de réservoir : elles contiennent environ 60 % du volume sanguin (slides 55 et 57).",
+      "categories": [
+        "Artère",
+        "Veine"
+      ],
+      "elements": [
+        {
+          "text": "Paroi épaisse avec une média développée",
+          "category": "Artère"
+        },
+        {
+          "text": "Présence de valvules anti-reflux",
+          "category": "Veine"
+        },
+        {
+          "text": "Lumière plus large",
+          "category": "Veine"
+        },
+        {
+          "text": "Forte élasticité",
+          "category": "Artère"
+        },
+        {
+          "text": "Contient environ 60 % du volume sanguin",
+          "category": "Veine"
+        },
+        {
+          "text": "Conduit le sang du cœur vers les organes",
+          "category": "Artère"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W024",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "classify",
+      "lo": "LO4",
+      "topic": "Facteurs du retour veineux",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le retour veineux dépend du gradient de pression entre la pression systémique moyenne et l'oreillette droite.",
+      "lead_in": "Classer chaque facteur selon son effet sur le retour veineux.",
+      "options": [],
+      "source_slides": [
+        81,
+        82
+      ],
+      "explanation": "Augmentent le retour veineux : la pompe musculaire (avec les valvules), la pompe respiratoire, le tonus veineux et l'augmentation du volume sanguin. Le diminuent : l'hypovolémie, la vasodilatation veineuse, une pression auriculaire droite élevée et la ventilation en pression positive, qui élève la pression intrathoracique (slides 81 et 82).",
+      "categories": [
+        "Augmente le retour veineux",
+        "Diminue le retour veineux"
+      ],
+      "elements": [
+        {
+          "text": "Pompe musculaire squelettique",
+          "category": "Augmente le retour veineux"
+        },
+        {
+          "text": "Pompe respiratoire (inspiration)",
+          "category": "Augmente le retour veineux"
+        },
+        {
+          "text": "Hypovolémie",
+          "category": "Diminue le retour veineux"
+        },
+        {
+          "text": "Vasodilatation veineuse",
+          "category": "Diminue le retour veineux"
+        },
+        {
+          "text": "Augmentation du volume sanguin",
+          "category": "Augmente le retour veineux"
+        },
+        {
+          "text": "Ventilation en pression positive",
+          "category": "Diminue le retour veineux"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W025",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "cloze",
+      "lo": "LO1_vaisseaux",
+      "topic": "Paroi des vaisseaux — texte à trous",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter la description de la paroi vasculaire.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        55
+      ],
+      "explanation": "Intima (endothélium), média (muscle lisse et fibres élastiques), adventice (tissu conjonctif, nerfs et vasa vasorum). Paroi épaisse et média développée dans les artères ; paroi mince, lumière large et valvules dans les veines (slide 55).",
+      "text": "La tunique interne, ou ___, est une fine couche de cellules endothéliales. La tunique moyenne, ou ___, contient le muscle lisse qui règle le diamètre du vaisseau. La tunique externe, ou ___, est faite de tissu conjonctif et contient les vasa vasorum. Les ___ ont une paroi plus épaisse ; les ___ ont une lumière plus large et des valvules.",
+      "blanks": [
+        "intima",
+        "média",
+        "adventice",
+        "artères",
+        "veines"
+      ],
+      "distractors": [
+        "capillaires",
+        "endocarde"
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W026",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "cloze",
+      "lo": "LO4",
+      "topic": "Débit, pression et résistance — texte à trous",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter les deux relations de base de l'hémodynamique.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        67,
+        71,
+        73
+      ],
+      "explanation": "DC = FC × VS, environ 5 l/min au repos (70 ml × 70/min) ; P = Q × R, la pression artérielle dépend du débit cardiaque et de la résistance vasculaire (slides 67, 71 et 73).",
+      "text": "Le débit cardiaque est le produit de la ___ cardiaque par le volume d'___ ; il vaut environ ___ l/min au repos. La pression artérielle est le produit du ___ cardiaque par la ___ vasculaire : P = Q × R.",
+      "blanks": [
+        "fréquence",
+        "éjection",
+        "5",
+        "débit",
+        "résistance"
+      ],
+      "distractors": [
+        "pression",
+        "70"
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W027",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "cloze",
+      "lo": "LO4",
+      "topic": "Pression artérielle moyenne et perfusion — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la définition de la pression artérielle moyenne et son évolution le long du circuit.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        85,
+        87
+      ],
+      "explanation": "PAM = 1/3 Psyst + 2/3 Pdiast, la diastole étant plus longue que la systole. La pression baisse tout le long du circuit : environ 40 mmHg à l'entrée des capillaires, 20 mmHg à leur sortie, proche de 0 dans les veines caves (slides 85 et 87).",
+      "text": "La pression artérielle moyenne se calcule par PAM = 1/3 P___ + 2/3 P___. C'est la pression qui propulse le sang dans les organes ; elle diminue à mesure que l'on s'éloigne du cœur : environ ___ mmHg à l'entrée des capillaires et ___ mmHg à leur sortie.",
+      "blanks": [
+        "systolique",
+        "diastolique",
+        "40",
+        "20"
+      ],
+      "distractors": [
+        "120",
+        "80"
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W028",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "steps",
+      "lo": "LO4",
+      "topic": "Pression artérielle moyenne — calcul guidé",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "La pression artérielle d'une patiente est de 150/90 mmHg.",
+      "lead_in": "Calculer sa pression artérielle moyenne pas à pas.",
+      "options": [],
+      "source_slides": [
+        85
+      ],
+      "formula": "PAM = Pdiast + 1/3 (Psyst − Pdiast) = 1/3 Psyst + 2/3 Pdiast",
+      "worked_solution": "150 − 90 = 60 mmHg ; 60 / 3 = 20 mmHg ; PAM = 90 + 20 = 110 mmHg.\nVérification par l'autre forme : 1/3 × 150 + 2/3 × 90 = 50 + 60 = 110 mmHg (slide 85).",
+      "steps": [
+        {
+          "prompt": "Pression différentielle (Psyst − Pdiast), en mmHg",
+          "answer": {
+            "value": 60,
+            "tolerance": 0,
+            "unit": "mmHg"
+          },
+          "hint": "Soustraire la diastolique de la systolique."
+        },
+        {
+          "prompt": "Un tiers de la pression différentielle, en mmHg",
+          "answer": {
+            "value": 20,
+            "tolerance": 0,
+            "unit": "mmHg"
+          },
+          "hint": "Diviser le résultat précédent par 3."
+        },
+        {
+          "prompt": "Pression artérielle moyenne (Pdiast + le tiers précédent), en mmHg",
+          "answer": {
+            "value": 110,
+            "tolerance": 0,
+            "unit": "mmHg"
+          },
+          "hint": "Ajouter ce tiers à la pression diastolique."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W029",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "steps",
+      "lo": "LO4",
+      "topic": "Vasoconstriction et débit — calcul guidé",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Une artériole a un débit de 800 ml/min. Elle se contracte et son rayon est divisé par 2 ; la pression en amont reste la même.",
+      "lead_in": "Calculer pas à pas le nouveau débit.",
+      "options": [],
+      "source_slides": [
+        69,
+        70,
+        72
+      ],
+      "formula": "R ∝ 1/r⁴ ; Q = P / R",
+      "worked_solution": "Rayon divisé par 2 : r⁴ est divisé par 16, la résistance est multipliée par 16.\nÀ pression égale, le débit est divisé par 16 : 800 / 16 = 50 ml/min.\nC'est ainsi que les artérioles règlent la répartition du débit entre les organes (slides 69, 70 et 72).",
+      "steps": [
+        {
+          "prompt": "Facteur de multiplication de la résistance (rappel : R est proportionnelle à 1/r⁴)",
+          "answer": {
+            "value": 16,
+            "tolerance": 0,
+            "unit": ""
+          },
+          "hint": "Élever 2 à la puissance 4."
+        },
+        {
+          "prompt": "Facteur de division du débit à pression constante (Q = P / R)",
+          "answer": {
+            "value": 16,
+            "tolerance": 0,
+            "unit": ""
+          },
+          "hint": "Si R est multipliée par un facteur, Q est divisé par le même facteur."
+        },
+        {
+          "prompt": "Nouveau débit, en ml/min",
+          "answer": {
+            "value": 50,
+            "tolerance": 0,
+            "unit": "ml/min"
+          },
+          "hint": "Diviser 800 par le facteur trouvé."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W030",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "diagram",
+      "lo": "LO4",
+      "topic": "De quoi dépend la pression artérielle ? — schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "La pression artérielle dépend de deux grandeurs, qui dépendent elles-mêmes d'autres facteurs.",
+      "lead_in": "Compléter l'arbre des facteurs (P = Q × R ; Q = FC × VS ; R dépend de trois facteurs).",
+      "options": [],
+      "source_slides": [
+        69,
+        71,
+        72,
+        73
+      ],
+      "explanation": "P = Q × R. Le débit cardiaque Q est le produit de la fréquence cardiaque par le volume d'éjection. La résistance R augmente avec la longueur des vaisseaux et la viscosité du sang, et diminue fortement quand le rayon augmente (puissance 4) : les artérioles, en changeant de rayon, règlent la résistance (slides 69, 71, 72 et 73).",
+      "distractors": [
+        "Volume sanguin total",
+        "Pression veineuse"
+      ],
+      "nodes": [
+        {
+          "id": "p",
+          "label": "Pression artérielle (P)",
+          "x": 31,
+          "y": 2,
+          "w": 38,
+          "h": 10,
+          "fixed": true
+        },
+        {
+          "id": "q",
+          "label": "Débit cardiaque (Q)",
+          "x": 2,
+          "y": 24,
+          "w": 38,
+          "h": 10
+        },
+        {
+          "id": "r",
+          "label": "Résistance vasculaire (R)",
+          "x": 52,
+          "y": 24,
+          "w": 38,
+          "h": 10
+        },
+        {
+          "id": "fc",
+          "label": "Fréquence cardiaque",
+          "x": 2,
+          "y": 46,
+          "w": 18,
+          "h": 13
+        },
+        {
+          "id": "ves",
+          "label": "Volume d'éjection",
+          "x": 22,
+          "y": 46,
+          "w": 18,
+          "h": 13
+        },
+        {
+          "id": "r4",
+          "label": "Rayon des vaisseaux (r⁴)",
+          "x": 42,
+          "y": 46,
+          "w": 18,
+          "h": 13
+        },
+        {
+          "id": "eta",
+          "label": "Viscosité du sang",
+          "x": 62,
+          "y": 46,
+          "w": 18,
+          "h": 13
+        },
+        {
+          "id": "l",
+          "label": "Longueur des vaisseaux",
+          "x": 82,
+          "y": 46,
+          "w": 18,
+          "h": 13
+        }
+      ],
+      "edges": [
+        [
+          "p",
+          "q"
+        ],
+        [
+          "p",
+          "r"
+        ],
+        [
+          "q",
+          "fc"
+        ],
+        [
+          "q",
+          "ves"
+        ],
+        [
+          "r",
+          "r4"
+        ],
+        [
+          "r",
+          "eta"
+        ],
+        [
+          "r",
+          "l"
+        ]
+      ],
+      "width": 100,
+      "height": 62,
+      "edge_style": "elbow"
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W031",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "flashcard",
+      "lo": "LO4",
+      "topic": "Précharge ventriculaire",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        79,
+        80
+      ],
+      "answer": "C'est l'étirement initial des ventricules en fin de diastole, lié au volume télédiastolique. Elle dépend du retour veineux (volume circulant, tonus veineux, pompes musculaire et respiratoire), de la contraction auriculaire et de la durée de la diastole. Plus la précharge est grande, plus le volume d'éjection augmente (slides 79 et 80).",
+      "prompt": "Qu'est-ce que la précharge ventriculaire, et de quoi dépend-elle ?"
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W032",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "flashcard",
+      "lo": "LO4",
+      "topic": "Pression artérielle moyenne — définition et rôle",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        65,
+        85
+      ],
+      "answer": "PAM = 1/3 Psyst + 2/3 Pdiast (ou Pdiast + 1/3 de la pression différentielle). C'est la pression réelle de perfusion des organes, celle du flux continu à l'entrée des lits capillaires ; elle doit rester supérieure à 60 mmHg pour une perfusion correcte (slide 85 et notes de la slide 65).",
+      "prompt": "Qu'est-ce que la pression artérielle moyenne (PAM), et pourquoi est-elle importante ?"
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W033",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "flashcard",
+      "lo": "LO1_vaisseaux",
+      "topic": "Grosses artères — pompes auxiliaires",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        62,
+        85,
+        86
+      ],
+      "answer": "Parce que leur paroi élastique se distend en systole et stocke une partie du sang éjecté, puis revient sur elle-même en diastole et restitue ce sang vers l'aval. Le flux vers les organes reste ainsi continu entre deux battements (slides 62, 85 et 86).",
+      "prompt": "Pourquoi les grosses artères, comme l'aorte, sont-elles appelées « pompes auxiliaires » ?"
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W034",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "matching",
+      "lo": "LO1_vaisseaux",
+      "topic": "Types de vaisseaux et fonctions",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Chaque type de vaisseau a un rôle particulier dans la circulation.",
+      "lead_in": "Associer chaque type de vaisseau à sa fonction principale.",
+      "options": [],
+      "source_slides": [
+        57,
+        58,
+        59,
+        62
+      ],
+      "explanation": "Les artères élastiques amortissent la pression et maintiennent un flux continu ; les artérioles, grâce à leur muscle lisse, règlent la résistance et distribuent le débit ; les capillaires sont les zones d'échange ; les veines, extensibles, contiennent 60 % du volume sanguin et ramènent le sang au cœur (slides 57 à 59 et 62).",
+      "pairs": [
+        {
+          "left": "Artères élastiques (aorte)",
+          "right": "Se distendent en systole et restituent le sang en diastole"
+        },
+        {
+          "left": "Artérioles",
+          "right": "Règlent la résistance et la répartition du débit"
+        },
+        {
+          "left": "Capillaires",
+          "right": "Assurent les échanges avec les tissus"
+        },
+        {
+          "left": "Veines",
+          "right": "Servent de réservoir et ramènent le sang au cœur"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v2-W035",
+      "batch": "SPHANACR-vaisseaux-web-v2",
+      "type": "true_false",
+      "lo": "LO1_vaisseaux",
+      "topic": "Paroi des capillaires",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        56
+      ],
+      "statement": "La paroi des capillaires n'est formée que d'une seule couche de cellules endothéliales.",
+      "correct": true,
+      "rationale": "Vrai. Les capillaires n'ont qu'une tunique interne : une couche de cellules endothéliales sur une membrane basale, avec des fentes et des pores. Cette paroi mince permet les échanges d'oxygène, de dioxyde de carbone et de nutriments avec les tissus (slide 56)."
     }
   ]
 }
