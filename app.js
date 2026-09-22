@@ -713,19 +713,31 @@
     }
     redraw();
 
+    // nodes sharing a `group` are interchangeable: any label of the group fits any of its cases
+    const groupLabels = {};
+    fillable.forEach((n) => { if (n.group) (groupLabels[n.group] = groupLabels[n.group] || []).push(n.label); });
     btn.addEventListener("click", () => {
       done = true;
       let ok = true;
       fillable.forEach((n) => {
-        const good = assigned[n.id] === n.label;
+        const good = n.group ? groupLabels[n.group].indexOf(assigned[n.id]) >= 0 : assigned[n.id] === n.label;
         if (!good) ok = false;
         groups[n.id].g.classList.add(good ? "correct" : "wrong");
       });
       redraw();
       btn.disabled = true;
       palette.hidden = true;
-      let html = '<p><strong>Étiquettes attendues :</strong></p><ol class="answer-list">' +
-        fillable.map((n) => "<li>" + esc(n.label) + "</li>").join("") + "</ol>";
+      const seen = {};
+      const lines = [];
+      fillable.forEach((n) => {
+        if (!n.group) { lines.push("Case " + n.num + " : " + esc(n.label)); return; }
+        if (seen[n.group]) return;
+        seen[n.group] = true;
+        const members = fillable.filter((m) => m.group === n.group);
+        lines.push("Cases " + members.map((m) => m.num).join(", ") + " (ordre indifférent) : " + esc(groupLabels[n.group].join(" ; ")));
+      });
+      let html = '<p><strong>Étiquettes attendues :</strong></p><ul class="answer-list">' +
+        lines.map((l) => "<li>" + l + "</li>").join("") + "</ul>";
       if (it.explanation) html += "<p>" + esc(it.explanation) + "</p>";
       finish(it, ok, html);
     });

@@ -3025,7 +3025,7 @@
       "bloom": "understand",
       "difficulty": "medium",
       "stem": "La pression artérielle dépend de deux grandeurs, qui dépendent elles-mêmes d'autres facteurs.",
-      "lead_in": "Compléter l'arbre des facteurs (P = Q × R ; Q = FC × VS ; R dépend de trois facteurs).",
+      "lead_in": "Compléter l'arbre des facteurs (P = Q × R ; Q = FC × VS ; R dépend de trois facteurs). Sur une même ligne, l'ordre des cases n'a pas d'importance.",
       "options": [],
       "source_slides": [
         69,
@@ -3070,7 +3070,8 @@
           "x": 2,
           "y": 46,
           "w": 18,
-          "h": 13
+          "h": 13,
+          "group": "q"
         },
         {
           "id": "ves",
@@ -3078,7 +3079,8 @@
           "x": 22,
           "y": 46,
           "w": 18,
-          "h": 13
+          "h": 13,
+          "group": "q"
         },
         {
           "id": "r4",
@@ -3086,7 +3088,8 @@
           "x": 42,
           "y": 46,
           "w": 18,
-          "h": 13
+          "h": 13,
+          "group": "r"
         },
         {
           "id": "eta",
@@ -3094,7 +3097,8 @@
           "x": 62,
           "y": 46,
           "w": 18,
-          "h": 13
+          "h": 13,
+          "group": "r"
         },
         {
           "id": "l",
@@ -3102,7 +3106,8 @@
           "x": 82,
           "y": 46,
           "w": 18,
-          "h": 13
+          "h": 13,
+          "group": "r"
         }
       ],
       "edges": [
