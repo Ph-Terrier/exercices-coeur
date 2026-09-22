@@ -1,5 +1,5 @@
 {
-  "site_title": "Le cœur : exercices",
+  "site_title": "Cœur et circulation : exercices",
   "course": "SPHANACR",
   "program": "Bachelor en Sciences Infirmières",
   "institution": "HE-ARC Neuchâtel",
@@ -10,40 +10,78 @@
   "batches": [
     {
       "id": "SPHANACR-coeur-v2",
+      "part": "Le cœur",
       "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : le cœur",
       "scope": "Partie cœur, slides 5 à 51 (jusqu'au cycle cardiaque) ; vaisseaux et pression exclus (décision de l'auteur, 2026-09-22)",
       "n_items": 20,
       "generated": "2026-09-22",
       "model": "claude-fable-5-1",
       "approved": "Philippe Terrier, 2026-09-22, validation en chat après relecture du v2 (« Version validée, j'ai enregistrer sur kahoot, tu peux commit ») ; kahoot enregistré par l'auteur lui-même"
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1",
+      "part": "Vaisseaux et pression",
+      "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : vaisseaux et pression artérielle",
+      "scope": "Partie vaisseaux et pression, slides 52 à 94 ; quiz de fin de cours, niveau simple (décision de l'auteur, 2026-09-22)",
+      "n_items": 10,
+      "generated": "2026-09-22",
+      "model": "claude-fable-5-1",
+      "approved": ""
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1",
+      "part": "Vaisseaux et pression",
+      "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : vaisseaux et pression artérielle",
+      "scope": "Partie vaisseaux et pression, slides 52 à 94 ; exercices à formats multiples pour le site web",
+      "n_items": 16,
+      "generated": "2026-09-22",
+      "model": "claude-fable-5-1",
+      "approved": ""
     }
   ],
   "learning_objectives": [
     {
       "id": "LO1",
       "short_title": "Structures du cœur et leurs fonctions",
+      "part": "Le cœur",
       "n_items": 6
     },
     {
       "id": "LO2",
       "short_title": "Parcours du sang : circulations pulmonaire et systémique",
+      "part": "Le cœur",
       "n_items": 4
     },
     {
       "id": "LO3",
       "short_title": "Cycle cardiaque : conduction, électrophysiologie et phases mécaniques",
+      "part": "Le cœur",
       "n_items": 8
     },
     {
       "id": "LO8",
       "short_title": "Régulation neurologique et hormonale du rythme cardiaque",
+      "part": "Le cœur",
       "n_items": 2
+    },
+    {
+      "id": "LO1_vaisseaux",
+      "short_title": "Structures des vaisseaux et leurs fonctions",
+      "part": "Vaisseaux et pression",
+      "n_items": 8
+    },
+    {
+      "id": "LO4",
+      "short_title": "Lois de la circulation : pressions, résistances, débits",
+      "part": "Vaisseaux et pression",
+      "n_items": 18
     }
   ],
   "items": [
     {
       "id": "SPHANACR-coeur-v2-Q001",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO1",
       "topic": "Localisation du cœur — choc de la pointe",
       "bloom": "apply",
@@ -83,6 +121,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q002",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO1",
       "topic": "Péricarde — rôle du liquide péricardique",
       "bloom": "understand",
@@ -123,6 +162,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q003",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO1",
       "topic": "Tissu myocardique — disques intercalaires",
       "bloom": "understand",
@@ -163,6 +203,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q004",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO1",
       "topic": "Valves auriculo-ventriculaires — appareil sous-valvulaire",
       "bloom": "apply",
@@ -203,6 +244,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q005",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO1",
       "topic": "Cavités — épaisseur pariétale VG > VD",
       "bloom": "understand",
@@ -243,6 +285,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q006",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO2",
       "topic": "Circulations systémique et pulmonaire — cœur gauche",
       "bloom": "understand",
@@ -283,6 +326,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q007",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO2",
       "topic": "Parcours du sang — nature du sang dans les vaisseaux",
       "bloom": "understand",
@@ -323,6 +367,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q008",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO2",
       "topic": "Parcours du sang — embole veineux",
       "bloom": "apply",
@@ -363,6 +408,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q009",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO2",
       "topic": "Parcours du sang — retour pulmonaire",
       "bloom": "understand",
@@ -403,6 +449,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q010",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Conduction — pacemaker de secours",
       "bloom": "analyze",
@@ -444,6 +491,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q011",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Conduction — délai au nœud auriculo-ventriculaire",
       "bloom": "analyze",
@@ -484,6 +532,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q012",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Cycle cardiaque — deuxième bruit du cœur et début de la diastole",
       "bloom": "analyze",
@@ -525,6 +574,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q013",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "ECG — complexe QRS et événement mécanique",
       "bloom": "analyze",
@@ -566,6 +616,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q014",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Cycle cardiaque — état des valves pendant l'éjection",
       "bloom": "analyze",
@@ -607,6 +658,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q015",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Cycle cardiaque — contraction isovolumétrique",
       "bloom": "analyze",
@@ -648,6 +700,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q016",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Cycle cardiaque — volumes ventriculaires",
       "bloom": "analyze",
@@ -688,6 +741,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q017",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO3",
       "topic": "Cycle cardiaque — ouverture de la valve aortique",
       "bloom": "analyze",
@@ -729,6 +783,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q018",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO8",
       "topic": "Régulation du rythme — nerf vague",
       "bloom": "analyze",
@@ -769,6 +824,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q019",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO8",
       "topic": "Régulation du rythme — autorythmicité",
       "bloom": "analyze",
@@ -809,6 +865,7 @@
     {
       "id": "SPHANACR-coeur-v2-Q020",
       "batch": "SPHANACR-coeur-v2",
+      "type": "mcq",
       "lo": "LO1",
       "topic": "Vascularisation du cœur — drainage par le sinus coronaire",
       "bloom": "understand",
@@ -847,6 +904,791 @@
         21,
         31
       ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q001",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO1_vaisseaux",
+      "topic": "Paroi des vaisseaux — tunique moyenne (média)",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quelle tunique de la paroi d'une artère contient le muscle lisse qui fait varier son diamètre ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'adventice (tunique externe)",
+          "correct": false,
+          "rationale": "Incorrect. L'adventice est du tissu conjonctif de protection et d'ancrage ; elle contient des nerfs et des vasa vasorum, pas la couche musculaire (slide 55)."
+        },
+        {
+          "letter": "B",
+          "text": "L'endocarde",
+          "correct": false,
+          "rationale": "Incorrect. L'endocarde tapisse l'intérieur du cœur, non des vaisseaux (partie cœur du cours)."
+        },
+        {
+          "letter": "C",
+          "text": "L'intima (tunique interne)",
+          "correct": false,
+          "rationale": "Incorrect. L'intima est une fine couche de cellules endothéliales qui tapisse la lumière ; elle règle les échanges, non le diamètre (slide 55)."
+        },
+        {
+          "letter": "D",
+          "text": "La média (tunique moyenne)",
+          "correct": true,
+          "rationale": "Correct. La média, couche musculaire lisse et élastique, règle le diamètre du vaisseau par vasoconstriction et vasodilatation (slide 55)."
+        }
+      ],
+      "source_slides": [
+        55,
+        59
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q002",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO1_vaisseaux",
+      "topic": "Artères et veines — épaisseur de la paroi",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Pourquoi la paroi des artères est-elle plus épaisse que celle des veines ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elles contiennent des valvules anti-reflux",
+          "correct": false,
+          "rationale": "Incorrect. Les valvules anti-reflux sont une caractéristique des veines, non des artères (slide 55)."
+        },
+        {
+          "letter": "B",
+          "text": "Elles sont situées plus près de la peau",
+          "correct": false,
+          "rationale": "Incorrect. La position du vaisseau n'explique pas l'épaisseur de sa paroi ; les veines superficielles restent à paroi mince."
+        },
+        {
+          "letter": "C",
+          "text": "Elles supportent une pression sanguine plus élevée",
+          "correct": true,
+          "rationale": "Correct. Les artères reçoivent le sang éjecté sous forte pression (80 à 120 mmHg) ; leur média épaisse et élastique y résiste, alors que la pression veineuse est faible (slides 55 et 89)."
+        },
+        {
+          "letter": "D",
+          "text": "Elles transportent un volume de sang plus grand",
+          "correct": false,
+          "rationale": "Incorrect. Ce sont les veines qui contiennent la plus grande part du volume sanguin (60 %, slide 57) ; elles servent de réservoir."
+        }
+      ],
+      "source_slides": [
+        55,
+        89
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q003",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO1_vaisseaux",
+      "topic": "Capillaires — zone d'échange",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Dans quels vaisseaux se font les échanges d'oxygène et de nutriments avec les tissus ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Les artères",
+          "correct": false,
+          "rationale": "Incorrect. Les artères conduisent le sang sous pression ; leur paroi épaisse ne permet pas les échanges (slide 55)."
+        },
+        {
+          "letter": "B",
+          "text": "Les capillaires",
+          "correct": true,
+          "rationale": "Correct. Les capillaires n'ont qu'une couche de cellules endothéliales ; leur paroi mince permet les échanges d'O2, de CO2 et de nutriments avec le liquide interstitiel (slides 56 et 58, notes de la slide 43)."
+        },
+        {
+          "letter": "C",
+          "text": "Les veines",
+          "correct": false,
+          "rationale": "Incorrect. Les veines ramènent le sang au cœur et stockent une grande part du volume sanguin (slide 57) ; elles ne sont pas le lieu des échanges."
+        },
+        {
+          "letter": "D",
+          "text": "Les veinules",
+          "correct": false,
+          "rationale": "Incorrect. Les veinules collectent le sang à la sortie des capillaires (slide 58) ; les échanges ont lieu en amont."
+        }
+      ],
+      "source_slides": [
+        56,
+        58
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q004",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO1_vaisseaux",
+      "topic": "Retour veineux — pompe musculaire",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quel facteur aide le sang des jambes à remonter vers le cœur (retour veineux) ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La contraction des muscles des jambes (pompe musculaire)",
+          "correct": true,
+          "rationale": "Correct. Les muscles squelettiques compriment les veines et, avec les valvules qui empêchent le reflux, poussent le sang vers le cœur (slides 81-82, notes de la slide 62)."
+        },
+        {
+          "letter": "B",
+          "text": "La dilatation des veines",
+          "correct": false,
+          "rationale": "Incorrect. La vasodilatation veineuse diminue le retour veineux : le sang stagne dans les veines élargies (slide 81)."
+        },
+        {
+          "letter": "C",
+          "text": "La perte de volume sanguin (hypovolémie)",
+          "correct": false,
+          "rationale": "Incorrect. L'hypovolémie diminue le retour veineux (slide 81)."
+        },
+        {
+          "letter": "D",
+          "text": "La position debout immobile",
+          "correct": false,
+          "rationale": "Incorrect. Debout et immobile, la pompe musculaire ne fonctionne pas et le sang s'accumule dans les jambes (orthostatisme, slide 80)."
+        }
+      ],
+      "source_slides": [
+        62,
+        81,
+        82
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q005",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Débit cardiaque — DC = FC × VS",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Fréquence cardiaque 70/min, volume d'éjection 70 ml.",
+      "lead_in": "Quel est le débit cardiaque ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 l/min",
+          "correct": false,
+          "rationale": "Incorrect. 70 × 70 = 4 900 ml par minute, bien plus qu'un litre."
+        },
+        {
+          "letter": "B",
+          "text": "5 l/min",
+          "correct": true,
+          "rationale": "Correct. DC = FC × VS = 70 × 70 ml = 4 900 ml/min, soit environ 5 l/min, la valeur normale au repos chez l'adulte (slide 67)."
+        },
+        {
+          "letter": "C",
+          "text": "10 l/min",
+          "correct": false,
+          "rationale": "Incorrect. 10 l/min correspondrait à un effort modéré, non au repos (slide 52, notes)."
+        },
+        {
+          "letter": "D",
+          "text": "70 l/min",
+          "correct": false,
+          "rationale": "Incorrect. Cette valeur confond le volume d'éjection (70 ml par battement) avec le débit par minute."
+        }
+      ],
+      "source_slides": [
+        67,
+        73,
+        90
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q006",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Résistance vasculaire — vasoconstriction des artérioles",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Les artérioles se contractent (vasoconstriction).",
+      "lead_in": "Que devient la résistance à l'écoulement du sang ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elle diminue",
+          "correct": false,
+          "rationale": "Incorrect. La résistance diminue quand le vaisseau se dilate, non quand il se contracte (slide 69)."
+        },
+        {
+          "letter": "B",
+          "text": "Elle ne change pas",
+          "correct": false,
+          "rationale": "Incorrect. Le rayon est le facteur qui influence le plus la résistance (puissance 4, slide 69)."
+        },
+        {
+          "letter": "C",
+          "text": "Elle augmente",
+          "correct": true,
+          "rationale": "Correct. La résistance est inversement proportionnelle au rayon du vaisseau : un rétrécissement des artérioles l'augmente fortement (slides 69 et 74)."
+        },
+        {
+          "letter": "D",
+          "text": "Elle ne dépend pas du diamètre",
+          "correct": false,
+          "rationale": "Incorrect. Le diamètre des artérioles est le principal déterminant de la résistance vasculaire (slide 74)."
+        }
+      ],
+      "source_slides": [
+        59,
+        69,
+        74
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q007",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Pression artérielle — relation P = Q × R",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le débit cardiaque augmente et la résistance vasculaire ne change pas.",
+      "lead_in": "Que devient la pression artérielle ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elle augmente",
+          "correct": true,
+          "rationale": "Correct. P = Q × R : à résistance constante, la pression suit le débit (slides 71 et 74)."
+        },
+        {
+          "letter": "B",
+          "text": "Elle reste constante",
+          "correct": false,
+          "rationale": "Incorrect. La pression ne reste constante que si la résistance baisse dans la même proportion que le débit monte."
+        },
+        {
+          "letter": "C",
+          "text": "Elle diminue",
+          "correct": false,
+          "rationale": "Incorrect. Une baisse de pression demanderait une baisse du débit ou de la résistance (slide 74)."
+        },
+        {
+          "letter": "D",
+          "text": "Elle dépend seulement de la fréquence cardiaque",
+          "correct": false,
+          "rationale": "Incorrect. La fréquence cardiaque n'est qu'un des facteurs du débit ; la pression dépend du débit et de la résistance (slides 73-74)."
+        }
+      ],
+      "source_slides": [
+        71,
+        74
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q008",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Pression sanguine le long du circuit",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Comment évolue la pression sanguine quand le sang s'éloigne du cœur vers les capillaires ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elle augmente",
+          "correct": false,
+          "rationale": "Incorrect. La pression est maximale à la sortie du cœur, dans l'aorte (slide 89)."
+        },
+        {
+          "letter": "B",
+          "text": "Elle augmente puis reste constante",
+          "correct": false,
+          "rationale": "Incorrect. Aucune partie du circuit n'élève la pression après le cœur ; les frottements la font baisser."
+        },
+        {
+          "letter": "C",
+          "text": "Elle reste constante",
+          "correct": false,
+          "rationale": "Incorrect. Le sang circule parce qu'il existe un gradient de pression, des zones à haute pression vers les zones à basse pression (slide 85)."
+        },
+        {
+          "letter": "D",
+          "text": "Elle diminue",
+          "correct": true,
+          "rationale": "Correct. La pression baisse tout le long du circuit : environ 40 mmHg à l'entrée des capillaires, 20 mmHg à leur sortie, proche de 0 dans les veines caves (slides 87 et 89)."
+        }
+      ],
+      "source_slides": [
+        86,
+        87,
+        89
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q009",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Mesure de la pression artérielle — bruits de Korotkoff",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Mesure au brassard : le premier bruit de Korotkoff apparaît pendant le dégonflage.",
+      "lead_in": "À quoi correspond-il ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "À la pression artérielle moyenne",
+          "correct": false,
+          "rationale": "Incorrect. La PAM se calcule à partir des pressions systolique et diastolique ; elle ne se lit pas directement (slide 85)."
+        },
+        {
+          "letter": "B",
+          "text": "À la pression diastolique",
+          "correct": false,
+          "rationale": "Incorrect. La pression diastolique correspond à la disparition des bruits (slide 78)."
+        },
+        {
+          "letter": "C",
+          "text": "À la pression systolique",
+          "correct": true,
+          "rationale": "Correct. Quand la pression du brassard passe sous la pression systolique, le sang recommence à passer par à-coups : c'est le premier bruit (slide 78)."
+        },
+        {
+          "letter": "D",
+          "text": "À la pression veineuse",
+          "correct": false,
+          "rationale": "Incorrect. Le brassard comprime l'artère humérale ; la méthode mesure des pressions artérielles (slide 78)."
+        }
+      ],
+      "source_slides": [
+        78
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-v1-Q010",
+      "batch": "SPHANACR-vaisseaux-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Pression artérielle moyenne — calcul",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Pression artérielle 120/80 mmHg.",
+      "lead_in": "Quelle est la pression artérielle moyenne (PAM) ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "80 mmHg",
+          "correct": false,
+          "rationale": "Incorrect. 80 mmHg est la pression diastolique ; la PAM lui ajoute un tiers de la pression différentielle (slide 85)."
+        },
+        {
+          "letter": "B",
+          "text": "93 mmHg",
+          "correct": true,
+          "rationale": "Correct. PAM = Pdiast + 1/3 (Psyst − Pdiast) = 80 + 40/3 ≈ 93 mmHg, ou 1/3 × 120 + 2/3 × 80 (slide 85)."
+        },
+        {
+          "letter": "C",
+          "text": "100 mmHg",
+          "correct": false,
+          "rationale": "Incorrect. 100 mmHg serait la moyenne arithmétique de 120 et 80 ; la PAM pondère la diastole deux fois plus, car elle dure plus longtemps (slide 85)."
+        },
+        {
+          "letter": "D",
+          "text": "120 mmHg",
+          "correct": false,
+          "rationale": "Incorrect. 120 mmHg est la pression systolique, le pic de pression pendant l'éjection."
+        }
+      ],
+      "source_slides": [
+        85
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W001",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Débit cardiaque — DC = FC × VS",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Une patiente a une fréquence cardiaque de 80 battements par minute et un volume d'éjection systolique de 65 ml.",
+      "lead_in": "Quel est son débit cardiaque, en litres par minute ?",
+      "options": [],
+      "source_slides": [
+        67,
+        73,
+        90
+      ],
+      "answer": {
+        "value": 5.2,
+        "tolerance": 0.1,
+        "unit": "l/min"
+      },
+      "formula": "DC = FC × VS",
+      "worked_solution": "DC = FC × VS = 80 /min × 65 ml = 5 200 ml/min = 5,2 l/min.\nOrdre de grandeur attendu au repos : environ 5 l/min (slide 67).",
+      "hint": "Multiplier la fréquence par le volume éjecté à chaque battement, puis convertir les millilitres en litres."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W002",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Pression artérielle moyenne — PAM",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "La pression artérielle d'un patient est de 130/85 mmHg.",
+      "lead_in": "Quelle est sa pression artérielle moyenne (PAM), en mmHg ?",
+      "options": [],
+      "source_slides": [
+        85
+      ],
+      "answer": {
+        "value": 100,
+        "tolerance": 1,
+        "unit": "mmHg"
+      },
+      "formula": "PAM = Pdiast + 1/3 (Psyst − Pdiast) = 1/3 Psyst + 2/3 Pdiast",
+      "worked_solution": "Pression différentielle = 130 − 85 = 45 mmHg.\nPAM = 85 + 45/3 = 85 + 15 = 100 mmHg.\nVérification par l'autre forme : 1/3 × 130 + 2/3 × 85 = 43,3 + 56,7 = 100 mmHg (slide 85).",
+      "hint": "La diastole dure plus longtemps que la systole : la PAM pondère la diastolique deux fois plus."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W003",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Volume d'éjection — VS = VTD − VTS",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "En fin de diastole, un ventricule contient 130 ml de sang (volume télédiastolique). Après l'éjection, il en reste 60 ml (volume télésystolique).",
+      "lead_in": "Quel volume a été éjecté, en ml ?",
+      "options": [],
+      "source_slides": [
+        45,
+        79,
+        80
+      ],
+      "answer": {
+        "value": 70,
+        "tolerance": 0,
+        "unit": "ml"
+      },
+      "formula": "VS = VTD − VTS",
+      "worked_solution": "VS = VTD − VTS = 130 − 60 = 70 ml, valeur habituelle du volume d'éjection au repos.",
+      "hint": "Le volume éjecté est la différence entre ce que le ventricule contenait et ce qui reste."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W004",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Résistance et rayon — loi de Poiseuille",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "La résistance à l'écoulement est proportionnelle à 1/r⁴. Une artériole se contracte et son rayon est divisé par 2.",
+      "lead_in": "Par combien sa résistance est-elle multipliée ?",
+      "options": [],
+      "source_slides": [
+        69,
+        70,
+        72
+      ],
+      "answer": {
+        "value": 16,
+        "tolerance": 0,
+        "unit": ""
+      },
+      "formula": "R ∝ 1/r⁴",
+      "worked_solution": "Si r devient r/2, alors r⁴ devient r⁴/16, et 1/r⁴ devient 16 fois plus grand.\nLa résistance est multipliée par 16 ; à pression égale, le débit est divisé par 16 (slide 70, qui montre le cas inverse : rayon doublé, résistance 16 fois plus faible).",
+      "hint": "Élever 2 à la puissance 4."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W005",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Pression différentielle",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Un patient a une pression artérielle de 140/90 mmHg.",
+      "lead_in": "Quelle est sa pression différentielle (pression pulsée), en mmHg ?",
+      "options": [],
+      "source_slides": [
+        65,
+        85
+      ],
+      "answer": {
+        "value": 50,
+        "tolerance": 0,
+        "unit": "mmHg"
+      },
+      "formula": "Pression différentielle = Psyst − Pdiast",
+      "worked_solution": "140 − 90 = 50 mmHg. Cette différence renseigne sur le remplissage vasculaire et la fonction cardiaque globale (notes de la slide 65).",
+      "hint": "Soustraire la diastolique de la systolique."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W006",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Pression, débit et résistance — P = Q × R",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "À résistance vasculaire constante, le débit cardiaque passe de 5 à 7,5 l/min pendant un effort.",
+      "lead_in": "Par combien la pression artérielle est-elle multipliée ?",
+      "options": [],
+      "source_slides": [
+        71,
+        74
+      ],
+      "answer": {
+        "value": 1.5,
+        "tolerance": 0.05,
+        "unit": ""
+      },
+      "formula": "P = Q × R",
+      "worked_solution": "P = Q × R. Si R ne change pas, P varie comme Q : 7,5 / 5 = 1,5.\nLa pression est multipliée par 1,5 (slide 74 : « augmentation du débit : si R est constant, P augmente »).",
+      "hint": "Comparer les deux débits par un rapport."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W007",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "ordering",
+      "lo": "LO4",
+      "topic": "Pression sanguine le long du circuit systémique",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "La pression du sang baisse tout le long du circuit systémique.",
+      "lead_in": "Classer ces vaisseaux de la pression la plus élevée à la plus basse.",
+      "options": [],
+      "source_slides": [
+        87,
+        89
+      ],
+      "items": [
+        "Aorte",
+        "Artérioles",
+        "Capillaires",
+        "Veinules",
+        "Veines caves"
+      ],
+      "explanation": "L'aorte reçoit le sang éjecté (80 à 120 mmHg) ; la pression chute surtout dans les artérioles, atteint environ 40 mmHg à l'entrée des capillaires, puis continue de baisser dans les veinules et les veines jusqu'à une valeur proche de 0 dans les veines caves (slides 87 et 89)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W008",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "ordering",
+      "lo": "LO1_vaisseaux",
+      "topic": "Parcours du sang dans la circulation systémique",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le sang quitte le ventricule gauche et revient à l'oreillette droite.",
+      "lead_in": "Remettre dans l'ordre les vaisseaux traversés.",
+      "options": [],
+      "source_slides": [
+        8,
+        10,
+        54,
+        58
+      ],
+      "items": [
+        "Aorte",
+        "Artères",
+        "Artérioles",
+        "Capillaires",
+        "Veinules",
+        "Veines",
+        "Veines caves"
+      ],
+      "explanation": "Le sang passe de l'aorte aux artères, puis aux artérioles qui règlent le débit, aux capillaires où se font les échanges, puis aux veinules, aux veines et enfin aux veines caves qui se jettent dans l'oreillette droite (slides 8, 10, 58)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W009",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "ordering",
+      "lo": "LO4",
+      "topic": "Mesure auscultatoire de la pression artérielle",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Mesure de la pression artérielle au brassard, avec un stéthoscope sur l'artère humérale.",
+      "lead_in": "Remettre les étapes dans l'ordre.",
+      "options": [],
+      "source_slides": [
+        78
+      ],
+      "items": [
+        "Placer le brassard au niveau du bras, au-dessus de l'artère humérale",
+        "Gonfler le brassard au-delà de la pression systolique",
+        "Dégonfler lentement",
+        "Noter la pression à l'apparition du premier bruit (systolique)",
+        "Noter la pression à la disparition des bruits (diastolique)"
+      ],
+      "explanation": "Installation, inflation au-dessus de la systolique, déflation progressive ; le premier bruit de Korotkoff marque la pression systolique, la disparition des bruits la pression diastolique (slide 78)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W010",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "matching",
+      "lo": "LO1_vaisseaux",
+      "topic": "Tuniques de la paroi vasculaire et leurs rôles",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "La paroi d'un vaisseau comprend trois tuniques.",
+      "lead_in": "Associer chaque tunique à son rôle principal.",
+      "options": [],
+      "source_slides": [
+        55
+      ],
+      "explanation": "Intima : fine couche endothéliale qui tapisse la lumière ; média : muscle lisse et fibres élastiques qui règlent le diamètre ; adventice : tissu conjonctif de protection, avec les nerfs et les vasa vasorum (slide 55).",
+      "pairs": [
+        {
+          "left": "Intima (endothélium)",
+          "right": "Barrière sélective, régulation des échanges"
+        },
+        {
+          "left": "Média",
+          "right": "Vasoconstriction et vasodilatation"
+        },
+        {
+          "left": "Adventice",
+          "right": "Protection mécanique et ancrage aux tissus"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W011",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "matching",
+      "lo": "LO4",
+      "topic": "Grandeurs hémodynamiques et définitions",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Trois grandeurs décrivent la circulation du sang.",
+      "lead_in": "Associer chaque grandeur à sa définition.",
+      "options": [],
+      "source_slides": [
+        64
+      ],
+      "explanation": "Définitions de la slide 64. Les trois grandeurs sont liées par P = Q × R (slide 71).",
+      "pairs": [
+        {
+          "left": "Débit sanguin",
+          "right": "Volume de sang écoulé par unité de temps (ml/min)"
+        },
+        {
+          "left": "Pression sanguine",
+          "right": "Force exercée par le sang sur la paroi du vaisseau (mmHg)"
+        },
+        {
+          "left": "Résistance",
+          "right": "Ensemble des forces qui s'opposent à l'écoulement"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W012",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "true_false",
+      "lo": "LO4",
+      "topic": "Siège de la résistance vasculaire",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        59,
+        74
+      ],
+      "statement": "Les artérioles sont le principal site de la résistance vasculaire.",
+      "correct": true,
+      "rationale": "Vrai. Le diamètre des artérioles, réglé par leur muscle lisse, est le principal déterminant de la résistance (slides 59 et 74)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W013",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "true_false",
+      "lo": "LO4",
+      "topic": "Pression artérielle moyenne",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        85
+      ],
+      "statement": "La pression artérielle moyenne est la moyenne arithmétique des pressions systolique et diastolique.",
+      "correct": false,
+      "rationale": "Faux. La diastole dure plus longtemps que la systole : PAM = 1/3 Psyst + 2/3 Pdiast, ce qui donne 93 mmHg pour 120/80, non 100 (slide 85)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W014",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "true_false",
+      "lo": "LO1_vaisseaux",
+      "topic": "Répartition du volume sanguin",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        57
+      ],
+      "statement": "Les veines contiennent la plus grande part du volume sanguin.",
+      "correct": true,
+      "rationale": "Vrai. Les veines et veinules systémiques contiennent environ 60 % du volume sanguin ; extensibles, elles servent de réservoir (slide 57)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W015",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "true_false",
+      "lo": "LO1_vaisseaux",
+      "topic": "Retour veineux et volume sanguin",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        81
+      ],
+      "statement": "Une perte de volume sanguin (hypovolémie) augmente le retour veineux.",
+      "correct": false,
+      "rationale": "Faux. L'hypovolémie diminue le retour veineux ; ce sont la pompe musculaire, la pompe respiratoire, le tonus veineux et un volume sanguin élevé qui l'augmentent (slide 81)."
+    },
+    {
+      "id": "SPHANACR-vaisseaux-web-v1-W016",
+      "batch": "SPHANACR-vaisseaux-web-v1",
+      "type": "true_false",
+      "lo": "LO4",
+      "topic": "Rayon et résistance",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        69,
+        70
+      ],
+      "statement": "Quand le rayon d'un vaisseau diminue, sa résistance diminue aussi.",
+      "correct": false,
+      "rationale": "Faux. La résistance est inversement proportionnelle au rayon à la puissance 4 : un rayon plus petit augmente fortement la résistance (slides 69 et 70)."
     }
   ]
 }
