@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le cœur : exercices</title>
+<meta name="description" content="Exercices d'entraînement sur le cœur (structure, circulation, cycle cardiaque), bachelor en sciences infirmières, HE-ARC Neuchâtel.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <button class="brand" id="btn-home" aria-label="Accueil">Le cœur : exercices</button>
+  <button class="link" id="btn-about" aria-label="À propos">À propos</button>
+</header>
+
+<main id="app" aria-live="polite">
+  <!-- Accueil -->
+  <section id="view-home" class="view">
+    <h1 id="site-title">Exercices</h1>
+    <p class="lead" id="site-sub"></p>
+    <h2>Choisir une série</h2>
+    <div class="cards" id="series-cards"></div>
+    <h2>Ma progression</h2>
+    <p class="muted">Enregistrée uniquement sur cet appareil. Une question est acquise quand elle a été réussie au moins une fois.</p>
+    <div id="progress"></div>
+    <p class="muted small" id="reset-line"><button class="link" id="btn-reset">Effacer ma progression</button></p>
+  </section>
+
+  <!-- Question -->
+  <section id="view-quiz" class="view" hidden>
+    <div class="quiz-head">
+      <span id="quiz-counter" class="counter"></span>
+      <span id="quiz-lo" class="chip"></span>
+    </div>
+    <div class="progressbar" aria-hidden="true"><div id="quiz-bar"></div></div>
+    <article class="card question">
+      <p id="q-stem" class="stem"></p>
+      <h2 id="q-lead" class="lead-in"></h2>
+      <div id="q-options" class="options" role="group" aria-label="Réponses"></div>
+      <div id="q-feedback" class="feedback" hidden></div>
+      <div class="actions">
+        <button id="btn-next" class="primary" hidden>Suivant</button>
+        <button id="btn-quit" class="link">Quitter la série</button>
+      </div>
+    </article>
+  </section>
+
+  <!-- Résultats -->
+  <section id="view-results" class="view" hidden>
+    <h1>Résultat</h1>
+    <p class="score" id="res-score"></p>
+    <div id="res-by-lo"></div>
+    <h2>Questions à revoir</h2>
+    <ul id="res-missed" class="missed"></ul>
+    <div class="actions">
+      <button id="btn-replay-missed" class="primary">Rejouer les questions manquées</button>
+      <button id="btn-new-series" class="secondary">Nouvelle série</button>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="view-about" class="view" hidden>
+    <h1>À propos</h1>
+    <p id="about-course"></p>
+    <p>Chaque question est rattachée à un objectif d'apprentissage du cours et renvoie aux slides qui la fondent. Après chaque réponse, une explication est donnée pour l'option choisie et pour la bonne réponse. Les séries tirent les questions au hasard : refaire une série plusieurs jours de suite est la façon la plus efficace de retenir.</p>
+    <p id="about-provenance"></p>
+    <p>Aucune donnée n'est envoyée ni collectée. La progression reste dans la mémoire du navigateur de cet appareil.</p>
+    <p class="muted small" id="about-version"></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <span id="foot-inst"></span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

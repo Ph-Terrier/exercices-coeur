@@ -1,0 +1,852 @@
+{
+  "site_title": "Le cœur : exercices",
+  "course": "SPHANACR",
+  "program": "Bachelor en Sciences Infirmières",
+  "institution": "HE-ARC Neuchâtel",
+  "cohort": "APS 2026-27",
+  "generated_at": "2026-09-22",
+  "produced_by": "Contenu des questions : YAML pivot du projet quiz_generator (généré par le modèle orchestrateur Claude Fable 5.1 sous la direction de l'auteur, relu et validé par Philippe Terrier).",
+  "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
+  "batches": [
+    {
+      "id": "SPHANACR-coeur-v2",
+      "title": "Systèmes cardio-circulatoire et respiratoire, 1re partie : le cœur",
+      "scope": "Partie cœur, slides 5 à 51 (jusqu'au cycle cardiaque) ; vaisseaux et pression exclus (décision de l'auteur, 2026-09-22)",
+      "n_items": 20,
+      "generated": "2026-09-22",
+      "model": "claude-fable-5-1",
+      "approved": "Philippe Terrier, 2026-09-22, validation en chat après relecture du v2 (« Version validée, j'ai enregistrer sur kahoot, tu peux commit ») ; kahoot enregistré par l'auteur lui-même"
+    }
+  ],
+  "learning_objectives": [
+    {
+      "id": "LO1",
+      "short_title": "Structures du cœur et leurs fonctions",
+      "n_items": 6
+    },
+    {
+      "id": "LO2",
+      "short_title": "Parcours du sang : circulations pulmonaire et systémique",
+      "n_items": 4
+    },
+    {
+      "id": "LO3",
+      "short_title": "Cycle cardiaque : conduction, électrophysiologie et phases mécaniques",
+      "n_items": 8
+    },
+    {
+      "id": "LO8",
+      "short_title": "Régulation neurologique et hormonale du rythme cardiaque",
+      "n_items": 2
+    }
+  ],
+  "items": [
+    {
+      "id": "SPHANACR-coeur-v2-Q001",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO1",
+      "topic": "Localisation du cœur — choc de la pointe",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Où l'infirmière palpe-t-elle le choc de la pointe du cœur (apex) chez l'adulte ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2e espace intercostal droit, au bord du sternum",
+          "correct": false,
+          "rationale": "Incorrect. Ce repère correspond au foyer aortique d'auscultation, à la base du cœur, non à la pointe."
+        },
+        {
+          "letter": "B",
+          "text": "5e espace intercostal gauche, ligne médio-claviculaire",
+          "correct": true,
+          "rationale": "Correct. La slide 14 situe le choc de la pointe au 5e espace intercostal gauche, sur la ligne médio-claviculaire (apex du cœur)."
+        },
+        {
+          "letter": "C",
+          "text": "Creux épigastrique, sous l'appendice xiphoïde",
+          "correct": false,
+          "rationale": "Incorrect. L'apex repose sur le diaphragme mais reste intrathoracique ; l'épigastre est sous le diaphragme."
+        },
+        {
+          "letter": "D",
+          "text": "Milieu du sternum, en regard de la 2e côte",
+          "correct": false,
+          "rationale": "Incorrect. Le milieu du sternum et la 2e côte sont des repères de la base du cœur et des gros vaisseaux (slide 14)."
+        }
+      ],
+      "source_slides": [
+        14
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q002",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO1",
+      "topic": "Péricarde — rôle du liquide péricardique",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quel est le rôle du liquide contenu entre les deux feuillets du péricarde séreux ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apporter l'oxygène au myocarde",
+          "correct": false,
+          "rationale": "Incorrect. Le myocarde est irrigué par les artères coronaires (slide 21), non par le liquide péricardique."
+        },
+        {
+          "letter": "B",
+          "text": "Fixer le cœur au diaphragme et aux gros vaisseaux",
+          "correct": false,
+          "rationale": "Incorrect. La fixation du cœur est le rôle du péricarde fibreux, couche externe résistante (slide 25)."
+        },
+        {
+          "letter": "C",
+          "text": "Réduire les frottements lors des battements",
+          "correct": true,
+          "rationale": "Correct. Le liquide péricardique lubrifie les feuillets viscéral et pariétal du péricarde séreux, qui glissent l'un sur l'autre à chaque battement (slide 25)."
+        },
+        {
+          "letter": "D",
+          "text": "Transmettre l'influx électrique aux ventricules",
+          "correct": false,
+          "rationale": "Incorrect. L'influx est conduit par le tissu cardionecteur (nœud AV, faisceau de His, fibres de Purkinje), non par le péricarde (slide 40)."
+        }
+      ],
+      "source_slides": [
+        25,
+        26
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q003",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO1",
+      "topic": "Tissu myocardique — disques intercalaires",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quelle structure permet à l'influx électrique de passer rapidement d'un cardiomyocyte au suivant ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Les cordages tendineux",
+          "correct": false,
+          "rationale": "Incorrect. Les cordages tendineux retiennent les cuspides des valves auriculo-ventriculaires ; ils n'ont aucun rôle électrique."
+        },
+        {
+          "letter": "B",
+          "text": "Les desmosomes",
+          "correct": false,
+          "rationale": "Incorrect. Les desmosomes assurent la cohésion mécanique entre cellules (slide 23), non le passage des ions."
+        },
+        {
+          "letter": "C",
+          "text": "Les jonctions communicantes (gap junctions)",
+          "correct": true,
+          "rationale": "Correct. Les jonctions communicantes des disques intercalaires laissent passer rapidement les ions, ce qui fait du myocarde un syncytium fonctionnel (slide 23)."
+        },
+        {
+          "letter": "D",
+          "text": "Les tubules transverses",
+          "correct": false,
+          "rationale": "Incorrect. Les tubules transverses conduisent la dépolarisation à l'intérieur d'une même cellule, vers le réticulum sarcoplasmique (slide 22)."
+        }
+      ],
+      "source_slides": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q004",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO1",
+      "topic": "Valves auriculo-ventriculaires — appareil sous-valvulaire",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "En systole, qu'est-ce qui empêche la valve auriculo-ventriculaire gauche de s'inverser dans l'oreillette ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La contraction des muscles pectinés de l'oreillette",
+          "correct": false,
+          "rationale": "Incorrect. Les muscles pectinés sont des reliefs de la paroi auriculaire (slide 27) ; ils ne retiennent pas les cuspides."
+        },
+        {
+          "letter": "B",
+          "text": "La fermeture simultanée de la valve aortique",
+          "correct": false,
+          "rationale": "Incorrect. Pendant l'éjection, la valve aortique est ouverte ; son état n'a pas d'action sur la valve auriculo-ventriculaire gauche."
+        },
+        {
+          "letter": "C",
+          "text": "La pression du sang contenu dans l'oreillette gauche",
+          "correct": false,
+          "rationale": "Incorrect. En systole, la pression auriculaire est inférieure à la pression ventriculaire (slide 28) ; elle ne peut pas retenir les cuspides."
+        },
+        {
+          "letter": "D",
+          "text": "La tension des cordages tendineux par les muscles papillaires",
+          "correct": true,
+          "rationale": "Correct. Les muscles papillaires se contractent et tendent les cordages tendineux, ce qui empêche l'inversion des cuspides dans l'oreillette (slide 28)."
+        }
+      ],
+      "source_slides": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q005",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO1",
+      "topic": "Cavités — épaisseur pariétale VG > VD",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Pourquoi la paroi du ventricule gauche est-elle plus épaisse que celle du ventricule droit ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Il éjecte le sang contre une pression bien plus élevée (aorte)",
+          "correct": true,
+          "rationale": "Correct. Le VG éjecte vers l'aorte à environ 120 mmHg contre environ 30 mmHg pour l'artère pulmonaire ; cette charge de pression explique l'épaisseur de sa paroi (notes slide 34, slide 27)."
+        },
+        {
+          "letter": "B",
+          "text": "Il éjecte un volume de sang plus grand à chaque battement",
+          "correct": false,
+          "rationale": "Incorrect. Les deux ventricules éjectent le même volume (≈ 70 ml) à chaque cycle (notes slide 34)."
+        },
+        {
+          "letter": "C",
+          "text": "Il reçoit directement le sang des veines caves",
+          "correct": false,
+          "rationale": "Incorrect. Les veines caves se jettent dans l'oreillette droite (slides 9-10), non dans le ventricule gauche."
+        },
+        {
+          "letter": "D",
+          "text": "Il se contracte avant le ventricule droit",
+          "correct": false,
+          "rationale": "Incorrect. Les deux côtés du cœur se contractent en même temps (slide 10)."
+        }
+      ],
+      "source_slides": [
+        27,
+        34
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q006",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO2",
+      "topic": "Circulations systémique et pulmonaire — cœur gauche",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quelle partie du cœur propulse le sang dans la circulation systémique (vers tous les organes) ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Le cœur droit (oreillette et ventricule droits)",
+          "correct": false,
+          "rationale": "Incorrect. Le cœur droit envoie le sang pauvre en O2 vers les poumons : c'est la circulation pulmonaire (slide 8)."
+        },
+        {
+          "letter": "B",
+          "text": "Le cœur gauche (oreillette et ventricule gauches)",
+          "correct": true,
+          "rationale": "Correct. Le ventricule gauche éjecte le sang riche en O2 dans l'aorte, qui alimente tous les organes (circulation systémique, slides 8 et 10)."
+        },
+        {
+          "letter": "C",
+          "text": "Les deux oreillettes",
+          "correct": false,
+          "rationale": "Incorrect. Les oreillettes reçoivent le sang et complètent le remplissage des ventricules ; elles ne propulsent pas le sang dans les artères."
+        },
+        {
+          "letter": "D",
+          "text": "Les deux ventricules",
+          "correct": false,
+          "rationale": "Incorrect. Les deux ventricules éjectent en même temps, mais chacun dans une circulation différente : droit vers les poumons, gauche vers les organes."
+        }
+      ],
+      "source_slides": [
+        8,
+        10
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q007",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO2",
+      "topic": "Parcours du sang — nature du sang dans les vaisseaux",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Parmi ces vaisseaux, lequel transporte du sang riche en oxygène ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'artère pulmonaire",
+          "correct": false,
+          "rationale": "Incorrect. L'artère pulmonaire est l'exception parmi les artères : elle conduit du sang pauvre en O2 du ventricule droit vers les poumons (slide 10)."
+        },
+        {
+          "letter": "B",
+          "text": "La veine cave inférieure",
+          "correct": false,
+          "rationale": "Incorrect. La veine cave inférieure ramène à l'oreillette droite le sang pauvre en O2 de la moitié inférieure du corps."
+        },
+        {
+          "letter": "C",
+          "text": "La veine pulmonaire",
+          "correct": true,
+          "rationale": "Correct. Les quatre veines pulmonaires ramènent le sang oxygéné des poumons vers l'oreillette gauche ; ce sont les seules veines riches en O2 (slide 10)."
+        },
+        {
+          "letter": "D",
+          "text": "Le sinus coronaire",
+          "correct": false,
+          "rationale": "Incorrect. Le sinus coronaire collecte le sang veineux du myocarde, pauvre en O2, et le déverse dans l'oreillette droite (notes slide 21)."
+        }
+      ],
+      "source_slides": [
+        8,
+        10
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q008",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO2",
+      "topic": "Parcours du sang — embole veineux",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Un caillot part d'une veine de la jambe.",
+      "lead_in": "Quelle est la première cavité cardiaque qu'il traverse ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'oreillette droite",
+          "correct": true,
+          "rationale": "Correct. Le sang veineux des membres inférieurs remonte par la veine cave inférieure jusqu'à l'oreillette droite ; le caillot passe ensuite dans le ventricule droit puis dans l'artère pulmonaire (embolie pulmonaire)."
+        },
+        {
+          "letter": "B",
+          "text": "L'oreillette gauche",
+          "correct": false,
+          "rationale": "Incorrect. L'oreillette gauche reçoit le sang des veines pulmonaires, après le passage par les poumons."
+        },
+        {
+          "letter": "C",
+          "text": "Le ventricule droit",
+          "correct": false,
+          "rationale": "Incorrect. Le ventricule droit est la deuxième cavité traversée, après l'oreillette droite et la valve auriculo-ventriculaire droite."
+        },
+        {
+          "letter": "D",
+          "text": "Le ventricule gauche",
+          "correct": false,
+          "rationale": "Incorrect. Le ventricule gauche appartient au cœur gauche, atteint seulement après la circulation pulmonaire."
+        }
+      ],
+      "source_slides": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q009",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO2",
+      "topic": "Parcours du sang — retour pulmonaire",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quel est l'ordre correct pour le sang oxygéné qui revient des poumons ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Artères pulmonaires → OG → valve auriculo-ventriculaire gauche → VG → aorte",
+          "correct": false,
+          "rationale": "Incorrect. Les artères pulmonaires partent du cœur vers les poumons ; le retour se fait par les veines pulmonaires."
+        },
+        {
+          "letter": "B",
+          "text": "Veines caves → OG → valve auriculo-ventriculaire gauche → VG → aorte",
+          "correct": false,
+          "rationale": "Incorrect. Les veines caves se jettent dans l'oreillette droite et ramènent du sang pauvre en O2."
+        },
+        {
+          "letter": "C",
+          "text": "Veines pulmonaires → OD → valve auriculo-ventriculaire droite → VD → aorte",
+          "correct": false,
+          "rationale": "Incorrect. Cette séquence mélange le retour pulmonaire (veines pulmonaires) avec les cavités du cœur droit, qui n'éjectent pas dans l'aorte."
+        },
+        {
+          "letter": "D",
+          "text": "Veines pulmonaires → OG → valve auriculo-ventriculaire gauche → VG → aorte",
+          "correct": true,
+          "rationale": "Correct. Le sang oxygéné revient par les quatre veines pulmonaires dans l'oreillette gauche, franchit la valve auriculo-ventriculaire gauche, remplit le ventricule gauche, puis est éjecté dans l'aorte par la valve aortique (slides 9-10)."
+        }
+      ],
+      "source_slides": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q010",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Conduction — pacemaker de secours",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "ECG : aucune onde P, mais des QRS réguliers à 45/min.",
+      "lead_in": "Quelle structure commande ce rythme ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Le nœud auriculo-ventriculaire",
+          "correct": true,
+          "rationale": "Correct. Sans onde P, les oreillettes ne sont pas dépolarisées par le nœud sinusal ; un rythme régulier à 40-60/min correspond au pacemaker secondaire, le nœud AV (notes slides 24-25)."
+        },
+        {
+          "letter": "B",
+          "text": "Le nœud sinusal",
+          "correct": false,
+          "rationale": "Incorrect. Le nœud sinusal décharge à 60-80/min et dépolarise d'abord les oreillettes, ce qui produit une onde P (slides 34-35)."
+        },
+        {
+          "letter": "C",
+          "text": "Les fibres de Purkinje",
+          "correct": false,
+          "rationale": "Incorrect. Les fibres de Purkinje transmettent l'influx aux cellules ventriculaires (slide 40) ; le cours ne leur attribue pas de rôle de pacemaker."
+        },
+        {
+          "letter": "D",
+          "text": "Les myocytes auriculaires",
+          "correct": false,
+          "rationale": "Incorrect. Une activité auriculaire produirait une onde P ; ici les oreillettes ne sont pas dépolarisées."
+        }
+      ],
+      "source_slides": [
+        24,
+        34,
+        40
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q011",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Conduction — délai au nœud auriculo-ventriculaire",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Pourquoi l'influx marque-t-il un arrêt de 0,1 s au nœud auriculo-ventriculaire ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pour laisser les oreillettes finir de se contracter avant les ventricules",
+          "correct": true,
+          "rationale": "Correct. Le délai de 0,1 s au nœud AV laisse les oreillettes achever leur contraction et compléter le remplissage ventriculaire avant que les ventricules ne se contractent (notes slide 24, slide 34)."
+        },
+        {
+          "letter": "B",
+          "text": "Pour permettre aux valves aortique et pulmonaire de se fermer",
+          "correct": false,
+          "rationale": "Incorrect. Les valves aortique et pulmonaire sont déjà fermées pendant le remplissage ; leur fermeture dépend des pressions, non du nœud AV."
+        },
+        {
+          "letter": "C",
+          "text": "Pour repolariser le nœud sinusal avant le battement suivant",
+          "correct": false,
+          "rationale": "Incorrect. La repolarisation du nœud sinusal se fait sur place, par ses propres pompes ioniques ; elle ne dépend pas du nœud AV."
+        },
+        {
+          "letter": "D",
+          "text": "Pour synchroniser la contraction des deux oreillettes",
+          "correct": false,
+          "rationale": "Incorrect. Les deux oreillettes sont dépolarisées en même temps depuis le nœud sinusal, via les tractus internodaux (slide 34)."
+        }
+      ],
+      "source_slides": [
+        24,
+        34
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q012",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Cycle cardiaque — deuxième bruit du cœur et début de la diastole",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Le 2e bruit du cœur (B2) marque la fermeture des valves aortique et pulmonaire.",
+      "lead_in": "Quelle phase du cycle débute alors ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La contraction isovolumétrique",
+          "correct": false,
+          "rationale": "Incorrect. La contraction isovolumétrique suit le premier bruit (fermeture des valves AV) et précède l'ouverture des valves aortique et pulmonaire (slide 47)."
+        },
+        {
+          "letter": "B",
+          "text": "La relaxation isovolumétrique",
+          "correct": true,
+          "rationale": "Correct. La fermeture des valves aortique et pulmonaire termine l'éjection ; les ventricules se relâchent toutes valves fermées (phase 3, relaxation isovolumétrique), premier temps de la diastole, avant le remplissage (slides 47-48)."
+        },
+        {
+          "letter": "C",
+          "text": "La systole auriculaire",
+          "correct": false,
+          "rationale": "Incorrect. La systole auriculaire termine le remplissage ventriculaire, juste avant la contraction des ventricules (slide 47)."
+        },
+        {
+          "letter": "D",
+          "text": "L'éjection ventriculaire",
+          "correct": false,
+          "rationale": "Incorrect. L'éjection se termine au moment même où ces valves se ferment ; elle ne peut pas débuter à cet instant (slide 29)."
+        }
+      ],
+      "source_slides": [
+        29,
+        47,
+        48
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q013",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "ECG — complexe QRS et événement mécanique",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Sur l'ECG, le complexe QRS vient d'apparaître.",
+      "lead_in": "Quel événement mécanique suit immédiatement ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La contraction des oreillettes",
+          "correct": false,
+          "rationale": "Incorrect. La contraction des oreillettes suit l'onde P, avant le QRS (slides 35 et 47)."
+        },
+        {
+          "letter": "B",
+          "text": "La contraction des ventricules",
+          "correct": true,
+          "rationale": "Correct. Le QRS traduit la dépolarisation des ventricules ; leur contraction (systole ventriculaire) suit immédiatement, avec la montée de pression visible sur la slide 47."
+        },
+        {
+          "letter": "C",
+          "text": "La relaxation des ventricules",
+          "correct": false,
+          "rationale": "Incorrect. La relaxation ventriculaire suit l'onde T (repolarisation), en fin de systole."
+        },
+        {
+          "letter": "D",
+          "text": "Le remplissage passif des ventricules",
+          "correct": false,
+          "rationale": "Incorrect. Le remplissage passif a lieu en diastole, avant l'onde P du cycle suivant."
+        }
+      ],
+      "source_slides": [
+        35,
+        41,
+        47
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q014",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Cycle cardiaque — état des valves pendant l'éjection",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Pendant la phase d'éjection ventriculaire, dans quel état sont les valves ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Valves AV fermées, valves aortique et pulmonaire ouvertes",
+          "correct": true,
+          "rationale": "Correct. Pendant l'éjection, la pression ventriculaire dépasse la pression artérielle : les valves aortique et pulmonaire s'ouvrent, tandis que les valves AV restent fermées pour empêcher le reflux vers les oreillettes (slides 29, 47)."
+        },
+        {
+          "letter": "B",
+          "text": "Valves AV ouvertes, valves aortique et pulmonaire fermées",
+          "correct": false,
+          "rationale": "Incorrect. C'est l'état des valves pendant le remplissage ventriculaire (phase 1), non pendant l'éjection."
+        },
+        {
+          "letter": "C",
+          "text": "Toutes les valves fermées",
+          "correct": false,
+          "rationale": "Incorrect. Les quatre valves ne sont fermées que pendant les phases isovolumétriques (contraction 2a et relaxation 3)."
+        },
+        {
+          "letter": "D",
+          "text": "Toutes les valves ouvertes",
+          "correct": false,
+          "rationale": "Incorrect. Les valves AV et les valves artérielles ne sont jamais ouvertes en même temps dans un cœur sain ; le sang refluerait vers les oreillettes."
+        }
+      ],
+      "source_slides": [
+        29,
+        45,
+        47
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q015",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Cycle cardiaque — contraction isovolumétrique",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Pendant la contraction isovolumétrique, les 4 valves sont fermées.",
+      "lead_in": "Que se passe-t-il dans le ventricule ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La pression baisse et le volume augmente",
+          "correct": false,
+          "rationale": "Incorrect. Une baisse de pression avec augmentation de volume décrit le remplissage, valves AV ouvertes."
+        },
+        {
+          "letter": "B",
+          "text": "La pression monte et le volume reste constant",
+          "correct": true,
+          "rationale": "Correct. Le myocarde se contracte sur un volume fermé : la pression monte rapidement sans que le volume change, jusqu'à l'ouverture de la valve aortique (slides 45, 47, 48)."
+        },
+        {
+          "letter": "C",
+          "text": "Le ventricule se remplit passivement de sang",
+          "correct": false,
+          "rationale": "Incorrect. Aucun remplissage n'est possible quand les valves AV sont fermées."
+        },
+        {
+          "letter": "D",
+          "text": "Le volume diminue et la pression reste constante",
+          "correct": false,
+          "rationale": "Incorrect. Le volume ne peut diminuer que si le sang sort, donc si les valves aortique ou pulmonaire sont ouvertes (phase d'éjection)."
+        }
+      ],
+      "source_slides": [
+        45,
+        47,
+        48
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q016",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Cycle cardiaque — volumes ventriculaires",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Le VTD passe de 120 à 140 ml et le VTS reste à 50 ml.",
+      "lead_in": "Que devient le volume d'éjection ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Il diminue de 70 à 50 ml",
+          "correct": false,
+          "rationale": "Incorrect. Le volume d'éjection est VTD moins VTS ; si le VTD augmente à VTS constant, le volume d'éjection augmente."
+        },
+        {
+          "letter": "B",
+          "text": "Il reste à 70 ml",
+          "correct": false,
+          "rationale": "Incorrect. Le volume d'éjection ne peut rester à 70 ml que si le VTS augmente aussi de 20 ml, ce qui n'est pas le cas."
+        },
+        {
+          "letter": "C",
+          "text": "Il augmente de 50 à 70 ml",
+          "correct": false,
+          "rationale": "Incorrect. Les valeurs de départ donnent déjà 120 - 50 = 70 ml avant le changement."
+        },
+        {
+          "letter": "D",
+          "text": "Il augmente de 70 à 90 ml",
+          "correct": true,
+          "rationale": "Correct. Volume d'éjection = VTD - VTS : 120 - 50 = 70 ml, puis 140 - 50 = 90 ml. Un remplissage plus important augmente le volume éjecté (slides 45 et 47)."
+        }
+      ],
+      "source_slides": [
+        45,
+        47
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q017",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO3",
+      "topic": "Cycle cardiaque — ouverture de la valve aortique",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "À quel moment la valve aortique s'ouvre-t-elle ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dès le début du complexe QRS",
+          "correct": false,
+          "rationale": "Incorrect. Le QRS marque le début de la contraction ; la valve ne s'ouvre qu'après la phase de contraction isovolumétrique, quand la pression est suffisante (slide 47)."
+        },
+        {
+          "letter": "B",
+          "text": "Quand la pression de l'oreillette gauche dépasse celle du ventricule",
+          "correct": false,
+          "rationale": "Incorrect. Cette condition ouvre la valve auriculo-ventriculaire gauche (remplissage), non la valve aortique (slide 28)."
+        },
+        {
+          "letter": "C",
+          "text": "Quand la pression du ventricule gauche dépasse celle de l'aorte",
+          "correct": true,
+          "rationale": "Correct. La valve aortique s'ouvre dès que la pression ventriculaire dépasse la pression aortique (environ 80 mmHg en diastole) ; l'éjection commence (slides 29 et 48)."
+        },
+        {
+          "letter": "D",
+          "text": "Quand le ventricule atteint son volume télésystolique",
+          "correct": false,
+          "rationale": "Incorrect. Le volume télésystolique est atteint à la fin de l'éjection, au moment où la valve aortique se ferme (slide 47)."
+        }
+      ],
+      "source_slides": [
+        29,
+        47,
+        48
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q018",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO8",
+      "topic": "Régulation du rythme — nerf vague",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "La stimulation du nerf vague (parasympathique) augmente.",
+      "lead_in": "Quel effet sur le nœud sinusal ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Il accélère sa fréquence de décharge",
+          "correct": false,
+          "rationale": "Incorrect. L'accélération est l'effet des nerfs cardiaques sympathiques, non du nerf vague (slide 35)."
+        },
+        {
+          "letter": "B",
+          "text": "Il augmente la force de contraction des ventricules",
+          "correct": false,
+          "rationale": "Incorrect. Le nœud sinusal règle la fréquence ; l'augmentation de la force de contraction est un effet sympathique sur le myocarde (slide 35)."
+        },
+        {
+          "letter": "C",
+          "text": "Il ralentit sa fréquence de décharge",
+          "correct": true,
+          "rationale": "Correct. Le nerf vague, issu du centre cardio-inhibiteur, freine le nœud sinusal et diminue la fréquence cardiaque (slides 32 et 35)."
+        },
+        {
+          "letter": "D",
+          "text": "Il transmet l'influx plus vite au nœud AV",
+          "correct": false,
+          "rationale": "Incorrect. Le parasympathique ralentit aussi la conduction au nœud AV ; il ne l'accélère pas."
+        }
+      ],
+      "source_slides": [
+        32,
+        35
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q019",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO8",
+      "topic": "Régulation du rythme — autorythmicité",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Un cœur transplanté n'a plus d'innervation.",
+      "lead_in": "Pourquoi continue-t-il de battre ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Le myocarde se contracte de façon volontaire",
+          "correct": false,
+          "rationale": "Incorrect. Le muscle cardiaque, bien que strié, n'est pas sous contrôle volontaire (slide 20)."
+        },
+        {
+          "letter": "B",
+          "text": "Le nœud sinusal génère lui-même ses impulsions (autorythmicité)",
+          "correct": true,
+          "rationale": "Correct. Le tissu cardionecteur est autorythmique : le nœud sinusal produit ses impulsions sans commande nerveuse ; les nerfs autonomes ne font que moduler la fréquence (slides 32 et 40)."
+        },
+        {
+          "letter": "C",
+          "text": "Le sang qui traverse les cavités stimule la contraction",
+          "correct": false,
+          "rationale": "Incorrect. Le remplissage étire le myocarde mais ne déclenche pas la dépolarisation ; celle-ci naît dans le nœud sinusal."
+        },
+        {
+          "letter": "D",
+          "text": "Les disques intercalaires produisent l'influx",
+          "correct": false,
+          "rationale": "Incorrect. Les disques intercalaires transmettent l'influx de cellule à cellule (slide 23) ; ils ne le produisent pas."
+        }
+      ],
+      "source_slides": [
+        32,
+        40
+      ]
+    },
+    {
+      "id": "SPHANACR-coeur-v2-Q020",
+      "batch": "SPHANACR-coeur-v2",
+      "lo": "LO1",
+      "topic": "Vascularisation du cœur — drainage par le sinus coronaire",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le sang qui a irrigué le myocarde retourne au cœur.",
+      "lead_in": "Par quelle voie entre-t-il dans l'oreillette droite ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Par la veine cave inférieure",
+          "correct": false,
+          "rationale": "Incorrect. La veine cave inférieure ramène le sang de la moitié inférieure du corps, non celui du myocarde (slide 9)."
+        },
+        {
+          "letter": "B",
+          "text": "Par le sinus coronaire",
+          "correct": true,
+          "rationale": "Correct. Les veines cardiaques se réunissent dans le sinus coronaire, qui s'ouvre dans l'oreillette droite (slide 18, notes de la slide 21)."
+        },
+        {
+          "letter": "C",
+          "text": "Par le tronc pulmonaire",
+          "correct": false,
+          "rationale": "Incorrect. Le tronc pulmonaire quitte le ventricule droit vers les poumons ; aucun sang n'arrive par lui dans l'oreillette droite (slide 10)."
+        },
+        {
+          "letter": "D",
+          "text": "Par les veines pulmonaires",
+          "correct": false,
+          "rationale": "Incorrect. Les veines pulmonaires ramènent le sang oxygéné des poumons à l'oreillette gauche (slide 10)."
+        }
+      ],
+      "source_slides": [
+        10,
+        18,
+        21,
+        31
+      ]
+    }
+  ]
+}
