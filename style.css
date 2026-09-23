@@ -1,5 +1,6 @@
 /* Site d'exercices quiz_generator. Produced by: written by the orchestrating model,
-   Claude Fable 5.1, 2026-09-22. Aucune dépendance externe. */
+   Claude Fable 5.1, 2026-09-22 ; header with the HE-Arc logo and course home page
+   added by the orchestrating model Claude Opus 5.5, 2026-09-23. Aucune dépendance externe. */
 :root {
   --blue: #005294;
   --blue-dark: #003a69;
@@ -13,6 +14,10 @@
   --bg: #f6f7f9;
   --card: #ffffff;
   --radius: 12px;
+  --arc: #68a023;        /* vert HE-Arc, échantillonné sur le logo */
+  --arc-dark: #4e7a19;
+  --coeur: #b3261e;
+  --neuro: #5b3e96;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -25,12 +30,17 @@ body {
 }
 .top {
   position: sticky; top: 0; z-index: 2;
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 10px 16px;
-  background: var(--blue); color: #fff;
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 8px 16px;
+  background: #fff; color: var(--ink);
+  border-bottom: 4px solid var(--arc);
 }
-.brand { background: none; border: 0; color: #fff; font-weight: 700; font-size: 1.05rem; padding: 6px 0; cursor: pointer; }
-.top .link { color: #fff; }
+.brand { display: inline-flex; align-items: center; padding: 4px 0; }
+.brand img { height: 40px; width: auto; display: block; }
+.top-nav { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.top-course { font-weight: 600; color: var(--blue-dark); font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 480px) { .top-course { display: none; } .brand img { height: 28px; } }
+.top .link { color: var(--blue); }
 main { max-width: 720px; margin: 0 auto; padding: 16px; }
 h1 { font-size: 1.5rem; margin: 8px 0 4px; color: var(--blue-dark); }
 h2 { font-size: 1.1rem; margin: 20px 0 8px; color: var(--blue-dark); }
@@ -175,3 +185,46 @@ button { font: inherit; cursor: pointer; }
 .fc-answer { background: #fff; border: 2px solid var(--blue); border-radius: var(--radius); padding: 12px 14px; margin: 8px 0; line-height: 1.5; }
 .fc-grade { display: grid; gap: 8px; }
 .fc-grade p { margin: 4px 0 0; }
+
+/* ---- accueil multi-cours (2026-09-23) ---- */
+.center { text-align: center; }
+.back { display: inline-block; margin: 2px 0 6px; color: var(--blue); text-decoration: none; font-weight: 600; }
+.back:hover { text-decoration: underline; }
+.hero { padding: 18px 0 6px; }
+.eyebrow { margin: 0 0 4px; color: var(--arc-dark); font-weight: 700; font-size: 0.85rem; letter-spacing: .03em; text-transform: uppercase; }
+.hero h1 { font-size: 1.9rem; margin: 0 0 8px; }
+.hero .lead { font-size: 1.05rem; max-width: 36em; }
+.course-cards { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 620px) { .course-cards { grid-template-columns: 1fr 1fr; } }
+.course-card {
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  text-decoration: none; color: var(--ink);
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  transition: transform .15s, box-shadow .15s;
+}
+.course-card:hover, .course-card:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.10); outline: none; }
+.cc-band { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; color: #fff; }
+.c-coeur .cc-band { background: linear-gradient(135deg, var(--coeur), #d9534f); }
+.c-neuro .cc-band { background: linear-gradient(135deg, var(--neuro), #8e6cc9); }
+.course-card:not(.c-coeur):not(.c-neuro) .cc-band { background: linear-gradient(135deg, var(--blue), #3f86c6); }
+.cc-band svg { width: 46px; height: 46px; fill: none; stroke: #fff; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.cc-band svg .pulse { stroke-width: 2; opacity: .9; }
+.cc-band svg .myelin { stroke-width: 4.5; opacity: .75; }
+.cc-code { font-size: 0.8rem; font-weight: 700; letter-spacing: .06em; background: rgba(255,255,255,.2); border-radius: 999px; padding: 3px 10px; }
+.cc-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.cc-body h3 { margin: 0; font-size: 1.25rem; color: var(--blue-dark); }
+.cc-desc { margin: 0; color: var(--muted); }
+.cc-parts { margin: 0; padding-left: 18px; font-size: 0.92rem; }
+.cc-meta { display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--muted); margin-top: auto; }
+.cc-done { color: var(--green); font-weight: 600; }
+.course-card .track { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.course-card .fill { height: 100%; background: var(--green); width: 0; }
+.cc-go { align-self: flex-start; margin-top: 4px; font-weight: 700; color: var(--blue); }
+.c-coeur .cc-go { color: var(--coeur); }
+.c-neuro .cc-go { color: var(--neuro); }
+.how { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 22px 0 10px; }
+@media (min-width: 620px) { .how { grid-template-columns: repeat(3, 1fr); } }
+.how-item { display: flex; gap: 10px; align-items: flex-start; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; }
+.how-item p { margin: 0; font-size: 0.92rem; }
+.how-num { flex: 0 0 auto; width: 26px; height: 26px; border-radius: 50%; background: var(--arc); color: #fff; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }

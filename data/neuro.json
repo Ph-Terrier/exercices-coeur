@@ -1,0 +1,2359 @@
+{
+  "site_title": "Le système nerveux",
+  "course": "SPHANASN",
+  "program": "Bachelor en Sciences Infirmières",
+  "institution": "HE-ARC Neuchâtel",
+  "cohort": "APS 2026-27",
+  "generated_at": "2026-09-23",
+  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5, sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
+  "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
+  "batches": [
+    {
+      "id": "SPHANASN-partie1-web-v1",
+      "part": "Partie 1 : neurones et influx nerveux",
+      "title": "Le système nerveux, partie 1 : neurones et influx nerveux",
+      "scope": "Partie 1 du cours, slides 1 à 34 ; exercices à formats variés pour le site web",
+      "n_items": 35,
+      "generated": "2026-09-23",
+      "model": "claude-opus-5-5",
+      "approved": ""
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1",
+      "part": "Partie 2 : système nerveux central",
+      "title": "Le système nerveux, partie 2 : système nerveux central",
+      "scope": "Partie 2 du cours, slides 1 à 48 ; exercices à formats variés pour le site web",
+      "n_items": 30,
+      "generated": "2026-09-23",
+      "model": "claude-opus-5-5",
+      "approved": ""
+    }
+  ],
+  "learning_objectives": [
+    {
+      "id": "LO1",
+      "short_title": "Organisation générale du système nerveux",
+      "part": "Partie 1 : neurones et influx nerveux",
+      "n_items": 5
+    },
+    {
+      "id": "LO2",
+      "short_title": "Les trois fonctions du système nerveux",
+      "part": "Partie 1 : neurones et influx nerveux",
+      "n_items": 2
+    },
+    {
+      "id": "LO3",
+      "short_title": "Cellules du système nerveux : neurones et cellules gliales",
+      "part": "Partie 1 : neurones et influx nerveux",
+      "n_items": 8
+    },
+    {
+      "id": "LO4",
+      "short_title": "Potentiel de repos et potentiel d'action",
+      "part": "Partie 1 : neurones et influx nerveux",
+      "n_items": 12
+    },
+    {
+      "id": "LO5",
+      "short_title": "Synapse chimique et neurotransmetteurs",
+      "part": "Partie 1 : neurones et influx nerveux",
+      "n_items": 8
+    },
+    {
+      "id": "LO6",
+      "short_title": "Structures du système nerveux central",
+      "part": "Partie 2 : système nerveux central",
+      "n_items": 22
+    },
+    {
+      "id": "LO7",
+      "short_title": "Voies motrices et sensitives",
+      "part": "Partie 2 : système nerveux central",
+      "n_items": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "SPHANASN-partie1-web-v1-N001",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "diagram",
+      "lo": "LO1",
+      "topic": "Organisation du système nerveux — schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le système nerveux se divise en sous-systèmes emboîtés, du plus général au plus particulier.",
+      "lead_in": "Compléter l'arbre de l'organisation du système nerveux. Les deux cases du bas peuvent être remplies dans n'importe quel ordre.",
+      "options": [],
+      "source_slides": [
+        5
+      ],
+      "explanation": "Le système nerveux central (encéphale et moelle) intègre ; le système nerveux périphérique (nerfs crâniens et spinaux) relie le SNC à l'organisme. Le SNP comprend la voie sensitive afférente, vers le SNC, et la voie motrice efférente, depuis le SNC. La voie motrice se divise en système somatique (volontaire, muscles squelettiques) et autonome (involontaire, cœur, muscles lisses, glandes), lui-même divisé en sympathique et parasympathique (slide 5).",
+      "distractors": [
+        "Moelle épinière",
+        "Système endocrinien"
+      ],
+      "nodes": [
+        {
+          "id": "sn",
+          "label": "Système nerveux",
+          "x": 30,
+          "y": 1,
+          "w": 40,
+          "h": 8,
+          "fixed": true
+        },
+        {
+          "id": "snc",
+          "label": "Système nerveux central",
+          "x": 2,
+          "y": 14,
+          "w": 44,
+          "h": 10,
+          "fixed": true
+        },
+        {
+          "id": "snp",
+          "label": "Système nerveux périphérique",
+          "x": 54,
+          "y": 14,
+          "w": 44,
+          "h": 10
+        },
+        {
+          "id": "aff",
+          "label": "Voie sensitive (afférente)",
+          "x": 2,
+          "y": 30,
+          "w": 44,
+          "h": 10
+        },
+        {
+          "id": "eff",
+          "label": "Voie motrice (efférente)",
+          "x": 54,
+          "y": 30,
+          "w": 44,
+          "h": 10
+        },
+        {
+          "id": "som",
+          "label": "Système nerveux somatique",
+          "x": 2,
+          "y": 46,
+          "w": 44,
+          "h": 10
+        },
+        {
+          "id": "sna",
+          "label": "Système nerveux autonome",
+          "x": 54,
+          "y": 46,
+          "w": 44,
+          "h": 10
+        },
+        {
+          "id": "sym",
+          "label": "Sympathique",
+          "x": 40,
+          "y": 62,
+          "w": 28,
+          "h": 10,
+          "group": "sna"
+        },
+        {
+          "id": "para",
+          "label": "Parasympathique",
+          "x": 70,
+          "y": 62,
+          "w": 28,
+          "h": 10,
+          "group": "sna"
+        }
+      ],
+      "edges": [
+        [
+          "sn",
+          "snc"
+        ],
+        [
+          "sn",
+          "snp"
+        ],
+        [
+          "snp",
+          "aff"
+        ],
+        [
+          "snp",
+          "eff"
+        ],
+        [
+          "eff",
+          "som"
+        ],
+        [
+          "eff",
+          "sna"
+        ],
+        [
+          "sna",
+          "sym"
+        ],
+        [
+          "sna",
+          "para"
+        ]
+      ],
+      "width": 100,
+      "height": 74,
+      "edge_style": "elbow"
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N002",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "classify",
+      "lo": "LO1",
+      "topic": "Système nerveux central ou périphérique",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Chaque structure nerveuse appartient soit au système nerveux central, soit au système nerveux périphérique.",
+      "lead_in": "Classer chaque structure.",
+      "options": [],
+      "source_slides": [
+        5
+      ],
+      "explanation": "Le SNC comprend l'encéphale (dont le cervelet et le tronc cérébral) et la moelle épinière ; c'est le centre de régulation et d'intégration. Le SNP comprend les nerfs crâniens et spinaux et leurs neurofibres, qui relient le SNC au reste de l'organisme (slide 5).",
+      "categories": [
+        "Système nerveux central",
+        "Système nerveux périphérique"
+      ],
+      "elements": [
+        {
+          "text": "Encéphale",
+          "category": "Système nerveux central"
+        },
+        {
+          "text": "Nerfs crâniens",
+          "category": "Système nerveux périphérique"
+        },
+        {
+          "text": "Nerfs spinaux",
+          "category": "Système nerveux périphérique"
+        },
+        {
+          "text": "Cervelet",
+          "category": "Système nerveux central"
+        },
+        {
+          "text": "Neurofibre sensitive de la peau",
+          "category": "Système nerveux périphérique"
+        },
+        {
+          "text": "Tronc cérébral",
+          "category": "Système nerveux central"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N003",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "classify",
+      "lo": "LO1",
+      "topic": "Voie afférente ou efférente",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "La voie afférente conduit l'information vers le système nerveux central ; la voie efférente conduit les ordres du SNC vers les organes.",
+      "lead_in": "Classer chaque situation selon la voie empruntée par l'influx.",
+      "options": [],
+      "source_slides": [
+        5
+      ],
+      "explanation": "Les neurofibres sensitives, somatiques (peau) ou viscérales (estomac), propagent les influx des récepteurs vers le SNC. Les neurofibres motrices propagent les influx du SNC vers les effecteurs : muscles squelettiques (système somatique), cœur, muscles lisses et glandes (système autonome) (slide 5).",
+      "categories": [
+        "Voie afférente (sensitive)",
+        "Voie efférente (motrice)"
+      ],
+      "elements": [
+        {
+          "text": "Le toucher d'un objet est transmis depuis la peau",
+          "category": "Voie afférente (sensitive)"
+        },
+        {
+          "text": "La distension de l'estomac est signalée au SNC",
+          "category": "Voie afférente (sensitive)"
+        },
+        {
+          "text": "Un ordre de contraction part vers un muscle squelettique",
+          "category": "Voie efférente (motrice)"
+        },
+        {
+          "text": "Le rythme du cœur est modifié par une neurofibre autonome",
+          "category": "Voie efférente (motrice)"
+        },
+        {
+          "text": "La vessie reçoit un ordre de contraction",
+          "category": "Voie efférente (motrice)"
+        },
+        {
+          "text": "La température de la peau est transmise au SNC",
+          "category": "Voie afférente (sensitive)"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N004",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "cloze",
+      "lo": "LO1",
+      "topic": "Organisation du système nerveux — texte à trous",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter la description de l'organisation du système nerveux.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        5
+      ],
+      "explanation": "SNC : encéphale et moelle épinière. SNP : nerfs crâniens et spinaux. Système somatique : volontaire, muscles squelettiques. Système autonome : involontaire, muscle cardiaque, muscles lisses et glandes, avec ses divisions sympathique et parasympathique (slide 5).",
+      "text": "Le système nerveux central comprend l'encéphale et la ___ ; il intègre les informations. Le système nerveux périphérique est formé des nerfs crâniens et ___. Le système nerveux ___ commande les muscles squelettiques de façon volontaire, alors que le système nerveux ___ commande de façon involontaire le cœur, les muscles lisses et les glandes.",
+      "blanks": [
+        "moelle épinière",
+        "spinaux",
+        "somatique",
+        "autonome"
+      ],
+      "distractors": [
+        "sympathique",
+        "hypophyse"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N005",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "true_false",
+      "lo": "LO1",
+      "topic": "Système nerveux et système endocrinien",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        3
+      ],
+      "statement": "Le système nerveux partage avec le système endocrinien le maintien de l'homéostasie, et il est le plus rapide des deux.",
+      "correct": true,
+      "rationale": "Vrai. Les deux systèmes maintiennent l'homéostasie, mais le système nerveux est le plus rapide et le plus complexe, car ses cellules communiquent par des signaux électriques (slide 3)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N006",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "classify",
+      "lo": "LO2",
+      "topic": "Les trois fonctions du système nerveux — situations",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Une personne assoiffée voit un verre d'eau sur la table, décide de le prendre, puis le saisit.",
+      "lead_in": "Classer chaque étape selon la fonction du système nerveux qu'elle illustre.",
+      "options": [],
+      "source_slides": [
+        4
+      ],
+      "explanation": "Les récepteurs recueillent l'information sensorielle ; le SNC l'analyse et décide (intégration) ; les effecteurs exécutent la réponse motrice (slide 4).",
+      "categories": [
+        "Information sensorielle",
+        "Intégration",
+        "Réponse motrice"
+      ],
+      "elements": [
+        {
+          "text": "L'œil capte l'image du verre",
+          "category": "Information sensorielle"
+        },
+        {
+          "text": "Le cerveau interprète l'image et décide de boire",
+          "category": "Intégration"
+        },
+        {
+          "text": "Les muscles du bras saisissent le verre",
+          "category": "Réponse motrice"
+        },
+        {
+          "text": "Les récepteurs de la main sentent le poids du verre",
+          "category": "Information sensorielle"
+        },
+        {
+          "text": "La main se referme autour du verre",
+          "category": "Réponse motrice"
+        },
+        {
+          "text": "La sensation de soif est comparée à l'état de l'organisme",
+          "category": "Intégration"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N007",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "flashcard",
+      "lo": "LO2",
+      "topic": "Les trois fonctions du système nerveux",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        4
+      ],
+      "answer": "1. Recevoir l'information sensorielle (changements internes et externes, captés par les récepteurs). 2. L'intégrer : l'analyser et décider de la réponse, dans le système nerveux central. 3. Commander la réponse motrice, en activant les muscles ou les glandes (slide 4).",
+      "prompt": "Quelles sont les trois fonctions du système nerveux ?"
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N008",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "matching",
+      "lo": "LO3",
+      "topic": "Cellules gliales et leurs rôles",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les cellules gliales soutiennent, isolent et protègent les neurones ; chaque type a un rôle particulier.",
+      "lead_in": "Associer chaque cellule gliale à son rôle.",
+      "options": [],
+      "source_slides": [
+        7,
+        8,
+        14
+      ],
+      "explanation": "Astrocytes : soutien, lien entre neurones et capillaires. Microglie : défense. Épendymocytes : revêtement des ventricules et du canal central. Oligodendrocytes : myéline du SNC. Cellules de Schwann (neurolemmocytes) : myéline du SNP (slides 7, 8 et 14).",
+      "pairs": [
+        {
+          "left": "Astrocyte",
+          "right": "Relie les neurones aux capillaires sanguins et les soutient"
+        },
+        {
+          "left": "Microglie",
+          "right": "Assure la défense du tissu nerveux (élimine débris et microbes)"
+        },
+        {
+          "left": "Épendymocyte",
+          "right": "Tapisse les cavités remplies de liquide de l'encéphale et de la moelle"
+        },
+        {
+          "left": "Oligodendrocyte",
+          "right": "Forme la gaine de myéline dans le système nerveux central"
+        },
+        {
+          "left": "Cellule de Schwann",
+          "right": "Forme la gaine de myéline dans le système nerveux périphérique"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N009",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "matching",
+      "lo": "LO3",
+      "topic": "Parties du neurone et fonctions",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le neurone comporte des parties spécialisées dans la réception, la production et la transmission de l'influx.",
+      "lead_in": "Associer chaque partie du neurone à sa fonction.",
+      "options": [],
+      "source_slides": [
+        11,
+        14
+      ],
+      "explanation": "Les dendrites reçoivent ; le corps cellulaire assure la vie de la cellule ; le cône d'implantation produit l'influx ; l'axone le conduit jusqu'aux terminaisons ; la myéline, interrompue aux nœuds de Ranvier, accélère la conduction (slides 11 et 14).",
+      "pairs": [
+        {
+          "left": "Dendrites",
+          "right": "Reçoivent l'influx nerveux"
+        },
+        {
+          "left": "Corps cellulaire",
+          "right": "Centre vital : contient le noyau et les organites"
+        },
+        {
+          "left": "Cône d'implantation de l'axone",
+          "right": "Produit l'influx nerveux (zone gâchette)"
+        },
+        {
+          "left": "Axone",
+          "right": "Conduit l'influx vers un autre neurone ou un effecteur"
+        },
+        {
+          "left": "Gaine de myéline",
+          "right": "Isole l'axone et accélère la conduction"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N010",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "ordering",
+      "lo": "LO3",
+      "topic": "Trajet de l'influx dans le neurone",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Un influx nerveux traverse un neurone moteur, de la réception jusqu'à la transmission.",
+      "lead_in": "Remettre dans l'ordre les structures parcourues par l'influx.",
+      "options": [],
+      "source_slides": [
+        10,
+        14,
+        15
+      ],
+      "items": [
+        "Dendrites",
+        "Corps cellulaire",
+        "Cône d'implantation de l'axone",
+        "Axone et nœuds de Ranvier",
+        "Terminaisons axonales",
+        "Synapse"
+      ],
+      "explanation": "L'influx est reçu par les dendrites, gagne le corps cellulaire, naît au cône d'implantation, se propage le long de l'axone de nœud de Ranvier en nœud de Ranvier, puis atteint les terminaisons axonales et la synapse (slides 10, 14 et 15)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N011",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "matching",
+      "lo": "LO3",
+      "topic": "Types structuraux de neurones",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les neurones se classent selon le nombre de prolongements qui partent du corps cellulaire.",
+      "lead_in": "Associer chaque type de neurone à sa description et à un exemple.",
+      "options": [],
+      "source_slides": [
+        16
+      ],
+      "explanation": "Multipolaire : de nombreux prolongements, le type le plus répandu (neurones moteurs, interneurones). Bipolaire : deux prolongements (rétine). Unipolaire ou pseudo-unipolaire : un prolongement qui se divise en branche périphérique et branche centrale (neurones sensitifs) (slide 16).",
+      "pairs": [
+        {
+          "left": "Neurone multipolaire",
+          "right": "Nombreuses dendrites et un seul axone (neurone moteur)"
+        },
+        {
+          "left": "Neurone bipolaire",
+          "right": "Une dendrite et un axone (neurone de la rétine)"
+        },
+        {
+          "left": "Neurone unipolaire",
+          "right": "Un prolongement unique qui se divise en deux branches (neurone sensitif de la peau)"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N012",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "mcq",
+      "lo": "LO3",
+      "topic": "Métabolisme du neurone et privation d'oxygène",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Lors d'un arrêt cardiaque, le cerveau n'est plus irrigué. Des lésions neuronales apparaissent au bout de quelques minutes seulement.",
+      "lead_in": "Quelle caractéristique du neurone explique cette sensibilité ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Son métabolisme très élevé, qui exige un apport continu d'oxygène et de glucose",
+          "correct": true,
+          "rationale": "Correct. Le neurone a une vitesse de métabolisme extrêmement élevée : sans oxygène, il survit moins de quelques minutes (slide 9)."
+        },
+        {
+          "letter": "B",
+          "text": "Son incapacité à se diviser, qui empêche de remplacer les neurones perdus",
+          "correct": false,
+          "rationale": "Incorrect. Le neurone est amitotique, ce qui rend la perte définitive, mais cela n'explique pas la rapidité d'apparition des lésions."
+        },
+        {
+          "letter": "C",
+          "text": "Sa gaine de myéline, qui isole l'axone de la circulation sanguine",
+          "correct": false,
+          "rationale": "Incorrect. La myéline isole électriquement l'axone et accélère la conduction ; elle ne règle pas l'apport en oxygène."
+        },
+        {
+          "letter": "D",
+          "text": "Sa longue durée de vie, qui le rend dépendant des cellules gliales",
+          "correct": false,
+          "rationale": "Incorrect. La longévité du neurone (plus de 100 ans) dépend justement d'une bonne nutrition ; elle n'explique pas la sensibilité à l'anoxie."
+        }
+      ],
+      "source_slides": [
+        9
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N013",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "true_false",
+      "lo": "LO3",
+      "topic": "Neurone amitotique",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        9
+      ],
+      "statement": "Un neurone détruit peut être remplacé par la division d'un neurone voisin.",
+      "correct": false,
+      "rationale": "Faux. Le neurone est amitotique : il ne peut pas se reproduire (absence de centrioles). Un neurone détruit n'est pas remplacé par division (slide 9)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N014",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO3",
+      "topic": "Diamètre de l'axone et vitesse de conduction",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        5,
+        11
+      ],
+      "statement": "Le diamètre d'un axone est plus grand. La vitesse de conduction de l'influx :",
+      "correct": "up",
+      "rationale": "Augmente. Un axone de plus gros diamètre oppose moins de résistance au courant, comme un fil électrique plus épais : l'influx est conduit plus vite. La myéline accélère encore la conduction (notes de l'orateur de la partie 1)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N015",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "cloze",
+      "lo": "LO3",
+      "topic": "Neurones et cellules gliales — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description des cellules du système nerveux.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        7,
+        9,
+        11
+      ],
+      "explanation": "Le tissu nerveux est très riche en cellules : 20 % seulement d'espace extracellulaire. Cellules gliales : soutien, isolement, protection. Neurone amitotique. Corps cellulaires : substance grise ; axones : substance blanche (slides 7, 9 et 11).",
+      "text": "Le tissu nerveux ne comporte que ___ % d'espace extracellulaire. Les cellules ___ soutiennent, isolent et protègent les neurones. Le neurone est ___ : il ne se divise pas. Les amas de corps cellulaires forment la substance ___, les faisceaux d'axones la substance ___.",
+      "blanks": [
+        "20",
+        "gliales",
+        "amitotique",
+        "grise",
+        "blanche"
+      ],
+      "distractors": [
+        "80",
+        "musculaires"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N016",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "ordering",
+      "lo": "LO4",
+      "topic": "Phases du potentiel d'action",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Un neurone au repos reçoit un stimulus suffisant pour déclencher un potentiel d'action.",
+      "lead_in": "Remettre dans l'ordre les événements du potentiel d'action.",
+      "options": [],
+      "source_slides": [
+        21,
+        22
+      ],
+      "items": [
+        "Repos : canaux Na+ et K+ voltage-dépendants fermés, −70 mV",
+        "Un stimulus dépolarise la membrane jusqu'au seuil (−55 mV)",
+        "Ouverture des canaux Na+ : entrée de Na+, l'intérieur devient positif",
+        "Fermeture des canaux Na+ et ouverture des canaux K+ : sortie de K+",
+        "Hyperpolarisation : des canaux K+ restent ouverts, le potentiel descend sous −70 mV",
+        "Retour au potentiel de repos"
+      ],
+      "explanation": "Au repos, les canaux voltage-dépendants sont fermés. Un stimulus qui atteint le seuil déclenche l'ouverture des canaux Na+ (dépolarisation, jusqu'à +30 mV), puis leur fermeture avec l'ouverture des canaux K+ (repolarisation). Des canaux K+ restant ouverts, une hyperpolarisation tardive précède le retour au repos (slides 21 et 22)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N017",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "cloze",
+      "lo": "LO4",
+      "topic": "Potentiel de repos et potentiel d'action — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description du potentiel de repos et du potentiel d'action.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        18,
+        20,
+        21,
+        29
+      ],
+      "explanation": "Potentiel de repos : −70 mV. K+ : 150 à 160 mmol/l dans la cellule contre 4 à 5 à l'extérieur ; Na+ : 144 à 150 mmol/l à l'extérieur contre 7 à 15 à l'intérieur. Seuil : −55 mV. Un stimulus hyperpolarisant éloigne le potentiel du seuil (slides 18, 20, 21 et 29).",
+      "text": "Au repos, l'intérieur du neurone est négatif : environ −___ mV. L'ion ___ est surtout à l'intérieur de la cellule, l'ion ___ surtout à l'extérieur. Si une dépolarisation atteint le seuil d'excitation, vers −___ mV, les canaux sodiques s'ouvrent et un potentiel d'action se déclenche. Un stimulus qui rend l'intérieur encore plus négatif provoque une ___.",
+      "blanks": [
+        "70",
+        "K+",
+        "Na+",
+        "55",
+        "hyperpolarisation"
+      ],
+      "distractors": [
+        "90",
+        "Ca2+"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N018",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "steps",
+      "lo": "LO4",
+      "topic": "Écarts de potentiel — calcul guidé",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Au repos, le potentiel de membrane d'un neurone est de −70 mV. Le seuil d'excitation est de −55 mV et le pic du potentiel d'action atteint +30 mV.",
+      "lead_in": "Calculer pas à pas les écarts de potentiel.",
+      "options": [],
+      "source_slides": [
+        21,
+        29
+      ],
+      "formula": "Écart = potentiel d'arrivée − potentiel de départ",
+      "worked_solution": "Seuil : (−55) − (−70) = +15 mV de dépolarisation.\nAmplitude : (+30) − (−70) = 100 mV, dont 70 mV pour annuler la négativité de repos et 30 mV d'inversion de polarité (slides 21 et 29).",
+      "steps": [
+        {
+          "prompt": "De combien de mV faut-il dépolariser la membrane pour atteindre le seuil ?",
+          "answer": {
+            "value": 15,
+            "tolerance": 0,
+            "unit": "mV"
+          },
+          "hint": "Écart entre −70 et −55 : (−55) − (−70)."
+        },
+        {
+          "prompt": "Quelle est l'amplitude totale du potentiel d'action, du repos jusqu'au pic, en mV ?",
+          "answer": {
+            "value": 100,
+            "tolerance": 0,
+            "unit": "mV"
+          },
+          "hint": "(+30) − (−70) : soustraire un nombre négatif revient à l'additionner."
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N019",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "numeric",
+      "lo": "LO4",
+      "topic": "Gradient du potassium",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Dans une cellule humaine, la concentration du potassium (K+) est de 160 mmol/l à l'intérieur et de 4 mmol/l à l'extérieur.",
+      "lead_in": "Combien de fois le K+ est-il plus concentré à l'intérieur qu'à l'extérieur ?",
+      "options": [],
+      "source_slides": [
+        20
+      ],
+      "answer": {
+        "value": 40,
+        "tolerance": 0,
+        "unit": ""
+      },
+      "formula": "Rapport = concentration intracellulaire / concentration extracellulaire",
+      "worked_solution": "160 / 4 = 40 : le K+ est 40 fois plus concentré dans la cellule (rapport 40:1 du tableau de la slide 20).\nPour le Na+, c'est l'inverse : 144 mmol/l dehors contre environ 12 dedans, soit un rapport 1:12.",
+      "hint": "Diviser la concentration intérieure par la concentration extérieure."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N020",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Ouverture des canaux sodiques",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        21,
+        22
+      ],
+      "statement": "Les canaux Na+ voltage-dépendants s'ouvrent et le Na+ entre dans le neurone. Le potentiel de membrane (en mV) :",
+      "correct": "up",
+      "rationale": "Augmente. L'entrée de charges positives rend l'intérieur moins négatif, puis positif : le potentiel passe de −55 mV à environ +30 mV. C'est la phase de dépolarisation (slides 21 et 22)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N021",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Neurotransmetteur inhibiteur et probabilité de potentiel d'action",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        29,
+        30
+      ],
+      "statement": "Un neurotransmetteur inhibiteur hyperpolarise la membrane d'un neurone. La probabilité que ce neurone déclenche un potentiel d'action :",
+      "correct": "down",
+      "rationale": "Diminue. L'hyperpolarisation rend l'intérieur plus négatif et éloigne le potentiel du seuil de −55 mV : il faudra une stimulation plus forte pour l'atteindre (slides 29 et 30)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N022",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Démyélinisation et vitesse de conduction",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        23,
+        25
+      ],
+      "statement": "Dans la sclérose en plaques, la gaine de myéline de certains axones est détruite. La vitesse de conduction de l'influx dans ces axones :",
+      "correct": "down",
+      "rationale": "Diminue. La myéline permet la conduction saltatoire, de nœud de Ranvier en nœud de Ranvier. Sans elle, l'influx progresse de proche en proche, beaucoup plus lentement, voire se bloque (slides 23 et 25)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N023",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Intensité du stimulus et fréquence des potentiels d'action",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        21
+      ],
+      "statement": "Un stimulus déjà supérieur au seuil devient plus intense. La fréquence des potentiels d'action émis par le neurone :",
+      "correct": "up",
+      "rationale": "Augmente. Au-delà du seuil, chaque potentiel d'action a la même amplitude : l'intensité du stimulus est codée par la fréquence des potentiels d'action (notes de l'orateur de la partie 1)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N024",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "steps",
+      "lo": "LO4",
+      "topic": "Myéline et temps de conduction — calcul guidé",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "L'axone d'un neurone moteur mesure 1 m, de la moelle épinière au pied. Une fibre myélinisée conduit l'influx à 100 m/s, une fibre non myélinisée à 1 m/s.",
+      "lead_in": "Calculer pas à pas le gain apporté par la myéline.",
+      "options": [],
+      "source_slides": [
+        11,
+        23,
+        25
+      ],
+      "formula": "Temps = distance / vitesse",
+      "worked_solution": "Fibre myélinisée : 1 m / 100 m/s = 0,01 s = 10 ms. Fibre non myélinisée : 1 m / 1 m/s = 1 s = 1000 ms.\nLa conduction saltatoire est ici 100 fois plus rapide. Les notes de l'orateur donnent jusqu'à 150 m/s avec myéline et 1 à 2 m/s sans (slides 11, 23 et 25).",
+      "steps": [
+        {
+          "prompt": "Temps de conduction sur 1 m dans la fibre myélinisée, en millisecondes",
+          "answer": {
+            "value": 10,
+            "tolerance": 0,
+            "unit": "ms"
+          },
+          "hint": "Temps = distance / vitesse = 1 / 100 s ; 1 s = 1000 ms."
+        },
+        {
+          "prompt": "Temps de conduction sur 1 m dans la fibre non myélinisée, en millisecondes",
+          "answer": {
+            "value": 1000,
+            "tolerance": 0,
+            "unit": "ms"
+          },
+          "hint": "1 m à 1 m/s."
+        },
+        {
+          "prompt": "Combien de fois la conduction est-elle plus rapide avec la myéline ?",
+          "answer": {
+            "value": 100,
+            "tolerance": 0,
+            "unit": ""
+          },
+          "hint": "Diviser le temps le plus long par le plus court."
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N025",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "mcq",
+      "lo": "LO4",
+      "topic": "Stimulus infraliminaire",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Un stimulus fait passer le potentiel de membrane d'un neurone de −70 mV à −60 mV, puis il s'arrête.",
+      "lead_in": "Que se passe-t-il ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aucun potentiel d'action : le seuil n'est pas atteint et le potentiel revient au repos",
+          "correct": true,
+          "rationale": "Correct. Le seuil d'excitation est de −55 mV ; à −60 mV, il n'est pas atteint : la dépolarisation reste locale et le potentiel revient à −70 mV (slide 29)."
+        },
+        {
+          "letter": "B",
+          "text": "Un potentiel d'action plus petit que la normale se propage le long de l'axone",
+          "correct": false,
+          "rationale": "Incorrect. Un potentiel d'action se déclenche entièrement ou pas du tout ; il n'existe pas de potentiel d'action réduit."
+        },
+        {
+          "letter": "C",
+          "text": "Un potentiel d'action normal se déclenche, puisque la membrane est dépolarisée",
+          "correct": false,
+          "rationale": "Incorrect. Toute dépolarisation ne suffit pas : il faut atteindre le seuil de −55 mV."
+        },
+        {
+          "letter": "D",
+          "text": "La membrane s'hyperpolarise jusqu'à −90 mV",
+          "correct": false,
+          "rationale": "Incorrect. Le stimulus est dépolarisant : il rend l'intérieur moins négatif ; l'hyperpolarisation correspond à l'effet inverse."
+        }
+      ],
+      "source_slides": [
+        21,
+        29
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N026",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "true_false",
+      "lo": "LO4",
+      "topic": "Pompe sodium-potassium",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        18,
+        19
+      ],
+      "statement": "La pompe Na+/K+ fait entrer le Na+ dans la cellule et sortir le K+.",
+      "correct": false,
+      "rationale": "Faux. C'est l'inverse : la pompe Na+/K+ expulse le Na+ et fait rentrer le K+. Elle rétablit ainsi les gradients que la diffusion tend à dissiper, en consommant de l'ATP (slides 18 et 19)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N027",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "flashcard",
+      "lo": "LO4",
+      "topic": "Loi du tout ou rien et codage de l'intensité",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        21,
+        29
+      ],
+      "answer": "Un stimulus trop faible pour atteindre le seuil (−55 mV) ne déclenche aucun potentiel d'action. Au-delà du seuil, chaque potentiel d'action a toujours la même amplitude (tout ou rien) : c'est la fréquence des potentiels d'action qui augmente avec l'intensité du stimulus (slides 21 et 29, notes de l'orateur).",
+      "prompt": "Comment un neurone distingue-t-il un stimulus faible d'un stimulus fort ?"
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N028",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "ordering",
+      "lo": "LO5",
+      "topic": "Étapes de la transmission synaptique",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Un influx nerveux arrive à l'extrémité de l'axone d'un neurone présynaptique.",
+      "lead_in": "Remettre dans l'ordre les étapes de la transmission à travers la synapse chimique.",
+      "options": [],
+      "source_slides": [
+        26,
+        27
+      ],
+      "items": [
+        "L'influx atteint le corpuscule terminal de l'axone",
+        "Les canaux à calcium s'ouvrent et le Ca2+ entre",
+        "Les vésicules fusionnent avec la membrane et libèrent le neurotransmetteur",
+        "Le neurotransmetteur diffuse dans la fente synaptique",
+        "Il se fixe sur les récepteurs de la membrane postsynaptique",
+        "Des canaux ioniques s'ouvrent : le potentiel postsynaptique varie",
+        "Le neurotransmetteur est dégradé ou recapté"
+      ],
+      "explanation": "L'arrivée de l'influx ouvre les canaux Ca2+ ; le Ca2+ déclenche l'exocytose des vésicules ; le neurotransmetteur traverse la fente, se fixe sur ses récepteurs et ouvre des canaux ioniques. L'effet est bref, car le neurotransmetteur est détruit par des enzymes, recapté ou dispersé (slides 26 et 27)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N029",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "cloze",
+      "lo": "LO5",
+      "topic": "Synapse chimique — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description de la synapse.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        26,
+        27
+      ],
+      "explanation": "Synapses électriques : rares, non spécifiques du tissu nerveux. Synapses chimiques : le neurotransmetteur, stocké dans des vésicules, est libéré dans la fente synaptique et agit sur des récepteurs spécifiques (slides 26 et 27).",
+      "text": "Les synapses ___ sont rares ; la plupart des synapses du système nerveux sont chimiques. Dans une synapse chimique, le message passe d'un neurone à l'autre grâce à un ___, stocké dans des ___ du neurone présynaptique. Libéré dans la ___ synaptique, il se fixe sur des ___ spécifiques de la membrane postsynaptique.",
+      "blanks": [
+        "électriques",
+        "neurotransmetteur",
+        "vésicules",
+        "fente",
+        "récepteurs"
+      ],
+      "distractors": [
+        "hormone",
+        "dendrites"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N030",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "classify",
+      "lo": "LO5",
+      "topic": "Neurotransmetteurs excitateurs et inhibiteurs",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Un neurotransmetteur excitateur dépolarise la membrane postsynaptique ; un neurotransmetteur inhibiteur l'hyperpolarise.",
+      "lead_in": "Classer chaque neurotransmetteur selon l'effet indiqué dans le cours.",
+      "options": [],
+      "source_slides": [
+        30,
+        31,
+        32
+      ],
+      "explanation": "Excitateurs (+) : glutamate, adrénaline, noradrénaline, substance P. Inhibiteurs (−) : GABA, glycine, endorphines, sérotonine. L'acétylcholine, la dopamine et l'histamine peuvent être l'un ou l'autre selon le récepteur (slides 30 et 31).",
+      "categories": [
+        "Excitateur",
+        "Inhibiteur"
+      ],
+      "elements": [
+        {
+          "text": "Glutamate",
+          "category": "Excitateur"
+        },
+        {
+          "text": "GABA",
+          "category": "Inhibiteur"
+        },
+        {
+          "text": "Noradrénaline",
+          "category": "Excitateur"
+        },
+        {
+          "text": "Endorphines",
+          "category": "Inhibiteur"
+        },
+        {
+          "text": "Substance P",
+          "category": "Excitateur"
+        },
+        {
+          "text": "Glycine",
+          "category": "Inhibiteur"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N031",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "matching",
+      "lo": "LO5",
+      "topic": "Neurotransmetteurs et rôles",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le tableau des neurotransmetteurs associe chacun à ses principaux rôles biologiques.",
+      "lead_in": "Associer chaque neurotransmetteur à l'un de ses rôles.",
+      "options": [],
+      "source_slides": [
+        32
+      ],
+      "explanation": "Acétylcholine : synapse neuromusculaire, contraction des muscles striés. Dopamine : contrôle de la motricité, en défaut dans la maladie de Parkinson. Sérotonine : sommeil, thermorégulation, chronobiologie. Substance P : nociception. Enképhalines : analgésie (slide 32).",
+      "pairs": [
+        {
+          "left": "Acétylcholine",
+          "right": "Contraction des muscles striés"
+        },
+        {
+          "left": "Dopamine",
+          "right": "Contrôle de la motricité (maladie de Parkinson)"
+        },
+        {
+          "left": "Sérotonine",
+          "right": "Sommeil et thermorégulation"
+        },
+        {
+          "left": "Substance P",
+          "right": "Transmission des perceptions douloureuses"
+        },
+        {
+          "left": "Enképhalines",
+          "right": "Analgésie : diminution de la sensibilité à la douleur"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N032",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO5",
+      "topic": "Blocage de la dégradation du neurotransmetteur",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        27
+      ],
+      "statement": "Un médicament bloque l'enzyme qui dégrade un neurotransmetteur dans la fente synaptique. La durée d'action de ce neurotransmetteur sur la membrane postsynaptique :",
+      "correct": "up",
+      "rationale": "Augmente. Normalement, l'effet est bref car le neurotransmetteur est rapidement détruit par des enzymes. S'il n'est plus dégradé, il reste plus longtemps fixé à ses récepteurs (slide 27)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N033",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "direction",
+      "lo": "LO5",
+      "topic": "Blocage des canaux calciques présynaptiques",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        27
+      ],
+      "statement": "Les canaux à calcium du corpuscule terminal présynaptique sont bloqués. La quantité de neurotransmetteur libérée à l'arrivée d'un influx :",
+      "correct": "down",
+      "rationale": "Diminue. C'est l'entrée de Ca2+ qui déclenche la fusion des vésicules et l'exocytose du neurotransmetteur ; sans elle, la libération chute (slide 27)."
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N034",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "mcq",
+      "lo": "LO5",
+      "topic": "Plaque motrice et acétylcholine",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Pendant une anesthésie générale, un médicament bloque les récepteurs de l'acétylcholine de la plaque motrice.",
+      "lead_in": "Quel effet attend-on sur les muscles squelettiques ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Une paralysie : l'influx n'est plus transmis du nerf au muscle",
+          "correct": true,
+          "rationale": "Correct. À la plaque motrice, l'acétylcholine se fixe sur la cellule musculaire et y crée le message électrique qui déclenche la contraction. Si ses récepteurs sont bloqués, le muscle ne se contracte plus (slide 28)."
+        },
+        {
+          "letter": "B",
+          "text": "Une contraction permanente, car l'acétylcholine s'accumule",
+          "correct": false,
+          "rationale": "Incorrect. L'acétylcholine peut s'accumuler, mais elle ne peut plus agir sur des récepteurs bloqués."
+        },
+        {
+          "letter": "C",
+          "text": "Une conduction plus rapide dans l'axone du neurone moteur",
+          "correct": false,
+          "rationale": "Incorrect. Le médicament agit sur la membrane musculaire postsynaptique, pas sur la conduction dans l'axone."
+        },
+        {
+          "letter": "D",
+          "text": "Une perte de la sensibilité de la peau",
+          "correct": false,
+          "rationale": "Incorrect. La plaque motrice relie un neurone moteur à un muscle ; les voies sensitives de la peau ne passent pas par elle."
+        }
+      ],
+      "source_slides": [
+        28,
+        32
+      ]
+    },
+    {
+      "id": "SPHANASN-partie1-web-v1-N035",
+      "batch": "SPHANASN-partie1-web-v1",
+      "type": "flashcard",
+      "lo": "LO5",
+      "topic": "Agoniste et antagoniste",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        30,
+        31
+      ],
+      "answer": "Un agoniste se fixe sur le récepteur et l'active, comme le ferait le neurotransmetteur : la morphine active les récepteurs opioïdes des endorphines. Un antagoniste s'y fixe sans l'activer et bloque l'effet : la naloxone bloque ces récepteurs et annule l'effet de la morphine (slides 30 et 31, notes de l'orateur).",
+      "prompt": "Qu'est-ce qu'un agoniste et un antagoniste d'un récepteur ? Donner un exemple."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N101",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "ordering",
+      "lo": "LO6",
+      "topic": "Méninges — de l'extérieur vers l'intérieur",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le cerveau est protégé par plusieurs couches, de l'os du crâne jusqu'à sa surface.",
+      "lead_in": "Remettre ces couches dans l'ordre, de l'extérieur vers l'intérieur.",
+      "options": [],
+      "source_slides": [
+        6,
+        7
+      ],
+      "items": [
+        "Os du crâne",
+        "Dure-mère",
+        "Arachnoïde",
+        "Espace sous-arachnoïdien (liquide cérébrospinal)",
+        "Pie-mère",
+        "Cortex cérébral"
+      ],
+      "explanation": "La dure-mère, épaisse, adhère à l'os ; l'arachnoïde, fine comme une toile d'araignée, recouvre l'espace sous-arachnoïdien où circule le liquide cérébrospinal ; la pie-mère, très fine, tapisse directement la surface du cerveau (slides 6 et 7)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N102",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "cloze",
+      "lo": "LO6",
+      "topic": "Méninges — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description des méninges.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        6
+      ],
+      "explanation": "Dure-mère, arachnoïde et pie-mère, de l'extérieur vers l'intérieur. L'espace sous-arachnoïdien contient le LCS. Les méninges protègent le SNC contre les chocs et les infections et soutiennent les vaisseaux qui l'irriguent (slide 6).",
+      "text": "La ___, épaisse et résistante, adhère à l'os. L'___ est une membrane intermédiaire et fine ; sous elle, l'espace sous-arachnoïdien contient le ___. La ___, la plus interne, tapisse intimement la surface du cerveau et de la moelle. Ensemble, les méninges amortissent les chocs et forment une barrière contre les ___.",
+      "blanks": [
+        "dure-mère",
+        "arachnoïde",
+        "liquide cérébrospinal",
+        "pie-mère",
+        "infections"
+      ],
+      "distractors": [
+        "substance blanche",
+        "périoste"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N103",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "diagram",
+      "lo": "LO6",
+      "topic": "Circulation du liquide cérébrospinal — schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le liquide cérébrospinal est produit en continu, circule dans les ventricules puis autour du cerveau, avant de retourner dans le sang.",
+      "lead_in": "Compléter le schéma du trajet du liquide cérébrospinal (les flèches suivent son sens de circulation).",
+      "options": [],
+      "source_slides": [
+        8,
+        10,
+        11
+      ],
+      "explanation": "Produit par les plexus choroïdes, le LCS passe des ventricules latéraux au troisième ventricule, puis par l'aqueduc du mésencéphale au quatrième ventricule. Il gagne l'espace sous-arachnoïdien autour du cerveau et de la moelle, puis est réabsorbé dans le sang des sinus veineux de la dure-mère par les villosités arachnoïdiennes (slides 8, 10 et 11).",
+      "distractors": [
+        "Espace subdural",
+        "Dure-mère"
+      ],
+      "nodes": [
+        {
+          "id": "plex",
+          "label": "Plexus choroïdes (production)",
+          "x": 2,
+          "y": 2,
+          "w": 30,
+          "h": 11,
+          "fixed": true
+        },
+        {
+          "id": "vlat",
+          "label": "Ventricules latéraux",
+          "x": 35,
+          "y": 2,
+          "w": 30,
+          "h": 11
+        },
+        {
+          "id": "v3",
+          "label": "Troisième ventricule",
+          "x": 68,
+          "y": 2,
+          "w": 30,
+          "h": 11
+        },
+        {
+          "id": "aq",
+          "label": "Aqueduc du mésencéphale",
+          "x": 68,
+          "y": 23,
+          "w": 30,
+          "h": 11
+        },
+        {
+          "id": "v4",
+          "label": "Quatrième ventricule",
+          "x": 68,
+          "y": 45,
+          "w": 30,
+          "h": 11
+        },
+        {
+          "id": "esa",
+          "label": "Espace sous-arachnoïdien",
+          "x": 35,
+          "y": 45,
+          "w": 30,
+          "h": 11
+        },
+        {
+          "id": "vill",
+          "label": "Villosités arachnoïdiennes",
+          "x": 2,
+          "y": 45,
+          "w": 30,
+          "h": 11
+        },
+        {
+          "id": "sang",
+          "label": "Sang des sinus veineux",
+          "x": 2,
+          "y": 23,
+          "w": 30,
+          "h": 11,
+          "fixed": true
+        }
+      ],
+      "edges": [
+        [
+          "plex",
+          "vlat"
+        ],
+        [
+          "vlat",
+          "v3"
+        ],
+        [
+          "v3",
+          "aq"
+        ],
+        [
+          "aq",
+          "v4"
+        ],
+        [
+          "v4",
+          "esa"
+        ],
+        [
+          "esa",
+          "vill"
+        ],
+        [
+          "vill",
+          "sang"
+        ],
+        [
+          "sang",
+          "plex"
+        ]
+      ],
+      "width": 100,
+      "height": 58,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N104",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "numeric",
+      "lo": "LO6",
+      "topic": "Production du liquide cérébrospinal",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Chez l'adulte, les plexus choroïdes produisent environ 500 ml de liquide cérébrospinal par jour.",
+      "lead_in": "Combien de millilitres sont produits en moyenne chaque heure ?",
+      "options": [],
+      "source_slides": [
+        10
+      ],
+      "answer": {
+        "value": 21,
+        "tolerance": 1,
+        "unit": "ml"
+      },
+      "formula": "Débit horaire = production journalière / 24",
+      "worked_solution": "500 / 24 = 20,8 ml par heure, soit environ 21 ml.\nLe LCS est renouvelé en permanence : il doit être réabsorbé au même rythme qu'il est produit (slide 10).",
+      "hint": "Une journée compte 24 heures."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N105",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "direction",
+      "lo": "LO6",
+      "topic": "Réabsorption du liquide cérébrospinal bloquée",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        10,
+        11
+      ],
+      "statement": "La réabsorption du liquide cérébrospinal par les villosités arachnoïdiennes est bloquée, alors que les plexus choroïdes continuent à en produire. Le volume de LCS dans les ventricules :",
+      "correct": "up",
+      "rationale": "Augmente. La production continue (environ 500 ml par jour) n'est plus compensée par la réabsorption : le liquide s'accumule dans les ventricules et la pression augmente dans la boîte crânienne (slides 10 et 11)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N106",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "flashcard",
+      "lo": "LO6",
+      "topic": "Fonctions du liquide cérébrospinal",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        10
+      ],
+      "answer": "Il protège mécaniquement le cerveau en amortissant les chocs (coussin hydraulique). Il lui donne une flottabilité qui allège son poids et l'empêche d'appuyer sur le crâne. Il contribue à l'homéostasie du milieu neuronal : apport de certains nutriments, drainage des déchets (slide 10).",
+      "prompt": "Quelles sont les fonctions du liquide cérébrospinal ?"
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N107",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "classify",
+      "lo": "LO6",
+      "topic": "Substance grise et substance blanche",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le système nerveux central est formé de substance grise et de substance blanche.",
+      "lead_in": "Classer chaque élément.",
+      "options": [],
+      "source_slides": [
+        15,
+        16
+      ],
+      "explanation": "Substance grise : corps cellulaires et dendrites, en surface du cerveau et du cervelet et au centre de la moelle ; elle traite l'information. Substance blanche : axones myélinisés, sous le cortex et en périphérie de la moelle ; elle relie les régions entre elles, comme le corps calleux entre les deux hémisphères (slides 15 et 16).",
+      "categories": [
+        "Substance grise",
+        "Substance blanche"
+      ],
+      "elements": [
+        {
+          "text": "Formée surtout de corps cellulaires de neurones",
+          "category": "Substance grise"
+        },
+        {
+          "text": "Formée d'axones myélinisés",
+          "category": "Substance blanche"
+        },
+        {
+          "text": "Cortex cérébral",
+          "category": "Substance grise"
+        },
+        {
+          "text": "Corps calleux",
+          "category": "Substance blanche"
+        },
+        {
+          "text": "Centre de la moelle épinière",
+          "category": "Substance grise"
+        },
+        {
+          "text": "Transmet rapidement les signaux entre régions",
+          "category": "Substance blanche"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N108",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "true_false",
+      "lo": "LO6",
+      "topic": "Couleur de la substance blanche",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        15
+      ],
+      "statement": "La substance blanche doit sa couleur claire à la myéline qui entoure les axones.",
+      "correct": true,
+      "rationale": "Vrai. La substance blanche correspond aux axones recouverts de myéline, riche en lipides, qui lui donne sa couleur claire (slide 15)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N109",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "cloze",
+      "lo": "LO6",
+      "topic": "Cortex cérébral — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description du cortex cérébral.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        20,
+        21,
+        22
+      ],
+      "explanation": "Le cortex, substance grise de quelques millimètres d'épaisseur, a une surface d'environ 1 m² ; il tient dans le crâne grâce à ses plis : gyrus (circonvolutions) et sillons. Les fissures profondes séparent les lobes (slides 20 à 22).",
+      "text": "Le cortex est une fine couche de substance ___, épaisse de quelques millimètres. Déplissé, il couvrirait environ ___ m². Il est plissé en ___ (les crêtes), séparés par des ___. Des fissures plus profondes délimitent les ___ cérébraux.",
+      "blanks": [
+        "grise",
+        "1",
+        "gyrus",
+        "sillons",
+        "lobes"
+      ],
+      "distractors": [
+        "blanche",
+        "10"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N110",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "matching",
+      "lo": "LO6",
+      "topic": "Lobes cérébraux et fonctions",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Chaque hémisphère compte quatre lobes principaux, chacun abritant des aires aux fonctions spécifiques.",
+      "lead_in": "Associer chaque lobe à l'une de ses fonctions principales.",
+      "options": [],
+      "source_slides": [
+        22,
+        23
+      ],
+      "explanation": "Frontal : mouvement volontaire, langage, décision et raisonnement. Pariétal : sensations du toucher, perception de l'espace. Temporal : audition, mémoire. Occipital : vision. Le sillon central sépare les lobes frontal et pariétal, la fissure latérale isole le lobe temporal (slides 22 et 23).",
+      "pairs": [
+        {
+          "left": "Lobe frontal",
+          "right": "Planification des mouvements volontaires, langage, fonctions exécutives"
+        },
+        {
+          "left": "Lobe pariétal",
+          "right": "Toucher et perception de l'espace"
+        },
+        {
+          "left": "Lobe temporal",
+          "right": "Audition et une partie de la mémoire"
+        },
+        {
+          "left": "Lobe occipital",
+          "right": "Vision"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N111",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "classify",
+      "lo": "LO6",
+      "topic": "Aires corticales motrices, sensitives et associatives",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le cortex comprend des aires motrices, des aires sensitives et des aires associatives qui intègrent les informations.",
+      "lead_in": "Classer chaque aire corticale.",
+      "options": [],
+      "source_slides": [
+        24,
+        25
+      ],
+      "explanation": "Aires motrices : cortex moteur primaire, cortex prémoteur, aire de Broca (motricité du langage). Aires sensitives : somesthésique, visuelle, auditive, gustative. Aires associatives : cortex préfrontal (mémoire de travail, résolution de problèmes) et cortex multimodal où se situe l'aire de Wernicke (slides 24 et 25).",
+      "categories": [
+        "Aire motrice",
+        "Aire sensitive",
+        "Aire associative"
+      ],
+      "elements": [
+        {
+          "text": "Cortex moteur primaire (gyrus précentral)",
+          "category": "Aire motrice"
+        },
+        {
+          "text": "Aire de Broca",
+          "category": "Aire motrice"
+        },
+        {
+          "text": "Cortex somesthésique primaire (gyrus postcentral)",
+          "category": "Aire sensitive"
+        },
+        {
+          "text": "Cortex visuel primaire",
+          "category": "Aire sensitive"
+        },
+        {
+          "text": "Cortex auditif primaire",
+          "category": "Aire sensitive"
+        },
+        {
+          "text": "Cortex préfrontal",
+          "category": "Aire associative"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N112",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Lésion de l'aire de Broca",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Après un accident vasculaire cérébral, un patient comprend ce qu'on lui dit, mais il a beaucoup de peine à former des mots et des phrases.",
+      "lead_in": "Quelle aire corticale est probablement lésée ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'aire de Broca, dans le lobe frontal",
+          "correct": true,
+          "rationale": "Correct. L'aire de Broca fait partie des régions motrices du lobe frontal : elle commande la production du langage. Sa lésion gêne l'expression alors que la compréhension est conservée (slide 25)."
+        },
+        {
+          "letter": "B",
+          "text": "L'aire de Wernicke, dans le cortex associatif",
+          "correct": false,
+          "rationale": "Incorrect. L'aire de Wernicke intervient dans la compréhension du langage ; ici, le patient comprend."
+        },
+        {
+          "letter": "C",
+          "text": "Le cortex visuel primaire, dans le lobe occipital",
+          "correct": false,
+          "rationale": "Incorrect. Une lésion du cortex visuel perturbe la vision, pas la formation des mots."
+        },
+        {
+          "letter": "D",
+          "text": "Le cortex auditif primaire, dans le lobe temporal",
+          "correct": false,
+          "rationale": "Incorrect. Une lésion du cortex auditif gênerait l'audition ; le patient entend et comprend."
+        }
+      ],
+      "source_slides": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N113",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "classify",
+      "lo": "LO6",
+      "topic": "Thalamus et hypothalamus",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le diencéphale comprend deux structures principales aux rôles très différents : le thalamus et l'hypothalamus.",
+      "lead_in": "Classer chaque fonction.",
+      "options": [],
+      "source_slides": [
+        32,
+        33
+      ],
+      "explanation": "Le thalamus est la grande station de relais : presque toutes les informations sensorielles y transitent avant d'atteindre le cortex. L'hypothalamus maintient l'homéostasie (température, faim, soif, rythmes biologiques), intègre le système nerveux autonome et commande l'hypophyse (slides 32 et 33).",
+      "categories": [
+        "Thalamus",
+        "Hypothalamus"
+      ],
+      "elements": [
+        {
+          "text": "Relais des informations sensitives vers le cortex",
+          "category": "Thalamus"
+        },
+        {
+          "text": "Régulation de la température corporelle",
+          "category": "Hypothalamus"
+        },
+        {
+          "text": "Régulation de la faim et de la soif",
+          "category": "Hypothalamus"
+        },
+        {
+          "text": "Tri et redirection des signaux vers les aires corticales",
+          "category": "Thalamus"
+        },
+        {
+          "text": "Commande de l'hypophyse",
+          "category": "Hypothalamus"
+        },
+        {
+          "text": "Principal centre d'intégration du système nerveux autonome",
+          "category": "Hypothalamus"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N114",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Hypothalamus et température",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Lors d'une infection, la température d'une patiente monte à 39,5 °C : le thermostat interne de l'organisme a été réglé plus haut.",
+      "lead_in": "Quelle structure de l'encéphale règle la température corporelle ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'hypothalamus",
+          "correct": true,
+          "rationale": "Correct. L'hypothalamus est le centre de régulation de nombreuses fonctions vitales, dont la température interne (slides 32 et 33)."
+        },
+        {
+          "letter": "B",
+          "text": "Le thalamus",
+          "correct": false,
+          "rationale": "Incorrect. Le thalamus relaie les informations sensitives vers le cortex ; il ne règle pas la température."
+        },
+        {
+          "letter": "C",
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et l'équilibre."
+        },
+        {
+          "letter": "D",
+          "text": "Le cortex occipital",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe occipital traite les informations visuelles."
+        }
+      ],
+      "source_slides": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N115",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "ordering",
+      "lo": "LO6",
+      "topic": "Du diencéphale à la moelle épinière",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le tronc cérébral relie le diencéphale à la moelle épinière.",
+      "lead_in": "Remettre ces structures dans l'ordre, de haut en bas.",
+      "options": [],
+      "source_slides": [
+        34,
+        35,
+        37
+      ],
+      "items": [
+        "Diencéphale",
+        "Mésencéphale",
+        "Pont",
+        "Bulbe rachidien",
+        "Moelle épinière"
+      ],
+      "explanation": "Le tronc cérébral prolonge le diencéphale et comprend, de haut en bas, le mésencéphale, le pont et le bulbe rachidien, qui se continue par la moelle épinière (slides 34, 35 et 37)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N116",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "matching",
+      "lo": "LO6",
+      "topic": "Segments du tronc cérébral et rôles",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Chaque segment du tronc cérébral contient des centres et des relais particuliers.",
+      "lead_in": "Associer chaque segment à l'un de ses rôles.",
+      "options": [],
+      "source_slides": [
+        38
+      ],
+      "explanation": "Mésencéphale : centres réflexes visuels et auditifs, noyaux des nerfs III et IV. Pont : relais vers le cervelet, participation à la régulation respiratoire. Bulbe rachidien : centres cardiaque, vasomoteur et respiratoire, vomissement et toux, site de la décussation des pyramides (slide 38).",
+      "pairs": [
+        {
+          "left": "Mésencéphale",
+          "right": "Centres réflexes visuels et auditifs"
+        },
+        {
+          "left": "Pont",
+          "right": "Relais des informations du cerveau vers le cervelet"
+        },
+        {
+          "left": "Bulbe rachidien",
+          "right": "Centres de la fréquence cardiaque, de la vasomotricité et de la respiration"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N117",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "flashcard",
+      "lo": "LO6",
+      "topic": "Formation réticulée",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        34,
+        38
+      ],
+      "answer": "Elle maintient le cortex en état de vigilance (système réticulaire activateur) et participe au cycle veille-sommeil. Elle filtre les stimulus répétitifs pour éviter la surcharge sensorielle : on ne remarque plus le bruit d'un réfrigérateur. Elle contribue aussi à la régulation des muscles squelettiques, des muscles lisses et du myocarde (slides 34 et 38).",
+      "prompt": "Quel est le rôle de la formation réticulée du tronc cérébral ?"
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N118",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "classify",
+      "lo": "LO6",
+      "topic": "Nerfs crâniens sensoriels, moteurs et mixtes",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les douze paires de nerfs crâniens sont sensorielles, motrices ou mixtes.",
+      "lead_in": "Classer chaque nerf crânien.",
+      "options": [],
+      "source_slides": [
+        41,
+        44
+      ],
+      "explanation": "Sensoriels : I olfactif, II optique, VIII vestibulocochléaire. Moteurs : III oculomoteur, IV trochléaire, VI abducens, XI accessoire, XII hypoglosse. Mixtes : V trijumeau, VII facial, IX glossopharyngien, X vague (slide 44).",
+      "categories": [
+        "Sensoriel",
+        "Moteur",
+        "Mixte"
+      ],
+      "elements": [
+        {
+          "text": "I Olfactif",
+          "category": "Sensoriel"
+        },
+        {
+          "text": "II Optique",
+          "category": "Sensoriel"
+        },
+        {
+          "text": "XII Hypoglosse",
+          "category": "Moteur"
+        },
+        {
+          "text": "III Oculomoteur",
+          "category": "Moteur"
+        },
+        {
+          "text": "VII Facial",
+          "category": "Mixte"
+        },
+        {
+          "text": "X Vague",
+          "category": "Mixte"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N119",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "matching",
+      "lo": "LO6",
+      "topic": "Nerfs crâniens et fonctions",
+      "bloom": "remember",
+      "difficulty": "medium",
+      "stem": "Les nerfs crâniens innervent surtout la tête et le cou ; le nerf vague fait exception.",
+      "lead_in": "Associer chaque nerf crânien à sa fonction principale.",
+      "options": [],
+      "source_slides": [
+        44
+      ],
+      "explanation": "V : sensations faciales et mastication. VII : expression faciale, goût des deux tiers antérieurs de la langue, sécrétions salivaire et lacrymale. VIII : audition et équilibre. X : organes viscéraux, déglutition, parole. XII : mouvements de la langue (slide 44).",
+      "pairs": [
+        {
+          "left": "V Trijumeau",
+          "right": "Sensations de la face et mastication"
+        },
+        {
+          "left": "VII Facial",
+          "right": "Expression du visage"
+        },
+        {
+          "left": "VIII Vestibulocochléaire",
+          "right": "Audition et équilibre"
+        },
+        {
+          "left": "X Vague",
+          "right": "Régulation des organes viscéraux"
+        },
+        {
+          "left": "XII Hypoglosse",
+          "right": "Mouvements de la langue"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N120",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "true_false",
+      "lo": "LO6",
+      "topic": "Origine des nerfs olfactif et optique",
+      "bloom": "remember",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        41
+      ],
+      "statement": "Comme les autres nerfs crâniens, les nerfs olfactif (I) et optique (II) naissent du tronc cérébral.",
+      "correct": false,
+      "rationale": "Faux. La majorité des nerfs crâniens naissent de noyaux du tronc cérébral, à l'exception des deux premiers : les nerfs olfactif et optique émergent directement des hémisphères cérébraux (slide 41)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N121",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Atteinte du cervelet",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Un patient marche en écartant les jambes et titube. Il n'arrive pas à toucher son nez du doigt avec précision, alors que sa force musculaire est normale.",
+      "lead_in": "Quelle structure est probablement atteinte ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Le cervelet",
+          "correct": true,
+          "rationale": "Correct. Le cervelet coordonne les mouvements et maintient l'équilibre ; son dysfonctionnement produit des mouvements maladroits et mal coordonnés, l'ataxie, sans perte de force (slides 46 et 47)."
+        },
+        {
+          "letter": "B",
+          "text": "Le cortex moteur primaire",
+          "correct": false,
+          "rationale": "Incorrect. Une lésion du cortex moteur entraînerait une faiblesse ou une paralysie ; ici, la force est normale."
+        },
+        {
+          "letter": "C",
+          "text": "L'hypothalamus",
+          "correct": false,
+          "rationale": "Incorrect. L'hypothalamus règle l'homéostasie (température, faim, soif), pas la coordination motrice."
+        },
+        {
+          "letter": "D",
+          "text": "Le nerf facial",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf facial commande l'expression du visage ; il n'intervient pas dans la marche."
+        }
+      ],
+      "source_slides": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N122",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "cloze",
+      "lo": "LO6",
+      "topic": "Cervelet — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description du fonctionnement du cervelet.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        46,
+        47
+      ],
+      "explanation": "Relié au tronc cérébral par trois pédoncules, le cervelet confronte la commande du cortex moteur aux informations proprioceptives, visuelles et vestibulaires, puis ajuste le mouvement. Sa lésion donne une ataxie, c'est-à-dire une incoordination, sans paralysie (slides 46 et 47).",
+      "text": "Le cervelet est attaché au tronc cérébral par trois ___. Il compare l'intention du mouvement, venue du cortex ___, avec les informations de retour : récepteurs ___ des muscles et des articulations, vision et équilibre de l'oreille interne. Il agit comme un pilote automatique ; son dysfonctionnement provoque une ___.",
+      "blanks": [
+        "pédoncules",
+        "moteur",
+        "proprioceptifs",
+        "ataxie"
+      ],
+      "distractors": [
+        "visuel",
+        "paralysie"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N123",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "diagram",
+      "lo": "LO7",
+      "topic": "Voies sensitive et motrice — schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "hard",
+      "stem": "À gauche, une information tactile monte de la peau jusqu'au cortex. À droite, un ordre moteur volontaire descend du cortex jusqu'au muscle.",
+      "lead_in": "Compléter le schéma des deux voies (les flèches suivent le sens de l'influx).",
+      "options": [],
+      "source_slides": [
+        17,
+        19,
+        38
+      ],
+      "explanation": "Voie sensitive : le récepteur de la peau envoie l'influx par un nerf sensitif ; il remonte la moelle épinière jusqu'au thalamus, qui le relaie au cortex somesthésique du lobe pariétal. Voie motrice : le mouvement volontaire naît dans le cortex moteur du lobe frontal ; l'influx descend par la capsule interne et le tronc cérébral, croise la ligne médiane dans le bulbe (décussation des pyramides), puis gagne dans la moelle les motoneurones qui activent le muscle (slides 17, 19 et 38).",
+      "distractors": [
+        "Cervelet",
+        "Hypothalamus"
+      ],
+      "nodes": [
+        {
+          "id": "som",
+          "label": "Cortex somesthésique (lobe pariétal)",
+          "x": 2,
+          "y": 2,
+          "w": 40,
+          "h": 11
+        },
+        {
+          "id": "mot",
+          "label": "Cortex moteur (lobe frontal)",
+          "x": 58,
+          "y": 2,
+          "w": 40,
+          "h": 11
+        },
+        {
+          "id": "thal",
+          "label": "Thalamus",
+          "x": 2,
+          "y": 18,
+          "w": 40,
+          "h": 10
+        },
+        {
+          "id": "caps",
+          "label": "Capsule interne",
+          "x": 58,
+          "y": 18,
+          "w": 40,
+          "h": 10
+        },
+        {
+          "id": "bulbe",
+          "label": "Bulbe : décussation des pyramides",
+          "x": 58,
+          "y": 34,
+          "w": 40,
+          "h": 11
+        },
+        {
+          "id": "moelle",
+          "label": "Moelle épinière",
+          "x": 30,
+          "y": 50,
+          "w": 40,
+          "h": 10,
+          "fixed": true
+        },
+        {
+          "id": "nsens",
+          "label": "Nerf sensitif",
+          "x": 2,
+          "y": 66,
+          "w": 40,
+          "h": 10
+        },
+        {
+          "id": "mn",
+          "label": "Motoneurone et nerf moteur",
+          "x": 58,
+          "y": 66,
+          "w": 40,
+          "h": 10
+        },
+        {
+          "id": "peau",
+          "label": "Récepteur de la peau",
+          "x": 2,
+          "y": 82,
+          "w": 40,
+          "h": 10,
+          "fixed": true
+        },
+        {
+          "id": "muscle",
+          "label": "Muscle",
+          "x": 58,
+          "y": 82,
+          "w": 40,
+          "h": 10,
+          "fixed": true
+        }
+      ],
+      "edges": [
+        [
+          "peau",
+          "nsens"
+        ],
+        [
+          "nsens",
+          "moelle"
+        ],
+        [
+          "moelle",
+          "thal"
+        ],
+        [
+          "thal",
+          "som"
+        ],
+        [
+          "mot",
+          "caps"
+        ],
+        [
+          "caps",
+          "bulbe"
+        ],
+        [
+          "bulbe",
+          "moelle"
+        ],
+        [
+          "moelle",
+          "mn"
+        ],
+        [
+          "mn",
+          "muscle"
+        ]
+      ],
+      "width": 100,
+      "height": 94,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N124",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "mcq",
+      "lo": "LO7",
+      "topic": "Perte de sensibilité après un AVC",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Après un accident vasculaire cérébral, une patiente ne sent plus le toucher sur la main gauche ; sa force est conservée.",
+      "lead_in": "Quelle région est la plus probablement touchée ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Le gyrus postcentral de l'hémisphère droit",
+          "correct": true,
+          "rationale": "Correct. Le toucher est analysé dans l'aire somesthésique primaire (gyrus postcentral, lobe pariétal), et chaque hémisphère gère surtout le côté opposé du corps : la main gauche dépend de l'hémisphère droit (slides 13, 17 et 28)."
+        },
+        {
+          "letter": "B",
+          "text": "Le gyrus postcentral de l'hémisphère gauche",
+          "correct": false,
+          "rationale": "Incorrect. C'est la bonne aire, mais du mauvais côté : les voies sensitives croisent la ligne médiane."
+        },
+        {
+          "letter": "C",
+          "text": "Le gyrus précentral de l'hémisphère droit",
+          "correct": false,
+          "rationale": "Incorrect. Le gyrus précentral est l'aire motrice primaire : sa lésion provoquerait une faiblesse, alors que la force est conservée."
+        },
+        {
+          "letter": "D",
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Une atteinte du cervelet perturbe la coordination des mouvements, pas la perception du toucher."
+        }
+      ],
+      "source_slides": [
+        13,
+        17,
+        28
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N125",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "direction",
+      "lo": "LO7",
+      "topic": "Lésion du cortex moteur et force du côté opposé",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        13,
+        17,
+        19
+      ],
+      "statement": "Le cortex moteur de l'hémisphère gauche est lésé. La force musculaire de la main droite :",
+      "correct": "down",
+      "rationale": "Diminue. La voie motrice volontaire croise la ligne médiane (décussation des pyramides, dans le bulbe) : l'hémisphère gauche commande le côté droit du corps (slides 13, 17 et 19)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N126",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "true_false",
+      "lo": "LO7",
+      "topic": "Le thalamus, relais sensitif",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        17,
+        32,
+        33
+      ],
+      "statement": "Presque toutes les informations sensorielles transitent par le thalamus avant d'atteindre le cortex.",
+      "correct": true,
+      "rationale": "Vrai. Le thalamus est la station de relais majeure : il trie les signaux sensoriels et les redirige vers les aires corticales appropriées, par exemple le toucher vers le cortex somesthésique du lobe pariétal (slides 17, 32 et 33)."
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N127",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "matching",
+      "lo": "LO7",
+      "topic": "Fibres de la substance blanche",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les axones de la substance blanche des hémisphères forment trois types de fibres.",
+      "lead_in": "Associer chaque type de fibre à ce qu'il relie.",
+      "options": [],
+      "source_slides": [
+        18,
+        19
+      ],
+      "explanation": "Les fibres commissurales, dont le corps calleux, unissent les hémisphères. Les fibres d'association relient les régions d'un même hémisphère. Les fibres de projection, groupées dans la capsule interne puis étalées en corona radiata, portent les voies ascendantes et descendantes entre le cortex et les centres inférieurs (slides 18 et 19).",
+      "pairs": [
+        {
+          "left": "Fibres commissurales (corps calleux)",
+          "right": "Relient les deux hémisphères entre eux"
+        },
+        {
+          "left": "Fibres d'association",
+          "right": "Relient des régions d'un même hémisphère"
+        },
+        {
+          "left": "Fibres de projection (capsule interne)",
+          "right": "Relient le cortex aux centres inférieurs et à la moelle"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N128",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "classify",
+      "lo": "LO7",
+      "topic": "Homoncule : taille de la représentation corticale",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Dans l'homoncule, chaque partie du corps est dessinée à la taille de la surface de cortex qui lui est consacrée.",
+      "lead_in": "Classer chaque région du corps selon la surface de cortex moteur ou sensitif qui lui correspond.",
+      "options": [],
+      "source_slides": [
+        27,
+        28
+      ],
+      "explanation": "Les régions qui exigent un contrôle moteur fin ou une sensibilité élevée, comme la main, les lèvres ou la langue, occupent une grande surface du cortex moteur (gyrus précentral) et somesthésique (gyrus postcentral). Le tronc, la hanche et la cuisse en occupent peu (slides 27 et 28).",
+      "categories": [
+        "Grande surface corticale",
+        "Petite surface corticale"
+      ],
+      "elements": [
+        {
+          "text": "Main et doigts",
+          "category": "Grande surface corticale"
+        },
+        {
+          "text": "Lèvres",
+          "category": "Grande surface corticale"
+        },
+        {
+          "text": "Langue",
+          "category": "Grande surface corticale"
+        },
+        {
+          "text": "Tronc",
+          "category": "Petite surface corticale"
+        },
+        {
+          "text": "Hanche",
+          "category": "Petite surface corticale"
+        },
+        {
+          "text": "Cuisse",
+          "category": "Petite surface corticale"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N129",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "flashcard",
+      "lo": "LO7",
+      "topic": "Homoncule",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        27,
+        28
+      ],
+      "answer": "C'est une représentation du corps sur le cortex, où chaque partie est dessinée à la taille de la surface corticale qui lui est dédiée : l'homoncule moteur sur le gyrus précentral, l'homoncule sensitif sur le gyrus postcentral. Les mains, la langue et les lèvres y sont démesurées, car leur contrôle moteur est très fin et leur sensibilité extrême (slides 27 et 28).",
+      "prompt": "Qu'est-ce que l'homoncule moteur ou sensitif, et que montre-t-il ?"
+    },
+    {
+      "id": "SPHANASN-partie2-web-v1-N130",
+      "batch": "SPHANASN-partie2-web-v1",
+      "type": "cloze",
+      "lo": "LO7",
+      "topic": "Voies sensitives et motrices — texte à trous",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description des voies qui relient l'encéphale au corps.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        13,
+        17,
+        19
+      ],
+      "explanation": "Voies ascendantes : sensitives, vers le thalamus puis le cortex somesthésique du lobe pariétal. Voies descendantes : motrices ; la voie pyramidale part du cortex moteur du lobe frontal et croise dans le bulbe. D'où le contrôle controlatéral : l'hémisphère gauche commande le côté droit (slides 13, 17 et 19).",
+      "text": "Les voies sensitives sont ___ : elles montent des récepteurs vers le cerveau. Les voies motrices sont ___ : elles descendent du cerveau vers les muscles. La voie motrice volontaire, dite voie ___, naît dans le cortex moteur du lobe ___. Comme les voies croisent la ligne médiane, chaque hémisphère commande surtout le côté ___ du corps.",
+      "blanks": [
+        "ascendantes",
+        "descendantes",
+        "pyramidale",
+        "frontal",
+        "opposé"
+      ],
+      "distractors": [
+        "pariétal",
+        "même"
+      ]
+    }
+  ],
+  "course_id": "neuro"
+}

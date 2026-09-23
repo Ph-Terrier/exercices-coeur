@@ -1,6 +1,9 @@
 /* Site d'exercices quiz_generator (application statique, sans serveur).
-   Produced by: written by the orchestrating model, Claude Fable 5.1, 2026-09-22.
-   Données : data/exercices.json produit par R/04_export_web.R depuis le YAML pivot.
+   Produced by: written by the orchestrating model, Claude Fable 5.1, 2026-09-22 ;
+   multi-course home page and hash routing added by the orchestrating model
+   Claude Opus 5.5, 2026-09-23.
+   Données : data/courses.json (index des cours) et data/<cours>.json, produits par
+   R/04_export_web.R depuis le YAML pivot. Adresses : #/ (accueil), #/<cours>.
    Types d'exercice : mcq, true_false, direction, numeric, steps, ordering, matching,
    classify, cloze, diagram, flashcard (voir schema/qcm_schema.yaml).
    Aucune donnée personnelle n'est envoyée ; la progression reste dans localStorage. */
@@ -10,7 +13,7 @@
   // build stamp written by scripts/deploy_site.sh into <meta name="build">, so that a
   // new deployment fetches fresh data instead of a cached copy (GitHub Pages: max-age 600 s)
   const BUILD = (document.querySelector('meta[name="build"]') || {}).content || "dev";
-  const DATA_URL = "data/exercices.json?b=" + BUILD;
+  const COURSES_URL = "data/courses.json?b=" + BUILD;
   const STORE_KEY = "quiz_generator_progress_v1";
   const SERIES_SIZE = 10;
   const TYPE_LABELS = {
@@ -29,17 +32,81 @@
   const DIRECTION_LABELS = { up: "Augmente", down: "Diminue", same: "Ne change pas" };
   const SVG_NS = "http://www.w3.org/2000/svg";
 
-  let data = null;
+  let courses = [];      // index of the courses (data/courses.json)
+  let data = null;       // data of the current course
+  const cache = {};      // course id -> course data
   let progress = loadProgress();
   let session = null; // {items, index, answers: [{id, correct}], title}
 
   const $ = (id) => document.getElementById(id);
-  const views = ["home", "quiz", "results", "about"];
+  const views = ["landing", "home", "quiz", "results", "about"];
+  let currentView = "landing";
 
   function show(view) {
     views.forEach((v) => { $("view-" + v).hidden = v !== view; });
+    if (view !== "about") currentView = view;
     window.scrollTo(0, 0);
   }
+
+  // ---------- Page d'accueil : choix du cours ----------
+  const ICONS = {
+    coeur: '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41s-15-9.2-15-20.2C9 14.9 13.4 11 18.3 11c2.6 0 4.6 1.2 5.7 3.1C25.1 12.2 27.1 11 29.7 11 34.6 11 39 14.9 39 20.8 39 31.8 24 41 24 41z"/><path class="pulse" d="M9 25h8l3-6 4 11 3-7 2 2h10"/></svg>',
+    neuro: '<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="15" cy="20" r="6"/><path d="M11 15l-5-6M10 22l-6 2M14 26l-3 7M19 15l2-7"/><path d="M21 21c6 1 10 3 13 7s5 6 9 7"/><path d="M37 32l3-4M40 36l5-1M41 36l2 5"/><path class="myelin" d="M24 22.5l4 1.6M30 25.5l3 2.6"/></svg>'
+  };
+  function acquiredCount(course) {
+    return Object.keys(progress).filter((id) => id.indexOf(course.code + "-") === 0 && progress[id].correct > 0).length;
+  }
+  function renderLanding() {
+    document.title = "Exercices d'entraînement · HE-Arc Santé";
+    $("top-course").textContent = "";
+    const box = $("course-cards");
+    box.innerHTML = "";
+    courses.forEach((c) => {
+      const a = document.createElement("a");
+      a.className = "course-card c-" + c.id;
+      a.href = "#/" + c.id;
+      const done = acquiredCount(c);
+      a.innerHTML =
+        '<div class="cc-band">' + (ICONS[c.id] || "") + '<span class="cc-code"></span></div>' +
+        '<div class="cc-body"><h3></h3><p class="cc-desc"></p><ul class="cc-parts"></ul>' +
+        '<div class="cc-meta"><span class="cc-count"></span><span class="cc-done"></span></div>' +
+        '<div class="track"><div class="fill"></div></div>' +
+        '<span class="cc-go"></span></div>';
+      a.querySelector(".cc-code").textContent = c.code;
+      a.querySelector("h3").textContent = c.title;
+      a.querySelector(".cc-desc").textContent = c.description || "";
+      const ul = a.querySelector(".cc-parts");
+      (c.parts || []).forEach((p) => {
+        const li = document.createElement("li");
+        li.textContent = p.name + " · " + p.n_items + " exercices";
+        ul.appendChild(li);
+      });
+      a.querySelector(".cc-count").textContent = c.n_items + " exercices · " + c.n_formats + " formats";
+      a.querySelector(".cc-done").textContent = done ? done + " acquis" : "";
+      a.querySelector(".fill").style.width = (c.n_items ? 100 * done / c.n_items : 0) + "%";
+      a.querySelector(".cc-go").textContent = done ? "Continuer →" : "Commencer →";
+      box.appendChild(a);
+    });
+    show("landing");
+  }
+
+  // ---------- Routage (#/ et #/<cours>) ----------
+  function loadCourse(id) {
+    if (cache[id]) return Promise.resolve(cache[id]);
+    const c = courses.find((x) => x.id === id);
+    if (!c) return Promise.reject(new Error("cours inconnu : " + id));
+    return fetch(c.file + "?b=" + BUILD)
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then((json) => { cache[id] = json; return json; });
+  }
+  function route() {
+    const id = (location.hash.match(/^#\/([\w-]+)/) || [])[1];
+    if (!id) { data = null; renderLanding(); return; }
+    loadCourse(id)
+      .then((json) => { data = json; renderHome(); show("home"); })
+      .catch(() => { location.hash = "#/"; });
+  }
+  function goCourseHome() { renderHome(); show("home"); }
 
   // ---------- Progression ----------
   function loadProgress() {
@@ -107,8 +174,10 @@
 
   // ---------- Accueil ----------
   function renderHome() {
+    document.title = data.site_title + " · exercices";
+    $("top-course").textContent = data.site_title;
     $("site-title").textContent = data.site_title;
-    $("site-sub").textContent = data.course + " · " + data.program + " · " + data.institution;
+    $("site-sub").textContent = data.course + " · " + data.program + " · " + data.institution + " · cohorte " + data.cohort;
     const cards = $("series-cards");
     cards.innerHTML = "";
     const parts = [];
@@ -591,7 +660,8 @@
 
   // ----- Schéma à compléter -----
   function wrapLabel(text, maxChars) {
-    const words = String(text).split(" ");
+    // keep a parenthetical group on one line when it fits (post-generation fix by Claude Opus 5.5, 2026-09-23)
+    const words = String(text).match(/\([^)]*\)|\S+/g) || [];
     const lines = [];
     let cur = "";
     words.forEach((w) => {
@@ -810,30 +880,41 @@
 
   // ---------- À propos ----------
   function renderAbout() {
-    $("about-course").textContent = data.course + " · " + data.program + ", " + data.institution + " · cohorte " + data.cohort + ".";
-    $("about-provenance").textContent = data.produced_by + (data.copyright ? " " + data.copyright : "");
+    if (!data) {
+      $("about-course").textContent = "Cours disponibles : " + courses.map((c) => c.title + " (" + c.code + ", " + c.n_items + " exercices)").join(" ; ") + ".";
+      $("about-provenance").textContent = "";
+      $("about-version").textContent = courses.length ? "Site mis à jour le " + courses.map((c) => c.generated_at).sort().pop() + "." : "";
+      return;
+    }
+    $("about-course").textContent = data.site_title + " : cours " + data.course + ", " + data.program + ", " + data.institution + ", cohorte " + data.cohort + ".";
+    $("about-provenance").textContent = data.produced_by;
     const lots = data.batches.map((b) => b.id + " (" + b.n_items + " exercices, généré le " + b.generated + ")").join(" ; ");
-    $("about-version").textContent = "Lots : " + lots + ". Site mis à jour le " + data.generated_at + ".";
-    $("foot-inst").textContent = data.copyright || (data.institution + " · " + data.program);
+    $("about-version").textContent = "Lots : " + lots + ". Mis à jour le " + data.generated_at + ".";
   }
 
   // ---------- Init ----------
   function init() {
-    $("btn-home").addEventListener("click", () => { renderHome(); show("home"); });
     $("btn-about").addEventListener("click", () => { renderAbout(); show("about"); });
-    $("btn-next").addEventListener("click", next);
-    $("btn-quit").addEventListener("click", () => { renderHome(); show("home"); });
-    $("btn-new-series").addEventListener("click", () => { renderHome(); show("home"); });
-    $("btn-reset").addEventListener("click", () => {
-      if (window.confirm("Effacer la progression enregistrée sur cet appareil ?")) {
-        progress = {}; saveProgress(); renderProgress();
-      }
+    $("btn-about-back").addEventListener("click", () => {
+      if (currentView === "landing" || !data) renderLanding();
+      else if (currentView === "home") goCourseHome();
+      else show(currentView);
     });
-    fetch(DATA_URL)
+    $("btn-next").addEventListener("click", next);
+    $("btn-quit").addEventListener("click", goCourseHome);
+    $("btn-new-series").addEventListener("click", goCourseHome);
+    $("btn-reset").addEventListener("click", () => {
+      if (!data || !window.confirm("Effacer la progression de ce cours enregistrée sur cet appareil ?")) return;
+      data.items.forEach((it) => { delete progress[it.id]; });
+      saveProgress(); renderHome();
+    });
+    window.addEventListener("hashchange", route);
+    fetch(COURSES_URL)
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then((json) => { data = json; document.title = data.site_title; renderAbout(); renderHome(); show("home"); })
+      .then((json) => { courses = json.courses || []; route(); })
       .catch((e) => {
-        $("view-home").innerHTML = "<h1>Chargement impossible</h1><p>Les données du site n'ont pas pu être lues (" + esc(e.message) + ").</p>";
+        $("view-landing").innerHTML = "<h1>Chargement impossible</h1><p>Les données du site n'ont pas pu être lues (" + esc(e.message) + ").</p>";
+        show("landing");
       });
   }
   document.addEventListener("DOMContentLoaded", init);
