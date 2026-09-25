@@ -4,97 +4,134 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Exercices d'entraînement · HE-Arc Santé</title>
-<meta name="description" content="Exercices d'entraînement pour le bachelor en soins infirmiers de la HE-Arc Santé : cœur et circulation, système nerveux.">
-<meta name="build" content="20260923134811">
-<link rel="stylesheet" href="style.css?b=20260923134811">
+<meta name="description" content="Exercices d'entraînement de la HE-Arc Santé, à Neuchâtel, pour l'Année propédeutique santé (APS) et le Bachelor en soins infirmiers. Correction expliquée après chaque réponse.">
+<meta name="build" content="20260925081730">
+<link rel="stylesheet" href="style.css?b=20260925081730">
 </head>
 <!-- Site d'exercices quiz_generator. Produced by: written by the orchestrating model,
      Claude Fable 5.1, 2026-09-22 ; multi-course home page added by the orchestrating
-     model Claude Opus 5.5, 2026-09-23. Logo cropped from the HE-Arc slide master. -->
+     model Claude Opus 5.5, 2026-09-23. Logo cropped from the HE-Arc slide master.
+     modified by a sub-agent (Claude Opus 5.5, site-shell implementer), 2026-09-24:
+     skip link, <main id="contenu"> without aria-live, #sr-status, audience chooser on
+     the home page, audience page (view-audience), breadcrumbs, restructured course page
+     (Commencer, parts, details), "À propos" as a link, texts and meta description of
+     docs/site_design_2026-09-24.md (sections 4, 6.1, 7.1 to 7.5).
+     post-generation fix by the orchestrating model (Claude Opus 5.5), 2026-09-24:
+     view-landing hidden until route() has chosen the view, so a direct course link
+     (QR code #/cellule) no longer flashes the empty home page first. -->
 <body>
+<a class="skip-link" id="skip-link" href="#contenu">Aller au contenu</a>
 <header class="top">
-  <a class="brand" id="btn-landing" href="#/" aria-label="Accueil : choisir un cours">
-    <img src="img/logo-he-arc-sante.png?b=20260923134811" alt="Haute École Arc Santé" width="211" height="40">
+  <a class="brand" id="btn-landing" href="#/" aria-label="Accueil : choisir la formation">
+    <img src="img/logo-he-arc-sante.png?b=20260925081730" alt="Haute École Arc Santé" width="211" height="40">
   </a>
-  <nav class="top-nav">
+  <nav class="top-nav" aria-label="Site">
     <span id="top-course" class="top-course"></span>
-    <button class="link" id="btn-about" aria-label="À propos">À propos</button>
+    <a class="top-link" id="link-about" href="#/a-propos">À propos</a>
   </nav>
 </header>
 
-<main id="app" aria-live="polite">
-  <!-- Accueil : choix du cours -->
-  <section id="view-landing" class="view">
+<p id="sr-status" class="sr-only" role="status"></p>
+
+<main id="contenu" tabindex="-1">
+  <!-- Accueil : choix de la formation -->
+  <section id="view-landing" class="view" hidden>
     <div class="hero">
-      <p class="eyebrow">Bachelor en soins infirmiers · HE-Arc Santé Neuchâtel</p>
-      <h1>Exercices d'entraînement</h1>
+      <p class="eyebrow">HE-Arc Santé · Neuchâtel</p>
+      <h1 tabindex="-1">Exercices d'entraînement</h1>
       <p class="lead">Des exercices courts pour revoir le cours à votre rythme, avec une correction expliquée après chaque réponse.</p>
     </div>
-    <h2>Choisir un cours</h2>
-    <div class="course-cards" id="course-cards"></div>
+    <p id="route-msg" class="notice" role="status" hidden></p>
+    <a id="resume" class="resume-card" href="#/" hidden></a>
+    <h2>Choisir votre formation</h2>
+    <div id="aud-panels" class="aud-panels"></div>
     <div class="how">
-      <div class="how-item"><span class="how-num">1</span><p><strong>Choisissez une série</strong> : par partie du cours, par objectif ou par type d'exercice.</p></div>
-      <div class="how-item"><span class="how-num">2</span><p><strong>Répondez</strong> : QCM, calculs, schémas à compléter, textes à trous, cartes mémoire…</p></div>
-      <div class="how-item"><span class="how-num">3</span><p><strong>Lisez la correction</strong> : chaque réponse renvoie aux slides du cours.</p></div>
+      <div class="how-item"><span class="how-num" aria-hidden="true">1</span><p><strong>Choisissez une série</strong> : par partie du cours, par objectif ou par type d'exercice.</p></div>
+      <div class="how-item"><span class="how-num" aria-hidden="true">2</span><p><strong>Répondez</strong> : QCM, calculs, schémas à compléter, textes à trous, cartes mémoire…</p></div>
+      <div class="how-item"><span class="how-num" aria-hidden="true">3</span><p><strong>Lisez la correction</strong> : chaque réponse renvoie aux slides du cours.</p></div>
     </div>
     <p class="muted small center">Aucune donnée n'est collectée : votre progression reste sur cet appareil.</p>
   </section>
 
-  <!-- Accueil d'un cours -->
+  <!-- Page d'un public (APS, Bachelor) -->
+  <section id="view-audience" class="view" hidden>
+    <nav class="breadcrumb" aria-label="Fil d'Ariane"><ol id="aud-crumbs"></ol></nav>
+    <p id="aud-chip" class="aud-chip" aria-hidden="true"></p>
+    <h1 id="aud-title" tabindex="-1"></h1>
+    <p class="lead" id="aud-lead"></p>
+    <div id="aud-courses"></div>
+    <p class="aud-exit"><a href="#/">Vous suivez une autre formation ? Revenir au choix de la formation</a></p>
+  </section>
+
+  <!-- Page d'un cours -->
   <section id="view-home" class="view" hidden>
-    <a class="back" href="#/">← Tous les cours</a>
-    <h1 id="site-title">Exercices</h1>
+    <nav class="breadcrumb" aria-label="Fil d'Ariane"><ol id="course-crumbs"></ol></nav>
+    <p id="course-chip" class="aud-chip"></p>
+    <h1 id="site-title" tabindex="-1">Exercices</h1>
     <p class="lead" id="site-sub"></p>
-    <h2>Choisir une série</h2>
-    <div class="cards" id="series-cards"></div>
+    <h2>Commencer</h2>
+    <div class="start" id="start-box">
+      <button type="button" id="btn-resume-series" class="primary resume-series" hidden></button>
+      <button type="button" id="btn-recommended" class="series series-main"><span class="name"></span><span class="desc"></span></button>
+      <button type="button" id="btn-weak" class="series" hidden><span class="name"></span><span class="desc"></span></button>
+    </div>
+    <h2>Par partie du cours</h2>
+    <div id="parts" class="parts"></div>
+    <details class="by-format" id="by-format">
+      <summary id="by-format-summary">Par format d'exercice</summary>
+      <div class="cards" id="format-cards"></div>
+    </details>
+    <p class="all-line"><button type="button" id="btn-all" class="secondary">Tous les exercices</button></p>
     <h2>Ma progression</h2>
     <p class="muted">Enregistrée uniquement sur cet appareil. Un exercice est acquis quand il a été réussi au moins une fois.</p>
     <div id="progress"></div>
-    <p class="muted small" id="reset-line"><button class="link" id="btn-reset">Effacer ma progression pour ce cours</button></p>
+    <p class="muted small" id="reset-line"><button type="button" class="link" id="btn-reset">Effacer ma progression pour ce cours</button></p>
   </section>
 
   <!-- Exercice -->
   <section id="view-quiz" class="view" hidden>
     <div class="quiz-head">
+      <h1 id="quiz-title" class="quiz-title" tabindex="-1"></h1>
+      <button type="button" id="btn-quit" class="link quit">Quitter la série</button>
+    </div>
+    <div class="quiz-meta">
       <span id="quiz-counter" class="counter"></span>
       <span class="chips"><span id="quiz-type" class="chip type"></span><span id="quiz-lo" class="chip"></span></span>
     </div>
     <div class="progressbar" aria-hidden="true"><div id="quiz-bar"></div></div>
-    <article class="card question">
+    <article class="card question" id="q-article">
       <p id="q-stem" class="stem"></p>
-      <h2 id="q-lead" class="lead-in"></h2>
-      <div id="q-options" class="options" role="group" aria-label="Réponses"></div>
-      <div id="q-feedback" class="feedback" hidden></div>
+      <h2 id="q-lead" class="lead-in" tabindex="-1"></h2>
+      <div id="q-options" class="options" role="group" aria-labelledby="q-lead"></div>
+      <div id="q-feedback" class="feedback" tabindex="-1" hidden></div>
       <div class="actions">
-        <button id="btn-next" class="primary" hidden>Suivant</button>
-        <button id="btn-quit" class="link">Quitter la série</button>
+        <button type="button" id="btn-next" class="primary" hidden>Suivant</button>
       </div>
     </article>
   </section>
 
   <!-- Résultats -->
   <section id="view-results" class="view" hidden>
-    <h1>Résultat</h1>
+    <h1 tabindex="-1">Résultat</h1>
     <p class="score" id="res-score"></p>
     <div id="res-by-lo"></div>
     <h2>Exercices à revoir</h2>
     <ul id="res-missed" class="missed"></ul>
     <div class="actions">
-      <button id="btn-replay-missed" class="primary">Rejouer les exercices manqués</button>
-      <button id="btn-new-series" class="secondary">Nouvelle série</button>
+      <button type="button" id="btn-replay-missed" class="primary">Rejouer les exercices manqués</button>
+      <button type="button" id="btn-new-series" class="secondary">Nouvelle série</button>
     </div>
   </section>
 
   <!-- À propos -->
   <section id="view-about" class="view" hidden>
-    <h1>À propos</h1>
-    <p>Ce site propose des exercices d'entraînement pour les étudiantes et étudiants du bachelor en soins infirmiers de la HE-Arc Santé, à Neuchâtel. Chaque exercice est rattaché à un objectif d'apprentissage du cours et renvoie aux slides qui le fondent. Après chaque réponse, une explication est donnée, avec la correction pas à pas pour les calculs.</p>
+    <h1 tabindex="-1">À propos</h1>
+    <p>Ce site propose des exercices d'entraînement aux étudiantes et étudiants de la HE-Arc Santé, à Neuchâtel, dans deux formations : l'Année propédeutique santé (APS) et le Bachelor en soins infirmiers. Chaque exercice est rattaché à un objectif d'apprentissage du cours et renvoie aux slides qui le fondent. Après chaque réponse, une explication est donnée, avec la correction pas à pas pour les calculs.</p>
     <p>Les séries tirent les exercices au hasard : refaire une série plusieurs jours de suite est la façon la plus efficace de retenir.</p>
-    <p id="about-course"></p>
-    <p id="about-provenance"></p>
+    <div id="about-courses"></div>
     <p>Aucune donnée n'est envoyée ni collectée. La progression reste dans la mémoire du navigateur de cet appareil.</p>
     <p class="muted small" id="about-version"></p>
-    <p><button class="secondary" id="btn-about-back">Retour</button></p>
+    <p><button type="button" class="secondary" id="btn-about-back">Retour</button></p>
   </section>
 </main>
 
@@ -102,6 +139,6 @@
   <span id="foot-inst">© HE-Arc Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.</span>
 </footer>
 
-<script src="app.js?b=20260923134811"></script>
+<script src="app.js?b=20260925081730"></script>
 </body>
 </html>

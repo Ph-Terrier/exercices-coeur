@@ -1,10 +1,37 @@
 {
-  "generated_at": "2026-09-23",
+  "schema_version": 2,
+  "generated_at": "2026-09-25",
+  "audiences": [
+    {
+      "id": "aps",
+      "order": 1,
+      "label": "Année propédeutique santé (APS)",
+      "short_label": "APS",
+      "chip": "Année propédeutique santé (APS)",
+      "program_label": "Année propédeutique santé (APS)",
+      "description": "Année préparatoire à une formation HES du domaine de la santé.",
+      "has_years": false
+    },
+    {
+      "id": "bachelor",
+      "order": 2,
+      "label": "Bachelor en soins infirmiers",
+      "short_label": "Bachelor",
+      "chip": "Bachelor en soins infirmiers",
+      "program_label": "Bachelor of Science HES-SO en Soins infirmiers",
+      "description": "Cours du bachelor, classés par année d'études.",
+      "has_years": true
+    }
+  ],
   "courses": [
     {
       "id": "coeur",
+      "audience": "aps",
+      "year": null,
       "title": "Cœur et circulation",
+      "short_title": "Cœur et circulation",
       "code": "SPHANACR",
+      "cohort": "APS 2026-27",
       "description": "Structure du cœur, parcours du sang, cycle cardiaque, vaisseaux et pression artérielle.",
       "file": "data/coeur.json",
       "n_items": 93,
@@ -19,12 +46,18 @@
           "n_items": 45
         }
       ],
-      "generated_at": "2026-09-23"
+      "status": "partiel",
+      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Fable 5.1, sous la direction de l'auteur, Philippe Terrier ; une partie des lots est validée par l'auteur, les autres sont en cours de relecture.",
+      "generated_at": "2026-09-24"
     },
     {
       "id": "neuro",
+      "audience": "aps",
+      "year": null,
       "title": "Le système nerveux",
+      "short_title": "Le système nerveux",
       "code": "SPHANASN",
+      "cohort": "APS 2026-27",
       "description": "Neurones, influx nerveux et synapses ; structures du système nerveux central et grandes voies.",
       "file": "data/neuro.json",
       "n_items": 65,
@@ -39,7 +72,39 @@
           "n_items": 30
         }
       ],
-      "generated_at": "2026-09-23"
+      "status": "en_relecture",
+      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5, sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
+      "generated_at": "2026-09-24"
+    },
+    {
+      "id": "cellule",
+      "audience": "bachelor",
+      "year": 1,
+      "title": "Physiologie appliquée : la cellule, métabolisme et nutrition",
+      "short_title": "La cellule, métabolisme et nutrition",
+      "code": "FO11PACE",
+      "cohort": "BACH26 (2026-27)",
+      "description": "La cellule, sa membrane et l'influx nerveux ; développement, vieillissement et mort cellulaire ; métabolisme et nutrition en soins infirmiers.",
+      "file": "data/cellule.json",
+      "n_items": 70,
+      "n_formats": 15,
+      "parts": [
+        {
+          "name": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+          "n_items": 24
+        },
+        {
+          "name": "Partie 2 : développement, vieillissement et mort cellulaire, stress oxydatif",
+          "n_items": 22
+        },
+        {
+          "name": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+          "n_items": 24
+        }
+      ],
+      "status": "valide",
+      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; relus et validés par l'auteur.",
+      "generated_at": "2026-09-25"
     }
   ]
 }

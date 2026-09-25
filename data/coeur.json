@@ -1,10 +1,10 @@
 {
   "site_title": "Cœur et circulation",
   "course": "SPHANACR",
-  "program": "Bachelor en Sciences Infirmières",
+  "program": "Année propédeutique santé (APS)",
   "institution": "HE-ARC Neuchâtel",
   "cohort": "APS 2026-27",
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-24",
   "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Fable 5.1, sous la direction de l'auteur, Philippe Terrier ; une partie des lots est validée par l'auteur, les autres sont en cours de relecture.",
   "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
   "batches": [
@@ -3255,5 +3255,7 @@
       "rationale": "Vrai. Les capillaires n'ont qu'une tunique interne : une couche de cellules endothéliales sur une membrane basale, avec des fentes et des pores. Cette paroi mince permet les échanges d'oxygène, de dioxyde de carbone et de nutriments avec les tissus (slide 56)."
     }
   ],
-  "course_id": "coeur"
+  "course_id": "coeur",
+  "audience": "aps",
+  "year": null
 }

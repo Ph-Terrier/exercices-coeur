@@ -1,0 +1,3217 @@
+{
+  "site_title": "Physiologie appliquée : la cellule, métabolisme et nutrition",
+  "course": "FO11PACE",
+  "program": "Bachelor of Science HES-SO en Soins infirmiers",
+  "institution": "HE-ARC Neuchâtel",
+  "cohort": "BACH26 (2026-27)",
+  "generated_at": "2026-09-25",
+  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; relus et validés par l'auteur.",
+  "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
+  "batches": [
+    {
+      "id": "FO11PACE-partie1-web-v2",
+      "part": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+      "title": "Physiologie appliquée : la cellule, métabolisme et nutrition",
+      "scope": "Partie 1 du cours, slides P1-01 à P1-23 ; exercices à formats variés pour le site web, dont les quatre nouveaux types (two_tier, case, error_spot, short_answer)",
+      "n_items": 24,
+      "generated": "2026-09-24",
+      "model": "claude-opus-5-5",
+      "approved": "Philippe Terrier, 2026-09-25, validation en chat après test local de tous les modules du site (« j'ai testé tous les modules et c'est OK ») ; W317 reformulé à sa demande le même jour"
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2",
+      "part": "Partie 2 : développement, vieillissement et mort cellulaire, stress oxydatif",
+      "title": "Physiologie appliquée : la cellule, métabolisme et nutrition",
+      "scope": "Partie 2 du cours, slides P2-01 à P2-19 ; exercices à formats variés pour le site web, dont les quatre types ajoutés le 2026-09-24",
+      "n_items": 22,
+      "generated": "2026-09-24",
+      "model": "claude-opus-5-5",
+      "approved": "Philippe Terrier, 2026-09-25, validation en chat après test local de tous les modules du site (« j'ai testé tous les modules et c'est OK ») ; W317 reformulé à sa demande le même jour"
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2",
+      "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+      "title": "Physiologie appliquée : la cellule, métabolisme et nutrition",
+      "scope": "Partie 3 du cours, slides P3-01 à P3-24 ; exercices à formats variés pour le site web, dont les quatre types ajoutés le 2026-09-24 (two_tier, case, error_spot, short_answer)",
+      "n_items": 24,
+      "generated": "2026-09-24",
+      "model": "claude-opus-5-5",
+      "approved": "Philippe Terrier, 2026-09-25, validation en chat après test local de tous les modules du site (« j'ai testé tous les modules et c'est OK ») ; W317 reformulé à sa demande le même jour"
+    }
+  ],
+  "learning_objectives": [
+    {
+      "id": "LO1",
+      "short_title": "Organisation de la cellule et fonctions des organites",
+      "part": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+      "n_items": 4
+    },
+    {
+      "id": "LO2",
+      "short_title": "Cytosquelette",
+      "part": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+      "n_items": 2
+    },
+    {
+      "id": "LO3",
+      "short_title": "Transport membranaire passif et actif",
+      "part": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+      "n_items": 7
+    },
+    {
+      "id": "LO4",
+      "short_title": "Pompe Na+-K+ et volume cellulaire",
+      "part": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+      "n_items": 4
+    },
+    {
+      "id": "LO5",
+      "short_title": "Neurone, potentiel de repos et potentiel d'action",
+      "part": "Partie 1 : la cellule, la membrane et l'influx nerveux",
+      "n_items": 7
+    },
+    {
+      "id": "LO6",
+      "short_title": "Développement cellulaire",
+      "part": "Partie 2 : développement, vieillissement et mort cellulaire, stress oxydatif",
+      "n_items": 7
+    },
+    {
+      "id": "LO7",
+      "short_title": "Vieillissement cellulaire",
+      "part": "Partie 2 : développement, vieillissement et mort cellulaire, stress oxydatif",
+      "n_items": 5
+    },
+    {
+      "id": "LO8",
+      "short_title": "Mort cellulaire",
+      "part": "Partie 2 : développement, vieillissement et mort cellulaire, stress oxydatif",
+      "n_items": 5
+    },
+    {
+      "id": "LO9",
+      "short_title": "Stress oxydatif",
+      "part": "Partie 2 : développement, vieillissement et mort cellulaire, stress oxydatif",
+      "n_items": 5
+    },
+    {
+      "id": "LO10",
+      "short_title": "ATP et respiration cellulaire",
+      "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+      "n_items": 7
+    },
+    {
+      "id": "LO11",
+      "short_title": "Nutriments : glucides, lipides, protéines ; macro et micronutriments",
+      "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+      "n_items": 5
+    },
+    {
+      "id": "LO12",
+      "short_title": "Besoins nutritionnels et alimentation équilibrée",
+      "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+      "n_items": 7
+    },
+    {
+      "id": "LO13",
+      "short_title": "Nutrition en soins infirmiers",
+      "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+      "n_items": 5
+    }
+  ],
+  "items": [
+    {
+      "id": "FO11PACE-partie1-web-v2-W101",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "matching",
+      "lo": "LO1",
+      "topic": "Organites développés selon l'activité de la cellule",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Chaque type de cellule possède en abondance les organites qui servent à son activité principale.",
+      "lead_in": "Associer chaque cellule, décrite par son activité, à l'organite particulièrement développé chez elle.",
+      "options": [],
+      "source_slides": [
+        "P1-03",
+        "P1-13"
+      ],
+      "explanation": "RE rugueux : ses ribosomes synthétisent les protéines exportées, comme les anticorps des plasmocytes. Mitochondries : respiration aérobie, qui fournit la plus grande partie de l'ATP. Lysosomes : enzymes digestives qui dégradent les bactéries phagocytées. Peroxysomes : la catalase transforme le H2O2 en eau. RE lisse : synthèse des lipides et des stéroïdes (slide P1-03 et notes de l'orateur ; phagocytose : slide P1-13).",
+      "pairs": [
+        {
+          "left": "Plasmocyte qui produit en grande quantité des anticorps, protéines exportées",
+          "right": "Réticulum endoplasmique rugueux"
+        },
+        {
+          "left": "Fibre musculaire qui consomme beaucoup d'ATP",
+          "right": "Mitochondries"
+        },
+        {
+          "left": "Macrophage qui digère les bactéries qu'il a englobées",
+          "right": "Lysosomes"
+        },
+        {
+          "left": "Cellule du foie qui transforme le peroxyde d'hydrogène (H2O2) en eau",
+          "right": "Peroxysomes"
+        },
+        {
+          "left": "Cellule endocrine qui fabrique des hormones stéroïdes",
+          "right": "Réticulum endoplasmique lisse"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W102",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "diagram",
+      "lo": "LO1",
+      "topic": "Voie de fabrication et d'expédition des protéines : schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une protéine fabriquée par la cellule passe par plusieurs organites avant d'atteindre sa destination finale.",
+      "lead_in": "Compléter le schéma de la voie de fabrication et d'expédition des protéines. Les trois destinations du bas peuvent être placées dans n'importe quel ordre.",
+      "options": [],
+      "source_slides": [
+        "P1-03"
+      ],
+      "explanation": "Le noyau fournit la recette : le gène est copié en ARN messager. Les ribosomes fixés au RE rugueux assemblent la protéine, que le RE rugueux replie. L'appareil de Golgi la modifie, la trie et l'emballe dans des vésicules. Ces vésicules ont trois destinations : la sécrétion par exocytose, la membrane plasmique et les lysosomes (slide P1-03 et notes de l'orateur).",
+      "distractors": [
+        "Mitochondrie",
+        "Peroxysome",
+        "RE lisse"
+      ],
+      "nodes": [
+        {
+          "id": "noyau",
+          "label": "Noyau : le gène est copié en ARN messager",
+          "x": 15,
+          "y": 1,
+          "w": 70,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "rer",
+          "label": "RE rugueux et ribosomes",
+          "x": 25,
+          "y": 16,
+          "w": 50,
+          "h": 8
+        },
+        {
+          "id": "golgi",
+          "label": "Appareil de Golgi",
+          "x": 25,
+          "y": 30,
+          "w": 50,
+          "h": 8
+        },
+        {
+          "id": "sec",
+          "label": "Exocytose (sécrétion)",
+          "x": 1,
+          "y": 48,
+          "w": 30,
+          "h": 10,
+          "group": "destinations"
+        },
+        {
+          "id": "mem",
+          "label": "Membrane plasmique",
+          "x": 35,
+          "y": 48,
+          "w": 30,
+          "h": 10,
+          "group": "destinations"
+        },
+        {
+          "id": "lys",
+          "label": "Lysosome",
+          "x": 69,
+          "y": 48,
+          "w": 30,
+          "h": 10,
+          "group": "destinations"
+        }
+      ],
+      "edges": [
+        [
+          "noyau",
+          "rer"
+        ],
+        [
+          "rer",
+          "golgi"
+        ],
+        [
+          "golgi",
+          "sec"
+        ],
+        [
+          "golgi",
+          "mem"
+        ],
+        [
+          "golgi",
+          "lys"
+        ]
+      ],
+      "width": 100,
+      "height": 60,
+      "edge_style": "elbow"
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W103",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "true_false",
+      "lo": "LO1",
+      "topic": "Globule rouge mature et production d'ATP",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-03"
+      ],
+      "statement": "Le globule rouge mature n'a pas de mitochondries : il ne peut donc produire aucun ATP.",
+      "correct": false,
+      "rationale": "Faux. Les mitochondries produisent la plus grande partie de l'ATP de la cellule. Le globule rouge mature, sans noyau ni mitochondrie, tire son ATP de la glycolyse, traitée en partie 3 (slide P1-03, notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W104",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "classify",
+      "lo": "LO2",
+      "topic": "Les trois familles de filaments du cytosquelette",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Le cytosquelette comprend trois familles de filaments protéiques, qui diffèrent par leur épaisseur et leur rôle.",
+      "lead_in": "Classer chaque rôle ou exemple selon la famille de filaments concernée.",
+      "options": [],
+      "source_slides": [
+        "P1-04"
+      ],
+      "explanation": "Microfilaments d'actine (environ 7 nm) : mouvements cellulaires, contraction avec la myosine, microvillosités. Filaments intermédiaires (environ 10 nm, par ex. kératine) : résistance à la traction, maintien de la forme, jonctions entre cellules. Microtubules (environ 25 nm) : rails de transport, cils, fuseau de division ; la vincristine et les taxanes agissent sur eux (slide P1-04 et notes de l'orateur).",
+      "categories": [
+        "Microfilaments (actine)",
+        "Filaments intermédiaires",
+        "Microtubules"
+      ],
+      "elements": [
+        {
+          "text": "Contraction de la cellule musculaire, avec la myosine",
+          "category": "Microfilaments (actine)"
+        },
+        {
+          "text": "Forme des microvillosités à la surface de la cellule",
+          "category": "Microfilaments (actine)"
+        },
+        {
+          "text": "Résistance de la cellule aux forces de traction",
+          "category": "Filaments intermédiaires"
+        },
+        {
+          "text": "Kératine, protéine qui renforce les cellules de la peau",
+          "category": "Filaments intermédiaires"
+        },
+        {
+          "text": "Rails pour le transport des vésicules et des organites",
+          "category": "Microtubules"
+        },
+        {
+          "text": "Fuseau de division, cible d'anticancéreux comme les taxanes",
+          "category": "Microtubules"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W105",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "classify",
+      "lo": "LO3",
+      "topic": "Types de transport membranaire en situation",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Les situations suivantes font intervenir des mécanismes de transport membranaire différents.",
+      "lead_in": "Classer chaque situation selon le type de transport en jeu.",
+      "options": [],
+      "source_slides": [
+        "P1-07",
+        "P1-09",
+        "P1-11",
+        "P1-12",
+        "P1-13"
+      ],
+      "explanation": "Transport passif : la substance suit son gradient sans ATP, par diffusion simple (O2) ou facilitée (transporteur du glucose). Actif primaire : une pompe hydrolyse elle-même l'ATP (pompe à protons, pompe à Ca2+). Actif secondaire : un cotransporteur utilise le gradient de Na+ (symport Na+-glucose, antiport Na+-Ca2+). Vésiculaire : phagocytose à l'entrée, exocytose à la sortie (slides P1-07, P1-09, P1-11 à P1-13, notes de l'orateur).",
+      "categories": [
+        "Transport passif",
+        "Transport actif primaire",
+        "Transport actif secondaire",
+        "Transport vésiculaire"
+      ],
+      "elements": [
+        {
+          "text": "L'O2 passe de l'alvéole pulmonaire vers le sang",
+          "category": "Transport passif"
+        },
+        {
+          "text": "Le glucose entre dans une fibre musculaire par un transporteur, selon son gradient",
+          "category": "Transport passif"
+        },
+        {
+          "text": "L'estomac sécrète de l'acide grâce à la pompe à protons",
+          "category": "Transport actif primaire"
+        },
+        {
+          "text": "Le Ca2+ est renvoyé dans le réticulum sarcoplasmique pendant la relaxation",
+          "category": "Transport actif primaire"
+        },
+        {
+          "text": "Le rein réabsorbe le glucose avec le Na+ par un symport",
+          "category": "Transport actif secondaire"
+        },
+        {
+          "text": "L'échangeur Na+-Ca2+ du cœur fait sortir le Ca2+ de la cellule",
+          "category": "Transport actif secondaire"
+        },
+        {
+          "text": "Un granulocyte neutrophile englobe une bactérie",
+          "category": "Transport vésiculaire"
+        },
+        {
+          "text": "Une cellule bêta du pancréas libère l'insuline",
+          "category": "Transport vésiculaire"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W106",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "cloze",
+      "lo": "LO3",
+      "topic": "Solution de réhydratation orale et transport actif secondaire : texte à trous",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Un enfant atteint de diarrhée reçoit une solution de réhydratation orale, qui contient du sel (NaCl) et du glucose.",
+      "lead_in": "Compléter l'explication de l'absorption de cette solution par l'intestin grêle.",
+      "options": [],
+      "source_slides": [
+        "P1-11",
+        "P1-12"
+      ],
+      "explanation": "Le symport Na+-glucose fait entrer les deux substances dans le même sens ; l'antiport les déplace en sens opposés. La pompe Na+-K+ hydrolyse l'ATP : transport actif primaire. Le cotransporteur n'utilise pas d'ATP ; il tire son énergie du gradient de Na+ : transport actif secondaire. L'eau suit par osmose, ce qui fonde l'usage des solutions de réhydratation orale (slides P1-11 et P1-12, notes de l'orateur).",
+      "text": "Dans l'intestin grêle, le Na+ et le glucose entrent ensemble dans la cellule par un ___ : les deux substances vont dans le même sens. Le Na+ suit son gradient et entraîne le glucose contre le sien. La pompe Na+-K+ entretient ce gradient de Na+ ; elle hydrolyse elle-même l'ATP et assure un transport actif ___. Le transport du glucose, qui utilise ce gradient, est un transport actif ___. L'eau suit les solutés absorbés par ___.",
+      "blanks": [
+        "symport",
+        "primaire",
+        "secondaire",
+        "osmose"
+      ],
+      "distractors": [
+        "antiport",
+        "vésiculaire",
+        "exocytose"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W107",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "direction",
+      "lo": "LO3",
+      "topic": "Pompe Na+-K+ bloquée et symport Na+-glucose",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-11",
+        "P1-12"
+      ],
+      "statement": "La pompe Na+-K+ des cellules de l'intestin grêle est bloquée, et le gradient de Na+ se dissipe peu à peu. L'absorption du glucose par le symport Na+-glucose :",
+      "correct": "down",
+      "rationale": "Diminue. Le symport n'utilise pas d'ATP ; il tire son énergie du gradient de Na+ créé par la pompe. Quand ce gradient se dissipe, le transport du glucose contre son gradient s'arrête (slides P1-11 et P1-12)."
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W108",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "mcq",
+      "lo": "LO3",
+      "topic": "Hypercholestérolémie familiale et endocytose",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Dans l'hypercholestérolémie familiale, la protéine de la membrane qui fixe les LDL est défectueuse. Les cellules captent mal le cholestérol transporté par les LDL, qui reste dans le sang.",
+      "lead_in": "Quel mécanisme de transport est altéré ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffusion facilitée par un transporteur",
+          "correct": false,
+          "rationale": "Incorrect. Un transporteur fait passer de petites molécules comme le glucose ou les acides aminés. Les LDL, particules faites de lipides et de protéines, entrent dans la cellule à l'intérieur d'une vésicule (slides P1-06 et P1-13)."
+        },
+        {
+          "letter": "B",
+          "text": "Endocytose par récepteurs interposés",
+          "correct": true,
+          "rationale": "Correct. La cellule capte de façon sélective les LDL fixées à leurs récepteurs, puis les fait entrer dans une vésicule. Si ces récepteurs sont défectueux, le cholestérol reste dans le sang (slide P1-13 et notes de l'orateur)."
+        },
+        {
+          "letter": "C",
+          "text": "Phagocytose par des pseudopodes",
+          "correct": false,
+          "rationale": "Incorrect. La phagocytose permet aux macrophages et aux neutrophiles d'englober de grosses particules comme les bactéries ou les débris. Le captage du cholestérol des LDL repose sur des récepteurs spécifiques (slide P1-13)."
+        },
+        {
+          "letter": "D",
+          "text": "Pinocytose de liquide interstitiel",
+          "correct": false,
+          "rationale": "Incorrect. La pinocytose absorbe des gouttelettes de liquide interstitiel de façon non spécifique ; elle ne fait pas intervenir de récepteur (slide P1-13)."
+        }
+      ],
+      "source_slides": [
+        "P1-13"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W109",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "true_false",
+      "lo": "LO3",
+      "topic": "Glucose 5 % et transfusion",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-08"
+      ],
+      "statement": "Le glucose 5 % a la même osmolarité que le plasma ; on peut donc le perfuser dans la même tubulure qu'une transfusion de globules rouges.",
+      "correct": false,
+      "rationale": "Faux. Dans la poche, le glucose 5 % a l'osmolarité du plasma. Le glucose entre ensuite dans les cellules, et la solution agit alors comme une solution hypotonique : l'eau entre dans les globules rouges, qui gonflent et peuvent éclater (hémolyse). Seul le NaCl 0,9 % est compatible avec une transfusion (slide P1-08, notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W110",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "steps",
+      "lo": "LO4",
+      "topic": "Bilan de la pompe Na+-K+ : calcul guidé",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Pendant un court intervalle de temps, les pompes Na+-K+ d'une cellule hydrolysent 100 molécules d'ATP.",
+      "lead_in": "Calculer pas à pas les ions déplacés par la pompe et le bilan des charges.",
+      "options": [],
+      "source_slides": [
+        "P1-09",
+        "P1-10",
+        "P1-15"
+      ],
+      "formula": "Na+ sortis = 3 × nombre d'ATP ; K+ entrés = 2 × nombre d'ATP ; bilan net = Na+ sortis − K+ entrés",
+      "worked_solution": "Na+ sortis : 3 × 100 = 300. K+ entrés : 2 × 100 = 200. Bilan : 300 − 200 = 100 charges positives sorties en plus de celles qui sont entrées.\nCe déséquilibre accentue un peu la négativité de l'intérieur de la cellule (slides P1-09 et P1-15, notes de l'orateur). En rejetant au fur et à mesure le Na+ qui entre par fuite, la pompe maintient aussi les solutés internes et le volume de la cellule (slide P1-10).",
+      "steps": [
+        {
+          "prompt": "Combien d'ions Na+ les pompes font-elles sortir de la cellule ?",
+          "answer": {
+            "value": 300,
+            "tolerance": 0,
+            "unit": "ions Na+"
+          },
+          "hint": "À chaque cycle, la pompe hydrolyse 1 ATP, fait sortir 3 Na+ et fait entrer 2 K+."
+        },
+        {
+          "prompt": "Combien d'ions K+ font-elles entrer dans la cellule ?",
+          "answer": {
+            "value": 200,
+            "tolerance": 0,
+            "unit": "ions K+"
+          },
+          "hint": "2 K+ entrent pour chaque ATP hydrolysé."
+        },
+        {
+          "prompt": "Combien de charges positives sortent en plus de celles qui entrent (bilan net) ?",
+          "answer": {
+            "value": 100,
+            "tolerance": 0,
+            "unit": "charges positives"
+          },
+          "hint": "Chaque ion Na+ ou K+ porte une charge positive : soustraire les K+ entrés des Na+ sortis."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W111",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "ordering",
+      "lo": "LO4",
+      "topic": "Ischémie, arrêt de la pompe Na+-K+ et œdème cellulaire",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Un caillot bouche l'artère principale d'une jambe (ischémie aiguë). Les cellules musculaires situées en aval ne reçoivent plus de sang.",
+      "lead_in": "Remettre dans l'ordre les événements qui conduisent au gonflement de ces cellules.",
+      "options": [],
+      "source_slides": [
+        "P1-10"
+      ],
+      "items": [
+        "L'apport d'oxygène aux cellules cesse",
+        "La production d'ATP chute",
+        "La pompe Na+-K+ s'arrête",
+        "Le Na+ qui entre par fuite s'accumule dans la cellule",
+        "L'eau entre dans la cellule par osmose",
+        "La cellule gonfle : œdème cellulaire"
+      ],
+      "explanation": "Sans oxygène, la cellule ne produit plus assez d'ATP. La pompe Na+-K+ ne rejette plus le Na+ qui entre en permanence par fuite. Les solutés internes augmentent, l'eau entre par osmose et la cellule gonfle, jusqu'à pouvoir éclater. Le même mécanisme aggrave les lésions d'un AVC ischémique ; d'où l'urgence de rétablir la perfusion et l'oxygénation (slide P1-10 et notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W112",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "direction",
+      "lo": "LO4",
+      "topic": "Digoxine et Na+ intracellulaire",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-09",
+        "P1-10"
+      ],
+      "statement": "La digoxine, un médicament utilisé en cardiologie, inhibe la pompe Na+-K+ des cellules cardiaques. La concentration de Na+ à l'intérieur de ces cellules :",
+      "correct": "up",
+      "rationale": "Augmente. Le Na+ entre en permanence dans la cellule par fuite, et la pompe le rejette au fur et à mesure (3 Na+ par cycle). Quand la pompe est inhibée, le Na+ s'accumule dans la cellule (slides P1-09 et P1-10 ; digoxine : notes de l'orateur de la slide P1-09)."
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W113",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "direction",
+      "lo": "LO5",
+      "topic": "Hyperkaliémie et potentiel de repos",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-14",
+        "P1-15"
+      ],
+      "statement": "La concentration de K+ augmente dans le liquide interstitiel (hyperkaliémie). La valeur du potentiel de repos d'un neurone, en mV et signe compris (−70 mV au départ) :",
+      "correct": "up",
+      "rationale": "Augmente. Le gradient de K+ entre l'intérieur et l'extérieur de la cellule diminue, et moins de K+ sort par les canaux de fuite. Le potentiel de repos devient moins négatif ; sa valeur, signe compris, augmente. Pour cette raison, une hyperkaliémie brutale perturbe le rythme cardiaque, et le chlorure de potassium ne s'injecte jamais en bolus intraveineux (slides P1-14 et P1-15, notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W114",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "classify",
+      "lo": "LO5",
+      "topic": "Phases du potentiel d'action sur un enregistrement",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Un enregistrement du potentiel de membrane d'un neurone montre plusieurs variations au cours d'un même potentiel d'action. Le potentiel de repos est de −70 mV, le seuil de −55 mV et le pic de +30 mV.",
+      "lead_in": "Classer chaque variation ou événement selon la phase du potentiel d'action à laquelle il appartient.",
+      "options": [],
+      "source_slides": [
+        "P1-17"
+      ],
+      "explanation": "Dépolarisation : au seuil de −55 mV, les canaux Na+ voltage-dépendants s'ouvrent en cascade, le Na+ entre et le potentiel monte vers +30 mV. Repolarisation : les canaux Na+ se ferment, les canaux K+ s'ouvrent, le K+ sort et le potentiel redescend. Hyperpolarisation : les canaux K+ se ferment lentement et le potentiel passe brièvement sous −70 mV (slide P1-17).",
+      "categories": [
+        "Dépolarisation",
+        "Repolarisation",
+        "Hyperpolarisation"
+      ],
+      "elements": [
+        {
+          "text": "Le potentiel passe de −55 mV à 0 mV en une fraction de milliseconde",
+          "category": "Dépolarisation"
+        },
+        {
+          "text": "Les canaux Na+ voltage-dépendants s'ouvrent en cascade",
+          "category": "Dépolarisation"
+        },
+        {
+          "text": "Le potentiel redescend de +30 mV à 0 mV",
+          "category": "Repolarisation"
+        },
+        {
+          "text": "Les canaux Na+ se ferment et les canaux K+ voltage-dépendants s'ouvrent",
+          "category": "Repolarisation"
+        },
+        {
+          "text": "Le potentiel descend brièvement sous −70 mV, après le pic",
+          "category": "Hyperpolarisation"
+        },
+        {
+          "text": "Les canaux K+ voltage-dépendants se ferment lentement",
+          "category": "Hyperpolarisation"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W115",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "mcq",
+      "lo": "LO5",
+      "topic": "Potentiel de repos du neurone et de la fibre musculaire",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Le potentiel de repos d'une fibre musculaire squelettique est d'environ −90 mV, celui d'un neurone d'environ −70 mV. Les deux cellules ont des gradients de Na+ et de K+ comparables.",
+      "lead_in": "Quelle propriété du neurone explique que son potentiel de repos soit moins négatif ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Une absence de canaux de fuite du K+ dans sa membrane",
+          "correct": false,
+          "rationale": "Incorrect. La sortie de K+ par les canaux de fuite est à l'origine de la négativité interne. Le neurone possède ces canaux, et sa membrane reste bien plus perméable au K+ qu'au Na+ (slide P1-15)."
+        },
+        {
+          "letter": "B",
+          "text": "Une activité plus faible de sa pompe Na+-K+",
+          "correct": false,
+          "rationale": "Incorrect. La pompe entretient les gradients et n'ajoute que quelques millivolts négatifs. Les gradients sont ici comparables dans les deux cellules, et l'écart atteint 20 mV (slide P1-15, notes de l'orateur)."
+        },
+        {
+          "letter": "C",
+          "text": "Une concentration de K+ plus élevée dans son cytosol",
+          "correct": false,
+          "rationale": "Incorrect. Plus de K+ à l'intérieur augmenterait le gradient de K+ et rendrait le potentiel plus négatif. L'énoncé précise d'ailleurs que les gradients sont comparables (slides P1-14 et P1-15)."
+        },
+        {
+          "letter": "D",
+          "text": "Une petite entrée de Na+ par fuite au repos",
+          "correct": true,
+          "rationale": "Correct. Au repos, la membrane du neurone laisse entrer un peu de Na+. Cette entrée de charges positives éloigne le potentiel de l'équilibre du K+ (−90 mV) et le place vers −70 mV. La fibre musculaire, très perméable au K+, reste proche de −90 mV (slides P1-15 et P1-16)."
+        }
+      ],
+      "source_slides": [
+        "P1-15",
+        "P1-16"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W116",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "mcq",
+      "lo": "LO5",
+      "topic": "Myasthénie et jonction neuromusculaire",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Une patiente atteinte de myasthénie présente une faiblesse musculaire. Chez elle, des anticorps détruisent une partie des récepteurs de l'acétylcholine de la jonction neuromusculaire.",
+      "lead_in": "Quelle étape de la commande du muscle est directement perturbée ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La libération de l'acétylcholine par le motoneurone",
+          "correct": false,
+          "rationale": "Incorrect. Le motoneurone libère l'acétylcholine par exocytose de façon normale ; ce sont les récepteurs de la fibre musculaire qui manquent (slide P1-20)."
+        },
+        {
+          "letter": "B",
+          "text": "La dépolarisation de la fibre musculaire par l'acétylcholine",
+          "correct": true,
+          "rationale": "Correct. L'acétylcholine doit se fixer sur ses récepteurs pour ouvrir des canaux ioniques et dépolariser la fibre. Avec moins de récepteurs, la fibre se dépolarise moins et se contracte moins bien (slides P1-20 et P1-21, notes de l'orateur)."
+        },
+        {
+          "letter": "C",
+          "text": "La libération du Ca2+ par le réticulum sarcoplasmique",
+          "correct": false,
+          "rationale": "Incorrect. Cette étape suit la propagation du potentiel d'action musculaire dans les tubules T. Elle n'est touchée que de façon indirecte, faute de dépolarisation suffisante de la fibre (slide P1-21)."
+        },
+        {
+          "letter": "D",
+          "text": "La fixation du Ca2+ sur la troponine",
+          "correct": false,
+          "rationale": "Incorrect. Cette étape suit la libération du Ca2+ par le réticulum sarcoplasmique ; les anticorps de la myasthénie visent les récepteurs de l'acétylcholine (slide P1-21)."
+        }
+      ],
+      "source_slides": [
+        "P1-20",
+        "P1-21"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W117",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "flashcard",
+      "lo": "LO5",
+      "topic": "Hypocalcémie et crampes",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-21"
+      ],
+      "answer": "Deux réserves de Ca2+ jouent des rôles différents. Le Ca2+ qui déclenche la contraction vient du réticulum sarcoplasmique de la fibre. Le Ca2+ du liquide extracellulaire stabilise les canaux Na+ voltage-dépendants. S'il baisse, les nerfs et les muscles deviennent hyperexcitables : crampes, tétanie (slide P1-21, notes de l'orateur).",
+      "prompt": "Le Ca2+ déclenche la contraction musculaire. Pourquoi une baisse du Ca2+ sanguin (hypocalcémie) provoque-t-elle des crampes ?"
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W118",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "case",
+      "lo": "LO3",
+      "topic": "Perfusions et tonicité : situation en trois étapes",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Mme K., 58 ans, est hospitalisée en neurochirurgie après une opération du cerveau. Elle reçoit 1 L de NaCl 0,9 % en perfusion.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        "P1-08"
+      ],
+      "explanation": "Seuls comptent les solutés qui ne traversent pas la membrane. Le NaCl 0,9 % est isotonique : le volume des cellules ne change pas. Un soluté hypertonique attire l'eau hors des cellules, d'où son usage sur prescription dans l'œdème cérébral. L'eau pure est hypotonique et provoquerait une hémolyse (slide 2c « Osmose et tonicité des solutions », P1-08, et notes de l'orateur).",
+      "stages": [
+        {
+          "type": "direction",
+          "statement": "Pendant cette perfusion, le volume de ses globules rouges :",
+          "rationale": "Ne change pas. Le NaCl 0,9 % est une solution isotonique : il a la même concentration que la cellule en solutés non diffusibles. Il reste dans le compartiment extracellulaire et sert au remplissage vasculaire (slide 2c « Osmose et tonicité des solutions », P1-08, et notes de l'orateur).",
+          "correct": "same"
+        },
+        {
+          "type": "direction",
+          "add": "Le lendemain, un œdème cérébral apparaît. Le médecin prescrit un soluté hypertonique.",
+          "statement": "Sous l'effet de ce soluté, le volume des cellules du cerveau :",
+          "rationale": "Diminue. Une solution hypertonique est plus concentrée que la cellule en solutés non diffusibles : l'eau sort des cellules par osmose. Les solutés hypertoniques servent ainsi à attirer l'eau hors des cellules, par exemple lors d'un œdème cérébral ; leur usage relève d'une prescription médicale (slide P1-08 et notes de l'orateur).",
+          "correct": "down"
+        },
+        {
+          "type": "mcq",
+          "add": "En fin de journée, une étudiante en stage demande pourquoi on ne perfuse jamais d'eau pure par voie intraveineuse.",
+          "lead_in": "Quelle explication lui donner ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Les globules rouges se ratatineraient, car l'eau en sortirait.",
+              "correct": false,
+              "rationale": "Incorrect. Le ratatinement correspond à une solution hypertonique, plus concentrée que la cellule en solutés non diffusibles (slide P1-08)."
+            },
+            {
+              "letter": "B",
+              "text": "Les globules rouges gonfleraient et pourraient éclater.",
+              "correct": true,
+              "rationale": "Correct. L'eau pure est hypotonique : l'eau entre dans les globules rouges par osmose, ils gonflent et peuvent éclater (hémolyse). C'est pourquoi on ne perfuse jamais d'eau pure par voie intraveineuse (slide P1-08 et notes de l'orateur)."
+            },
+            {
+              "letter": "C",
+              "text": "L'eau resterait dans les vaisseaux, sans entrer dans les cellules.",
+              "correct": false,
+              "rationale": "Incorrect. Ce comportement est celui d'une solution isotonique comme le NaCl 0,9 %. L'eau pure ne contient aucun soluté ; elle entre dans les cellules par osmose (slide P1-08)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W119",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "error_spot",
+      "lo": "LO1",
+      "topic": "Organites d'une cellule du foie : erreurs dans une fiche de révision",
+      "bloom": "evaluate",
+      "difficulty": "medium",
+      "stem": "Un étudiant de 1re année rédige une fiche de révision sur les organites d'une cellule du foie.",
+      "lead_in": "Sélectionner les phrases erronées de sa fiche.",
+      "options": [],
+      "source_slides": [
+        "P1-03"
+      ],
+      "explanation": "Les deux phrases erronées confondent des organites voisins. Le RE rugueux, couvert de ribosomes, fabrique les protéines exportées ; le RE lisse fabrique les lipides et participe à la détoxification. Le lysosome digère grâce à des enzymes acides ; le peroxysome neutralise des substances toxiques avec la catalase. Dans le foie, le RE lisse et les peroxysomes contribuent à l'élimination de l'alcool et de nombreux médicaments (slide 1b « Organites : fonctions principales », P1-03, et notes de l'orateur).",
+      "segments": [
+        {
+          "text": "Le noyau contrôle l'expression des gènes.",
+          "error": false
+        },
+        {
+          "text": "Les ribosomes fixés au RE lisse fabriquent les protéines que la cellule exporte.",
+          "error": true,
+          "correction": "Les ribosomes fixés au RE rugueux fabriquent les protéines que la cellule exporte.",
+          "rationale": "Les ribosomes qui fabriquent les protéines exportées sont fixés au RE rugueux ; celui-ci prend en charge les protéines exportées ou membranaires. Le RE lisse synthétise les lipides et les stéroïdes et participe à la détoxification (slide 1b « Organites : fonctions principales », P1-03)."
+        },
+        {
+          "text": "Le RE lisse participe à la détoxification de nombreux médicaments.",
+          "error": false
+        },
+        {
+          "text": "L'appareil de Golgi trie et emballe les protéines dans des vésicules.",
+          "error": false
+        },
+        {
+          "text": "Les peroxysomes dégradent les organites usés grâce à leurs enzymes digestives.",
+          "error": true,
+          "correction": "Les lysosomes dégradent les organites usés grâce à leurs enzymes digestives.",
+          "rationale": "Les enzymes digestives sont celles des lysosomes, qui dégradent aussi les débris et les bactéries phagocytées. Les peroxysomes assurent la détoxification (alcool, radicaux libres) ; leur catalase transforme le H2O2 en eau (slide P1-03 et notes de l'orateur)."
+        },
+        {
+          "text": "Les mitochondries produisent la plus grande partie de l'ATP de la cellule.",
+          "error": false
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W120",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "short_answer",
+      "lo": "LO2",
+      "topic": "Vincristine, microtubules et division cellulaire : explication écrite",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une patiente atteinte d'un cancer reçoit de la vincristine, un anticancéreux qui agit sur les microtubules.",
+      "lead_in": "Expliquer en deux ou trois phrases pourquoi ce médicament bloque la division des cellules cancéreuses.",
+      "options": [],
+      "source_slides": [
+        "P1-04"
+      ],
+      "explanation": "Le centrosome, formé de centrioles faits de microtubules, organise le fuseau de division. Les taxanes agissent aussi sur les microtubules, de même que la colchicine, utilisée dans la crise de goutte (slide 1b « Cytosquelette et centrosome », P1-04, et notes de l'orateur).",
+      "model_answer": "Les microtubules sont des tubes creux de tubuline qui font partie du cytosquelette. Au moment de la division, ils forment le fuseau de division, qui sépare les chromosomes. En agissant sur les microtubules, la vincristine empêche le fuseau de fonctionner : les chromosomes ne sont pas séparés et la cellule ne peut pas se diviser.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "Les microtubules forment le fuseau de division."
+        },
+        {
+          "kind": "element",
+          "text": "Le fuseau de division sépare les chromosomes au moment de la division."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien entre les deux : en agissant sur les microtubules, le médicament empêche le fuseau de fonctionner, et la cellule ne peut plus se diviser."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W121",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "two_tier",
+      "lo": "LO3",
+      "topic": "Patch transdermique et bicouche de phospholipides : réponse et justification",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Un médicament est administré par un patch collé sur la peau (patch transdermique). Pour atteindre le sang, il doit traverser les membranes des cellules de la peau.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-05",
+        "P1-06",
+        "P1-07"
+      ],
+      "explanation": "La membrane plasmique est une bicouche de phospholipides à centre hydrophobe. Les petites molécules liposolubles la traversent par diffusion simple ; les substances hydrosolubles empruntent un canal, un transporteur ou une vésicule. La liposolubilité d'un médicament conditionne donc son passage à travers les membranes, par exemple à travers la peau pour un patch transdermique (slides P1-05 et P1-06, notes de l'orateur de P1-06).",
+      "tier1": {
+        "lead_in": "Entre deux molécules de même petite taille, l'une liposoluble et l'autre hydrosoluble, laquelle traverse le plus facilement ces membranes ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "La molécule liposoluble",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "La molécule hydrosoluble",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "Les deux, aussi facilement l'une que l'autre",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les têtes des phospholipides, hydrophobes, repoussent l'eau et les molécules qui s'y dissolvent.",
+            "correct": false,
+            "rationale": "Incorrect. Les têtes des phospholipides sont hydrophiles et tournées vers les liquides ; ce sont les queues, au centre de la bicouche, qui sont hydrophobes (slide P1-05).",
+            "misconception": "Les têtes des phospholipides seraient hydrophobes."
+          },
+          {
+            "letter": "B",
+            "text": "La membrane laisse passer librement les petites molécules dissoutes dans l'eau, par des pores de la bicouche.",
+            "correct": false,
+            "rationale": "Incorrect. Les ions, le glucose et les acides aminés ne traversent pas la bicouche. Ils empruntent des protéines : des canaux, qui choisissent les ions selon leur taille et leur charge, ou des transporteurs (slides P1-06 et P1-07).",
+            "misconception": "Les petites molécules hydrosolubles traverseraient librement la bicouche."
+          },
+          {
+            "letter": "C",
+            "text": "La diffusion simple dépend du gradient de concentration, quelle que soit la nature de la molécule.",
+            "correct": false,
+            "rationale": "Incorrect. Le gradient fixe le sens de la diffusion. Mais la bicouche ne laisse passer par diffusion simple que l'O2, le CO2 et les substances liposolubles (slides P1-06 et P1-07).",
+            "misconception": "La diffusion simple dépendrait du seul gradient ; la solubilité de la substance dans les lipides ne compterait pas."
+          },
+          {
+            "letter": "D",
+            "text": "Le centre de la bicouche de phospholipides est hydrophobe et laisse passer les molécules liposolubles.",
+            "correct": true,
+            "rationale": "Correct. Les queues hydrophobes des phospholipides forment le centre de la membrane, barrière pour les substances hydrosolubles. Les substances liposolubles (stéroïdes, vitamines A, D, E, K, alcool) traversent la bicouche par diffusion simple (slide 2a « Structure de la membrane plasmique », P1-05 ; slide 2b « Perméabilité sélective de la membrane », P1-06)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W122",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "short_answer",
+      "lo": "LO4",
+      "topic": "Arrêt cardiaque, pompe Na+-K+ et œdème cellulaire : explication écrite",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "M. R., 62 ans, a fait un arrêt cardiaque. Sa circulation a été rétablie après plusieurs minutes de réanimation.",
+      "lead_in": "Expliquer en deux ou trois phrases, à partir du rôle de la pompe Na+-K+, pourquoi les cellules de son cerveau ont pu gonfler pendant l'arrêt de la circulation.",
+      "options": [],
+      "source_slides": [
+        "P1-09",
+        "P1-10"
+      ],
+      "explanation": "La pompe Na+-K+ rejette au fur et à mesure le Na+ qui entre par fuite (3 Na+ sortis pour 2 K+ entrés, pour 1 ATP) ; elle maintient ainsi les solutés internes et le volume de la cellule. Ce mécanisme explique l'œdème cellulaire lors d'une ischémie, par exemple un AVC ou un arrêt cardiaque. D'où l'urgence de rétablir la perfusion et l'oxygénation (slide 2c « Pompe Na+-K+ et volume cellulaire », P1-10, et notes de l'orateur ; slide P1-09).",
+      "model_answer": "Sans circulation, les cellules ne reçoivent plus d'oxygène et ne produisent plus assez d'ATP : la pompe Na+-K+ s'arrête. Le Na+ qui entre en permanence par fuite n'est plus rejeté et s'accumule dans la cellule. Les solutés internes augmentent, l'eau entre par osmose et la cellule gonfle ; d'où l'urgence de rétablir la perfusion et l'oxygénation.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "Sans oxygène, la production d'ATP chute et la pompe Na+-K+ s'arrête."
+        },
+        {
+          "kind": "element",
+          "text": "Le Na+ qui entre par fuite n'est plus rejeté et s'accumule dans la cellule."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien avec le volume : l'accumulation de solutés attire l'eau dans la cellule par osmose, et la cellule gonfle."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W123",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "two_tier",
+      "lo": "LO5",
+      "topic": "Lidocaïne et potentiel d'action : réponse et justification",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Avant de suturer une plaie du doigt, le médecin injecte de la lidocaïne autour de la plaie. Cet anesthésique local bloque les canaux Na+ voltage-dépendants des fibres nerveuses de la zone.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P1-09",
+        "P1-17",
+        "P1-20"
+      ],
+      "explanation": "Le potentiel d'action naît de l'ouverture en cascade des canaux Na+ voltage-dépendants au seuil. Les anesthésiques locaux comme la lidocaïne bloquent ces canaux : aucun potentiel d'action ne naît dans la zone, et la douleur n'est plus transmise. La sortie de K+ produit ensuite la repolarisation ; la pompe Na+-K+ restaure les gradients sur la durée (slide 3c « Potentiel d'action : seuil et trois phases », P1-17, et notes de l'orateur).",
+      "tier1": {
+        "lead_in": "Dans ces fibres, un stimulus douloureux déclenche :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "un potentiel d'action normal",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "aucun potentiel d'action",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "un potentiel d'action arrêté à la synapse",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "La dépolarisation est due à la sortie de K+, que la lidocaïne ne modifie pas.",
+            "correct": false,
+            "rationale": "Incorrect. Pendant la dépolarisation, le Na+ entre massivement par les canaux Na+ voltage-dépendants. La sortie de K+ produit la repolarisation, qui suit (slide 3c « Potentiel d'action : seuil et trois phases », P1-17).",
+            "misconception": "La dépolarisation serait due à la sortie de K+ ; l'entrée de Na+ n'y jouerait pas de rôle."
+          },
+          {
+            "letter": "B",
+            "text": "Au seuil, le Na+ ne peut plus entrer en masse par ces canaux : la phase de dépolarisation n'a pas lieu.",
+            "correct": true,
+            "rationale": "Correct. Au seuil, vers −55 mV, les canaux Na+ voltage-dépendants s'ouvrent en cascade ; l'entrée massive de Na+ fait monter le potentiel vers +30 mV. S'ils sont bloqués, aucun potentiel d'action ne naît et la douleur n'est plus transmise (slide P1-17 et notes de l'orateur)."
+          },
+          {
+            "letter": "C",
+            "text": "Les canaux bloqués sont ceux qui déclenchent la libération du neurotransmetteur dans la synapse.",
+            "correct": false,
+            "rationale": "Incorrect. Dans la terminaison axonale, le potentiel d'action ouvre des canaux Ca2+ ; l'entrée de Ca2+ déclenche l'exocytose des vésicules de neurotransmetteur (slide P1-20). Les canaux Na+ voltage-dépendants produisent la dépolarisation du potentiel d'action dans la fibre (slide P1-17).",
+            "misconception": "Les canaux Na+ voltage-dépendants seraient ceux qui déclenchent l'exocytose du neurotransmetteur."
+          },
+          {
+            "letter": "D",
+            "text": "La lidocaïne arrête aussi la pompe Na+-K+, qui fait entrer le Na+ pendant la dépolarisation.",
+            "correct": false,
+            "rationale": "Incorrect. La pompe Na+-K+ fait sortir le Na+ (3 Na+ sortis pour 2 K+ entrés). Elle agit très peu pendant le potentiel d'action et restaure les gradients sur la durée ; l'entrée de Na+ passe par les canaux voltage-dépendants (slide P1-09 ; slide P1-17 et notes de l'orateur).",
+            "misconception": "La pompe Na+-K+ produirait l'entrée de Na+ du potentiel d'action."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie1-web-v2-W124",
+      "batch": "FO11PACE-partie1-web-v2",
+      "type": "case",
+      "lo": "LO5",
+      "topic": "Sclérose en plaques et conduction de l'influx : situation en trois étapes",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Mme S., 32 ans, est atteinte de sclérose en plaques. Depuis une semaine, elle voit flou d'un œil et marche avec difficulté. Chez elle, la myéline de certaines fibres nerveuses du système nerveux central est détruite.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        "P1-17",
+        "P1-18",
+        "P1-19"
+      ],
+      "explanation": "La myéline, enveloppe lipidique isolante, limite la régénération du potentiel d'action aux nœuds de Ranvier : la conduction saltatoire peut dépasser 100 m/s dans les grosses fibres, contre environ 1 m/s sans myéline. La sclérose en plaques détruit la myéline du système nerveux central ; la conduction ralentit ou se bloque, et les troubles (vision, marche, sensibilité) dépendent des zones touchées (slides 3d P1-18 et P1-19, et notes de l'orateur).",
+      "stages": [
+        {
+          "type": "direction",
+          "statement": "Dans ces fibres démyélinisées, la vitesse de conduction de l'influx :",
+          "rationale": "Diminue. La sclérose en plaques détruit la myéline du système nerveux central : dans les fibres touchées, la conduction de l'influx ralentit ou se bloque (slide 3d « Propagation de l'influx le long de l'axone », P1-19). L'étape suivante porte sur le rôle de la myéline.",
+          "correct": "down"
+        },
+        {
+          "type": "mcq",
+          "add": "Mme S. demande à l'infirmière pourquoi la perte de myéline ralentit l'influx nerveux.",
+          "lead_in": "Quelle explication lui donner ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "La myéline fournit l'énergie qui fait avancer le potentiel d'action le long de l'axone.",
+              "correct": false,
+              "rationale": "Incorrect. La myéline est une enveloppe lipidique isolante formée par des cellules gliales (slide P1-18). Le potentiel d'action avance parce qu'il dépolarise le segment voisin, qui atteint le seuil à son tour (slide P1-19)."
+            },
+            {
+              "letter": "B",
+              "text": "La myéline augmente l'amplitude du potentiel d'action, qui atteint plus vite le segment suivant.",
+              "correct": false,
+              "rationale": "Incorrect. Au seuil ou au-dessus, l'amplitude du potentiel d'action est toujours identique : c'est la loi du tout ou rien (slide P1-17). La myéline agit sur la vitesse de conduction (slide P1-19)."
+            },
+            {
+              "letter": "C",
+              "text": "La myéline isole l'axone : le potentiel d'action ne se régénère qu'aux nœuds de Ranvier.",
+              "correct": true,
+              "rationale": "Correct. Les canaux Na+ sont regroupés aux nœuds de Ranvier, entre lesquels la myéline isole l'axone. Le potentiel d'action saute d'un nœud au suivant au lieu de parcourir chaque segment de membrane : c'est la conduction saltatoire. Sans myéline, cette conduction par bonds n'a plus lieu : l'influx ralentit ou se bloque (slide P1-19 et notes de l'orateur)."
+            },
+            {
+              "letter": "D",
+              "text": "La myéline empêche l'influx de revenir en arrière, ce qui lui évite des trajets inutiles.",
+              "correct": false,
+              "rationale": "Incorrect. Le sens unique de l'influx vient de la période réfractaire du segment qui vient de s'activer : ses canaux Na+ ne peuvent pas se rouvrir tout de suite (slide P1-19 et notes de l'orateur)."
+            }
+          ]
+        },
+        {
+          "type": "numeric",
+          "add": "Pour comparer les deux modes de conduction, on considère une grosse fibre myélinisée de 1 m : l'axone d'un motoneurone qui va de la moelle épinière au pied, dans un nerf périphérique. Elle conduit l'influx à 100 m/s.",
+          "lead_in": "Combien de millisecondes l'influx met-il pour parcourir cette fibre ?",
+          "formula": "durée = longueur ÷ vitesse",
+          "worked_solution": "Durée = 1 m ÷ 100 m/s = 0,01 s = 10 ms. Dans une fibre sans myéline, qui conduit à environ 1 m/s (conduction continue), le même mètre demanderait environ 1 s, soit 1000 ms : 100 fois plus (slides P1-18 et P1-19, notes de l'orateur de P1-18). Cet axone appartient à un nerf périphérique, dont la myéline est formée par les cellules de Schwann (notes de l'orateur de P1-18) ; la sclérose en plaques détruit la myéline du système nerveux central (slide P1-19).",
+          "hint": "Diviser la longueur par la vitesse, puis convertir les secondes en millisecondes (1 s = 1000 ms).",
+          "answer": {
+            "value": 10,
+            "tolerance": 0,
+            "unit": "ms"
+          }
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W201",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "true_false",
+      "lo": "LO6",
+      "topic": "Interphase et mitose",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-03"
+      ],
+      "statement": "L'interphase est la première phase de la mitose.",
+      "correct": false,
+      "rationale": "Faux. Le cycle cellulaire comprend l'interphase (G1, S, G2), puis la phase M. La phase M regroupe la mitose (prophase, métaphase, anaphase, télophase) et la cytocinèse. L'interphase précède donc la mitose et n'en fait pas partie. Le PDF du support d'origine (p. 9) la rangeait parmi les étapes de la mitose ; la slide révisée corrige ce point (slide 2a « Cycle cellulaire », P2-03)."
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W202",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "ordering",
+      "lo": "LO6",
+      "topic": "Événements de la mitose et de la cytocinèse",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Pendant la phase M, une cellule transmet une copie complète de son ADN à chacune de ses deux cellules filles.",
+      "lead_in": "Remettre dans l'ordre les événements de la mitose, puis de la cytocinèse.",
+      "options": [],
+      "source_slides": [
+        "P2-04"
+      ],
+      "items": [
+        "La chromatine se condense en chromosomes et l'enveloppe nucléaire disparaît",
+        "Les chromosomes s'alignent au centre de la cellule, attachés au fuseau",
+        "Les chromatides sœurs se séparent et migrent vers les deux pôles",
+        "Deux noyaux se reforment et les chromosomes se décondensent",
+        "Un anneau contractile étrangle le cytoplasme et sépare deux cellules filles"
+      ],
+      "explanation": "Prophase : condensation des chromosomes, formation du fuseau, disparition de l'enveloppe nucléaire. Métaphase : alignement des chromosomes au centre. Anaphase : séparation des chromatides sœurs. Télophase : reformation de deux noyaux. La cytocinèse, qui commence en fin de mitose, sépare les deux cellules filles. Moyen mnémotechnique : PMAT (slide 2a « La mitose », P2-04)."
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W203",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "diagram",
+      "lo": "LO6",
+      "topic": "Arbre de différenciation des cellules souches",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une cellule souche perd du potentiel de différenciation à mesure qu'elle s'engage dans une lignée, puis se spécialise.",
+      "lead_in": "Compléter l'arbre de différenciation, du zygote jusqu'aux cellules spécialisées.",
+      "options": [],
+      "source_slides": [
+        "P2-06"
+      ],
+      "explanation": "Le zygote est totipotent : il forme tous les tissus et le placenta. La masse cellulaire interne de l'embryon précoce est pluripotente : elle forme tous les tissus du corps. Chez l'adulte, la cellule souche hématopoïétique de la moelle osseuse est multipotente : par les progéniteurs myéloïde et lymphoïde, elle produit les cellules du sang. La cellule satellite du muscle est unipotente : par les myoblastes, elle ne produit que des fibres musculaires. Chaque étape repose sur l'expression sélective des gènes (slide 2b « Différenciation cellulaire », P2-06).",
+      "distractors": [
+        "Cellule souche de la moelle osseuse (totipotente)",
+        "Neurone mature"
+      ],
+      "nodes": [
+        {
+          "id": "zyg",
+          "label": "Zygote (totipotent)",
+          "x": 34,
+          "y": 2,
+          "w": 32,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "mci",
+          "label": "Masse cellulaire interne de l'embryon (pluripotente)",
+          "x": 28,
+          "y": 17,
+          "w": 44,
+          "h": 12
+        },
+        {
+          "id": "csh",
+          "label": "Cellule souche hématopoïétique (multipotente)",
+          "x": 6,
+          "y": 36,
+          "w": 46,
+          "h": 12
+        },
+        {
+          "id": "sat",
+          "label": "Cellule satellite du muscle (unipotente)",
+          "x": 62,
+          "y": 36,
+          "w": 34,
+          "h": 12
+        },
+        {
+          "id": "pm",
+          "label": "Progéniteur myéloïde",
+          "x": 2,
+          "y": 56,
+          "w": 28,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "pl",
+          "label": "Progéniteur lymphoïde",
+          "x": 34,
+          "y": 56,
+          "w": 28,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "myo",
+          "label": "Myoblaste",
+          "x": 67,
+          "y": 56,
+          "w": 24,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "gr",
+          "label": "Globule rouge",
+          "x": 0,
+          "y": 72,
+          "w": 16,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "neu",
+          "label": "Neutrophile",
+          "x": 18,
+          "y": 72,
+          "w": 21,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "lym",
+          "label": "Lymphocyte",
+          "x": 40,
+          "y": 72,
+          "w": 20,
+          "h": 9
+        },
+        {
+          "id": "fib",
+          "label": "Fibre musculaire",
+          "x": 67,
+          "y": 72,
+          "w": 24,
+          "h": 9
+        }
+      ],
+      "edges": [
+        [
+          "zyg",
+          "mci"
+        ],
+        [
+          "mci",
+          "csh"
+        ],
+        [
+          "mci",
+          "sat"
+        ],
+        [
+          "csh",
+          "pm"
+        ],
+        [
+          "csh",
+          "pl"
+        ],
+        [
+          "sat",
+          "myo"
+        ],
+        [
+          "pm",
+          "gr"
+        ],
+        [
+          "pm",
+          "neu"
+        ],
+        [
+          "pl",
+          "lym"
+        ],
+        [
+          "myo",
+          "fib"
+        ]
+      ],
+      "width": 100,
+      "height": 83,
+      "edge_style": "elbow"
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W204",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "matching",
+      "lo": "LO6",
+      "topic": "Facteurs de croissance et usages cliniques",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les facteurs de croissance sont des protéines sécrétées. Ils stimulent la division, la survie ou la différenciation de leurs cellules cibles.",
+      "lead_in": "Associer chaque situation au facteur de croissance qui y joue le rôle principal.",
+      "options": [],
+      "source_slides": [
+        "P2-07"
+      ],
+      "explanation": "Dans une plaie, les plaquettes du caillot libèrent le PDGF, qui lance la réparation ; le FGF favorise le tissu de granulation et les nouveaux vaisseaux ; l'EGF stimule les cellules épithéliales et les kératinocytes. Le G-CSF stimule les précurseurs des globules blancs et traite la neutropénie. L'EPO stimule les précurseurs des globules rouges et traite l'anémie de l'insuffisance rénale (slide 2c « Facteurs de croissance », P2-07 ; rôle du caillot : notes de l'orateur).",
+      "pairs": [
+        {
+          "left": "Neutropénie après une chimiothérapie",
+          "right": "G-CSF"
+        },
+        {
+          "left": "Anémie de l'insuffisance rénale",
+          "right": "EPO (érythropoïétine)"
+        },
+        {
+          "left": "Premier signal de réparation, libéré par le caillot d'une plaie",
+          "right": "PDGF (facteur dérivé des plaquettes)"
+        },
+        {
+          "left": "Tissu de granulation et nouveaux vaisseaux dans une plaie",
+          "right": "FGF (facteur de croissance des fibroblastes)"
+        },
+        {
+          "left": "Recouvrement de la plaie par les kératinocytes",
+          "right": "EGF (facteur de croissance épidermique)"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W205",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "steps",
+      "lo": "LO6",
+      "topic": "Mitose et méiose : cellules et chromosomes (calcul guidé)",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Une cellule de la peau possède 46 chromosomes. Elle se divise par mitose, puis ses deux cellules filles se divisent à leur tour par mitose. Dans un testicule, une cellule germinale à 46 chromosomes effectue une méiose complète.",
+      "lead_in": "Calculer pas à pas le nombre de cellules produites et leur nombre de chromosomes.",
+      "options": [],
+      "source_slides": [
+        "P2-05"
+      ],
+      "formula": "Mitose : 1 cellule à 46 chromosomes donne 2 cellules à 46 ; méiose : 1 cellule à 46 donne 4 cellules à 23",
+      "worked_solution": "Deux mitoses successives : 1, puis 2, puis 4 cellules diploïdes à 46 chromosomes, identiques à la cellule mère.\nUne méiose (deux divisions successives) : 4 cellules haploïdes à 23 chromosomes, différentes entre elles par le brassage des chromosomes et les enjambements.\nLes deux situations donnent quatre cellules. La mitose conserve le nombre de chromosomes ; la méiose le divise par deux et forme des gamètes (slide 2a « Mitose et méiose », P2-05).",
+      "steps": [
+        {
+          "prompt": "Combien de cellules obtient-on après les deux mitoses successives de la cellule de la peau ?",
+          "answer": {
+            "value": 4,
+            "tolerance": 0,
+            "unit": "cellules"
+          },
+          "hint": "Chaque mitose donne deux cellules filles : 1, puis 2, puis ?"
+        },
+        {
+          "prompt": "Combien de chromosomes contient chacune de ces cellules de la peau ?",
+          "answer": {
+            "value": 46,
+            "tolerance": 0,
+            "unit": "chromosomes"
+          },
+          "hint": "La mitose produit des cellules diploïdes, identiques à la cellule mère."
+        },
+        {
+          "prompt": "Combien de cellules la méiose de la cellule germinale produit-elle ?",
+          "answer": {
+            "value": 4,
+            "tolerance": 0,
+            "unit": "cellules"
+          },
+          "hint": "La méiose comporte deux divisions successives : méiose I, puis méiose II."
+        },
+        {
+          "prompt": "Combien de chromosomes contient chacune des cellules produites par la méiose ?",
+          "answer": {
+            "value": 23,
+            "tolerance": 0,
+            "unit": "chromosomes"
+          },
+          "hint": "La méiose réduit de moitié le nombre de chromosomes."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W206",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "cloze",
+      "lo": "LO7",
+      "topic": "Télomères, limite de Hayflick et télomérase (texte à trous)",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description du vieillissement des cellules qui se divisent.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        "P2-08"
+      ],
+      "explanation": "À chaque division, la toute fin de l'ADN n'est pas recopiée : le télomère raccourcit. Sous un seuil critique, la cellule entre en sénescence : elle arrête définitivement ses divisions, sans mourir. Des fibroblastes issus d'un adulte font moins de divisions que des fibroblastes fœtaux. La télomérase permet aux cellules germinales et à la plupart des cellules cancéreuses d'échapper à cette limite (slide 3a « Télomères et sénescence », P2-08).",
+      "text": "Les ___ forment les extrémités protectrices des chromosomes ; ils raccourcissent à chaque division. Des fibroblastes humains fœtaux cultivés se divisent environ ___ fois, puis entrent en ___ : c'est la limite de Hayflick. La ___ rallonge les télomères ; elle est active dans les cellules germinales et dans la plupart des cellules ___.",
+      "blanks": [
+        "télomères",
+        "50",
+        "sénescence",
+        "télomérase",
+        "cancéreuses"
+      ],
+      "distractors": [
+        "5",
+        "apoptose",
+        "nerveuses"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W207",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "matching",
+      "lo": "LO7",
+      "topic": "Altérations cellulaires liées à l'âge et exemples cliniques",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Avec l'âge, plusieurs altérations s'accumulent dans les cellules ; chacune a une traduction clinique.",
+      "lead_in": "Associer chaque altération cellulaire liée à l'âge à un exemple clinique.",
+      "options": [],
+      "source_slides": [
+        "P2-09"
+      ],
+      "explanation": "Les déchets s'accumulent quand le recyclage (lysosomes, autophagie) ralentit. Les mitochondries vieillissantes produisent moins d'ATP et davantage d'ERO. Les mutations accumulées affaiblissent le contrôle de la division. Le renouvellement ralenti retarde la réparation des tissus. L'immunosénescence affaiblit les défenses, d'où la vaccination contre la grippe recommandée dès 65 ans (slide 3b-c « Altérations liées à l'âge », P2-09 ; vaccination : notes de l'orateur).",
+      "pairs": [
+        {
+          "left": "Déchets accumulés (lipofuscine, protéines mal repliées)",
+          "right": "Maladie d'Alzheimer (plaques amyloïdes)"
+        },
+        {
+          "left": "Mitochondries moins efficaces",
+          "right": "Sarcopénie, fatigue à l'effort"
+        },
+        {
+          "left": "Mutations de l'ADN accumulées",
+          "right": "Risque de cancer qui augmente avec l'âge"
+        },
+        {
+          "left": "Renouvellement cellulaire ralenti",
+          "right": "Cicatrisation retardée, peau fragile"
+        },
+        {
+          "left": "Cellules immunitaires moins efficaces",
+          "right": "Infections plus graves, vaccins moins efficaces"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W208",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "flashcard",
+      "lo": "LO7",
+      "topic": "Cellule sénescente et inflammation chronique",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-08",
+        "P2-09"
+      ],
+      "answer": "Une cellule sénescente a arrêté définitivement ses divisions, par exemple parce que ses télomères sont trop courts ou que son ADN est lésé. Elle reste vivante et sécrète des médiateurs de l'inflammation. Avec l'âge, ces cellules deviennent plus nombreuses et entretiennent une inflammation chronique de faible intensité. Celle-ci favorise l'athérosclérose et les maladies cardiovasculaires (slides 3a et 3b-c, P2-08 et P2-09).",
+      "prompt": "Qu'est-ce qu'une cellule sénescente ? Quel effet l'accumulation de ces cellules avec l'âge a-t-elle sur la santé ?"
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W209",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "classify",
+      "lo": "LO8",
+      "topic": "Apoptose ou nécrose : situations cliniques",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Dans chacune des situations suivantes, des cellules meurent.",
+      "lead_in": "Classer chaque situation selon la forme de mort cellulaire qui prédomine.",
+      "options": [],
+      "source_slides": [
+        "P2-11",
+        "P2-13",
+        "P2-14"
+      ],
+      "explanation": "Nécrose : mort subie après une agression (ischémie, compression prolongée, écrasement) ; la cellule gonfle et éclate, et son contenu libéré déclenche l'inflammation. L'escarre du sacrum en est l'exemple infirmier type. Apoptose : mort programmée, déclenchée par un signal (lymphocyte T, ADN lésé, cellule devenue inutile) ; la cellule se rétracte et les macrophages la phagocytent sans inflammation (slides 4a « Apoptose et nécrose », 4b et 4c, P2-11, P2-13 et P2-14).",
+      "categories": [
+        "Apoptose",
+        "Nécrose"
+      ],
+      "elements": [
+        {
+          "text": "Cellules du centre d'un infarctus du myocarde, privées d'oxygène depuis plusieurs heures",
+          "category": "Nécrose"
+        },
+        {
+          "text": "Peau du sacrum comprimée entre l'os et le matelas pendant plusieurs jours",
+          "category": "Nécrose"
+        },
+        {
+          "text": "Tissus écrasés lors d'un accident, avec rougeur, chaleur et œdème",
+          "category": "Nécrose"
+        },
+        {
+          "text": "Cellule infectée par un virus, reconnue par un lymphocyte T",
+          "category": "Apoptose"
+        },
+        {
+          "text": "Cellule tumorale dont l'ADN a été lésé par une radiothérapie",
+          "category": "Apoptose"
+        },
+        {
+          "text": "Cellules âgées de la muqueuse intestinale, éliminées lors du renouvellement normal",
+          "category": "Apoptose"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W210",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "direction",
+      "lo": "LO8",
+      "topic": "Protéine p53 inactivée et apoptose",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-13",
+        "P2-14"
+      ],
+      "statement": "Dans une cellule de la peau, une mutation inactive la protéine p53. L'ADN de cette cellule est ensuite lésé par les UV. La probabilité que cette cellule meure par apoptose :",
+      "correct": "down",
+      "rationale": "Diminue. La protéine p53 arrête le cycle si l'ADN est lésé, puis déclenche l'apoptose si la réparation échoue. Sans p53 fonctionnelle, la cellule lésée survit et continue de se diviser. Ce défaut d'apoptose, souvent lié à une mutation de p53, est un mécanisme du cancer (slides 4b « Régulation de la mort cellulaire » et 4c, P2-13 et P2-14)."
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W211",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "mcq",
+      "lo": "LO8",
+      "topic": "Autophagie pendant le jeûne",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Une étudiante en bonne santé n'a rien mangé depuis la veille au soir. Dans ses cellules, des organites usés et des protéines sont entourés d'une double membrane, puis dégradés dans les lysosomes.",
+      "lead_in": "Comment interpréter ce processus ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Une apoptose, qui démonte la cellule en corps apoptotiques",
+          "correct": false,
+          "rationale": "Incorrect. L'apoptose démonte toute la cellule par les caspases ; ici, la cellule dégrade seulement certains de ses constituants dans les lysosomes (slide 4b, P2-13)."
+        },
+        {
+          "letter": "B",
+          "text": "Une autophagie de recyclage, qui fournit des acides aminés à la cellule",
+          "correct": true,
+          "rationale": "Correct. L'autophagie est d'abord un mécanisme de survie : pendant le jeûne, la cellule recycle acides aminés et acides gras et élimine ses organites usés (slide 4a « Autophagie », P2-12)."
+        },
+        {
+          "letter": "C",
+          "text": "Une autophagie excessive, qui détruit la cellule faute de nutriments",
+          "correct": false,
+          "rationale": "Incorrect. Une autophagie excessive peut participer à la mort cellulaire lors d'un stress intense ou prolongé. Un jeûne d'une nuit chez une personne en bonne santé déclenche l'autophagie de survie (slide 4a « Autophagie », P2-12)."
+        },
+        {
+          "letter": "D",
+          "text": "Une nécrose, qui fait gonfler puis éclater la cellule",
+          "correct": false,
+          "rationale": "Incorrect. La nécrose suit une agression (ischémie, brûlure, toxine) ; la cellule gonfle et éclate. Le processus décrit se déroule à l'intérieur de lysosomes, dans une cellule intacte (slide 4a, P2-11)."
+        }
+      ],
+      "source_slides": [
+        "P2-12"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W212",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "classify",
+      "lo": "LO9",
+      "topic": "Hormèse ou stress oxydatif : situations de la vie courante",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Un stress bref et modéré, suivi de récupération, stimule les défenses antioxydantes : c'est l'hormèse. Un stress excessif ou chronique dépasse ces défenses et provoque un stress oxydatif.",
+      "lead_in": "Classer chaque situation selon son effet le plus probable sur l'équilibre entre ERO et défenses antioxydantes.",
+      "options": [],
+      "source_slides": [
+        "P2-15",
+        "P2-17"
+      ],
+      "explanation": "Chaque séance d'exercice augmente brièvement les ERO du muscle. Suivies de récupération, ces hausses augmentent les enzymes antioxydantes (SOD, glutathion peroxydase) et le nombre de mitochondries. Le tabac et l'hyperglycémie chronique produisent des ERO en continu. Un entraînement excessif, sans récupération, dépasse lui aussi les défenses (slides 5a-b « Stress oxydatif » et 5d « Hormèse », P2-15 et P2-17).",
+      "categories": [
+        "Hormèse : les défenses se renforcent",
+        "Stress oxydatif : les défenses sont dépassées"
+      ],
+      "elements": [
+        {
+          "text": "Marche rapide de 30 minutes, cinq jours par semaine",
+          "category": "Hormèse : les défenses se renforcent"
+        },
+        {
+          "text": "Entraînement d'endurance régulier, avec des jours de récupération",
+          "category": "Hormèse : les défenses se renforcent"
+        },
+        {
+          "text": "Renforcement musculaire adapté, deux fois par semaine, chez une personne âgée",
+          "category": "Hormèse : les défenses se renforcent"
+        },
+        {
+          "text": "Tabagisme quotidien depuis vingt ans",
+          "category": "Stress oxydatif : les défenses sont dépassées"
+        },
+        {
+          "text": "Hyperglycémie chronique d'un diabète mal équilibré",
+          "category": "Stress oxydatif : les défenses sont dépassées"
+        },
+        {
+          "text": "Entraînement très intense chaque jour pendant des semaines, sans récupération",
+          "category": "Stress oxydatif : les défenses sont dépassées"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W213",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "direction",
+      "lo": "LO9",
+      "topic": "Surdose de paracétamol, glutathion et glutathion peroxydase",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-16"
+      ],
+      "statement": "Une personne a ingéré une surdose de paracétamol. Dans ses hépatocytes, l'élimination du peroxyde d'hydrogène (H2O2) par la glutathion peroxydase :",
+      "correct": "down",
+      "rationale": "Diminue. La glutathion peroxydase réduit le H2O2 en eau grâce au glutathion. Lors d'une surdose de paracétamol, un métabolite toxique épuise le glutathion du foie ; l'enzyme élimine alors moins de H2O2. Privés de cette défense, les hépatocytes meurent par nécrose. L'antidote, la N-acétylcystéine, reconstitue le glutathion (slide 5c « Défenses antioxydantes », P2-16 ; métabolite toxique, nécrose et antidote : notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W214",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "mcq",
+      "lo": "LO9",
+      "topic": "Suppléments de bêta-carotène chez un fumeur",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "M. B., 68 ans, fume depuis quarante ans. Il a lu que les antioxydants protègent les cellules et souhaite prendre chaque jour du bêta-carotène à forte dose.",
+      "lead_in": "Quel conseil infirmier est le mieux appuyé par le cours ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Le conseiller : à forte dose, il a réduit les cancers du poumon chez des fumeurs",
+          "correct": false,
+          "rationale": "Incorrect. L'essai ATBC (1994), mené chez des fumeurs, a montré l'effet inverse : le bêta-carotène a augmenté les cancers du poumon (slide 3d « Prévention du vieillissement », P2-10)."
+        },
+        {
+          "letter": "B",
+          "text": "Le conseiller en l'associant à la vitamine A, qui protège alors le poumon",
+          "correct": false,
+          "rationale": "Incorrect. Dans l'essai CARET (Omenn et al., 1996), l'association de bêta-carotène et de vitamine A a aussi augmenté les cancers du poumon (slide 3d, P2-10, notes de l'orateur)."
+        },
+        {
+          "letter": "C",
+          "text": "Le déconseiller : à forte dose, il a augmenté les cancers du poumon chez des fumeurs",
+          "correct": true,
+          "rationale": "Correct. Les suppléments antioxydants à forte dose n'ont pas montré de bénéfice, et le bêta-carotène a augmenté les cancers du poumon chez des fumeurs. Le cours recommande d'arrêter de fumer et de privilégier l'alimentation (fruits, légumes) aux comprimés, sauf carence démontrée (slides 3d et 5a-b, P2-10 et P2-15)."
+        },
+        {
+          "letter": "D",
+          "text": "Le déconseiller : il est inutile, car la fumée de tabac ne produit pas d'ERO",
+          "correct": false,
+          "rationale": "Incorrect. Le tabac figure parmi les sources externes d'ERO ; c'est aussi la source de stress oxydatif la plus facile à supprimer (slide 5a-b « Stress oxydatif », P2-15 ; notes de l'orateur)."
+        }
+      ],
+      "source_slides": [
+        "P2-10",
+        "P2-15"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W218",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "two_tier",
+      "lo": "LO6",
+      "topic": "Chimiothérapie, cellules qui se divisent et phase G0",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Mme S., 54 ans, commence une chimiothérapie qui cible les cellules en division. L'infirmière lui explique les effets indésirables à surveiller.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-03"
+      ],
+      "explanation": "La chimiothérapie cible les cellules qui se divisent vite, d'où ses effets sur les follicules pileux (chute des cheveux), la moelle osseuse (neutropénie) et le tube digestif (mucite). Les neurones matures et la plupart des cellules cardiaques restent en G0, hors du cycle (slide 2a « Cycle cellulaire : interphase et phase M », P2-03, et notes de l'orateur).",
+      "tier1": {
+        "lead_in": "Quelles cellules de Mme S. ce traitement touche-t-il le plus ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les cellules des follicules pileux",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "Les cellules musculaires cardiaques",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "Les neurones du cerveau",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les cellules cardiaques, sollicitées à chaque battement, se divisent vite pour se renouveler.",
+            "correct": false,
+            "rationale": "Incorrect. L'activité d'une cellule ne dit rien de ses divisions. La plupart des cellules cardiaques restent en G0, hors du cycle ; un traitement qui cible les cellules en division les touche donc peu par ce mécanisme (slide 2a, P2-03).",
+            "misconception": "Une cellule très active se diviserait aussi très souvent."
+          },
+          {
+            "letter": "B",
+            "text": "Les neurones continuent de se diviser chez l'adulte pour renouveler les connexions du cerveau.",
+            "correct": false,
+            "rationale": "Incorrect. Les neurones matures ne se divisent pas : ils restent en G0 toute la vie. Chez l'adulte, quelques nouveaux neurones naissent de cellules souches, par exemple dans l'épithélium olfactif (slide 2a, P2-03, notes de l'orateur).",
+            "misconception": "Les neurones matures continueraient de se diviser."
+          },
+          {
+            "letter": "C",
+            "text": "Elles se divisent vite, alors que les neurones et la plupart des cellules cardiaques restent en G0.",
+            "correct": true,
+            "rationale": "Correct. La chimiothérapie cible les cellules qui se divisent vite : follicules pileux, moelle osseuse, muqueuses digestives. Les neurones matures et la plupart des cellules cardiaques sont sortis du cycle (G0) et ne se divisent plus (slide 2a « Cycle cellulaire : interphase et phase M », P2-03)."
+          },
+          {
+            "letter": "D",
+            "text": "Elles restent en G0, la phase du cycle cellulaire où la chimiothérapie agit le plus.",
+            "correct": false,
+            "rationale": "Incorrect. G0 est une sortie du cycle : une cellule en G0 ne se divise pas, et un traitement qui cible les divisions la touche peu. Les cellules des follicules pileux sont touchées parce qu'elles se divisent vite (slide 2a, P2-03).",
+            "misconception": "G0 serait une phase du cycle cellulaire, pendant laquelle la chimiothérapie agirait le plus."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W219",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "short_answer",
+      "lo": "LO6",
+      "topic": "Cicatrisation lente chez une personne âgée et diabétique : explication écrite",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Mme A., 79 ans, diabétique, s'est blessée à la jambe. Sa plaie se referme beaucoup plus lentement qu'une plaie semblable chez une jeune adulte.",
+      "lead_in": "Expliquer en deux ou trois phrases pourquoi sa plaie se referme plus lentement, à partir de ce qui se passe dans les cellules.",
+      "options": [],
+      "source_slides": [
+        "P2-07",
+        "P2-09"
+      ],
+      "explanation": "Dans une plaie, les plaquettes du caillot libèrent le PDGF, qui lance la réparation ; le FGF favorise le tissu de granulation et les nouveaux vaisseaux ; l'EGF stimule la fermeture par l'épiderme. Chez la personne âgée ou diabétique, les cellules se divisent moins et répondent moins aux facteurs de croissance ; la plaie est aussi moins bien irriguée. Avec l'âge, le renouvellement cellulaire ralenti retarde la cicatrisation (slide 2c « Facteurs de croissance : rôles et usages cliniques », P2-07, et notes de l'orateur ; slide 3b-c, P2-09).",
+      "model_answer": "La fermeture d'une plaie repose sur la division de cellules comme les fibroblastes et les kératinocytes, stimulée par des facteurs de croissance (PDGF, FGF, EGF). Chez une personne âgée ou diabétique, ces cellules se divisent moins et répondent moins bien aux facteurs de croissance. Les cellules qui réparent la plaie sont donc produites plus lentement, et la plaie met plus de temps à se refermer.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "La fermeture de la plaie dépend de divisions cellulaires stimulées par des facteurs de croissance."
+        },
+        {
+          "kind": "element",
+          "text": "Chez Mme A., les cellules se divisent moins et répondent moins bien aux facteurs de croissance."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien : moins de divisions et une réponse plus faible aux facteurs de croissance ralentissent la production des cellules qui réparent la plaie."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W220",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "two_tier",
+      "lo": "LO7",
+      "topic": "Mitochondries vieillissantes, ATP et ERO",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "M. E., 81 ans, se fatigue vite à l'effort et a perdu de la force dans les jambes. Dans les cellules de ses muscles, les mitochondries sont moins efficaces qu'à 30 ans.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-02",
+        "P2-09",
+        "P2-15"
+      ],
+      "explanation": "Avec l'âge, les mitochondries fournissent moins d'ATP aux muscles et produisent davantage d'ERO, qui endommagent les cellules. La perte de masse et de force musculaires (sarcopénie) expose aux chutes. L'entraînement en force la ralentit à tout âge (slide 3b-c « Altérations liées à l'âge et impact sur la santé », P2-09, et notes de l'orateur).",
+      "tier1": {
+        "lead_in": "Par rapport à celle d'un adulte de 30 ans, la production d'ERO par ses mitochondries est :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "plus faible",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "comparable",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "plus élevée",
+            "correct": true,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Des mitochondries moins efficaces fonctionnent moins ; elles libèrent donc aussi moins d'ERO.",
+            "correct": false,
+            "rationale": "Incorrect. Le cours décrit l'inverse : les mitochondries vieillissantes produisent moins d'ATP, mais davantage d'ERO. Les ERO se forment quand des électrons de la chaîne respiratoire s'échappent vers l'oxygène (slide 3b-c, P2-09 ; slide 5a-b, P2-15, notes de l'orateur).",
+            "misconception": "Une mitochondrie qui produit moins d'ATP produirait aussi moins d'ERO."
+          },
+          {
+            "letter": "B",
+            "text": "Moins efficaces, elles produisent moins d'ATP ; davantage d'électrons s'en échappent vers l'oxygène et forment des ERO.",
+            "correct": true,
+            "rationale": "Correct. Avec l'âge, les mitochondries deviennent moins efficaces : elles produisent moins d'ATP et davantage d'ERO. Les ERO se forment quand des électrons de la chaîne respiratoire s'échappent vers l'oxygène ; elles endommagent à leur tour la cellule, ce qui entretient les dommages (slide 3b-c « Altérations liées à l'âge et impact sur la santé », P2-09, et notes de l'orateur ; slide 5a-b, P2-15, notes de l'orateur)."
+          },
+          {
+            "letter": "C",
+            "text": "Les ERO proviennent surtout de sources externes, comme le tabac et la pollution, que l'âge ne modifie pas.",
+            "correct": false,
+            "rationale": "Incorrect. Le tabac et la pollution sont des sources externes d'ERO. La principale source reste la respiration des mitochondries, dans chaque cellule (slide 5a-b « Stress oxydatif : définition et sources », P2-15, et notes de l'orateur ; slide 1b, P2-02).",
+            "misconception": "Les ERO viendraient surtout de sources extérieures à la cellule."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W221",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "short_answer",
+      "lo": "LO7",
+      "topic": "Tabac, soleil et vieillissement cellulaire : explication écrite",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Mme J., 67 ans, fume depuis quarante ans et s'expose au soleil sans protection. Elle demande à l'infirmière à quoi bon arrêter de fumer et se protéger du soleil à son âge.",
+      "lead_in": "Expliquer en deux ou trois phrases comment ces deux mesures ralentissent le vieillissement de ses cellules.",
+      "options": [],
+      "source_slides": [
+        "P2-08",
+        "P2-10",
+        "P2-15"
+      ],
+      "explanation": "Les lésions de l'ADN dues aux ERO, aux UV et aux erreurs de copie s'accumulent avec l'âge ; elles favorisent la sénescence ou le cancer. Le tabac, la pollution et les UV sont des sources externes d'ERO. Arrêter de fumer, limiter l'alcool et se protéger des UV réduisent les dommages à l'ADN. Ces conseils relèvent de l'éducation à la santé, qui fait partie du rôle infirmier (slides 3a, 3d et 5a-b, P2-08, P2-10 et P2-15 ; notes de l'orateur de P2-10).",
+      "model_answer": "Le tabac et les UV lèsent l'ADN des cellules, notamment par les ERO qu'ils produisent. Ces lésions s'accumulent avec l'âge et favorisent la sénescence des cellules ou le cancer. Arrêter de fumer et se protéger du soleil réduisent les nouvelles lésions de l'ADN, ce qui ralentit le vieillissement cellulaire.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "Le tabac et les UV lèsent l'ADN, directement ou par les ERO qu'ils produisent."
+        },
+        {
+          "kind": "element",
+          "text": "Les lésions de l'ADN s'accumulent avec l'âge et favorisent la sénescence ou le cancer."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien : supprimer ces sources réduit les nouvelles lésions de l'ADN, donc ralentit le vieillissement des cellules."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W222",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "two_tier",
+      "lo": "LO8",
+      "topic": "Radiothérapie et voie intrinsèque de l'apoptose",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "M. V., 61 ans, est traité par radiothérapie pour un cancer de la prostate. Les rayons lèsent l'ADN de ses cellules tumorales ; celles qui ne parviennent pas à le réparer meurent par apoptose.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P2-13",
+        "P2-14"
+      ],
+      "explanation": "Deux voies mènent à l'apoptose. La voie extrinsèque part d'un signal de mort envoyé par une autre cellule, par exemple un lymphocyte T qui reconnaît une cellule infectée. La voie intrinsèque part d'un stress interne, comme un ADN lésé : p53 s'active et la mitochondrie libère le cytochrome c. Les deux voies activent les caspases, qui démontent la cellule. La radiothérapie lèse l'ADN des cellules tumorales, puis déclenche leur apoptose par la voie intrinsèque (slides 4b et 4c, P2-13 et P2-14, et notes de l'orateur).",
+      "tier1": {
+        "lead_in": "D'après le cours, par quelle voie l'ADN lésé déclenche-t-il l'apoptose de ces cellules ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "La voie extrinsèque, par les récepteurs de mort",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "La voie intrinsèque, dite mitochondriale",
+            "correct": true,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les rayons viennent de l'extérieur du corps : le signal de mort est donc un signal externe.",
+            "correct": false,
+            "rationale": "Incorrect. La voie extrinsèque part d'un signal de mort envoyé par une autre cellule, par exemple un lymphocyte T ; ce signal active un récepteur de mort de la membrane. Ici, les rayons lèsent l'ADN à l'intérieur de la cellule, et ce stress interne déclenche l'apoptose (slide 4b, P2-13).",
+            "misconception": "Une agression venue de l'extérieur du corps déclencherait la voie extrinsèque."
+          },
+          {
+            "letter": "B",
+            "text": "La mort de ces cellules est commandée par un lymphocyte T, comme celle d'une cellule infectée.",
+            "correct": false,
+            "rationale": "Incorrect. Un lymphocyte T déclenche l'apoptose d'une cellule infectée par la voie extrinsèque. La radiothérapie lèse l'ADN, puis déclenche l'apoptose depuis l'intérieur de la cellule, par p53 et la mitochondrie (slides 4b et 4c, P2-13 et P2-14).",
+            "misconception": "Toute apoptose serait commandée par un lymphocyte T."
+          },
+          {
+            "letter": "C",
+            "text": "L'ADN lésé est un stress interne : p53 s'active et la mitochondrie libère le cytochrome c.",
+            "correct": true,
+            "rationale": "Correct. La voie intrinsèque part d'un stress interne : ADN lésé, ERO ou manque de facteurs de croissance. La protéine p53 s'active et la mitochondrie libère le cytochrome c ; les caspases démontent ensuite la cellule (slide 4b « Régulation de la mort cellulaire », P2-13, figure et notes de l'orateur)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W223",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "case",
+      "lo": "LO8",
+      "topic": "Infarctus du myocarde : nécrose, apoptose et reperfusion (situation en trois étapes)",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "M. R., 63 ans, fumeur, arrive aux urgences 45 minutes après le début d'une douleur thoracique. Le diagnostic est un infarctus du myocarde : une artère coronaire est bouchée par un caillot.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        "P2-11",
+        "P2-13",
+        "P2-14"
+      ],
+      "explanation": "Dans un infarctus, l'agression est la plus intense au centre de la zone privée d'oxygène : les cellules y meurent par nécrose, qui libère leur contenu et déclenche l'inflammation. En périphérie, certaines cellules meurent par apoptose, sans inflammation ; d'autres peuvent encore être sauvées par une reperfusion rapide, thrombolyse ou angioplastie (slides 4a, 4b et 4c, P2-11, P2-13 et P2-14, et notes de l'orateur).",
+      "stages": [
+        {
+          "type": "mcq",
+          "lead_in": "Dans la zone du myocarde privée d'oxygène, comment les cellules meurent-elles ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Par apoptose au centre de la zone, et en partie par nécrose en périphérie",
+              "correct": false,
+              "rationale": "Incorrect. C'est l'inverse : l'agression la plus intense, au centre, provoque la nécrose ; une agression plus modérée, en périphérie, provoque surtout l'apoptose (slide 4b, P2-13, notes de l'orateur ; slide 4c, P2-14)."
+            },
+            {
+              "letter": "B",
+              "text": "Par nécrose au centre de la zone, et en partie par apoptose en périphérie",
+              "correct": true,
+              "rationale": "Correct. Au centre de la zone privée d'oxygène, les cellules meurent par nécrose ; en périphérie, certaines meurent par apoptose (slide 4c « Implications cliniques de la mort cellulaire », P2-14)."
+            },
+            {
+              "letter": "C",
+              "text": "Par nécrose, de la même façon dans toute la zone privée d'oxygène",
+              "correct": false,
+              "rationale": "Incorrect. La nécrose domine au centre ; en périphérie, certaines cellules meurent par apoptose et peuvent encore être sauvées si le sang revient vite (slide 4c, P2-14, notes de l'orateur)."
+            }
+          ]
+        },
+        {
+          "type": "direction",
+          "add": "L'équipe prépare une angioplastie pour rouvrir l'artère. Le transfert en salle de cathétérisme prend une heure de retard.",
+          "statement": "Pendant cette heure de retard, le nombre de cellules du myocarde qui peuvent encore être sauvées :",
+          "rationale": "Diminue. Chaque minute d'ischémie augmente la perte de cellules. Les cellules de la périphérie peuvent encore être sauvées si le sang revient vite ; d'où l'urgence de la reperfusion par thrombolyse ou angioplastie (slide 4c, P2-14, et notes de l'orateur).",
+          "correct": "down"
+        },
+        {
+          "type": "true_false",
+          "add": "Deux jours plus tard, une inflammation s'est développée dans le myocarde lésé.",
+          "statement": "Cette inflammation provient des cellules mortes par apoptose en périphérie de la zone.",
+          "rationale": "Faux. Une cellule qui meurt par apoptose garde son contenu dans des vésicules ; les macrophages la phagocytent sans inflammation. L'inflammation vient des cellules nécrosées du centre, dont le contenu est libéré dans le tissu (slide 4a « Formes de mort cellulaire : apoptose et nécrose », P2-11).",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W224",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "case",
+      "lo": "LO9",
+      "topic": "Eau oxygénée sur une plaie : catalase et ERO (situation en trois étapes)",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Un garçon de 8 ans s'est écorché le genou. Sa grand-mère verse de l'eau oxygénée (peroxyde d'hydrogène, H2O2) sur la plaie ; le liquide mousse aussitôt.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        "P2-15",
+        "P2-16"
+      ],
+      "explanation": "Le H2O2 est une ERO. Dans les tissus et dans le sang, la catalase le décompose en eau et en oxygène, d'où la mousse. Les ERO ont des rôles utiles, comme la destruction des bactéries par les neutrophiles ; en excès, elles abîment les cellules, y compris celles de la cicatrisation. L'eau oxygénée est donc aujourd'hui déconseillée pour nettoyer les plaies (slides 5a-b et 5c, P2-15 et P2-16, et notes de l'orateur).",
+      "stages": [
+        {
+          "type": "mcq",
+          "lead_in": "Quelle enzyme, présente dans les tissus et dans le sang, libère le gaz qui forme cette mousse ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "La catalase",
+              "correct": true,
+              "rationale": "Correct. La catalase décompose le H2O2 en eau et en oxygène ; l'oxygène libéré forme les bulles (slide 5c « Réponses cellulaires : défenses antioxydantes », P2-16, et notes de l'orateur)."
+            },
+            {
+              "letter": "B",
+              "text": "La glutathion peroxydase",
+              "correct": false,
+              "rationale": "Incorrect. La glutathion peroxydase réduit le H2O2 en eau grâce au glutathion ; cette réaction ne libère pas d'oxygène (slide 5c, P2-16)."
+            },
+            {
+              "letter": "C",
+              "text": "La superoxyde dismutase (SOD)",
+              "correct": false,
+              "rationale": "Incorrect. La SOD transforme l'anion superoxyde en H2O2 ; elle ne décompose pas le H2O2 versé sur la plaie (slide 5c, P2-16)."
+            }
+          ]
+        },
+        {
+          "type": "direction",
+          "add": "Dans les heures qui suivent, des neutrophiles arrivent dans la plaie pour détruire les bactéries.",
+          "statement": "Dans la plaie, la production locale d'ERO :",
+          "rationale": "Augmente. L'inflammation est une source interne d'ERO : les neutrophiles emploient les ERO pour tuer les bactéries. Les ERO ont donc aussi des rôles utiles (slide 5a-b « Stress oxydatif : définition et sources », P2-15, et notes de l'orateur).",
+          "correct": "up"
+        },
+        {
+          "type": "true_false",
+          "add": "Le lendemain, au centre de soins, l'infirmière explique qu'on ne nettoie plus les plaies à l'eau oxygénée.",
+          "statement": "L'eau oxygénée abîme aussi les cellules qui assurent la cicatrisation de la plaie.",
+          "rationale": "Vrai. Le H2O2 est une ERO ; en excès, les ERO endommagent les lipides, les protéines et l'ADN des cellules. Versée sur une plaie, l'eau oxygénée abîme aussi les cellules de la cicatrisation ; son usage sur les plaies est aujourd'hui déconseillé (slides 5a-b et 5c, P2-15 et P2-16, notes de l'orateur de P2-16).",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie2-web-v2-W225",
+      "batch": "FO11PACE-partie2-web-v2",
+      "type": "error_spot",
+      "lo": "LO9",
+      "topic": "Défenses antioxydantes et activité physique : erreurs dans une explication",
+      "bloom": "evaluate",
+      "difficulty": "medium",
+      "stem": "Une étudiante de 1re année explique à M. L., 66 ans, qui commence un programme d'activité physique, comment ses cellules se défendent contre les ERO.",
+      "lead_in": "Toucher les phrases erronées de son explication.",
+      "options": [],
+      "source_slides": [
+        "P2-02",
+        "P2-10",
+        "P2-15",
+        "P2-16",
+        "P2-17"
+      ],
+      "explanation": "Les défenses antioxydantes travaillent en chaîne : la SOD transforme l'anion superoxyde en H2O2, puis la catalase ou la glutathion peroxydase le transforme en eau. Le glutathion est produit par la cellule ; les vitamines C et E viennent de l'alimentation. L'effort régulier suivi de récupération renforce ces défenses : c'est l'hormèse (slides 1b, 5a-b, 5c et 5d, P2-02, P2-15, P2-16 et P2-17, et notes de l'orateur).",
+      "segments": [
+        {
+          "text": "Vos cellules produisent en permanence des ERO, surtout dans leurs mitochondries.",
+          "error": false
+        },
+        {
+          "text": "Une première enzyme transforme l'anion superoxyde en peroxyde d'hydrogène, c'est-à-dire en eau oxygénée.",
+          "error": false
+        },
+        {
+          "text": "D'autres enzymes transforment ensuite ce peroxyde d'hydrogène en eau.",
+          "error": false
+        },
+        {
+          "text": "Vos cellules fabriquent elles-mêmes les vitamines C et E, qui neutralisent aussi les radicaux.",
+          "error": true,
+          "correction": "Les vitamines C et E viennent de l'alimentation, par exemple des fruits et des légumes ; elles neutralisent aussi les radicaux.",
+          "rationale": "Le glutathion est produit par la cellule ; les vitamines C et E sont apportées par l'alimentation (slide 5c « Réponses cellulaires : défenses antioxydantes », P2-16, notes de l'orateur ; slide 3d, P2-10)."
+        },
+        {
+          "text": "Chaque séance d'effort augmente brièvement la production d'ERO dans vos muscles.",
+          "error": false
+        },
+        {
+          "text": "Suivies de récupération, ces hausses répétées renforcent vos défenses antioxydantes.",
+          "error": false
+        },
+        {
+          "text": "Prendre chaque jour de fortes doses de vitamines C et E augmente encore ces bénéfices.",
+          "error": true,
+          "correction": "De fortes doses de vitamines C et E ont atténué certains bénéfices de l'entraînement ; mieux vaut les éviter pendant un entraînement, sauf carence.",
+          "rationale": "Dans l'essai de Ristow et al. (2009), chez de jeunes hommes entraînés pendant 4 semaines, 1000 mg de vitamine C et 400 UI de vitamine E par jour ont empêché l'amélioration de la sensibilité à l'insuline. Le cours en retient un message prudent : éviter les antioxydants à forte dose pendant un entraînement, sauf carence (slide 5d « Stress oxydatif, vieillissement et hormèse », P2-17, et notes de l'orateur)."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W301",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "diagram",
+      "lo": "LO10",
+      "topic": "Catabolisme du glucose et des acides gras : schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le glucose et les acides gras sont dégradés par deux voies distinctes. Ces voies convergent vers une même molécule, formée dans la mitochondrie.",
+      "lead_in": "Compléter le schéma, du glucose et des acides gras jusqu'à l'étape qui produit la plus grande partie de l'ATP.",
+      "options": [],
+      "source_slides": [
+        "P3-04",
+        "P3-05",
+        "P3-06",
+        "P3-07",
+        "P3-09"
+      ],
+      "explanation": "La glycolyse se déroule dans le cytosol et coupe le glucose en deux pyruvates. Sans O2, le pyruvate devient lactate ; avec O2, il entre dans la mitochondrie et devient acétyl-CoA. La bêta-oxydation, dans la matrice mitochondriale, découpe les acides gras en acétyl-CoA. L'acétyl-CoA alimente le cycle de Krebs, qui charge les transporteurs NADH et FADH2. La phosphorylation oxydative, dans la membrane interne, produit ensuite la plus grande partie de l'ATP. Le support d'origine (p. 6) plaçait la glycolyse dans les mitochondries ; la slide révisée corrige ce point (slide 2a « Métabolisme cellulaire : vue d'ensemble », P3-04 ; détail des étapes : P3-05, P3-06, P3-07 et P3-09).",
+      "distractors": [
+        "Glycolyse (mitochondrie)",
+        "Urée",
+        "Néoglucogenèse"
+      ],
+      "nodes": [
+        {
+          "id": "glu",
+          "label": "Glucose",
+          "x": 5,
+          "y": 1,
+          "w": 30,
+          "h": 8,
+          "fixed": true
+        },
+        {
+          "id": "ag",
+          "label": "Acides gras",
+          "x": 65,
+          "y": 1,
+          "w": 30,
+          "h": 8,
+          "fixed": true
+        },
+        {
+          "id": "gly",
+          "label": "Glycolyse (cytosol)",
+          "x": 5,
+          "y": 15,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "box",
+          "label": "Bêta-oxydation (matrice)",
+          "x": 65,
+          "y": 15,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "pyr",
+          "label": "Pyruvate",
+          "x": 5,
+          "y": 31,
+          "w": 30,
+          "h": 8
+        },
+        {
+          "id": "lac",
+          "label": "Lactate (sans O2)",
+          "x": 1,
+          "y": 47,
+          "w": 24,
+          "h": 9
+        },
+        {
+          "id": "aco",
+          "label": "Acétyl-CoA",
+          "x": 35,
+          "y": 47,
+          "w": 30,
+          "h": 9
+        },
+        {
+          "id": "kre",
+          "label": "Cycle de Krebs (matrice)",
+          "x": 35,
+          "y": 62,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "id": "pho",
+          "label": "Phosphorylation oxydative (membrane interne)",
+          "x": 28,
+          "y": 78,
+          "w": 44,
+          "h": 10
+        }
+      ],
+      "edges": [
+        [
+          "glu",
+          "gly"
+        ],
+        [
+          "ag",
+          "box"
+        ],
+        [
+          "gly",
+          "pyr"
+        ],
+        [
+          "pyr",
+          "lac"
+        ],
+        [
+          "pyr",
+          "aco"
+        ],
+        [
+          "box",
+          "aco"
+        ],
+        [
+          "aco",
+          "kre"
+        ],
+        [
+          "kre",
+          "pho"
+        ]
+      ],
+      "width": 100,
+      "height": 90,
+      "edge_style": "elbow"
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W302",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "ordering",
+      "lo": "LO10",
+      "topic": "Du cycle de Krebs à l'ATP : phosphorylation oxydative",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Dans la mitochondrie, l'énergie tirée des nutriments est transférée à l'ATP par une suite d'événements.",
+      "lead_in": "Remettre dans l'ordre les événements, du cycle de Krebs jusqu'à la formation de l'ATP.",
+      "options": [],
+      "source_slides": [
+        "P3-06",
+        "P3-07"
+      ],
+      "items": [
+        "Le cycle de Krebs charge les transporteurs d'électrons NADH et FADH2",
+        "Le NADH et le FADH2 cèdent leurs électrons aux complexes de la membrane interne",
+        "L'énergie des électrons sert à pomper les H+ de la matrice vers l'espace intermembranaire",
+        "Les H+ reviennent vers la matrice à travers l'ATP synthétase",
+        "L'ATP synthétase forme l'ATP à partir d'ADP + Pi"
+      ],
+      "explanation": "Le cycle de Krebs fournit peu d'ATP : il charge surtout les transporteurs NADH et FADH2. Ceux-ci cèdent leurs électrons à la chaîne de transport de la membrane mitochondriale interne. L'énergie des électrons pompe les H+ vers l'espace intermembranaire, comme une pompe remonte l'eau derrière un barrage. Le retour des H+ vers la matrice fait tourner l'ATP synthétase, qui forme l'ATP. En bout de chaîne, l'O2 reçoit les électrons et forme de l'eau (slides 2a « Cycle de Krebs (cycle de l'acide citrique) », P3-06, et « Phosphorylation oxydative », P3-07 ; barrage : notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W303",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "cloze",
+      "lo": "LO10",
+      "topic": "Rôle de l'ATP dans la cellule : texte à trous",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter la description du rôle de l'ATP dans la cellule.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        "P3-13"
+      ],
+      "explanation": "L'ATP transfère l'énergie des nutriments vers trois types de travail : mécanique (contraction musculaire), transport actif (pompe Na+-K+) et chimique (synthèse de protéines et de glycogène). Le stock d'ATP du muscle couvre 4 à 6 s d'effort maximal. La créatine phosphate prolonge l'effort jusqu'à environ 15 s, la glycolyse anaérobie couvre 30 à 40 s et la voie aérobie tient des heures. La réserve durable d'énergie est formée par le glycogène et les graisses (slide 2c « Rôle de l'ATP dans le métabolisme », P3-13 ; durées : notes de l'orateur).",
+      "text": "L'ATP est la ___ énergétique de la cellule : chaque cellule la produit et la dépense sur place. Son hydrolyse donne de l'ADP et un phosphate inorganique, avec libération d'énergie. Cette énergie sert au travail mécanique, comme la ___ musculaire, au transport actif, comme la pompe Na+-K+, et au travail chimique, comme la synthèse des ___. Le stock d'ATP du muscle ne couvre que quelques ___ d'effort maximal. La ___ phosphate prend ensuite le relais jusqu'à environ 15 s.",
+      "blanks": [
+        "monnaie",
+        "contraction",
+        "protéines",
+        "secondes",
+        "créatine"
+      ],
+      "distractors": [
+        "minutes",
+        "heures",
+        "glycolyse"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W304",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "direction",
+      "lo": "LO10",
+      "topic": "Hypoxie tissulaire et production de lactate",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-05",
+        "P3-07"
+      ],
+      "statement": "Chez un patient en état de choc, les tissus reçoivent trop peu d'oxygène. La production de lactate par leurs cellules :",
+      "correct": "up",
+      "rationale": "Augmente. Sans O2, la chaîne de transport des électrons s'arrête et la cellule dépend de la glycolyse anaérobie. Le pyruvate est alors transformé en lactate, ce qui régénère le NAD+ et permet à la glycolyse de continuer. La lactatémie est suivie comme marqueur de gravité (slides 2a « Glycolyse : du glucose au pyruvate », P3-05, et « Phosphorylation oxydative », P3-07 ; choc et lactatémie : notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W305",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "flashcard",
+      "lo": "LO10",
+      "topic": "Cycle de Krebs et oxygène",
+      "bloom": "understand",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-06",
+        "P3-07"
+      ],
+      "answer": "Le cycle de Krebs charge les transporteurs NAD+ et FAD, qui deviennent NADH et FADH2. La chaîne de transport des électrons les décharge en cédant les électrons à l'O2. Sans O2, la chaîne s'arrête : le NAD+ et le FAD ne sont plus régénérés, et le cycle s'arrête à son tour. Seule la glycolyse anaérobie continue, avec formation de lactate (slide 2a « Cycle de Krebs (cycle de l'acide citrique) », P3-06, notes de l'orateur ; slide 2a « Phosphorylation oxydative », P3-07).",
+      "prompt": "Le cycle de Krebs n'utilise pas directement l'oxygène. Pourquoi s'arrête-t-il pourtant en l'absence d'O2 ?"
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W306",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "matching",
+      "lo": "LO11",
+      "topic": "Carences en vitamines et en fer : signes cliniques",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une carence en micronutriment se traduit par des signes cliniques qui découlent de son rôle dans l'organisme.",
+      "lead_in": "Associer chaque tableau clinique au micronutriment dont la carence l'explique.",
+      "options": [],
+      "source_slides": [
+        "P3-15"
+      ],
+      "explanation": "Vitamine C : synthèse du collagène, d'où le scorbut (gencives qui saignent, mauvaise cicatrisation). Vitamine A : pigment de la rétine, d'où la mauvaise vision nocturne. Vitamine D : absorption du calcium et minéralisation des os, d'où le rachitisme de l'enfant. Vitamine K : synthèse des facteurs de coagulation par le foie. Fer : hémoglobine, d'où l'anémie (slide 3a « Vitamines et minéraux : rôles et carences », P3-15).",
+      "pairs": [
+        {
+          "left": "Saignement des gencives et plaie qui cicatrise mal",
+          "right": "Vitamine C"
+        },
+        {
+          "left": "Mauvaise vision dans la pénombre",
+          "right": "Vitamine A"
+        },
+        {
+          "left": "Os mal minéralisés chez un enfant",
+          "right": "Vitamine D"
+        },
+        {
+          "left": "Saignements par manque de facteurs de coagulation",
+          "right": "Vitamine K"
+        },
+        {
+          "left": "Fatigue et pâleur par manque d'hémoglobine",
+          "right": "Fer"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W307",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "classify",
+      "lo": "LO11",
+      "topic": "Hormones et processus qui règlent la glycémie",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "La glycémie est maintenue dans une zone étroite par des hormones, qui agissent sur des processus du foie, des muscles et du tissu adipeux.",
+      "lead_in": "Classer chaque hormone ou processus selon son effet sur la glycémie.",
+      "options": [],
+      "source_slides": [
+        "P3-10",
+        "P3-11"
+      ],
+      "explanation": "L'insuline est la seule hormone hypoglycémiante : elle fait entrer le glucose dans les muscles et le tissu adipeux et stimule la glycogenèse. Le glucagon, l'adrénaline et le cortisol élèvent la glycémie. Dans le foie, le glucagon stimule la glycogénolyse et la néoglucogenèse, qui libèrent du glucose dans le sang (slide 2b « Régulation de la glycémie : insuline et glucagon », P3-11 ; néoglucogenèse : P3-10).",
+      "categories": [
+        "Abaisse la glycémie",
+        "Élève la glycémie"
+      ],
+      "elements": [
+        {
+          "text": "Insuline, sécrétée par les cellules bêta des îlots pancréatiques",
+          "category": "Abaisse la glycémie"
+        },
+        {
+          "text": "Glucagon, sécrété par les cellules alpha des îlots pancréatiques",
+          "category": "Élève la glycémie"
+        },
+        {
+          "text": "Adrénaline",
+          "category": "Élève la glycémie"
+        },
+        {
+          "text": "Entrée du glucose dans les muscles et le tissu adipeux",
+          "category": "Abaisse la glycémie"
+        },
+        {
+          "text": "Stockage du glucose sous forme de glycogène (glycogenèse)",
+          "category": "Abaisse la glycémie"
+        },
+        {
+          "text": "Dégradation du glycogène du foie (glycogénolyse)",
+          "category": "Élève la glycémie"
+        },
+        {
+          "text": "Synthèse de glucose par le foie à partir d'acides aminés (néoglucogenèse)",
+          "category": "Élève la glycémie"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W308",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "steps",
+      "lo": "LO11",
+      "topic": "Énergie d'un repas selon les macronutriments (calcul guidé)",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Un repas de midi (lasagnes, salade, pain) apporte 70 g de glucides, 25 g de lipides et 30 g de protéines. Il est accompagné d'un verre de vin qui contient 10 g d'alcool.",
+      "lead_in": "Calculer pas à pas l'énergie apportée par ce repas.",
+      "options": [],
+      "source_slides": [
+        "P3-14"
+      ],
+      "formula": "Énergie (kcal) = masse (g) × énergie par gramme ; glucides et protéines 4 kcal/g, lipides 9 kcal/g, alcool 7 kcal/g",
+      "worked_solution": "Glucides : 70 × 4 = 280 kcal. Lipides : 25 × 9 = 225 kcal. Protéines : 30 × 4 = 120 kcal. Alcool : 10 × 7 = 70 kcal.\nTotal : 280 + 225 + 120 + 70 = 695 kcal.\nLes 25 g de lipides apportent 225 kcal, soit 80 % de l'énergie des 70 g de glucides. L'alcool fournit de l'énergie sans valeur nutritive (slide 3a « Nutriments : macronutriments et micronutriments », P3-14).",
+      "steps": [
+        {
+          "prompt": "Énergie apportée par les glucides, en kcal",
+          "answer": {
+            "value": 280,
+            "tolerance": 0,
+            "unit": "kcal"
+          },
+          "hint": "1 g de glucides apporte 4 kcal."
+        },
+        {
+          "prompt": "Énergie apportée par les lipides, en kcal",
+          "answer": {
+            "value": 225,
+            "tolerance": 0,
+            "unit": "kcal"
+          },
+          "hint": "1 g de lipides apporte 9 kcal."
+        },
+        {
+          "prompt": "Énergie apportée par les protéines, en kcal",
+          "answer": {
+            "value": 120,
+            "tolerance": 0,
+            "unit": "kcal"
+          },
+          "hint": "1 g de protéines apporte 4 kcal, comme 1 g de glucides."
+        },
+        {
+          "prompt": "Énergie apportée par l'alcool du verre de vin, en kcal",
+          "answer": {
+            "value": 70,
+            "tolerance": 0,
+            "unit": "kcal"
+          },
+          "hint": "1 g d'alcool apporte 7 kcal."
+        },
+        {
+          "prompt": "Énergie totale du repas, vin compris, en kcal",
+          "answer": {
+            "value": 695,
+            "tolerance": 0,
+            "unit": "kcal"
+          },
+          "hint": "Additionner les quatre résultats précédents."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W309",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "true_false",
+      "lo": "LO11",
+      "topic": "Glycogène du muscle et glycémie",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-10",
+        "P3-12"
+      ],
+      "statement": "Entre les repas, le glycogène des muscles est dégradé en glucose, libéré dans le sang, et contribue ainsi à maintenir la glycémie.",
+      "correct": false,
+      "rationale": "Faux. Le glycogène musculaire sert au muscle lui-même : le muscle ne possède pas l'enzyme qui libère le glucose dans le sang. Entre les repas, le foie maintient la glycémie : il dégrade son glycogène et fabrique du glucose par néoglucogenèse (slide 2b « Glucides, lipides et protéines : utilisation », P3-10, notes de l'orateur ; slide 2b « Rôles du foie et de la rate », P3-12)."
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W310",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "steps",
+      "lo": "LO12",
+      "topic": "Dépense de repos et besoin énergétique d'un homme (calcul guidé)",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "M. K., 45 ans, pèse 72 kg et mesure 180 cm. Il travaille assis dans un bureau et fait peu d'activités de loisirs ; on retient un NAP de 1,4.",
+      "lead_in": "Calculer pas à pas sa dépense de repos avec la formule de Mifflin-St Jeor, puis son besoin énergétique total.",
+      "options": [],
+      "source_slides": [
+        "P3-17",
+        "P3-18"
+      ],
+      "formula": "Homme : DER (kcal/j) = 10 × poids (kg) + 6,25 × taille (cm) − 5 × âge (ans) + 5 ; besoin total = DER × NAP",
+      "worked_solution": "10 × 72 + 6,25 × 180 = 720 + 1125 = 1845 kcal/j.\nDER = 1845 − 5 × 45 + 5 = 1845 − 225 + 5 = 1625 kcal/j.\nBesoin total = 1625 × 1,4 = 2275 kcal/j.\nErreurs fréquentes : oublier le + 5 de la formule de l'homme, écrire la taille en mètres, multiplier deux fois par le NAP (slides 3b « Dépense de repos : formule de Mifflin-St Jeor », P3-17, et « Niveau d'activité physique (NAP) », P3-18 ; erreurs fréquentes : notes de l'orateur de la slide P3-19).",
+      "steps": [
+        {
+          "prompt": "Somme 10 × poids (kg) + 6,25 × taille (cm), en kcal/j",
+          "answer": {
+            "value": 1845,
+            "tolerance": 0,
+            "unit": "kcal/j"
+          },
+          "hint": "10 × 72 = 720 ; 6,25 × 180 = 1125."
+        },
+        {
+          "prompt": "Dépense de repos (DER), en kcal/j",
+          "answer": {
+            "value": 1625,
+            "tolerance": 0,
+            "unit": "kcal/j"
+          },
+          "hint": "Retirer 5 × âge, puis ajouter 5, la constante de la formule de l'homme."
+        },
+        {
+          "prompt": "Besoin énergétique total, en kcal/j",
+          "answer": {
+            "value": 2275,
+            "tolerance": 1,
+            "unit": "kcal/j"
+          },
+          "hint": "Besoin total = DER × NAP."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W311",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "numeric",
+      "lo": "LO12",
+      "topic": "Besoin en protéines d'une personne âgée",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Mme V., 84 ans, pèse 55 kg. Pour limiter la perte musculaire, l'équipe retient le haut de la fourchette de référence en protéines après 65 ans, soit 1,2 g par kg et par jour.",
+      "lead_in": "Quel apport quotidien en protéines, en grammes, correspond à cet objectif ?",
+      "options": [],
+      "source_slides": [
+        "P3-16"
+      ],
+      "answer": {
+        "value": 66,
+        "tolerance": 0.5,
+        "unit": "g/j"
+      },
+      "formula": "Apport en protéines (g/j) = apport de référence (g/kg/j) × poids (kg)",
+      "worked_solution": "1,2 × 55 = 66 g de protéines par jour, soit 66 × 4 = 264 kcal/j.\nAvec la valeur des adultes de 18 à 65 ans (0,83 g/kg/j), le même poids donnerait environ 46 g/j. Après 65 ans, un apport plus élevé aide à limiter la perte musculaire (slide 3b « Apports de référence suisses (OSAV, 2022) », P3-16, et notes de l'orateur).",
+      "hint": "Multiplier l'apport de référence par le poids."
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W312",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "matching",
+      "lo": "LO12",
+      "topic": "Niveau d'activité physique selon le mode de vie",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Le niveau d'activité physique (NAP) est le rapport entre la dépense énergétique totale sur 24 h et la dépense énergétique de repos.",
+      "lead_in": "Associer chaque personne au NAP qui correspond à son mode de vie.",
+      "options": [],
+      "source_slides": [
+        "P3-18"
+      ],
+      "explanation": "1,2 à 1,3 : exclusivement assis ou couché, comme une personne alitée. 1,4 à 1,5 : travail assis, peu d'activité de loisirs. 1,6 à 1,7 : travail assis, par moments debout ou en marche, comme les étudiants. 1,8 à 1,9 : travail surtout debout et en marche (vendeurs, serveurs). 2,0 à 2,4 : travail physiquement pénible (ouvriers du bâtiment). Le NAP décrit toute l'activité des 24 h, sport compris (slide 3b « Niveau d'activité physique (NAP) », P3-18, et notes de l'orateur).",
+      "pairs": [
+        {
+          "left": "Patiente alitée après une fracture du col du fémur",
+          "right": "1,2 à 1,3"
+        },
+        {
+          "left": "Comptable qui fait peu d'activités de loisirs",
+          "right": "1,4 à 1,5"
+        },
+        {
+          "left": "Étudiante en soins infirmiers en période de cours",
+          "right": "1,6 à 1,7"
+        },
+        {
+          "left": "Serveur dans un restaurant",
+          "right": "1,8 à 1,9"
+        },
+        {
+          "left": "Maçon sur un chantier",
+          "right": "2,0 à 2,4"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W313",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "classify",
+      "lo": "LO12",
+      "topic": "Journée alimentaire et pyramide alimentaire suisse",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Lucas, 22 ans, en bonne santé, décrit ce qu'il a mangé et bu hier.",
+      "lead_in": "Comparer chaque élément de sa journée à la recommandation de la pyramide alimentaire suisse, puis le classer.",
+      "options": [],
+      "source_slides": [
+        "P3-20"
+      ],
+      "explanation": "Recommandations par jour : 5 portions de fruits et légumes ; 3 portions de céréales et de pommes de terre, de préférence complètes ; 2 à 3 portions de produits laitiers. S'y ajoutent 1 portion de légumineuses, œufs, viande, poisson ou tofu, et 1 à 2 L de boissons non sucrées. La pyramide prévoit aussi 2 cuillères à soupe d'huile végétale et 0 à 1 portion de sucreries, snacks salés ou boissons sucrées (slide 3c « Alimentation équilibrée : pyramide suisse 2024 », P3-20).",
+      "categories": [
+        "En dessous de la recommandation",
+        "Conforme à la recommandation",
+        "Au-dessus de la recommandation"
+      ],
+      "elements": [
+        {
+          "text": "2 portions de fruits et légumes",
+          "category": "En dessous de la recommandation"
+        },
+        {
+          "text": "Aucune portion de légumineuses, d'œufs, de viande, de poisson ou de tofu",
+          "category": "En dessous de la recommandation"
+        },
+        {
+          "text": "3 portions de céréales complètes et de pommes de terre",
+          "category": "Conforme à la recommandation"
+        },
+        {
+          "text": "2 portions de produits laitiers",
+          "category": "Conforme à la recommandation"
+        },
+        {
+          "text": "1,5 L d'eau et de tisane non sucrée",
+          "category": "Conforme à la recommandation"
+        },
+        {
+          "text": "3 portions de sucreries, de snacks salés et de boissons sucrées",
+          "category": "Au-dessus de la recommandation"
+        },
+        {
+          "text": "4 cuillères à soupe d'huile végétale",
+          "category": "Au-dessus de la recommandation"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W314",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "true_false",
+      "lo": "LO12",
+      "topic": "Écart entre les formules de Mifflin-St Jeor de l'homme et de la femme",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-17"
+      ],
+      "statement": "Pour un homme et une femme de même âge, de même poids et de même taille, la formule de Mifflin-St Jeor donne une dépense de repos plus élevée de 166 kcal/j chez l'homme.",
+      "correct": true,
+      "rationale": "Vrai. Les deux formules ne diffèrent que par la constante finale : + 5 chez l'homme, − 161 chez la femme. L'écart vaut 5 − (− 161) = 166 kcal/j, quels que soient l'âge, le poids et la taille. Un homme de 20 ans, 60 kg et 164 cm aurait ainsi une DER de 1364 + 166 = 1530 kcal/j, contre 1364 kcal/j pour la femme de l'exemple (slide 3b « Dépense de repos : formule de Mifflin-St Jeor », P3-17)."
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W315",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "steps",
+      "lo": "LO13",
+      "topic": "IMC, perte de poids et pré-dépistage NRS 2002 (calcul guidé)",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "M. D., 76 ans, est hospitalisé après une chute à domicile ; sa maladie n'est pas jugée sévère. Il mesure 1,75 m et pèse 58 kg ; il pesait 63 kg il y a trois mois. Depuis une semaine, il ne mange que la moitié de ses plateaux.",
+      "lead_in": "Calculer pas à pas les éléments du pré-dépistage NRS 2002.",
+      "options": [],
+      "source_slides": [
+        "P3-21"
+      ],
+      "formula": "IMC = poids (kg) / taille² (m²) ; perte de poids (%) = perte (kg) / poids initial (kg) × 100",
+      "worked_solution": "IMC = 58 / (1,75 × 1,75) = 58 / 3,0625 = 18,9 kg/m². Selon l'OMS, cette valeur reste dans la classe « normale » (18,5 à 24,9), mais elle est inférieure au seuil de 20,5 du NRS 2002.\nPerte de poids = 5 / 63 × 100 = 7,9 % en 3 mois, au-delà de 5 %.\nRéponses : IMC < 20,5, oui ; perte de poids, oui ; apports réduits, oui ; maladie sévère, non. Avec trois « oui », le pré-dépistage est positif : le dépistage final suit, avec 1 point pour un âge de 70 ans ou plus (slide 4a-4b « Nutrition en soins : enjeux et dépistage », P3-21, et notes de l'orateur).",
+      "steps": [
+        {
+          "prompt": "IMC, en kg/m² (arrondi à une décimale)",
+          "answer": {
+            "value": 18.9,
+            "tolerance": 0.1,
+            "unit": "kg/m²"
+          },
+          "hint": "IMC = poids / taille² ; 1,75 × 1,75 = 3,0625."
+        },
+        {
+          "prompt": "Perte de poids en 3 mois, en % du poids initial (arrondie à une décimale)",
+          "answer": {
+            "value": 7.9,
+            "tolerance": 0.2,
+            "unit": "%"
+          },
+          "hint": "Perte = 63 − 58 = 5 kg ; la rapporter au poids initial de 63 kg."
+        },
+        {
+          "prompt": "Nombre de questions du pré-dépistage NRS 2002 auxquelles on répond « oui »",
+          "answer": {
+            "value": 3,
+            "tolerance": 0,
+            "unit": ""
+          },
+          "hint": "Les quatre questions : IMC < 20,5 ? Perte de poids en 3 mois ? Apports réduits la semaine passée ? Maladie sévère ?"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W316",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "mcq",
+      "lo": "LO13",
+      "topic": "Dépistage de la dénutrition : conduite infirmière",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Mme G., 81 ans, est hospitalisée pour une pneumonie. Son IMC est de 21,5 kg/m². Elle a perdu 3 kg en trois mois et ne mange que le quart de ses plateaux depuis cinq jours. Ses chevilles sont œdématiées.",
+      "lead_in": "Quelle est la conduite infirmière la plus appropriée pour son état nutritionnel ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Conclure à l'absence de risque nutritionnel, puisque son IMC dépasse 20,5 kg/m²",
+          "correct": false,
+          "rationale": "Incorrect. L'IMC n'est que la première des quatre questions du pré-dépistage. La perte de poids et les apports réduits suffisent à le rendre positif ; les œdèmes peuvent en outre masquer une perte de poids (slide 4a-4b « Nutrition en soins : enjeux et dépistage », P3-21)."
+        },
+        {
+          "letter": "B",
+          "text": "Attendre que son IMC passe sous 18,5 kg/m² avant d'évaluer son alimentation",
+          "correct": false,
+          "rationale": "Incorrect. Le seuil de 18,5 kg/m² définit la maigreur selon l'OMS. Le NRS 2002 repère le risque plus tôt : un seul « oui » aux quatre questions déclenche le dépistage final (slide 4a-4b, P3-21)."
+        },
+        {
+          "letter": "C",
+          "text": "Passer au dépistage final du NRS 2002 et relever ses ingesta à chaque repas",
+          "correct": true,
+          "rationale": "Correct. Au moins deux réponses du pré-dépistage sont positives : perte de poids en 3 mois et apports réduits la semaine passée. Le dépistage final suit, avec 1 point pour l'âge. Le relevé des ingesta fait partie de la surveillance continue (slides 4a-4b, P3-21, et 4c « Prévention des problèmes nutritionnels », P3-22)."
+        },
+        {
+          "letter": "D",
+          "text": "Lui prescrire d'emblée des compléments nutritifs oraux, sans autre évaluation",
+          "correct": false,
+          "rationale": "Incorrect. Les compléments nutritifs sont prescrits par le médecin, souvent sur proposition de la diététicienne. L'équipe infirmière repère le risque, propose et surveille (slide 4c « Prévention des problèmes nutritionnels », P3-22, notes de l'orateur)."
+        }
+      ],
+      "source_slides": [
+        "P3-21",
+        "P3-22"
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W317",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "direction",
+      "lo": "LO13",
+      "topic": "Antivitamine K et légumes verts à feuilles",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-15",
+        "P3-22"
+      ],
+      "statement": "M. P. prend un anticoagulant antivitamine K (acénocoumarol). En vacances, il mange chaque jour de grandes quantités d'épinards et de salade verte, alors qu'il en mangeait peu. L'effet anticoagulant de son traitement :",
+      "correct": "down",
+      "rationale": "Diminue. Le foie a besoin de vitamine K pour fabriquer les facteurs de coagulation ; l'antivitamine K freine cette fabrication. Les légumes verts à feuilles sont riches en vitamine K : en manger brusquement beaucoup plus contrebalance le médicament. L'INR baisse et le risque de thrombose augmente. C'est pourquoi on conseille au patient sous antivitamine K d'en manger des quantités semblables d'un jour à l'autre, sans les supprimer (slide 3a « Vitamines et minéraux : rôles et carences », P3-15, notes de l'orateur ; slide 4c « Prévention des problèmes nutritionnels », P3-22)."
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W318",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "two_tier",
+      "lo": "LO10",
+      "topic": "Consommation de l'oxygène dans la respiration cellulaire",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Un patient reçoit de l'oxygène par lunettes nasales. Le sang transporte cet O2 jusqu'à ses cellules, où la respiration cellulaire le consomme.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-04",
+        "P3-05",
+        "P3-06",
+        "P3-07"
+      ],
+      "explanation": "La respiration cellulaire consomme l'O2 dans la phosphorylation oxydative, au niveau de la membrane mitochondriale interne. Les électrons de la chaîne viennent du NADH et du FADH2 ; en bout de chaîne, l'O2 les reçoit et forme de l'eau. La glycolyse ne consomme pas d'O2. Le cycle de Krebs libère le CO2 sans utiliser directement l'O2 ; il s'arrête pourtant sans O2, car la chaîne ne régénère plus le NAD+ et le FAD (slides P3-04 à P3-07 ; notes de l'orateur de P3-04 et P3-06).",
+      "tier1": {
+        "lead_in": "À quelle étape de la respiration cellulaire l'O2 est-il consommé ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Glycolyse, dans le cytosol de la cellule",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "Cycle de Krebs, dans la matrice de la mitochondrie",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "Chaîne de transport des électrons, dans la membrane interne",
+            "correct": true,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "L'O2 sert à couper le glucose en deux pyruvates au début de la respiration cellulaire.",
+            "correct": false,
+            "rationale": "Incorrect. La glycolyse se déroule dans le cytosol et ne consomme pas d'O2. Elle continue sans oxygène ; le pyruvate devient alors lactate (slide 2a « Glycolyse : du glucose au pyruvate », P3-05).",
+            "misconception": "La glycolyse aurait besoin d'oxygène."
+          },
+          {
+            "letter": "B",
+            "text": "L'O2 se combine au carbone dans le cycle de Krebs et forme le CO2 que l'on expire.",
+            "correct": false,
+            "rationale": "Incorrect. Le CO2 expiré est libéré par la phase de transition et par le cycle de Krebs, qui n'utilise pas directement l'O2. L'O2 finit sous forme d'eau (slide 2a « Cycle de Krebs (cycle de l'acide citrique) », P3-06 ; notes de l'orateur de P3-04 et P3-06).",
+            "misconception": "L'O2 inspiré deviendrait le CO2 expiré."
+          },
+          {
+            "letter": "C",
+            "text": "L'O2 reçoit les électrons en bout de chaîne et forme de l'eau ; sans O2, la chaîne s'arrête.",
+            "correct": true,
+            "rationale": "Correct. Le NADH et le FADH2 cèdent leurs électrons aux complexes de la membrane mitochondriale interne. L'O2, accepteur final, reçoit ces électrons et forme de l'eau : la phosphorylation oxydative consomme l'O2 (slides 2a « Métabolisme cellulaire : vue d'ensemble », P3-04, et « Phosphorylation oxydative », P3-07)."
+          },
+          {
+            "letter": "D",
+            "text": "L'O2 fournit à la chaîne les électrons qu'elle transmet d'un complexe à l'autre.",
+            "correct": false,
+            "rationale": "Incorrect. Les électrons de la chaîne viennent du NADH et du FADH2, chargés surtout par le cycle de Krebs. L'O2 les reçoit en bout de chaîne : il est l'accepteur final et forme de l'eau (slide 2a « Phosphorylation oxydative », P3-07).",
+            "misconception": "L'O2 serait la source des électrons de la chaîne respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W319",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "short_answer",
+      "lo": "LO10",
+      "topic": "Catabolisme et anabolisme après une chirurgie : explication écrite",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Mme E., 74 ans, a été opérée de l'abdomen il y a dix jours. Depuis, elle a eu de la fièvre, a peu mangé et est restée presque tout le temps au lit. Ses bras et ses cuisses ont nettement fondu.",
+      "lead_in": "Expliquer en deux ou trois phrases, avec les notions de catabolisme et d'anabolisme, ce qui se passe dans ses muscles.",
+      "options": [],
+      "source_slides": [
+        "P3-03"
+      ],
+      "explanation": "La synthèse protéique, vue en partie 1, est l'exemple type d'anabolisme ; elle consomme de l'ATP et du GTP. Jeûne, fièvre, chirurgie et alitement favorisent le catabolisme ; l'alimentation et la mobilisation soutiennent l'anabolisme (slide 1b « Métabolisme, nutrition et soins infirmiers », P3-03, et notes de l'orateur).",
+      "model_answer": "Le catabolisme dégrade de grosses molécules en petites et libère de l'énergie. L'anabolisme synthétise de grosses molécules à partir de petites, par exemple des protéines à partir d'acides aminés, et consomme de l'énergie. Dans les muscles de Mme E., la dégradation des protéines l'emporte sur leur synthèse : le catabolisme protéique domine, favorisé par la chirurgie, la fièvre, les apports alimentaires réduits et l'alitement.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "Le catabolisme dégrade de grosses molécules en petites et libère de l'énergie."
+        },
+        {
+          "kind": "element",
+          "text": "L'anabolisme synthétise de grosses molécules à partir de petites, par exemple des protéines, et consomme de l'énergie."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien avec la situation : dans ses muscles, la dégradation des protéines l'emporte sur leur synthèse (le catabolisme domine), sous l'effet d'au moins un facteur de la situation (chirurgie, fièvre, apports réduits, alitement)."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W320",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "short_answer",
+      "lo": "LO11",
+      "topic": "Macronutriments, vitamines B et énergie : explication écrite",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "M. C., 45 ans, demande à l'infirmière si un comprimé de vitamines B peut lui apporter de l'énergie, comme un repas.",
+      "lead_in": "Expliquer en deux ou trois phrases ce qui distingue l'apport d'un repas de celui des vitamines B, et le rôle de ces vitamines dans la production d'énergie.",
+      "options": [],
+      "source_slides": [
+        "P3-03",
+        "P3-14"
+      ],
+      "explanation": "Énergie par gramme : 4 kcal pour les glucides et les protéines, 9 kcal pour les lipides. Plusieurs coenzymes du métabolisme énergétique dérivent des vitamines B : le NAD+ de la niacine (B3), le FAD de la riboflavine (B2), le coenzyme A de l'acide pantothénique (B5) (slide 1b « Métabolisme, nutrition et soins infirmiers », P3-03, et notes de l'orateur ; slide 3a « Nutriments : macronutriments et micronutriments », P3-14).",
+      "model_answer": "Un repas apporte des macronutriments (glucides, lipides, protéines), qui se comptent en grammes et fournissent l'énergie. Les vitamines sont des micronutriments : leurs besoins se comptent en milligrammes ou en microgrammes, et elles n'apportent aucune énergie. Les vitamines B servent pourtant à former des coenzymes (NAD+, FAD, coenzyme A), qui participent aux réactions qui tirent l'énergie des macronutriments.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "Les macronutriments (glucides, lipides, protéines) fournissent l'énergie."
+        },
+        {
+          "kind": "element",
+          "text": "Les vitamines sont des micronutriments et n'apportent aucune énergie (besoins en mg ou en µg)."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien : les vitamines B servent à former des coenzymes (par exemple NAD+, FAD, coenzyme A) nécessaires aux réactions qui tirent l'énergie des macronutriments ; sans repas, le comprimé ne fournit pas d'énergie."
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W321",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "case",
+      "lo": "LO12",
+      "topic": "Besoins d'une étudiante en cours puis en stage : situation en quatre étapes",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Léa, 21 ans, étudiante en soins infirmiers, pèse 57 kg et mesure 168 cm. Elle veut estimer ses besoins pour organiser ses repas pendant son premier stage.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        "P3-14",
+        "P3-16",
+        "P3-17",
+        "P3-18"
+      ],
+      "explanation": "La dépense de repos dépend du sexe, de l'âge, du poids et de la taille ; l'activité intervient par le NAP. Le besoin total se répartit ensuite entre les macronutriments selon les apports de référence, puis se convertit en grammes : 4 kcal/g pour les glucides et les protéines, 9 kcal/g pour les lipides. Ces repères de l'OSAV valent pour des groupes de personnes en bonne santé (slides P3-14, P3-16, P3-17 et P3-18).",
+      "stages": [
+        {
+          "type": "numeric",
+          "lead_in": "Calculer sa dépense de repos avec la formule de Mifflin-St Jeor, en kcal/j.",
+          "formula": "Femme : DER (kcal/j) = 10 × poids (kg) + 6,25 × taille (cm) − 5 × âge (ans) − 161",
+          "worked_solution": "DER = 570 + 1050 − 105 − 161 = 1354 kcal/j. La constante − 161 est celle de la formule de la femme ; celle de l'homme est + 5 (slide 3b « Dépense de repos : formule de Mifflin-St Jeor », P3-17).",
+          "hint": "10 × 57 = 570 ; 6,25 × 168 = 1050 ; 5 × 21 = 105 ; la constante de la formule de la femme est − 161.",
+          "answer": {
+            "value": 1354,
+            "tolerance": 0,
+            "unit": "kcal/j"
+          }
+        },
+        {
+          "type": "direction",
+          "add": "Pendant son stage en service de médecine, Léa marche et reste debout une grande partie de la journée.",
+          "statement": "Selon la formule de Mifflin-St Jeor, sa dépense de repos pendant le stage :",
+          "rationale": "Ne change pas. La formule utilise le sexe, l'âge, le poids et la taille, qui restent les mêmes. L'activité intervient par le NAP : environ 1,6 à 1,7 en période de cours, 1,8 à 1,9 en stage. C'est le besoin total qui augmente (slides 3b « Dépense de repos : formule de Mifflin-St Jeor », P3-17, et « Niveau d'activité physique (NAP) », P3-18 ; NAP en stage : notes de l'orateur de P3-18).",
+          "correct": "same"
+        },
+        {
+          "type": "numeric",
+          "add": "Pour la période de stage, on retient un NAP de 1,8.",
+          "lead_in": "Calculer son besoin énergétique total pendant le stage, en kcal/j (arrondi à l'unité).",
+          "formula": "Besoin énergétique total (kcal/j) = DER × NAP",
+          "worked_solution": "1354 × 1,8 = 2437,2 kcal/j, soit environ 2437 kcal/j. En période de cours, avec un NAP de 1,6, le besoin serait d'environ 1354 × 1,6 = 2166 kcal/j (slides 3b, P3-17 et P3-18).",
+          "hint": "Multiplier la dépense de repos de l'étape 1 par le NAP.",
+          "answer": {
+            "value": 2437,
+            "tolerance": 1,
+            "unit": "kcal/j"
+          }
+        },
+        {
+          "type": "numeric",
+          "add": "On vise 50 % de cette énergie sous forme de glucides, une valeur comprise dans la fourchette de référence suisse de 45 à 60 %.",
+          "lead_in": "Quelle masse de glucides, en grammes par jour, correspond à cet objectif (arrondie à l'unité) ?",
+          "formula": "Masse de glucides (g/j) = énergie fournie par les glucides (kcal/j) / 4 kcal/g",
+          "worked_solution": "2437 × 0,5 = 1218,5 kcal/j ; 1218,5 / 4 = 304,6 g/j, soit environ 305 g de glucides par jour (slides 3b « Apports de référence suisses (OSAV, 2022) », P3-16, et 3a « Nutriments : macronutriments et micronutriments », P3-14).",
+          "hint": "Prendre la moitié du besoin total, puis diviser par l'énergie de 1 g de glucides.",
+          "answer": {
+            "value": 305,
+            "tolerance": 1,
+            "unit": "g/j"
+          }
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W322",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "error_spot",
+      "lo": "LO12",
+      "topic": "Estimation du besoin énergétique d'un patient : erreurs dans une explication",
+      "bloom": "evaluate",
+      "difficulty": "medium",
+      "stem": "En stage, un étudiant de 1re année explique à une collègue comment l'équipe estime le besoin énergétique de M. O., 77 ans, hospitalisé pour une infection urinaire avec fièvre. M. O. reste alité.",
+      "lead_in": "Toucher les phrases erronées de son explication.",
+      "options": [],
+      "source_slides": [
+        "P3-17",
+        "P3-18",
+        "P3-19"
+      ],
+      "explanation": "La première erreur figure parmi les erreurs fréquentes citées en cours, avec l'oubli du + 5 de la formule de l'homme et la double multiplication par le NAP. La seconde répond à une question traitée en cours : la maladie augmente les besoins, ce que la formule ne prend pas en compte. La diététicienne ajuste l'estimation (slides 3b, P3-17 et P3-18 ; notes de l'orateur de P3-18 et P3-19).",
+      "segments": [
+        {
+          "text": "La dépense de repos est l'énergie dépensée au repos complet, à jeun et éveillé, pour les fonctions vitales.",
+          "error": false
+        },
+        {
+          "text": "La formule de Mifflin-St Jeor l'estime à partir du sexe, de l'âge, du poids en kilogrammes et de la taille en mètres.",
+          "error": true,
+          "correction": "La formule de Mifflin-St Jeor l'estime à partir du sexe, de l'âge, du poids en kilogrammes et de la taille en centimètres.",
+          "rationale": "La formule multiplie la taille en centimètres par 6,25. Écrire la taille en mètres figure parmi les erreurs fréquentes citées en cours (slide 3b « Dépense de repos : formule de Mifflin-St Jeor », P3-17 ; notes de l'orateur de P3-19)."
+        },
+        {
+          "text": "Pour un homme, la formule se termine par + 5 ; pour une femme, par − 161.",
+          "error": false
+        },
+        {
+          "text": "Le besoin énergétique total s'obtient en multipliant la dépense de repos par le niveau d'activité physique (NAP).",
+          "error": false
+        },
+        {
+          "text": "Pour M. O., qui reste alité, on retient un NAP de 1,2.",
+          "error": false
+        },
+        {
+          "text": "Sa fièvre ne modifie pas ses besoins, puisque la formule ne la prend pas en compte.",
+          "error": true,
+          "correction": "Sa fièvre augmente ses besoins, même si la formule ne la prend pas en compte.",
+          "rationale": "L'alitement abaisse le NAP, mais la fièvre, l'inflammation et la cicatrisation augmentent les besoins. La formule ne tient pas compte de la maladie : elle donne une première estimation (slide 3b « Niveau d'activité physique (NAP) », P3-18 ; notes de l'orateur de P3-18 et P3-19)."
+        },
+        {
+          "text": "La diététicienne ajuste ensuite cette première estimation.",
+          "error": false
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W323",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "two_tier",
+      "lo": "LO13",
+      "topic": "Enrichir les repas d'une personne qui mange peu",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Mme H., 86 ans, vit en EMS. Elle ne mange que la moitié de ses assiettes et se dit vite rassasiée. L'équipe veut augmenter l'énergie de ses repas sans en augmenter le volume.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-10",
+        "P3-14",
+        "P3-16",
+        "P3-22"
+      ],
+      "explanation": "Chez une personne qui mange peu, enrichir les repas en lipides et en protéines augmente l'apport sans augmenter le volume. Les lipides apportent le plus d'énergie par gramme, ce qui explique que le corps stocke sa réserve à long terme sous forme de graisse. Les protéines aident à limiter la perte musculaire. L'enrichissement des repas fait partie de la réadaptation nutritionnelle (slide 3a, P3-14, notes de l'orateur ; slide 4c « Prévention des problèmes nutritionnels », P3-22).",
+      "tier1": {
+        "lead_in": "À masse égale, quel groupe de nutriments augmente le plus l'énergie de ses repas ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les glucides",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "Les lipides",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "Les protéines",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les glucides sont la principale source d'énergie immédiate des cellules ; ils sont donc les plus énergétiques.",
+            "correct": false,
+            "rationale": "Incorrect. Les glucides sont la principale source d'énergie immédiate, mais 1 g de glucides n'apporte que 4 kcal, contre 9 kcal pour 1 g de lipides (slides 2b « Glucides, lipides et protéines : utilisation », P3-10, et 3a « Nutriments : macronutriments et micronutriments », P3-14).",
+            "misconception": "La source d'énergie la plus utilisée par les cellules serait aussi la plus riche en énergie par gramme."
+          },
+          {
+            "letter": "B",
+            "text": "1 g de lipides apporte 9 kcal, plus du double de 1 g de glucides ou de protéines, qui en apportent 4.",
+            "correct": true,
+            "rationale": "Correct. Glucides et protéines apportent 4 kcal/g, les lipides 9 kcal/g. À masse égale, un ajout d'huile ou de crème fournit plus de deux fois plus d'énergie (slide 3a « Nutriments : macronutriments et micronutriments », P3-14)."
+          },
+          {
+            "letter": "C",
+            "text": "Les lipides sont la réserve d'énergie à long terme ; ce rôle de réserve leur donne plus d'énergie par gramme.",
+            "correct": false,
+            "rationale": "Incorrect. Les lipides forment bien la réserve d'énergie à long terme. Le lien de cause est inverse : 1 g de lipides apporte 9 kcal, plus du double de 1 g de glucides, et le corps stocke donc sa réserve sous forme de graisse (slides 2b « Glucides, lipides et protéines : utilisation », P3-10, et 3a « Nutriments : macronutriments et micronutriments », P3-14, notes de l'orateur).",
+            "misconception": "Le rôle de réserve des lipides expliquerait leur énergie par gramme."
+          },
+          {
+            "letter": "D",
+            "text": "Les protéines construisent et réparent les muscles ; elles sont donc les plus énergétiques.",
+            "correct": false,
+            "rationale": "Incorrect. Les protéines servent surtout à construire et à réparer les tissus ; elles apportent 4 kcal/g, comme les glucides. Un apport suffisant reste utile après 65 ans pour limiter la perte musculaire (slides 2b, P3-10, 3a, P3-14, et 3b « Apports de référence suisses (OSAV, 2022) », P3-16, notes de l'orateur).",
+            "misconception": "Le rôle des protéines dans la construction des tissus en ferait le nutriment le plus énergétique."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie3-web-v2-W324",
+      "batch": "FO11PACE-partie3-web-v2",
+      "type": "case",
+      "lo": "LO13",
+      "topic": "Surveillance nutritionnelle et reprise alimentaire : situation en trois étapes",
+      "bloom": "apply",
+      "difficulty": "hard",
+      "stem": "Mme T., 79 ans, est hospitalisée en médecine. Depuis dix jours, à la suite d'une gastro-entérite, elle n'a presque rien mangé. L'équipe met en place une surveillance nutritionnelle.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        "P3-11",
+        "P3-12",
+        "P3-21",
+        "P3-22"
+      ],
+      "explanation": "Chez une personne qui a peu mangé pendant plusieurs jours, la surveillance porte sur les ingesta, les boissons et le poids. Une albumine basse ne suffit pas à conclure : le dépistage suit le NRS 2002. La reprise alimentaire est progressive et surveillée, car une renutrition rapide peut faire chuter le phosphore, le potassium et le magnésium sanguins (slides P3-21 et P3-22, notes de l'orateur).",
+      "stages": [
+        {
+          "type": "numeric",
+          "add": "Le premier jour, le relevé des ingesta, noté en quarts de plateau, donne 1/4 au petit-déjeuner, 1/2 à midi et 1/4 le soir. Chaque plateau apporte environ 600 kcal.",
+          "lead_in": "Quelle énergie, en kcal, a-t-elle consommée ce jour-là ?",
+          "formula": "Énergie consommée (kcal) = somme des fractions de plateau consommées × énergie d'un plateau (kcal)",
+          "worked_solution": "1/4 + 1/2 + 1/4 = 1 plateau sur les 3 servis, soit 1 × 600 = 600 kcal, le tiers de l'énergie servie (1800 kcal). Noter la part consommée de chaque plateau, par exemple en quarts, est un geste simple et informatif de la surveillance continue (slide 4c « Prévention des problèmes nutritionnels », P3-22, et notes de l'orateur).",
+          "hint": "Additionner les fractions : 1/4 + 1/2 + 1/4.",
+          "answer": {
+            "value": 600,
+            "tolerance": 0,
+            "unit": "kcal"
+          }
+        },
+        {
+          "type": "true_false",
+          "add": "Le bilan sanguin prescrit à l'admission montre une albumine basse.",
+          "statement": "Ce résultat suffit à prouver que Mme T. est dénutrie.",
+          "rationale": "Faux. L'albumine, synthétisée par le foie, baisse aussi en cas d'inflammation ou d'insuffisance hépatique. Le dépistage de la dénutrition repose sur le NRS 2002 : IMC, perte de poids, apports réduits et sévérité de la maladie (slide 4a-4b « Nutrition en soins : enjeux et dépistage », P3-21, et notes de l'orateur ; slide 2b « Rôles du foie et de la rate », P3-12).",
+          "correct": false
+        },
+        {
+          "type": "direction",
+          "add": "Le médecin prépare la reprise alimentaire. Après un jeûne prolongé, elle doit être progressive.",
+          "statement": "Lors d'une renutrition trop rapide, le potassium sanguin (kaliémie) de Mme T. :",
+          "rationale": "Diminue. À la reprise alimentaire, l'insuline sécrétée fait entrer le glucose, le phosphate et le potassium dans les cellules. Après un jeûne prolongé, une renutrition rapide peut ainsi faire chuter le phosphore, le potassium et le magnésium sanguins : c'est le syndrome de renutrition inappropriée (slide 4c, P3-22, notes de l'orateur ; insuline : slide 2b « Régulation de la glycémie : insuline et glucagon », P3-11).",
+          "correct": "down"
+        }
+      ]
+    }
+  ],
+  "course_id": "cellule",
+  "audience": "bachelor",
+  "year": 1
+}
