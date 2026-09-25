@@ -1,11 +1,11 @@
 {
-  "site_title": "Cœur et circulation",
+  "site_title": "Cœur, circulation, respiration",
   "course": "SPHANACR",
   "program": "Année propédeutique santé (APS)",
   "institution": "HE-ARC Neuchâtel",
   "cohort": "APS 2026-27",
-  "generated_at": "2026-09-24",
-  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Fable 5.1, sous la direction de l'auteur, Philippe Terrier ; une partie des lots est validée par l'auteur, les autres sont en cours de relecture.",
+  "generated_at": "2026-09-25",
+  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Fable 5.1 et par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; une partie des lots est validée par l'auteur, les autres sont en cours de relecture.",
   "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
   "batches": [
     {
@@ -47,6 +47,26 @@
       "generated": "2026-09-22",
       "model": "claude-fable-5-1",
       "approved": ""
+    },
+    {
+      "id": "SPHANACR-respiration-v1",
+      "part": "Système respiratoire",
+      "title": "Systèmes cardio-circulatoire et respiratoire, 2e partie : système respiratoire",
+      "scope": "2e partie du cours (système respiratoire), slides 1 à 54 ; quiz Kahoot de fin de cours, aussi exporté sur le site",
+      "n_items": 15,
+      "generated": "2026-09-25",
+      "model": "claude-opus-5-5",
+      "approved": ""
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1",
+      "part": "Système respiratoire",
+      "title": "Systèmes cardio-circulatoire et respiratoire, 2e partie : système respiratoire",
+      "scope": "2e partie du cours (système respiratoire), slides 1 à 54 ; exercices à formats variés pour le site web",
+      "n_items": 36,
+      "generated": "2026-09-25",
+      "model": "claude-opus-5-5",
+      "approved": ""
     }
   ],
   "learning_objectives": [
@@ -85,6 +105,30 @@
       "short_title": "Lois de la circulation : pressions, résistances, débits",
       "part": "Vaisseaux et pression",
       "n_items": 32
+    },
+    {
+      "id": "LO5",
+      "short_title": "Composants des poumons et échanges gazeux",
+      "part": "Système respiratoire",
+      "n_items": 11
+    },
+    {
+      "id": "LO6",
+      "short_title": "Étapes de la respiration, pressions, volumes, capacités",
+      "part": "Système respiratoire",
+      "n_items": 16
+    },
+    {
+      "id": "LO7",
+      "short_title": "Transport et échanges des gaz respiratoires",
+      "part": "Système respiratoire",
+      "n_items": 17
+    },
+    {
+      "id": "LO8_respiration",
+      "short_title": "Régulation de la respiration",
+      "part": "Système respiratoire",
+      "n_items": 7
     }
   ],
   "items": [
@@ -3253,6 +3297,2042 @@
       "statement": "La paroi des capillaires n'est formée que d'une seule couche de cellules endothéliales.",
       "correct": true,
       "rationale": "Vrai. Les capillaires n'ont qu'une tunique interne : une couche de cellules endothéliales sur une membrane basale, avec des fentes et des pores. Cette paroi mince permet les échanges d'oxygène, de dioxyde de carbone et de nutriments avec les tissus (slide 56)."
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q001",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO5",
+      "topic": "Nez, pharynx, larynx et trachée : rôles",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quel est le rôle du nez, du pharynx, du larynx et de la trachée ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Conduire l'air, le filtrer et l'humidifier",
+          "correct": true,
+          "rationale": "Correct. Ces conduits conduisent l'air vers les poumons et hors des poumons. Ils filtrent et humidifient aussi l'air inspiré (slide 3)."
+        },
+        {
+          "letter": "B",
+          "text": "Régler l'ouverture des bronches",
+          "correct": false,
+          "rationale": "Incorrect. L'ouverture des bronches dépend de leur muscle lisse, commandé par les systèmes sympathique et parasympathique (slide 14)."
+        },
+        {
+          "letter": "C",
+          "text": "Transporter l'O2 jusqu'aux cellules des tissus",
+          "correct": false,
+          "rationale": "Incorrect. Ces conduits s'arrêtent aux poumons : ils conduisent l'air vers les poumons et hors des poumons (slide 3)."
+        },
+        {
+          "letter": "D",
+          "text": "Maintenir les poumons collés à la paroi du thorax",
+          "correct": false,
+          "rationale": "Incorrect. Ce rôle revient à la plèvre : la pression négative de l'espace pleural maintient les poumons dilatés (slide 17)."
+        }
+      ],
+      "source_slides": [
+        3,
+        14,
+        17
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q002",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO5",
+      "topic": "Alvéole : rôle du surfactant des pneumocytes de type II",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Les pneumocytes de type II d'une personne sécrètent trop peu de surfactant.",
+      "lead_in": "Quel risque augmente ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'entrée de poussières jusqu'aux alvéoles",
+          "correct": false,
+          "rationale": "Incorrect. Le filtrage de l'air revient aux voies aériennes, du nez à la trachée (slide 3). Le surfactant sert à garder les alvéoles ouvertes (slide 15)."
+        },
+        {
+          "letter": "B",
+          "text": "L'affaissement des alvéoles",
+          "correct": true,
+          "rationale": "Correct. Le surfactant sécrété par les pneumocytes de type II diminue le risque d'affaissement des alvéoles (atélectasie). Il leur permet de rester ouvertes (slide 15, notes de la slide 15)."
+        },
+        {
+          "letter": "C",
+          "text": "La disparition des macrophages alvéolaires",
+          "correct": false,
+          "rationale": "Incorrect. Les macrophages sont un autre composant de l'alvéole, distinct des pneumocytes de type II. Le surfactant sert à garder les alvéoles ouvertes (slide 15)."
+        },
+        {
+          "letter": "D",
+          "text": "L'encombrement des bronches par du mucus",
+          "correct": false,
+          "rationale": "Incorrect. Le mucus vient des cellules à mucus de la trachée et des bronches (slide 9). Le surfactant agit dans les alvéoles et les garde ouvertes (slide 15)."
+        }
+      ],
+      "source_slides": [
+        3,
+        9,
+        15
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q003",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO5",
+      "topic": "Espace mort : définition",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Pourquoi la trachée et les bronches forment-elles un « espace mort » ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'air y stagne et n'est pas renouvelé",
+          "correct": false,
+          "rationale": "Incorrect. L'air de ces conduits entre et sort à chaque respiration. « Mort » signifie qu'il n'y a pas d'échange gazeux à cet endroit (slides 3 et 11)."
+        },
+        {
+          "letter": "B",
+          "text": "L'air y a déjà cédé son O2 au sang",
+          "correct": false,
+          "rationale": "Incorrect. L'air cède son O2 au sang seulement dans la zone d'échanges, autour des alvéoles (slides 11 et 12)."
+        },
+        {
+          "letter": "C",
+          "text": "Le mucus y retient l'O2 inspiré",
+          "correct": false,
+          "rationale": "Incorrect. Les cellules à mucus tapissent la trachée et les bronches (slide 9). L'espace mort se définit par l'absence d'échange entre l'air et le sang (slide 11)."
+        },
+        {
+          "letter": "D",
+          "text": "L'air y passe sans échange avec le sang",
+          "correct": true,
+          "rationale": "Correct. Du nez jusqu'au 16e embranchement bronchique, l'air est seulement transporté, sans échange avec le sang : c'est l'espace mort. Les échanges commencent aux bronchioles respiratoires (slide 11)."
+        }
+      ],
+      "source_slides": [
+        3,
+        9,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q004",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Inspiration calme : muscles inspiratoires",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Lors d'une inspiration calme, qu'est-ce qui augmente le volume du thorax ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La contraction du muscle lisse des bronches",
+          "correct": false,
+          "rationale": "Incorrect. Le muscle lisse bronchique règle l'ouverture des bronches (slide 14). Le volume du thorax augmente grâce au diaphragme et aux intercostaux externes (slide 20)."
+        },
+        {
+          "letter": "B",
+          "text": "La contraction du diaphragme et des intercostaux externes",
+          "correct": true,
+          "rationale": "Correct. L'inspiration est active : le diaphragme se contracte et s'abaisse, les intercostaux externes se contractent. Le volume du thorax augmente (slides 20 et 21)."
+        },
+        {
+          "letter": "C",
+          "text": "Le relâchement du diaphragme, qui remonte dans le thorax",
+          "correct": false,
+          "rationale": "Incorrect. Le diaphragme se relâche et remonte en dôme à l'expiration. À l'inspiration, il se contracte et s'abaisse (slide 21)."
+        },
+        {
+          "letter": "D",
+          "text": "La dilatation active des poumons, qui tirent sur la paroi",
+          "correct": false,
+          "rationale": "Incorrect. Le poumon se dilate de façon passive. À l'inspiration, la pression intrapleurale devient plus négative et la pression transpulmonaire augmente, ce qui provoque l'expansion des poumons (slide 20)."
+        }
+      ],
+      "source_slides": [
+        14,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q005",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Fibres élastiques du poumon abîmées : phase de la respiration calme gênée",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Un patient a des fibres élastiques pulmonaires abîmées.",
+      "lead_in": "Quelle phase de la respiration calme est gênée, et pourquoi ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "L'inspiration, car le diaphragme se contracte moins bien",
+          "correct": false,
+          "rationale": "Incorrect. Les fibres abîmées se trouvent dans le poumon. Le diaphragme est un muscle : il se contracte et s'abaisse à l'inspiration (slides 20 et 21)."
+        },
+        {
+          "letter": "B",
+          "text": "L'inspiration, car la pression intrapleurale devient positive",
+          "correct": false,
+          "rationale": "Incorrect. Pendant la respiration calme, la pression intrapleurale reste négative (slide 22). La force de rétraction élastique du poumon s'oppose à la force musculaire inspiratoire : elle agit à l'expiration (slides 20 et 22)."
+        },
+        {
+          "letter": "C",
+          "text": "L'expiration, car le poumon se rétracte moins bien",
+          "correct": true,
+          "rationale": "Correct. L'expiration calme est passive : les muscles inspiratoires se relâchent et le poumon se rétracte grâce à ses fibres élastiques (slides 19 et 20, notes de la slide 19). Si ces fibres sont abîmées, cette force de rétraction diminue et l'air sort moins bien."
+        },
+        {
+          "letter": "D",
+          "text": "L'expiration, car les muscles expiratoires se contractent moins bien",
+          "correct": false,
+          "rationale": "Incorrect. À l'expiration calme, les muscles inspiratoires se relâchent et aucun muscle ne se contracte. L'expiration calme est passive (slide 20, notes de la slide 19)."
+        }
+      ],
+      "source_slides": [
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q006",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Volumes et capacités : calcul de la capacité vitale",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Volume courant 500 ml, réserve inspiratoire 2500 ml, réserve expiratoire 1000 ml.",
+      "lead_in": "Quelle est la capacité vitale ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1500 ml",
+          "correct": false,
+          "rationale": "Incorrect. 500 + 1000 = 1500 ml additionne seulement le volume courant et le volume de réserve expiratoire. Il manque le volume de réserve inspiratoire (slide 26, notes de la slide 26)."
+        },
+        {
+          "letter": "B",
+          "text": "3000 ml",
+          "correct": false,
+          "rationale": "Incorrect. 500 + 2500 = 3000 ml est la capacité inspiratoire (volume courant + volume de réserve inspiratoire). Il manque le volume de réserve expiratoire (slide 26, notes de la slide 26)."
+        },
+        {
+          "letter": "C",
+          "text": "3500 ml",
+          "correct": false,
+          "rationale": "Incorrect. 2500 + 1000 = 3500 ml oublie le volume courant, qui fait partie de la capacité vitale (notes de la slide 26)."
+        },
+        {
+          "letter": "D",
+          "text": "4000 ml",
+          "correct": true,
+          "rationale": "Correct. Capacité vitale (CV) = volume courant (VC) + volume de réserve inspiratoire + volume de réserve expiratoire = 500 + 2500 + 1000 = 4000 ml. C'est la quantité maximale d'air expirée après une inspiration maximale (slide 26, notes de la slide 26)."
+        }
+      ],
+      "source_slides": [
+        26
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q007",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Pression intrapleurale : calcul avec Ptp = Palv − Pip",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "En fin d'inspiration profonde, Palv = 760 mmHg et Ptp = 10 mmHg.",
+      "lead_in": "Quelle est la pression intrapleurale (Pip) ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "750 mmHg (−10 mmHg)",
+          "correct": true,
+          "rationale": "Correct. Ptp = Palv − Pip, donc Pip = Palv − Ptp = 760 − 10 = 750 mmHg, soit −10 mmHg (slide 18). À l'inspiration, la pression intrapleurale devient plus négative qu'au repos (slides 16 et 20). En fin d'inspiration calme, elle vaut déjà −7 (slide 22). Cette pression négative garde les poumons dilatés (slide 17)."
+        },
+        {
+          "letter": "B",
+          "text": "756 mmHg (−4 mmHg)",
+          "correct": false,
+          "rationale": "Incorrect. 756 mmHg (−4 mmHg) est la pression intrapleurale au repos (slide 16). Ici, Pip = 760 − 10 = 750 mmHg (slide 18)."
+        },
+        {
+          "letter": "C",
+          "text": "760 mmHg (0 mmHg)",
+          "correct": false,
+          "rationale": "Incorrect. 760 mmHg est la pression alvéolaire. La pression intrapleurale reste plus basse que la pression alvéolaire (slide 19)."
+        },
+        {
+          "letter": "D",
+          "text": "770 mmHg (+10 mmHg)",
+          "correct": false,
+          "rationale": "Incorrect. 760 + 10 inverse le signe de la formule Ptp = Palv − Pip (slide 18). La pression intrapleurale reste négative : elle garde les poumons dilatés (slide 17)."
+        }
+      ],
+      "source_slides": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        22
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q008",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO6",
+      "topic": "Étapes de la respiration : étape touchée dans une situation",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "La ventilation est normale, mais le cœur pompe peu de sang.",
+      "lead_in": "Quelle étape de la respiration est directement touchée ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La respiration cellulaire",
+          "correct": false,
+          "rationale": "Incorrect. La respiration cellulaire est l'utilisation de l'O2 par les cellules. Elle n'est touchée qu'en second lieu, par un apport de sang plus faible. Le cœur fait circuler le sang : c'est le transport des gaz (slide 29)."
+        },
+        {
+          "letter": "B",
+          "text": "Les échanges gazeux dans les poumons",
+          "correct": false,
+          "rationale": "Incorrect. Les échanges gazeux dans les poumons se font entre l'alvéole et le sang. Le cœur fait circuler le sang entre les poumons et les tissus : c'est le transport des gaz (slide 29)."
+        },
+        {
+          "letter": "C",
+          "text": "Le transport des gaz",
+          "correct": true,
+          "rationale": "Correct. Le transport des gaz se fait par le sang. Le cœur droit et le cœur gauche le font circuler dans la circulation pulmonaire et la circulation systémique (slide 29)."
+        },
+        {
+          "letter": "D",
+          "text": "Les échanges gazeux dans les tissus",
+          "correct": false,
+          "rationale": "Incorrect. Les échanges gazeux dans les tissus se font entre le sang et les cellules. Ils dépendent de l'apport de sang par la circulation, qui relève du transport des gaz (slide 29)."
+        }
+      ],
+      "source_slides": [
+        29
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q009",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO7",
+      "topic": "Transport de l'O2 : forme principale",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Sous quelle forme la plus grande partie de l'O2 est-elle transportée dans le sang ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lié à l'hémoglobine (HbO2)",
+          "correct": true,
+          "rationale": "Correct. 98,5 % de l'O2 est lié à l'hémoglobine sous forme d'oxyhémoglobine (HbO2). Seul 1,5 % est dissous dans le plasma (slide 40, notes de la slide 40)."
+        },
+        {
+          "letter": "B",
+          "text": "Dissous dans le plasma",
+          "correct": false,
+          "rationale": "Incorrect. L'O2 dissous dans le plasma ne représente que 1,5 % de l'O2 transporté (slide 40)."
+        },
+        {
+          "letter": "C",
+          "text": "Lié aux protéines du plasma",
+          "correct": false,
+          "rationale": "Incorrect. Dans le cours, les protéines plasmatiques fixent des ions H+ issus du CO2 (slide 45). L'O2 est porté par l'hémoglobine des globules rouges (slide 40)."
+        },
+        {
+          "letter": "D",
+          "text": "Lié à la myoglobine du sang",
+          "correct": false,
+          "rationale": "Incorrect. La myoglobine est une protéine semblable à l'hémoglobine, mais elle transporte l'O2 dans les muscles (slide 30)."
+        }
+      ],
+      "source_slides": [
+        30,
+        40,
+        45
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q010",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO7",
+      "topic": "Transport du CO2 : forme principale",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Sous quelle forme la majorité du CO2 est-elle transportée des tissus vers les poumons ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dissous dans le plasma",
+          "correct": false,
+          "rationale": "Incorrect. Le CO2 dissous dans le plasma est la plus petite part du transport du CO2 (slides 40 et 43)."
+        },
+        {
+          "letter": "B",
+          "text": "Sous forme d'ion bicarbonate (HCO3−)",
+          "correct": true,
+          "rationale": "Correct. La majorité du CO2 voyage sous forme de bicarbonate. Dans le globule rouge, CO2 + H2O donne H2CO3, qui se dissocie en H+ et HCO3−. Le bicarbonate passe ensuite dans le plasma (slides 43, 45 et 48, notes de la slide 40)."
+        },
+        {
+          "letter": "C",
+          "text": "Lié à l'hémoglobine (HbCO2)",
+          "correct": false,
+          "rationale": "Incorrect. Une partie du CO2 se lie à l'hémoglobine (HbCO2), mais c'est une part minoritaire. La forme majoritaire est le bicarbonate (slides 40 et 43)."
+        },
+        {
+          "letter": "D",
+          "text": "Sous forme d'acide carbonique (H2CO3)",
+          "correct": false,
+          "rationale": "Incorrect. L'acide carbonique (H2CO3) est une étape intermédiaire : il se dissocie en H+ et en ion bicarbonate (slides 44 et 45, notes de la slide 40)."
+        }
+      ],
+      "source_slides": [
+        40,
+        43,
+        44,
+        45,
+        48
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q011",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO7",
+      "topic": "Pression partielle d'O2 en altitude : calcul",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Vers 7000 m d'altitude, la pression atmosphérique vaut 300 mmHg.",
+      "lead_in": "Quelle est la PO2 de l'air inspiré ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "63 mmHg",
+          "correct": true,
+          "rationale": "Correct. PO2 = FIO2 × Patm = 0,21 × 300 = 63 mmHg. La fraction d'O2 reste d'environ 21 % en altitude ; c'est la pression atmosphérique qui baisse (slide 36)."
+        },
+        {
+          "letter": "B",
+          "text": "88 mmHg",
+          "correct": false,
+          "rationale": "Incorrect. 88 mmHg est la PO2 au sommet du Mont Blanc, où la pression atmosphérique vaut environ 420 mmHg. Ici, 0,21 × 300 = 63 mmHg (slide 36)."
+        },
+        {
+          "letter": "C",
+          "text": "160 mmHg",
+          "correct": false,
+          "rationale": "Incorrect. 160 mmHg est la PO2 au niveau de la mer (0,21 × 760). En altitude, la pression atmosphérique baisse, donc la PO2 baisse aussi (slide 36)."
+        },
+        {
+          "letter": "D",
+          "text": "300 mmHg",
+          "correct": false,
+          "rationale": "Incorrect. 300 mmHg est la pression totale de l'air. L'O2 en représente environ 21 % : sa pression partielle vaut 0,21 × 300 = 63 mmHg (slides 35 et 36)."
+        }
+      ],
+      "source_slides": [
+        35,
+        36
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q012",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO7",
+      "topic": "Muscle actif : libération de l'O2 par l'hémoglobine du sang",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Sang d'un muscle actif : CO2 et température en hausse.",
+      "lead_in": "Que fait l'hémoglobine, et où va sa courbe de dissociation ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elle retient plus fortement l'O2 ; courbe déplacée à gauche",
+          "correct": false,
+          "rationale": "Incorrect. Une hausse du CO2 et de la température déplace la courbe vers la droite (slide 42). La courbe se déplace à gauche quand la PCO2 est basse, à 20 mmHg (slide 41)."
+        },
+        {
+          "letter": "B",
+          "text": "Elle libère plus facilement l'O2 ; courbe déplacée à gauche",
+          "correct": false,
+          "rationale": "Incorrect. L'hémoglobine libère en effet plus facilement l'O2. Mais la courbe se déplace vers la droite quand le CO2 et la température augmentent (slides 41 et 42)."
+        },
+        {
+          "letter": "C",
+          "text": "Elle retient plus fortement l'O2 ; courbe déplacée à droite",
+          "correct": false,
+          "rationale": "Incorrect. Le déplacement vers la droite est juste, mais il traduit une baisse de l'affinité de l'hémoglobine pour l'O2 (slide 46). La légende de la figure de la slide 41 l'indique : une hausse de la pression partielle du CO2 accélère la dissociation de l'O2. L'O2 est donc libéré plus facilement aux tissus actifs (slide 42)."
+        },
+        {
+          "letter": "D",
+          "text": "Elle libère plus facilement l'O2 ; courbe déplacée à droite",
+          "correct": true,
+          "rationale": "Correct. La hausse du CO2 (baisse du pH) et de la température réduit l'affinité de l'hémoglobine pour l'O2. La courbe se déplace vers la droite et l'O2 est libéré plus facilement aux tissus actifs (slides 42 et 46, légende de la slide 41)."
+        }
+      ],
+      "source_slides": [
+        41,
+        42,
+        46
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q013",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO7",
+      "topic": "Saturation de l'hémoglobine en O2 : calcul à partir du nombre d'O2 fixés",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Dans le sang d'un muscle actif, chaque hémoglobine porte en moyenne 2 O2.",
+      "lead_in": "Quelle est sa saturation en O2 ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "25 %",
+          "correct": false,
+          "rationale": "Incorrect. 25 % correspondrait à 1 O2 sur 4 sites de liaison. Ici, 2 des 4 sites sont occupés : 2 / 4 = 50 % (slides 30 et 42)."
+        },
+        {
+          "letter": "B",
+          "text": "50 %",
+          "correct": true,
+          "rationale": "Correct. L'hémoglobine a 4 hèmes, et chaque hème fixe un O2 : elle a donc 4 sites de liaison (slide 30). La saturation est le pourcentage des sites occupés par l'O2 : 2 / 4 = 50 % (slide 42). Dans les tissus, où la PO2 est basse, l'hémoglobine libère une partie de son O2 (slide 42)."
+        },
+        {
+          "letter": "C",
+          "text": "67 %",
+          "correct": false,
+          "rationale": "Incorrect. 67 % suppose 3 sites de liaison (2 / 3). L'hémoglobine en compte 4, un par hème (slide 30) : 2 / 4 = 50 % (slide 42)."
+        },
+        {
+          "letter": "D",
+          "text": "100 %",
+          "correct": false,
+          "rationale": "Incorrect. 100 % suppose que l'hémoglobine fixe au plus 2 O2. Elle peut en fixer 4, un par hème (slide 30). Avec 2 O2, la moitié des sites sont occupés : 50 % (slide 42)."
+        }
+      ],
+      "source_slides": [
+        30,
+        42
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q014",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO8_respiration",
+      "topic": "Apnée volontaire : signal qui oblige à reprendre la respiration",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Une personne retient sa respiration. Au bout d'un moment, elle doit inspirer.",
+      "lead_in": "Quel mécanisme l'y pousse ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Les mécanorécepteurs du poumon étiré stimulent les centres respiratoires",
+          "correct": false,
+          "rationale": "Incorrect. Sur le schéma de la slide 51, les mécanorécepteurs pulmonaires portent le signe − : l'étirement du poumon freine les centres respiratoires. C'est le réflexe de distension pulmonaire (slide 50)."
+        },
+        {
+          "letter": "B",
+          "text": "Les récepteurs des agents irritants stimulent les centres respiratoires",
+          "correct": false,
+          "rationale": "Incorrect. Aucun agent irritant n'entre dans les voies aériennes pendant l'apnée. Sur le schéma, ces récepteurs portent aussi le signe − (slide 51)."
+        },
+        {
+          "letter": "C",
+          "text": "Le CO2 baisse ; les chimiorécepteurs stimulent les centres respiratoires",
+          "correct": false,
+          "rationale": "Incorrect. Sans ventilation, le CO2 n'est plus éliminé : il monte. Le CO2 baisse quand la respiration devient plus rapide et plus profonde (slide 52)."
+        },
+        {
+          "letter": "D",
+          "text": "Le CO2 monte ; les chimiorécepteurs stimulent les centres respiratoires",
+          "correct": true,
+          "rationale": "Correct. Pendant l'apnée, le CO2 produit par les cellules n'est plus rejeté : il s'accumule et le pH baisse (slide 52). Les chimiorécepteurs centraux et périphériques sont stimulés par la hausse du CO2 et des H+ (slide 51). Ils activent les centres respiratoires du bulbe, qui commandent les muscles respiratoires (slide 50)."
+        }
+      ],
+      "source_slides": [
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-v1-Q015",
+      "batch": "SPHANACR-respiration-v1",
+      "type": "mcq",
+      "lo": "LO8_respiration",
+      "topic": "Contrôle nerveux de l'ouverture des bronches",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "L'acétylcholine agit sur le muscle lisse des bronches.",
+      "lead_in": "Quel système la libère, et quel est son effet ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Système sympathique ; bronchodilatation",
+          "correct": false,
+          "rationale": "Incorrect. Le système sympathique agit par l'adrénaline, qui provoque la bronchodilatation. L'acétylcholine vient du système parasympathique (slide 14)."
+        },
+        {
+          "letter": "B",
+          "text": "Système sympathique ; bronchoconstriction",
+          "correct": false,
+          "rationale": "Incorrect. L'effet est juste, mais l'acétylcholine est libérée par le système parasympathique. Le système sympathique agit par l'adrénaline (slide 14)."
+        },
+        {
+          "letter": "C",
+          "text": "Système parasympathique ; bronchoconstriction",
+          "correct": true,
+          "rationale": "Correct. Le système parasympathique libère l'acétylcholine, qui provoque la bronchoconstriction : le calibre des bronches diminue (slide 14)."
+        },
+        {
+          "letter": "D",
+          "text": "Système parasympathique ; bronchodilatation",
+          "correct": false,
+          "rationale": "Incorrect. Le système est juste, mais l'acétylcholine provoque une bronchoconstriction. La bronchodilatation est due à l'adrénaline du système sympathique (slide 14)."
+        }
+      ],
+      "source_slides": [
+        14
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W001",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "ordering",
+      "lo": "LO5",
+      "topic": "Trajet de l'air inspiré dans les voies aériennes",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Lors d'une inspiration, l'air traverse les voies aériennes jusqu'au lieu des échanges gazeux.",
+      "lead_in": "Remettre dans l'ordre les structures traversées par l'air inspiré.",
+      "options": [],
+      "source_slides": [
+        3,
+        6,
+        11,
+        12
+      ],
+      "items": [
+        "Nez",
+        "Pharynx",
+        "Larynx",
+        "Trachée",
+        "Bronches souches (bronches principales)",
+        "Bronchioles",
+        "Alvéoles"
+      ],
+      "explanation": "L'air passe d'abord par le nez, le pharynx, le larynx et la trachée, qui le conduisent, le filtrent et l'humidifient (slide 3). Après la carène, la trachée se divise en deux bronches souches (notes de la slide 6). Celles-ci se divisent en bronches lobaires, segmentaires, puis en bronchioles (slide 11). Les échanges gazeux commencent dans les bronchioles respiratoires et se font surtout dans les alvéoles (slides 11 et 12)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W002",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "matching",
+      "lo": "LO5",
+      "topic": "Composants de l'appareil respiratoire et leur rôle",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Des bronches jusqu'aux alvéoles, chaque composant du poumon a un rôle précis.",
+      "lead_in": "Associer chaque composant à son rôle.",
+      "options": [],
+      "source_slides": [
+        5,
+        11,
+        12,
+        15,
+        19
+      ],
+      "explanation": "Une bronche lobaire dessert un lobe, un secteur du poumon ; les lobes sont séparés par des scissures (slide 5 et notes de la slide 5). Les fibres élastiques donnent au poumon sa tendance naturelle à se rétracter : il revient sur lui-même à l'expiration (slides 15 et 19). Les pneumocytes de type I forment la paroi de l'alvéole ; ceux de type II sécrètent le surfactant, qui diminue le risque de collapsus des alvéoles (slide 15). Les parois des alvéoles sont chargées de capillaires : là, le sang et l'air alvéolaire échangent leurs gaz (notes des slides 11 et 12).",
+      "pairs": [
+        {
+          "left": "Bronche lobaire",
+          "right": "Desservir un secteur du poumon délimité par des scissures"
+        },
+        {
+          "left": "Fibres élastiques du poumon",
+          "right": "Faire revenir le poumon sur lui-même"
+        },
+        {
+          "left": "Pneumocyte de type I",
+          "right": "Former la structure de la paroi alvéolaire"
+        },
+        {
+          "left": "Pneumocyte de type II",
+          "right": "Sécréter le surfactant"
+        },
+        {
+          "left": "Capillaires autour des alvéoles",
+          "right": "Amener le sang au contact de l'air alvéolaire"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W003",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "classify",
+      "lo": "LO5",
+      "topic": "Espace mort et zone d'échanges",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le long de l'arbre bronchique, l'air traverse d'abord une voie de passage, puis atteint le siège des échanges gazeux.",
+      "lead_in": "Classer chaque structure ou caractéristique selon la zone à laquelle elle appartient.",
+      "options": [],
+      "source_slides": [
+        11,
+        12
+      ],
+      "explanation": "Du nez jusqu'au 16e embranchement bronchique, l'air est seulement transporté, sans échange : c'est l'espace mort (slide 11). Cette voie de passage comprend le larynx, la trachée, les bronches principales, lobaires et segmentaires, puis les bronchioles. La trachée et les bronches ont une paroi renforcée par du cartilage, qui disparaît au niveau des bronchioles (slide 11). Les échanges commencent dans les bronchioles respiratoires, puis se font dans les canaux alvéolaires et les alvéoles (slide 11). Leurs parois sont très fines et chargées de capillaires (notes des slides 11 et 12).",
+      "categories": [
+        "Voie de passage de l'air",
+        "Siège des échanges gazeux"
+      ],
+      "elements": [
+        {
+          "text": "Larynx",
+          "category": "Voie de passage de l'air"
+        },
+        {
+          "text": "Bronche segmentaire",
+          "category": "Voie de passage de l'air"
+        },
+        {
+          "text": "Paroi renforcée par du cartilage",
+          "category": "Voie de passage de l'air"
+        },
+        {
+          "text": "Canal alvéolaire",
+          "category": "Siège des échanges gazeux"
+        },
+        {
+          "text": "Alvéoles",
+          "category": "Siège des échanges gazeux"
+        },
+        {
+          "text": "Paroi très fine, chargée de capillaires",
+          "category": "Siège des échanges gazeux"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W004",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "two_tier",
+      "lo": "LO5",
+      "topic": "Corps étranger inhalé et bronches souches",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Pendant un repas, M. L., 58 ans, inhale un fragment de cacahuète. Le fragment descend dans la trachée et dépasse la carène, la bifurcation de la trachée.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        5,
+        6
+      ],
+      "explanation": "La bronche souche droite est plus courte, plus large et plus verticale que la gauche. Elle se divise en trois bronches lobaires, contre deux à gauche. Pour ces raisons anatomiques, un corps étranger inhalé se retrouve beaucoup plus souvent à droite (notes de la slide 6).",
+      "tier1": {
+        "lead_in": "Dans quelle bronche souche le fragment a-t-il le plus de chances de se loger ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "La bronche souche droite",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "La bronche souche gauche",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "L'une ou l'autre, avec la même probabilité",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "La bronche souche droite est plus étroite, si bien que le fragment s'y coince.",
+            "correct": false,
+            "rationale": "Incorrect. La bronche souche droite a un diamètre plus grand que la gauche. Sa largeur et son axe proche de celui de la trachée y conduisent le fragment (notes de la slide 6).",
+            "misconception": "La bronche souche droite serait plus étroite que la gauche, et le fragment s'y coincerait."
+          },
+          {
+            "letter": "B",
+            "text": "La bronche souche gauche est plus verticale, car le cœur la repousse vers le bas.",
+            "correct": false,
+            "rationale": "Incorrect. C'est la bronche souche droite qui forme l'angle le plus direct avec la trachée. La place du cœur explique que le poumon gauche n'ait que deux lobes (notes de la slide 5 et notes de la slide 6).",
+            "misconception": "La place du cœur rendrait la bronche souche gauche plus verticale."
+          },
+          {
+            "letter": "C",
+            "text": "La bronche souche droite est plus courte, plus large et plus proche de l'axe de la trachée.",
+            "correct": true,
+            "rationale": "Correct. La bronche souche droite est plus courte et de plus grand diamètre que la gauche. Elle forme aussi un angle plus direct, dans le prolongement de la trachée (notes de la slide 6)."
+          },
+          {
+            "letter": "D",
+            "text": "Les deux bronches souches ont la même forme ; seul le hasard décide du côté.",
+            "correct": false,
+            "rationale": "Incorrect. Les deux bronches souches diffèrent : la droite est plus courte, plus large et plus verticale que la gauche (notes de la slide 6).",
+            "misconception": "Les deux bronches souches seraient identiques."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W005",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "cloze",
+      "lo": "LO5",
+      "topic": "La plèvre : feuillets, espace pleural et pression",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Compléter la description de la plèvre, qui enveloppe chaque poumon.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        16,
+        17
+      ],
+      "explanation": "La plèvre viscérale est collée au poumon ; la plèvre pariétale tapisse la paroi thoracique, le diaphragme et le médiastin (slide 17). L'espace pleural est virtuel : les deux feuillets restent au contact, séparés seulement par un liquide séreux qui réduit la friction (slide 17 et notes de la slide 16). Au repos, la pression intrapleurale vaut 756 mmHg, soit −4 mmHg par rapport à la pression atmosphérique (slide 16). Si une brèche laisse entrer de l'air dans l'espace pleural, cette pression n'est plus négative et le poumon s'affaisse : c'est le pneumothorax (slide 17 et notes de la slide 16).",
+      "text": "La plèvre est une membrane séreuse à deux feuillets. La plèvre ___ est collée à la surface du poumon. La plèvre ___ tapisse la paroi thoracique, le diaphragme et le médiastin. Entre les deux feuillets, l'espace pleural est un espace ___ qui contient un liquide ___. La pression y est ___ par rapport à la pression atmosphérique, ce qui maintient les poumons dilatés.",
+      "blanks": [
+        "viscérale",
+        "pariétale",
+        "virtuel",
+        "lubrifiant",
+        "négative"
+      ],
+      "distractors": [
+        "fibreuse",
+        "aérien",
+        "positive"
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W006",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "flashcard",
+      "lo": "LO5",
+      "topic": "Organes situés entre les deux poumons",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        7
+      ],
+      "answer": "Le cœur, la trachée, l'œsophage et de gros vaisseaux : l'aorte, la veine cave supérieure, l'artère pulmonaire et les veines pulmonaires (slide 7). Sous les poumons se trouve le diaphragme (slide 7).",
+      "prompt": "Quels organes se trouvent entre les deux poumons ?"
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W007",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO5",
+      "topic": "Emphysème et surface d'échange",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        12,
+        13,
+        15
+      ],
+      "statement": "Dans l'emphysème, de nombreuses petites alvéoles sont remplacées par quelques grands espaces aériens. La surface de contact entre l'air alvéolaire et le sang :",
+      "correct": "down",
+      "rationale": "Diminue. Les parois entre les alvéoles sont détruites (slide 13). Quelques grands espaces offrent moins de surface de contact avec les vaisseaux que de nombreuses petites alvéoles (notes de la slide 15). Or les échanges gazeux se font au contact des alvéoles et des capillaires qui les entourent (notes de la slide 12). Ces échanges deviennent donc moins efficaces."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W008",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "true_false",
+      "lo": "LO5",
+      "topic": "Lobes et scissures des poumons",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        5
+      ],
+      "statement": "La scissure horizontale sépare deux lobes du poumon gauche.",
+      "correct": false,
+      "rationale": "Faux. La scissure horizontale sépare le lobe supérieur et le lobe moyen du poumon droit. Le poumon gauche n'a que deux lobes, séparés par la scissure oblique gauche, car le cœur y prend de la place (slide 5 et notes de la slide 5)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W009",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "steps",
+      "lo": "LO6",
+      "topic": "Capacités pulmonaires : calcul guidé à partir des volumes",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "On a mesuré les volumes pulmonaires d'une étudiante. Voici les valeurs obtenues. Volume courant (VC) : 500 ml. Volume de réserve inspiratoire (VRI) : 2400 ml. Volume de réserve expiratoire (VRE) : 900 ml. Volume résiduel (VR) : 950 ml.",
+      "lead_in": "Calculer pas à pas ses quatre capacités pulmonaires. Une capacité est une somme de volumes.",
+      "options": [],
+      "source_slides": [
+        26
+      ],
+      "formula": "CI = VC + VRI ; CV = VC + VRI + VRE ; CRF = VRE + VR ; CPT = VC + VRI + VRE + VR",
+      "worked_solution": "CI = 500 + 2400 = 2900 ml. CV = 500 + 2400 + 900 = 3800 ml. CRF = 900 + 950 = 1850 ml. CPT = 500 + 2400 + 900 + 950 = 4750 ml. La CV représente ici 80 % de la CPT (3800 / 4750), la proportion attendue selon le cours (notes de la slide 26). Les valeurs du cours, plus élevées, sont celles d'un jeune homme de 70 kg en bonne santé (slide 26 et notes de la slide 26). Attention : VC désigne le volume courant, CV la capacité vitale.",
+      "steps": [
+        {
+          "prompt": "Capacité inspiratoire (CI), en ml",
+          "answer": {
+            "value": 2900,
+            "tolerance": 0,
+            "unit": "ml"
+          },
+          "hint": "La CI est l'air que l'on peut inspirer au maximum après une expiration courante : VC + VRI."
+        },
+        {
+          "prompt": "Capacité vitale (CV), en ml",
+          "answer": {
+            "value": 3800,
+            "tolerance": 0,
+            "unit": "ml"
+          },
+          "hint": "La CV est l'air que l'on peut expirer au maximum après une inspiration maximale : VC + VRI + VRE."
+        },
+        {
+          "prompt": "Capacité résiduelle fonctionnelle (CRF), en ml",
+          "answer": {
+            "value": 1850,
+            "tolerance": 0,
+            "unit": "ml"
+          },
+          "hint": "La CRF est l'air qui reste dans les poumons après une expiration courante : VRE + VR."
+        },
+        {
+          "prompt": "Capacité pulmonaire totale (CPT), en ml",
+          "answer": {
+            "value": 4750,
+            "tolerance": 0,
+            "unit": "ml"
+          },
+          "hint": "La CPT additionne les quatre volumes : VC + VRI + VRE + VR."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W010",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "numeric",
+      "lo": "LO6",
+      "topic": "Pression transpulmonaire au milieu de l'expiration",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "La pression atmosphérique (Patm) vaut 760 mmHg. Au milieu d'une expiration calme, la pression alvéolaire (Palv) vaut 761 mmHg (+1 mmHg par rapport à Patm). La pression intrapleurale (Pip) vaut 755 mmHg (−5 mmHg par rapport à Patm).",
+      "lead_in": "Quelle est la pression transpulmonaire (Ptp) à cet instant, en mmHg ?",
+      "options": [],
+      "source_slides": [
+        16,
+        18,
+        20,
+        22
+      ],
+      "answer": {
+        "value": 6,
+        "tolerance": 0,
+        "unit": "mmHg"
+      },
+      "formula": "Ptp = Palv − Pip",
+      "worked_solution": "Ptp = Palv − Pip = 761 − 755 = 6 mmHg (slide 18). Palv dépasse Patm de 1 mmHg : l'air sort, car il va de la pression la plus élevée vers la plus basse (slide 20, notes de la slide 22). Ptp reste positive : le poumon reste ouvert pendant qu'il se rétracte (slides 18 et 20). Ce sont les valeurs de la slide 22 au milieu de l'expiration. La slide 22 n'indique pas d'unité ; ses valeurs de fin d'expiration (Palv = 0, Pip = −4) sont celles que la slide 16 donne en mmHg (slides 16 et 22).",
+      "hint": "Une pression transmurale est une différence de pression à travers une paroi. Pour le poumon : pression dans les alvéoles moins pression dans la cavité pleurale."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W011",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "numeric",
+      "lo": "LO6",
+      "topic": "Pression alvéolaire pendant une inspiration profonde",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "La pression atmosphérique (Patm) vaut 760 mmHg. Pendant une inspiration profonde, la pression intrapleurale (Pip) vaut 750 mmHg et la pression transpulmonaire (Ptp) 8 mmHg.",
+      "lead_in": "Quelle est la pression alvéolaire (Palv) à cet instant, en mmHg ?",
+      "options": [],
+      "source_slides": [
+        16,
+        18,
+        20,
+        22
+      ],
+      "answer": {
+        "value": 758,
+        "tolerance": 0,
+        "unit": "mmHg"
+      },
+      "formula": "Ptp = Palv − Pip, donc Palv = Ptp + Pip",
+      "worked_solution": "Ptp = Palv − Pip (slide 18), donc Palv = Ptp + Pip = 8 + 750 = 758 mmHg. Palv est inférieure à Patm de 2 mmHg : l'air entre dans les poumons, car il va de la pression la plus élevée vers la plus basse (slide 20, notes de la slide 22). Par rapport à Patm prise comme zéro, Pip vaut −10 mmHg et Palv −2 mmHg (notes de la slide 16). Ces valeurs sont fictives ; elles décrivent une inspiration plus profonde que celle de la slide 22.",
+      "hint": "Partir de la formule de la pression transpulmonaire et isoler Palv."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W012",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "matching",
+      "lo": "LO6",
+      "topic": "Volumes et capacités pulmonaires : descriptions",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Le spirogramme distingue quatre volumes pulmonaires et plusieurs capacités, qui sont des sommes de volumes.",
+      "lead_in": "Associer chaque volume ou capacité à la description qui lui correspond.",
+      "options": [],
+      "source_slides": [
+        26
+      ],
+      "explanation": "Les quatre volumes s'empilent sans se chevaucher : VR, VRE, VC et VRI. La CV additionne VC, VRI et VRE ; la CRF additionne VRE et VR. Le VR reste après une expiration forcée, la CRF après une expiration courante, c'est-à-dire calme. VC désigne le volume courant, à ne pas confondre avec CV, la capacité vitale (slide 26 et notes de la slide 26).",
+      "pairs": [
+        {
+          "left": "Volume courant (VC)",
+          "right": "Air qui entre et sort à chaque respiration calme"
+        },
+        {
+          "left": "Volume de réserve inspiratoire (VRI)",
+          "right": "Air qu'on inspire encore en forçant, après une inspiration calme"
+        },
+        {
+          "left": "Volume de réserve expiratoire (VRE)",
+          "right": "Air qu'on souffle encore en forçant, après une expiration calme"
+        },
+        {
+          "left": "Volume résiduel (VR)",
+          "right": "Air qui reste même après avoir soufflé le plus fort possible"
+        },
+        {
+          "left": "Capacité vitale (CV)",
+          "right": "Air soufflé au maximum après avoir inspiré au maximum"
+        },
+        {
+          "left": "Capacité résiduelle fonctionnelle (CRF)",
+          "right": "Air qui reste après une expiration calme"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W013",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "ordering",
+      "lo": "LO6",
+      "topic": "Enchaînement des événements de l'inspiration",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une personne au repos commence une inspiration. Une suite d'événements mécaniques fait entrer l'air dans ses poumons.",
+      "lead_in": "Remettre dans l'ordre la chaîne de causes et d'effets de l'inspiration.",
+      "options": [],
+      "source_slides": [
+        20,
+        21,
+        22
+      ],
+      "items": [
+        "Les muscles inspiratoires se contractent",
+        "Le volume du thorax augmente",
+        "La pression intrapleurale (Pip) devient plus négative",
+        "La pression transpulmonaire (Ptp) augmente : les poumons commencent à se dilater",
+        "La pression alvéolaire (Palv) devient inférieure à la pression atmosphérique",
+        "L'air entre dans les poumons"
+      ],
+      "explanation": "Le diaphragme et les intercostaux externes se contractent : le thorax se distend (slides 20 et 21). La pression intrapleurale devient plus négative et la pression transpulmonaire augmente (slide 20). Les poumons se dilatent d'abord ; la pression alvéolaire passe ensuite sous la pression atmosphérique, et l'air entre (slide 20). L'air suit ce gradient de pression, de la plus élevée vers la plus basse (notes de la slide 22)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W014",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "classify",
+      "lo": "LO6",
+      "topic": "Inspiration et expiration calmes : classement des événements",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Au repos, la respiration calme alterne une inspiration et une expiration.",
+      "lead_in": "Classer chaque événement dans la phase où il se produit.",
+      "options": [],
+      "source_slides": [
+        16,
+        19,
+        20,
+        21,
+        22
+      ],
+      "explanation": "L'inspiration est active : le diaphragme se contracte, s'abaisse et s'aplatit (slide 21). La pression intrapleurale devient plus négative, par exemple de 756 à 754 mmHg, soit de −4 à −6 mmHg (slides 16 et 22). La pression alvéolaire passe sous la pression atmosphérique et l'air entre (slide 20). L'expiration calme est passive : les muscles se relâchent et le poumon revient sur lui-même (slides 19 et 20). La pression intrapleurale devient moins négative et la pression alvéolaire dépasse la pression atmosphérique : l'air sort (slide 20).",
+      "categories": [
+        "Inspiration calme",
+        "Expiration calme"
+      ],
+      "elements": [
+        {
+          "text": "Le diaphragme s'abaisse et s'aplatit",
+          "category": "Inspiration calme"
+        },
+        {
+          "text": "Le poumon revient sur lui-même, sans contraction musculaire",
+          "category": "Expiration calme"
+        },
+        {
+          "text": "La pression intrapleurale passe de 756 à 754 mmHg",
+          "category": "Inspiration calme"
+        },
+        {
+          "text": "La pression intrapleurale passe de 754 à 756 mmHg",
+          "category": "Expiration calme"
+        },
+        {
+          "text": "La pression alvéolaire passe sous la pression atmosphérique",
+          "category": "Inspiration calme"
+        },
+        {
+          "text": "La pression alvéolaire dépasse la pression atmosphérique",
+          "category": "Expiration calme"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W015",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "two_tier",
+      "lo": "LO6",
+      "topic": "Capacité résiduelle fonctionnelle et position du corps : réponse puis justification",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "M. R., 72 ans, souffre d'une insuffisance respiratoire. Il demande à rester assis dans son lit. Une étudiante affirme : « Couché à plat, il garderait plus d'air dans les poumons à la fin d'une expiration courante. »",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        26
+      ],
+      "explanation": "La capacité résiduelle fonctionnelle (CRF) est l'air qui reste dans les poumons après une expiration courante : CRF = VRE + VR. Les échanges gazeux se font sur ce volume (notes de la slide 26). En position couchée, les organes abdominaux compriment le diaphragme et la CRF diminue. C'est pourquoi une personne avec une insuffisance respiratoire a besoin d'être assise pour respirer (notes de la slide 26).",
+      "tier1": {
+        "lead_in": "Cette affirmation est :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "exacte",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "inexacte",
+            "correct": true,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Couché, le poumon ne porte plus son propre poids : sa capacité résiduelle fonctionnelle augmente.",
+            "correct": false,
+            "rationale": "Incorrect. En position couchée, la capacité résiduelle fonctionnelle diminue : les organes abdominaux compriment le diaphragme (notes de la slide 26).",
+            "misconception": "La position couchée augmenterait la capacité résiduelle fonctionnelle."
+          },
+          {
+            "letter": "B",
+            "text": "L'air qui reste en fin d'expiration courante est le volume résiduel, qui ne dépend pas de la position.",
+            "correct": false,
+            "rationale": "Incorrect. Le volume résiduel reste après une expiration forcée. Après une expiration courante, il reste la capacité résiduelle fonctionnelle, qui additionne le volume de réserve expiratoire et le volume résiduel (slide 26 et notes de la slide 26).",
+            "misconception": "L'air qui reste après une expiration courante serait le volume résiduel."
+          },
+          {
+            "letter": "C",
+            "text": "Couché, son volume courant augmente et s'ajoute à l'air qui reste dans les poumons.",
+            "correct": false,
+            "rationale": "Incorrect. Le volume courant entre et sort à chaque respiration : il ne reste pas dans les poumons en fin d'expiration courante. L'air qui reste est la capacité résiduelle fonctionnelle (notes de la slide 26).",
+            "misconception": "Le volume courant s'ajouterait à l'air qui reste en fin d'expiration courante."
+          },
+          {
+            "letter": "D",
+            "text": "Couché, les organes abdominaux compriment le diaphragme : sa capacité résiduelle fonctionnelle diminue.",
+            "correct": true,
+            "rationale": "Correct. La capacité résiduelle fonctionnelle (CRF) est l'air qui reste dans les poumons après une expiration courante. Elle diminue en position couchée, car les organes abdominaux compriment le diaphragme (notes de la slide 26)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W016",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO6",
+      "topic": "Pression transmurale de la paroi thoracique pendant l'inspiration",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        16,
+        18,
+        20,
+        22
+      ],
+      "statement": "La pression transmurale de la paroi thoracique (Ptw = Pip − Patm) est un nombre négatif. Pendant une inspiration calme, sa valeur, signe compris :",
+      "correct": "down",
+      "rationale": "Diminue. La pression atmosphérique (Patm) sert de zéro de référence et ne change pas (notes de la slide 16). Pendant l'inspiration, la pression intrapleurale (Pip) devient plus négative (slides 20 et 22). Ptw devient donc elle aussi plus négative : sa valeur diminue (slide 18). Le thorax s'agrandit pourtant : ce sont les muscles inspiratoires qui l'agrandissent (slide 20). Ptw ne suit donc pas le volume du thorax : elle diminue quand le thorax s'agrandit, alors que Ptp augmente quand le poumon se dilate (slide 20)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W017",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO6",
+      "topic": "Surfactant, compliance et variation de pression à l'inspiration",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        25
+      ],
+      "statement": "Chez un patient, la production de surfactant diminue. Pour faire entrer le même volume d'air dans ses poumons, la variation de pression nécessaire :",
+      "correct": "up",
+      "rationale": "Augmente. La compliance dépend de l'élasticité du tissu pulmonaire et de la tension superficielle des alvéoles (slide 25). Une production réduite de surfactant fait diminuer la compliance (notes de la slide 25). Comme compliance = ΔV/ΔP, il faut une plus grande variation de pression pour le même volume d'air (slide 25)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W018",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "diagram",
+      "lo": "LO6",
+      "topic": "Les cinq étapes de la respiration : schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "La respiration comprend cinq étapes : l'O2 va de l'atmosphère jusqu'aux cellules, qui l'utilisent. Le CO2 produit par les cellules fait le trajet inverse.",
+      "lead_in": "Compléter la chaîne des étapes de la respiration. Les flèches suivent le trajet de l'O2, de l'atmosphère jusqu'à son utilisation dans les cellules. Deux étiquettes sont en trop.",
+      "options": [],
+      "source_slides": [
+        11,
+        17,
+        29
+      ],
+      "explanation": "La ventilation fait circuler l'air entre l'atmosphère et les alvéoles. Viennent ensuite les échanges gazeux entre alvéoles et sang, puis le transport des gaz par le sang. Les échanges gazeux entre sang et cellules précèdent la respiration cellulaire (slide 29). Les bronches conduisent l'air sans échange gazeux : elles font partie de l'espace mort (slide 11). La cavité pleurale est un espace virtuel qui contient un liquide lubrifiant ; l'air respiré n'y circule pas (slide 17).",
+      "distractors": [
+        "Échanges gazeux dans les bronches",
+        "Passage de l'air dans la cavité pleurale"
+      ],
+      "nodes": [
+        {
+          "id": "atm",
+          "label": "Atmosphère (O2, CO2)",
+          "x": 20,
+          "y": 2,
+          "w": 60,
+          "h": 9,
+          "fixed": true
+        },
+        {
+          "id": "s1",
+          "label": "Ventilation pulmonaire",
+          "x": 20,
+          "y": 16,
+          "w": 60,
+          "h": 9
+        },
+        {
+          "id": "s2",
+          "label": "Échanges gazeux entre alvéoles et sang",
+          "x": 20,
+          "y": 30,
+          "w": 60,
+          "h": 9
+        },
+        {
+          "id": "s3",
+          "label": "Transport des gaz par le sang",
+          "x": 20,
+          "y": 44,
+          "w": 60,
+          "h": 9
+        },
+        {
+          "id": "s4",
+          "label": "Échanges gazeux entre sang et cellules",
+          "x": 20,
+          "y": 58,
+          "w": 60,
+          "h": 9
+        },
+        {
+          "id": "s5",
+          "label": "Respiration cellulaire",
+          "x": 20,
+          "y": 72,
+          "w": 60,
+          "h": 9
+        }
+      ],
+      "edges": [
+        [
+          "atm",
+          "s1"
+        ],
+        [
+          "s1",
+          "s2"
+        ],
+        [
+          "s2",
+          "s3"
+        ],
+        [
+          "s3",
+          "s4"
+        ],
+        [
+          "s4",
+          "s5"
+        ]
+      ],
+      "width": 100,
+      "height": 83,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W019",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "case",
+      "lo": "LO6",
+      "topic": "Pneumothorax : pressions et ventilation (situation en trois étapes)",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "M. D., 30 ans, en bonne santé, est assis au repos et respire calmement. Ses deux poumons sont dilatés dans le thorax.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        22
+      ],
+      "explanation": "En fin d'expiration, la pression intrapleurale vaut −4 mmHg ; la pression transpulmonaire, Ptp = Palv − Pip, reste positive et maintient le poumon dilaté (slides 16 à 18 et 22). Quand l'air entre dans la cavité pleurale, la pression intrapleurale rejoint la pression atmosphérique. Ptp tombe à zéro et le poumon se rétracte par ses fibres élastiques et la tension superficielle alvéolaire (slide 19). Tant que la cavité reste ouverte, la contraction des muscles inspiratoires ne dilate plus ce poumon (slide 20). C'est le pneumothorax (notes de la slide 16).",
+      "stages": [
+        {
+          "type": "mcq",
+          "lead_in": "Il vient de terminer une expiration calme. Qu'est-ce qui garde alors ses poumons dilatés ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Sa pression intrapleurale, plus basse que sa pression alvéolaire",
+              "correct": true,
+              "rationale": "Correct. En fin d'expiration, la pression intrapleurale vaut 756 mmHg, soit −4 mmHg par rapport à la pression atmosphérique ; la pression alvéolaire vaut 0 mmHg. La pression transpulmonaire positive, 4 mmHg, s'oppose à la tendance du poumon à se rétracter (slides 16 à 19 et 22)."
+            },
+            {
+              "letter": "B",
+              "text": "La contraction continue de son diaphragme et de ses intercostaux",
+              "correct": false,
+              "rationale": "Incorrect. En fin d'expiration, les muscles inspiratoires sont relâchés : l'expiration calme est passive (slide 20, notes de la slide 19)."
+            },
+            {
+              "letter": "C",
+              "text": "Sa pression alvéolaire, plus basse que la pression atmosphérique",
+              "correct": false,
+              "rationale": "Incorrect. En fin d'expiration, l'air ne circule plus : la pression alvéolaire est égale à la pression atmosphérique (slide 22)."
+            },
+            {
+              "letter": "D",
+              "text": "Le liquide pleural, qui pousse le poumon contre la paroi",
+              "correct": false,
+              "rationale": "Incorrect. Le liquide pleural lubrifie et réduit la friction. C'est la pression négative de l'espace pleural qui permet aux poumons de rester dilatés (slide 17)."
+            }
+          ]
+        },
+        {
+          "type": "true_false",
+          "add": "Plus tard, un coup de couteau ouvre la paroi droite de son thorax, et l'air extérieur entre dans sa cavité pleurale droite. La pression y devient égale à la pression atmosphérique et le poumon droit s'affaisse.",
+          "statement": "Le poumon droit s'affaisse parce que la cage thoracique se resserre et l'écrase.",
+          "rationale": "Faux. La cage thoracique tend au contraire à s'expandre vers l'extérieur. Le poumon s'affaisse par sa propre tendance à se rétracter, due aux fibres élastiques et à la tension superficielle alvéolaire. La pression transpulmonaire, devenue nulle, ne s'y oppose plus (slides 18 et 19).",
+          "correct": false
+        },
+        {
+          "type": "direction",
+          "add": "Juste après, M. D. inspire profondément ; son diaphragme se contracte normalement.",
+          "statement": "Le volume d'air qui entre dans son poumon droit, comparé à une inspiration d'avant la blessure :",
+          "rationale": "Diminue. Le diaphragme agrandit le thorax, mais l'air extérieur entre par la plaie dans la cavité pleurale droite. La pression intrapleurale reste proche de la pression atmosphérique : elle ne devient plus négative comme avant la blessure. La pression transpulmonaire reste proche de zéro et le poumon droit ne se dilate presque plus. Sa pression alvéolaire ne descend guère sous la pression atmosphérique : l'air n'entre presque plus dans ce poumon (slides 18 et 20).",
+          "correct": "down"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W020",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "steps",
+      "lo": "LO7",
+      "topic": "Pression partielle d'O2 de l'air inspiré en altitude (calcul guidé)",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Une étudiante prépare un trek en montagne. La pression atmosphérique vaut environ 600 mmHg à 2000 m d'altitude et environ 490 mmHg à 3500 m. L'air contient environ 21 % d'O2 (FIO2 = 0,21).",
+      "lead_in": "Calculer pas à pas la pression partielle d'O2 (PO2) de l'air inspiré, puis retrouver une pression atmosphérique à partir d'une PO2.",
+      "options": [],
+      "source_slides": [
+        36
+      ],
+      "formula": "PO2 = FIO2 × Patm, donc Patm = PO2 / FIO2",
+      "worked_solution": "À 2000 m : PO2 = 0,21 × 600 mmHg = 126 mmHg.\nÀ 3500 m : PO2 = 0,21 × 490 mmHg ≈ 103 mmHg.\nLa fraction d'O2 de l'air reste d'environ 21 % ; seule la pression atmosphérique diminue avec l'altitude (slide 36).\nPour une PO2 de 84 mmHg : Patm = 84 / 0,21 = 400 mmHg. Cette pression est plus basse qu'à 3500 m : elle correspond à une altitude plus élevée (slide 36).",
+      "steps": [
+        {
+          "prompt": "PO2 de l'air inspiré à 2000 m, en mmHg",
+          "answer": {
+            "value": 126,
+            "tolerance": 2,
+            "unit": "mmHg"
+          },
+          "hint": "Multiplier la fraction d'O2 (0,21) par la pression atmosphérique (600 mmHg)."
+        },
+        {
+          "prompt": "PO2 de l'air inspiré à 3500 m, en mmHg",
+          "answer": {
+            "value": 103,
+            "tolerance": 2,
+            "unit": "mmHg"
+          },
+          "hint": "Utiliser la même formule avec la pression atmosphérique à 3500 m."
+        },
+        {
+          "prompt": "Pression atmosphérique pour laquelle la PO2 de l'air inspiré ne vaudrait plus que 84 mmHg, en mmHg",
+          "answer": {
+            "value": 400,
+            "tolerance": 5,
+            "unit": "mmHg"
+          },
+          "hint": "Diviser la PO2 visée par la fraction d'O2 (0,21)."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W021",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "numeric",
+      "lo": "LO7",
+      "topic": "Échanges tissulaires : différence de PCO2 lue en kPa",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Une figure du cours donne les pressions partielles en kilopascals (kPa). Dans les cellules d'un tissu : PO2 5,3 kPa et PCO2 5,8 kPa. À l'extrémité artérielle du capillaire : PO2 13,3 kPa et PCO2 5,3 kPa. On admet que 1 kPa vaut environ 7,5 mmHg.",
+      "lead_in": "Quelle différence de PCO2 pousse le CO2 des cellules vers le sang qui arrive dans le capillaire, en mmHg ?",
+      "options": [],
+      "source_slides": [
+        37,
+        38,
+        39
+      ],
+      "answer": {
+        "value": 3.75,
+        "tolerance": 0.3,
+        "unit": "mmHg"
+      },
+      "formula": "Différence (mmHg) = (PCO2 des cellules − PCO2 du sang artériel) × 7,5",
+      "worked_solution": "Sur la figure, le CO2 passe des cellules, où sa pression partielle est la plus élevée, vers le sang (slide 39).\nDifférence : 5,8 − 5,3 = 0,5 kPa ; 0,5 × 7,5 ≈ 3,8 mmHg, soit environ 4 mmHg.\nLe tableau 10.2 donne la même différence en mmHg : 44 − 40 = 4 mmHg (slide 37).\nCe sont les différences de pressions partielles entre le plasma et les tissus qui favorisent les mouvements des gaz (slide 38).\nÀ l'extrémité veineuse du capillaire, le sang s'est chargé en CO2 : sa PCO2 atteint 5,8 kPa (slide 39).",
+      "hint": "Choisir les deux PCO2, faire la différence en kPa, puis multiplier par 7,5."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W022",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "numeric",
+      "lo": "LO7",
+      "topic": "Gradient de PO2 entre l'alvéole et le sang qui arrive au poumon",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "Le tableau 10.2 du cours donne les PO2 suivantes : air alvéolaire 100 mmHg ; sang désoxygéné 40 mmHg ; sang oxygéné 100 mmHg. Le capillaire pulmonaire reçoit le sang de l'artère pulmonaire.",
+      "lead_in": "À l'entrée du capillaire pulmonaire, quelle différence de PO2 pousse l'O2 de l'alvéole vers le sang, en mmHg ?",
+      "options": [],
+      "source_slides": [
+        37,
+        38,
+        39
+      ],
+      "answer": {
+        "value": 60,
+        "tolerance": 0,
+        "unit": "mmHg"
+      },
+      "formula": "Gradient de PO2 = PO2 alvéolaire − PO2 du sang qui entre dans le capillaire",
+      "worked_solution": "L'artère pulmonaire apporte au capillaire du sang désoxygéné, dont la PO2 vaut 40 mmHg (slides 37 et 39).\nGradient = 100 − 40 = 60 mmHg.\nCe sont les différences de pressions partielles entre l'alvéole et le plasma qui déterminent la direction et le volume des mouvements des gaz (slide 38). L'O2 passe donc de l'alvéole vers le sang (slide 39).\nÀ la sortie du capillaire, vers la veine pulmonaire, le sang oxygéné atteint 100 mmHg, comme l'air alvéolaire (slides 37 et 39).",
+      "hint": "Repérer quel sang arrive au capillaire par l'artère pulmonaire."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W023",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "classify",
+      "lo": "LO7",
+      "topic": "Formes de transport de l'O2 et du CO2 dans le sang",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "L'O2 et le CO2 voyagent dans le sang sous plusieurs formes, dans le plasma et dans les globules rouges. Dans chaque description, « ce gaz » désigne soit l'O2, soit le CO2.",
+      "lead_in": "Classer chaque description selon le gaz qu'elle concerne.",
+      "options": [],
+      "source_slides": [
+        30,
+        39,
+        40,
+        42,
+        43,
+        45,
+        48
+      ],
+      "explanation": "O2 : 98,5 % voyage fixé au fer de l'hémoglobine (HbO2) ; seul 1,5 % reste dissous dans le plasma (slides 30 et 40). L'hémoglobine se charge en O2 dans les poumons, où la PO2 est élevée (slide 42). CO2 : il passe des cellules vers le sang, car sa pression partielle est plus élevée dans les tissus (slide 39). La majorité voyage dans le plasma sous forme de bicarbonate (HCO3−), formé dans le globule rouge (slides 40, 45 et 48). Une partie plus petite est liée à l'hémoglobine (carbhémoglobine), une autre reste dissoute (slides 40, 43 et 45).",
+      "categories": [
+        "Transport de l'O2",
+        "Transport du CO2"
+      ],
+      "elements": [
+        {
+          "text": "Presque tout ce gaz voyage fixé au fer de l'hème, dans le globule rouge.",
+          "category": "Transport de l'O2"
+        },
+        {
+          "text": "La majorité de ce gaz voyage dans le plasma sous une forme transformée, après un passage dans le globule rouge.",
+          "category": "Transport du CO2"
+        },
+        {
+          "text": "Seul 1,5 % de ce gaz voyage dissous dans le plasma.",
+          "category": "Transport de l'O2"
+        },
+        {
+          "text": "Le sang se charge de ce gaz dans les tissus, où sa pression partielle est la plus élevée.",
+          "category": "Transport du CO2"
+        },
+        {
+          "text": "L'hémoglobine se charge de ce gaz dans les poumons, où sa pression partielle est élevée.",
+          "category": "Transport de l'O2"
+        },
+        {
+          "text": "Une partie minoritaire de ce gaz voyage liée à l'hémoglobine.",
+          "category": "Transport du CO2"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W024",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO7",
+      "topic": "Pression partielle d'O2 et O2 dissous dans le plasma",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        35,
+        38
+      ],
+      "statement": "Un patient reçoit de l'oxygène : la PO2 de son air alvéolaire augmente. La quantité d'O2 dissous dans son plasma :",
+      "correct": "up",
+      "rationale": "Augmente. Au contact d'un liquide, chaque gaz s'y dissout en proportion de sa pression partielle (slide 35). Les différences de pressions partielles règlent les mouvements des gaz entre l'alvéole et le plasma (slide 38). Plus d'O2 passe donc de l'alvéole dans le plasma."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W025",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO7",
+      "topic": "Azote : pression partielle dans le sang du capillaire pulmonaire",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        34,
+        37,
+        38
+      ],
+      "statement": "Le sang traverse un capillaire pulmonaire, au contact de l'air alvéolaire. Entre l'entrée et la sortie du capillaire, sa pression partielle d'azote (N2) :",
+      "correct": "same",
+      "rationale": "Ne change pas. Dans le tableau 10.2, l'azote vaut 573 mmHg dans l'air alvéolaire, dans le sang désoxygéné et dans le sang oxygéné (slide 37). Sans différence de pression partielle, rien ne favorise son mouvement (slide 38). L'azote représente d'ailleurs 78 % de l'air inspiré comme de l'air expiré (slide 34)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W026",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "matching",
+      "lo": "LO7",
+      "topic": "Effets Bohr, Haldane et Hamburger",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Trois effets décrivent comment l'hémoglobine et le globule rouge facilitent le transport de l'O2 et du CO2 entre les tissus et les poumons.",
+      "lead_in": "Associer chaque effet, à l'endroit indiqué, au phénomène décrit.",
+      "options": [],
+      "source_slides": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "explanation": "Effet Bohr : la hausse du CO2 et des H+ réduit l'affinité de l'hémoglobine pour l'O2 et facilite sa libération aux tissus actifs (slide 46). Effet Haldane : l'hémoglobine désoxygénée fixe plus de CO2 et de H+ ; dans les poumons, son oxygénation libère ce CO2, qui est expiré (slide 47). Effet Hamburger : dans les tissus, le bicarbonate (HCO3−) sort du globule rouge en échange d'ions chlorure (Cl−) (slides 45 et 48). Dans les poumons, il rentre dans le globule rouge et redonne du CO2 (slides 44 et 48).",
+      "pairs": [
+        {
+          "left": "Effet Bohr, dans les tissus",
+          "right": "Le CO2 et les H+ produits par un tissu actif font libérer plus d'O2 par l'hémoglobine."
+        },
+        {
+          "left": "Effet Haldane, dans les tissus",
+          "right": "L'hémoglobine qui a cédé son O2 fixe plus facilement le CO2 et les H+."
+        },
+        {
+          "left": "Effet Hamburger, dans les tissus",
+          "right": "Le bicarbonate sort du globule rouge vers le plasma, en échange d'ions chlorure."
+        },
+        {
+          "left": "Effet Haldane, dans les poumons",
+          "right": "L'oxygénation de l'hémoglobine libère le CO2, qui est ensuite expiré."
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W027",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "cloze",
+      "lo": "LO7",
+      "topic": "Structure et rôle de l'hémoglobine (texte à trous)",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter la description de l'hémoglobine.",
+      "lead_in": "Choisir le mot ou le nombre qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        30,
+        31,
+        42
+      ],
+      "explanation": "La globine compte 2 chaînes alpha et 2 chaînes bêta, chacune associée à un groupement hème (slides 30 et 31, notes de la slide 31). Le fer de chaque hème fixe une molécule d'O2 : une hémoglobine fixe jusqu'à 4 O2 (slide 30). Ce fer donne aussi au sang sa couleur rouge (notes de la slide 31). Dans les poumons, où la PO2 est élevée, la saturation de l'hémoglobine est proche de 100 %. Dans les tissus, où la PO2 est basse, l'hémoglobine libère l'O2 (slide 42).",
+      "text": "L'hémoglobine est une protéine des globules rouges. Sa globine compte quatre chaînes polypeptidiques, deux alpha et deux bêta. Chaque chaîne est associée à un groupement ___, qui contient un atome de ___. Chacun de ces atomes fixe une molécule d'O2 : une hémoglobine fixe donc au plus ___ molécules d'O2. Dans les poumons, où la PO2 est ___, l'hémoglobine se charge en O2. Dans les tissus, où la PO2 est ___, elle le libère.",
+      "blanks": [
+        "hème",
+        "fer",
+        "4",
+        "élevée",
+        "basse"
+      ],
+      "distractors": [
+        "2",
+        "globine",
+        "calcium",
+        "nulle"
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W028",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "ordering",
+      "lo": "LO7",
+      "topic": "Trajet du CO2 des cellules au plasma (voie du bicarbonate)",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Dans un tissu, le CO2 produit par les cellules rejoint le sang, puis voyage jusqu'aux poumons.",
+      "lead_in": "Remettre dans l'ordre les étapes de la voie du bicarbonate, des cellules jusqu'au transport vers les poumons.",
+      "options": [],
+      "source_slides": [
+        40,
+        43,
+        44,
+        45,
+        48
+      ],
+      "items": [
+        "Le CO2 produit par les cellules passe dans le plasma",
+        "Le CO2 entre dans le globule rouge",
+        "L'anhydrase carbonique accélère la réaction du CO2 avec l'eau : il se forme de l'acide carbonique (H2CO3)",
+        "L'acide carbonique se dissocie en ion H+ et en ion bicarbonate (HCO3−)",
+        "Le bicarbonate sort du globule rouge, en échange d'ions chlorure (Cl−)",
+        "Le bicarbonate voyage dans le plasma jusqu'aux poumons"
+      ],
+      "explanation": "Le CO2 sort des cellules, passe dans le plasma, puis entre dans le globule rouge (slides 43 et 45). Dans le globule rouge, l'anhydrase carbonique rend rapide la réaction du CO2 avec l'eau ; l'acide carbonique formé se dissocie en H+ et HCO3− (slide 45). Le bicarbonate sort vers le plasma en échange d'ions chlorure : c'est l'effet Hamburger (slides 45 et 48). Il voyage dans le plasma jusqu'aux poumons, où ces réactions se font en sens inverse (slides 40, 44 et 48)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W029",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "error_spot",
+      "lo": "LO7",
+      "topic": "Transport de l'O2 et du CO2 : erreurs dans une explication",
+      "bloom": "evaluate",
+      "difficulty": "hard",
+      "stem": "Un étudiant révise avec une camarade et lui explique comment le sang transporte l'O2 et le CO2.",
+      "lead_in": "Toucher les phrases erronées de son explication.",
+      "options": [],
+      "source_slides": [
+        32,
+        37,
+        40,
+        41,
+        42,
+        46,
+        47,
+        48
+      ],
+      "explanation": "L'O2 voyage surtout fixé sur l'hémoglobine (98,5 %) (slide 40). La courbe de dissociation est sigmoïde ; une hausse de la température ou du 2,3-BPG la déplace vers la droite (slide 42). Dans les poumons, l'affinité de l'hémoglobine pour l'O2 augmente (slide 46). Le sang veineux transporte plus de CO2 que le sang artériel (slides 37 et 47). L'hémoglobine tamponne aussi les ions H+ (slide 32). Dans les poumons, le bicarbonate redonne du CO2, qui est expiré (slide 48).",
+      "segments": [
+        {
+          "text": "Dans le sang, presque tout l'O2 voyage fixé sur l'hémoglobine ; une très petite part reste dissoute dans le plasma.",
+          "error": false
+        },
+        {
+          "text": "La saturation de l'hémoglobine suit la PO2 de façon proportionnelle : si la PO2 baisse de moitié, la saturation baisse aussi de moitié.",
+          "error": true,
+          "correction": "La courbe de dissociation est sigmoïde : quand la PO2 passe de 100 à 50 mmHg, la saturation reste au-dessus de 80 %.",
+          "rationale": "La forme en S de la courbe vient de la coopération entre les sous-unités de l'hémoglobine (slide 42). Sur la courbe normale de la figure de la slide 41, la saturation dépasse encore 80 % à 50 mmHg."
+        },
+        {
+          "text": "Une hausse de la température ou du 2,3-BPG déplace la courbe de dissociation vers la droite.",
+          "error": false
+        },
+        {
+          "text": "Dans les poumons, l'affinité de l'hémoglobine pour l'O2 ne change pas : l'effet Bohr n'agit que dans les tissus.",
+          "error": true,
+          "correction": "L'effet Bohr agit aussi dans les poumons : le CO2 est expiré et les H+ neutralisés, donc l'affinité de l'hémoglobine pour l'O2 augmente.",
+          "rationale": "L'effet Bohr joue dans les deux sens. Dans les tissus actifs, l'affinité diminue ; dans les poumons, elle augmente et favorise la liaison de l'O2 (slide 46)."
+        },
+        {
+          "text": "Le sang veineux transporte moins de CO2 que le sang artériel.",
+          "error": true,
+          "correction": "Le sang veineux transporte plus de CO2 : l'hémoglobine désoxygénée fixe plus facilement le CO2.",
+          "rationale": "Le sang veineux a une plus grande capacité de transport du CO2 (slide 47). Sa PCO2 est aussi plus élevée : 44 mmHg dans le sang désoxygéné, 40 mmHg dans le sang oxygéné (slide 37)."
+        },
+        {
+          "text": "L'hémoglobine agit aussi comme tampon : elle se lie aux ions H+ et participe à la régulation du pH sanguin.",
+          "error": false
+        },
+        {
+          "text": "Dans les poumons, le bicarbonate rentre dans le globule rouge et redonne du CO2, qui est expiré.",
+          "error": false
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W030",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "case",
+      "lo": "LO7",
+      "topic": "Ascension du Mont Blanc : PO2 et saturation de l'hémoglobine (situation en quatre étapes)",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Julie, 22 ans, en bonne santé, vit au niveau de la mer. Elle fait l'ascension du Mont Blanc (4810 m).",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        36,
+        37,
+        41,
+        42
+      ],
+      "explanation": "En altitude, la fraction d'O2 de l'air ne change pas, mais la pression atmosphérique baisse : au sommet, la PO2 inspirée tombe à environ 88 mmHg (slide 36). L'humidification et le CO2 abaissent encore la PO2 dans l'alvéole (slide 37). Sur la figure de la slide 41, la saturation perd environ 7 points entre 100 et 60 mmHg, puis environ 13 points entre 60 et 40 mmHg. La courbe est donc plus raide aux basses PO2 ; cette forme en S vient de la coopération entre les sous-unités de l'hémoglobine (slide 42).",
+      "stages": [
+        {
+          "type": "mcq",
+          "lead_in": "Pendant la montée, pourquoi la PO2 de l'air qu'elle inspire diminue-t-elle ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "L'air contient encore environ 21 % d'O2, mais la pression atmosphérique baisse.",
+              "correct": true,
+              "rationale": "Correct. PO2 = FIO2 × Patm. La FIO2 reste d'environ 21 % ; seule la pression atmosphérique diminue avec l'altitude (slide 36)."
+            },
+            {
+              "letter": "B",
+              "text": "La pression atmosphérique baisse, et l'air contient aussi une plus faible proportion d'O2.",
+              "correct": false,
+              "rationale": "Incorrect. La pression atmosphérique baisse bien, mais la fraction d'O2 de l'air (FIO2) reste d'environ 21 % en altitude (slide 36)."
+            },
+            {
+              "letter": "C",
+              "text": "L'air contient davantage d'azote, qui prend une partie de la place de l'O2.",
+              "correct": false,
+              "rationale": "Incorrect. La fraction d'O2 de l'air reste d'environ 21 % en altitude, comme au niveau de la mer. La PO2 baisse parce que la pression atmosphérique totale diminue (slide 36)."
+            }
+          ]
+        },
+        {
+          "type": "direction",
+          "add": "Dans ses alvéoles, l'air inspiré est humidifié et se mélange au CO2 produit par ses cellules.",
+          "statement": "En altitude, quand l'air passe de l'atmosphère à ses alvéoles, sa PO2 :",
+          "rationale": "Diminue. Dans l'alvéole, la PO2 dépend aussi de l'humidification de l'air inspiré et de la production de CO2 (slide 37). Au niveau de la mer, elle passe ainsi de 160 mmHg dans l'air inspiré à 100 mmHg dans l'alvéole (slides 36 et 37). Au sommet, où la PO2 inspirée vaut environ 88 mmHg, la PO2 alvéolaire est donc nettement plus basse (slides 36 et 37).",
+          "correct": "down"
+        },
+        {
+          "type": "mcq",
+          "add": "Pendant la montée, on suppose que la PO2 de son sang artériel descend à environ 60 mmHg, contre 100 mmHg au niveau de la mer.",
+          "lead_in": "D'après la courbe de dissociation normale, que devient la saturation de son hémoglobine en O2 (SaO2) ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Elle baisse d'environ 40 %, dans la même proportion que la PO2 artérielle.",
+              "correct": false,
+              "rationale": "Incorrect. La saturation ne varie pas en proportion de la PO2 : la courbe de dissociation a une forme en S (slide 42). À 60 mmHg, la courbe normale est encore proche de 90 % (figure de la slide 41)."
+            },
+            {
+              "letter": "B",
+              "text": "Elle chute fortement, sous 50 %, car la courbe est très raide à cette PO2.",
+              "correct": false,
+              "rationale": "Incorrect. À 60 mmHg, la courbe normale donne encore une saturation proche de 90 % : la baisse est faible (figure de la slide 41)."
+            },
+            {
+              "letter": "C",
+              "text": "Elle baisse peu et reste proche de 90 % : entre 100 et 60 mmHg, la saturation ne perd qu'environ 7 points.",
+              "correct": true,
+              "rationale": "Correct. La courbe de dissociation est sigmoïde (slide 42). Sur la figure de la slide 41, la saturation passe d'environ 97 % à 100 mmHg à environ 90 % à 60 mmHg : elle ne perd qu'environ 7 points."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "add": "Au sommet, on suppose que la PO2 de son sang artériel baisse encore, de 60 à 40 mmHg.",
+          "lead_in": "Sur la courbe normale, comment la saturation évolue-t-elle entre 60 et 40 mmHg, par rapport à la zone de 100 à 60 mmHg ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Elle baisse moins vite : la courbe est plus plate.",
+              "correct": false,
+              "rationale": "Incorrect. Entre 100 et 60 mmHg, la saturation perd environ 7 points sur 40 mmHg. Entre 60 et 40 mmHg, elle en perd environ 13 sur 20 mmHg : la baisse est plus rapide (figure de la slide 41)."
+            },
+            {
+              "letter": "B",
+              "text": "Elle baisse plus vite pour chaque mmHg perdu : la courbe est plus raide.",
+              "correct": true,
+              "rationale": "Correct. Sur la figure de la slide 41, la saturation passe d'environ 90 % à 60 mmHg à environ 77 % à 40 mmHg. Elle perd environ 13 points sur 20 mmHg, contre 7 points sur 40 mmHg entre 100 et 60 mmHg. Cette forme en S vient de la coopération entre les sous-unités de l'hémoglobine (slide 42)."
+            },
+            {
+              "letter": "C",
+              "text": "Elle baisse au même rythme : la courbe est une droite.",
+              "correct": false,
+              "rationale": "Incorrect. La courbe de dissociation a une forme en S (slide 42). Sa pente est plus forte entre 60 et 40 mmHg qu'entre 100 et 60 mmHg (figure de la slide 41)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W034",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO7",
+      "topic": "Composition de l'air inspiré et de l'air expiré : fraction d'O2",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        29,
+        34
+      ],
+      "statement": "Au repos, l'air inspiré descend jusqu'aux alvéoles, puis il est expiré. Entre l'air inspiré et l'air expiré, la fraction d'O2 (en %) :",
+      "correct": "down",
+      "rationale": "Diminue. L'air inspiré contient 21 % d'O2 et l'air expiré 16 % (slide 34). Dans les alvéoles, une partie de l'O2 passe dans le sang (slide 29)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W031",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "ordering",
+      "lo": "LO8_respiration",
+      "topic": "Boucle de régulation de la respiration à l'effort",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Pendant un exercice physique, la respiration s'adapte grâce à une boucle de régulation qui maintient le pH sanguin autour de 7,4.",
+      "lead_in": "Remettre dans l'ordre les étapes de cette boucle, du début de l'effort au retour à l'équilibre.",
+      "options": [],
+      "source_slides": [
+        52
+      ],
+      "items": [
+        "Le taux de CO2 augmente dans les tissus.",
+        "Le pH sanguin diminue.",
+        "Le bulbe rachidien (par le liquide cérébrospinal) et les chimiorécepteurs des carotides et de l'aorte (dans le sang) détectent la baisse du pH.",
+        "Le bulbe rachidien envoie des influx au diaphragme et aux muscles intercostaux.",
+        "La respiration devient plus rapide et plus profonde.",
+        "Le taux de CO2 diminue et le pH revient vers 7,4."
+      ],
+      "explanation": "L'effort augmente le taux de CO2 dans les tissus, ce qui fait baisser le pH sanguin. Le bulbe rachidien détecte la baisse du pH du liquide cérébrospinal. Les chimiorécepteurs des carotides et de l'aorte détectent celle du sang et envoient leurs influx au bulbe. Le bulbe commande alors au diaphragme et aux muscles intercostaux une respiration plus rapide et plus profonde. Le taux de CO2 diminue et le pH revient à sa valeur normale : la réponse corrige le stimulus de départ (slide 52)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W032",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "classify",
+      "lo": "LO8_respiration",
+      "topic": "Signaux qui stimulent ou inhibent les centres respiratoires",
+      "bloom": "analyze",
+      "difficulty": "medium",
+      "stem": "Les centres respiratoires du bulbe rachidien et du pont reçoivent les influx de plusieurs types de récepteurs. Chaque situation ci-dessous active l'un de ces récepteurs.",
+      "lead_in": "Classer chaque situation selon son effet sur les centres respiratoires.",
+      "options": [],
+      "source_slides": [
+        50,
+        51,
+        52
+      ],
+      "explanation": "Sur le schéma de la slide 51, chaque récepteur agit sur les centres avec un signe : + stimule, − inhibe. Une baisse de la PO2 active les chimiorécepteurs périphériques, situés dans les carotides et l'aorte (+). Quand le CO2 s'accumule, le bulbe rachidien détecte la baisse du pH du liquide cérébrospinal (slide 52) : ce sont les chimiorécepteurs centraux (+). Les jambes qui pédalent activent les récepteurs des muscles et des articulations (+). Une inspiration très profonde active les mécanorécepteurs pulmonaires, par le réflexe de distension pulmonaire (−) (slides 50 et 51).",
+      "categories": [
+        "Stimule les centres respiratoires",
+        "Inhibe les centres respiratoires"
+      ],
+      "elements": [
+        {
+          "text": "La PO2 du sang artériel baisse.",
+          "category": "Stimule les centres respiratoires"
+        },
+        {
+          "text": "Une inspiration très profonde étire fortement les poumons.",
+          "category": "Inhibe les centres respiratoires"
+        },
+        {
+          "text": "Le CO2 s'accumule et le pH du liquide cérébrospinal baisse.",
+          "category": "Stimule les centres respiratoires"
+        },
+        {
+          "text": "Au début d'un effort, les jambes se mettent à pédaler.",
+          "category": "Stimule les centres respiratoires"
+        }
+      ]
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W033",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "direction",
+      "lo": "LO8_respiration",
+      "topic": "Baisse de l'O2 : chimiorécepteurs centraux et périphériques",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        51,
+        52
+      ],
+      "statement": "La PO2 du sang artériel baisse, alors que la PCO2 et le pH restent normaux. L'activité des chimiorécepteurs centraux :",
+      "correct": "same",
+      "rationale": "Ne change pas. Sur le schéma de la slide 51, les chimiorécepteurs centraux réagissent seulement à une hausse du CO2 et des H+. Une baisse de l'O2 est détectée par les chimiorécepteurs périphériques, situés dans les carotides et l'aorte. Ce sont eux qui stimulent alors les centres respiratoires (slides 51 et 52)."
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W035",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "two_tier",
+      "lo": "LO8_respiration",
+      "topic": "Hyperventilation volontaire et chimiorécepteurs",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Une étudiante assise respire volontairement très vite et très profondément pendant une minute.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        40,
+        51,
+        52
+      ],
+      "explanation": "Le cortex permet de modifier volontairement la respiration (slide 51). En respirant plus vite et plus profondément, l'étudiante rejette beaucoup de CO2 : sa PCO2 baisse et son pH monte (slide 52, notes de la slide 40). Les chimiorécepteurs, sensibles à une hausse du CO2 et des H+, stimulent alors moins les centres respiratoires (slide 51). C'est la boucle de régulation de la slide 52, parcourue dans l'autre sens.",
+      "tier1": {
+        "lead_in": "Juste après cette minute, la stimulation de ses centres respiratoires par les chimiorécepteurs est :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "plus forte qu'au repos",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "identique à celle du repos",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "plus faible qu'au repos",
+            "correct": true,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Respirer très vite acidifie le sang ; la baisse du pH stimule davantage les chimiorécepteurs.",
+            "correct": false,
+            "rationale": "Incorrect. Une respiration plus rapide et plus profonde fait baisser le taux de CO2 (slide 52). Avec moins de CO2, il se forme moins d'ions H+ : le pH monte (slide 52, notes de la slide 40).",
+            "misconception": "Respirer plus vite ferait baisser le pH sanguin."
+          },
+          {
+            "letter": "B",
+            "text": "Elle a rejeté beaucoup de CO2 : le CO2 et les H+, qui stimulent les chimiorécepteurs, ont diminué.",
+            "correct": true,
+            "rationale": "Correct. Les chimiorécepteurs centraux et périphériques sont stimulés par une hausse du CO2 et des H+ (slide 51). En respirant plus vite et plus profondément, elle fait baisser son CO2, et son pH monte (slide 52, notes de la slide 40)."
+          },
+          {
+            "letter": "C",
+            "text": "Les chimiorécepteurs réagissent seulement à une baisse de l'O2, et son O2 n'a pas baissé.",
+            "correct": false,
+            "rationale": "Incorrect. Les chimiorécepteurs centraux et périphériques réagissent aussi à une hausse du CO2 et des H+ (slide 51). Ici, le CO2 a baissé : ce signal de stimulation a diminué (slide 52).",
+            "misconception": "Les chimiorécepteurs réagiraient seulement à une baisse de l'O2."
+          },
+          {
+            "letter": "D",
+            "text": "Le cortex, qui commande sa respiration volontaire, met les chimiorécepteurs au repos.",
+            "correct": false,
+            "rationale": "Incorrect. Sur le schéma, le cortex agit directement sur les centres respiratoires (signe ±), sans passer par les chimiorécepteurs. Ceux-ci sont moins stimulés parce que le CO2 a baissé (slides 51 et 52).",
+            "misconception": "La commande volontaire par le cortex mettrait les chimiorécepteurs au repos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANACR-respiration-web-v1-W036",
+      "batch": "SPHANACR-respiration-web-v1",
+      "type": "flashcard",
+      "lo": "LO8_respiration",
+      "topic": "Centres respiratoires du bulbe rachidien et du pont",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        50,
+        52
+      ],
+      "answer": "Les centres du bulbe rachidien déterminent la fréquence respiratoire. Ils envoient les influx aux muscles respiratoires, le diaphragme et les muscles intercostaux. Les centres du pont affinent et ajustent le rythme de la respiration (slides 50 et 52).",
+      "prompt": "En quoi le rôle des centres respiratoires du bulbe rachidien diffère-t-il de celui des centres du pont ?"
     }
   ],
   "course_id": "coeur",
