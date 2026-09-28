@@ -4,8 +4,8 @@
   "program": "Bachelor of Science HES-SO en Soins infirmiers",
   "institution": "HE-ARC Neuchâtel",
   "cohort": "BACH26 (2026-27)",
-  "generated_at": "2026-09-25",
-  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; relus et validés par l'auteur.",
+  "generated_at": "2026-09-28",
+  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5 et par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; relus et validés par l'auteur.",
   "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
   "batches": [
     {
@@ -37,6 +37,16 @@
       "generated": "2026-09-24",
       "model": "claude-opus-5-5",
       "approved": "Philippe Terrier, 2026-09-25, validation en chat après test local de tous les modules du site (« j'ai testé tous les modules et c'est OK ») ; W317 reformulé à sa demande le même jour"
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1",
+      "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
+      "title": "Physiologie appliquée : la cellule, métabolisme et nutrition",
+      "scope": "Partie 3, slide P3-15b (vitamines B1, B6, B9, B12 et magnésium), ajoutée le 2026-09-28",
+      "n_items": 6,
+      "generated": "2026-09-28",
+      "model": "claude-opus-5-5",
+      "approved": "Philippe Terrier, 2026-09-28, accord en chat pour publier (« OK, tu peux publier le site ») en réponse à la proposition du modèle orchestrateur de valider ce lot puis de publier ; un test local par l'auteur n'est pas mentionné"
     }
   ],
   "learning_objectives": [
@@ -104,7 +114,7 @@
       "id": "LO11",
       "short_title": "Nutriments : glucides, lipides, protéines ; macro et micronutriments",
       "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
-      "n_items": 5
+      "n_items": 8
     },
     {
       "id": "LO12",
@@ -116,7 +126,7 @@
       "id": "LO13",
       "short_title": "Nutrition en soins infirmiers",
       "part": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
-      "n_items": 5
+      "n_items": 8
     }
   ],
   "items": [
@@ -3208,6 +3218,270 @@
           "rationale": "Diminue. À la reprise alimentaire, l'insuline sécrétée fait entrer le glucose, le phosphate et le potassium dans les cellules. Après un jeûne prolongé, une renutrition rapide peut ainsi faire chuter le phosphore, le potassium et le magnésium sanguins : c'est le syndrome de renutrition inappropriée (slide 4c, P3-22, notes de l'orateur ; insuline : slide 2b « Régulation de la glycémie : insuline et glucagon », P3-11).",
           "correct": "down"
         }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1-W325",
+      "batch": "FO11PACE-partie3-web-plus-v1",
+      "type": "matching",
+      "lo": "LO11",
+      "topic": "Carences en vitamines B et en magnésium : signes cliniques",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Chaque carence en vitamine B ou en magnésium donne des signes qui découlent du rôle du micronutriment, souvent chez des personnes à risque connues.",
+      "lead_in": "Associer chaque situation clinique au micronutriment dont la carence l'explique.",
+      "options": [],
+      "source_slides": [
+        "P3-15b"
+      ],
+      "explanation": "B1 : sa carence, surtout chez la personne alcoolodépendante ou dénutrie, cause l'encéphalopathie de Wernicke. B6 : carence rare, favorisée par l'alcool et certains médicaments comme l'isoniazide. B9 : un apport insuffisant en début de grossesse expose aux anomalies du tube neural. B12 : présente seulement dans les produits animaux ; sa carence touche les nerfs et le sang. Magnésium : les diarrhées, l'alcool et les diurétiques en font perdre (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, et notes de l'orateur).",
+      "pairs": [
+        {
+          "left": "Confusion, ataxie et troubles oculomoteurs chez une personne alcoolodépendante",
+          "right": "Vitamine B1 (thiamine)"
+        },
+        {
+          "left": "Lésions de la bouche et de la langue sous traitement antituberculeux par isoniazide",
+          "right": "Vitamine B6 (pyridoxine)"
+        },
+        {
+          "left": "Anomalie du tube neural chez un nouveau-né",
+          "right": "Vitamine B9 (folates)"
+        },
+        {
+          "left": "Fourmillements et troubles de la marche chez une personne végane sans supplément",
+          "right": "Vitamine B12 (cobalamine)"
+        },
+        {
+          "left": "Tremblements, spasmes musculaires et hypokaliémie après des diarrhées prolongées",
+          "right": "Magnésium"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1-W326",
+      "batch": "FO11PACE-partie3-web-plus-v1",
+      "type": "classify",
+      "lo": "LO11",
+      "topic": "Sources alimentaires de vitamine B12",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Seules certaines bactéries fabriquent la vitamine B12. Elle ne se trouve naturellement que dans les produits animaux.",
+      "lead_in": "Classer chaque aliment selon qu'il apporte naturellement de la vitamine B12 ou non.",
+      "options": [],
+      "source_slides": [
+        "P3-15b"
+      ],
+      "explanation": "La vitamine B12 n'est présente naturellement que dans les produits animaux : viande, poisson, lait, œufs. Les légumineuses, les légumes verts et les céréales complètes apportent d'autres vitamines B, comme les folates ou la thiamine, mais pas de B12. Une alimentation végane sans supplément expose donc à une carence (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, et notes de l'orateur).",
+      "categories": [
+        "Source naturelle de vitamine B12",
+        "Pas de vitamine B12 naturelle"
+      ],
+      "elements": [
+        {
+          "text": "Viande de bœuf",
+          "category": "Source naturelle de vitamine B12"
+        },
+        {
+          "text": "Poisson",
+          "category": "Source naturelle de vitamine B12"
+        },
+        {
+          "text": "Lait",
+          "category": "Source naturelle de vitamine B12"
+        },
+        {
+          "text": "Œufs",
+          "category": "Source naturelle de vitamine B12"
+        },
+        {
+          "text": "Lentilles",
+          "category": "Pas de vitamine B12 naturelle"
+        },
+        {
+          "text": "Épinards",
+          "category": "Pas de vitamine B12 naturelle"
+        },
+        {
+          "text": "Pain complet",
+          "category": "Pas de vitamine B12 naturelle"
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1-W327",
+      "batch": "FO11PACE-partie3-web-plus-v1",
+      "type": "error_spot",
+      "lo": "LO11",
+      "topic": "Magnésium : erreurs dans un résumé de révision",
+      "bloom": "evaluate",
+      "difficulty": "medium",
+      "stem": "Une étudiante rédige un résumé de révision sur le magnésium.",
+      "lead_in": "Toucher les phrases erronées de son résumé.",
+      "options": [],
+      "source_slides": [
+        "P3-15b",
+        "P3-22"
+      ],
+      "explanation": "Le magnésium est un minéral majeur, cofacteur de nombreuses enzymes, dont celles qui utilisent l'ATP. Sa carence donne des tremblements, des spasmes musculaires et une hypokaliémie. Les pertes digestives, l'alcool, les diurétiques et les inhibiteurs de la pompe à protons au long cours la favorisent ; une renutrition trop rapide le fait aussi baisser (slides 3a « Vitamines B et magnésium : rôles et carences », P3-15b, et 4c « Prévention des problèmes nutritionnels », P3-22).",
+      "segments": [
+        {
+          "text": "Le magnésium est un oligo-élément, nécessaire en très petites quantités, comme l'iode.",
+          "error": true,
+          "correction": "Le magnésium est un minéral majeur : les besoins de l'adulte sont de 300 mg/j (femme) à 350 mg/j (homme).",
+          "rationale": "Les besoins en magnésium se comptent en centaines de milligrammes par jour. Les oligo-éléments, comme le fer, le zinc ou l'iode, sont nécessaires en quantités bien plus faibles (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, notes de l'orateur ; valeurs de référence de l'OSAV, 2022)."
+        },
+        {
+          "text": "Dans la cellule, l'ATP se trouve surtout sous forme de complexe avec le magnésium.",
+          "error": false
+        },
+        {
+          "text": "Les diarrhées prolongées, l'alcool et certains diurétiques peuvent entraîner une carence.",
+          "error": false
+        },
+        {
+          "text": "Une carence se manifeste surtout par une anémie mégaloblastique.",
+          "error": true,
+          "correction": "Une carence se manifeste surtout par des tremblements, des spasmes musculaires et une hypokaliémie.",
+          "rationale": "L'anémie mégaloblastique évoque un manque de folates ou de vitamine B12. Le manque de magnésium touche les nerfs et les muscles : tremblements, spasmes musculaires, avec une baisse du potassium sanguin (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b)."
+        },
+        {
+          "text": "Le magnésium sanguin peut baisser lors d'une renutrition trop rapide après un jeûne prolongé.",
+          "error": false
+        },
+        {
+          "text": "Les céréales complètes, les oléagineux, les légumineuses et les légumes verts en sont de bonnes sources.",
+          "error": false
+        }
+      ]
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1-W328",
+      "batch": "FO11PACE-partie3-web-plus-v1",
+      "type": "true_false",
+      "lo": "LO13",
+      "topic": "Thiamine et glucose chez la personne alcoolodépendante",
+      "bloom": "apply",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-15b"
+      ],
+      "statement": "Chez un patient alcoolodépendant en hypoglycémie, le glucose ne doit être donné qu'après l'injection de thiamine.",
+      "correct": false,
+      "rationale": "Faux. Une hypoglycémie se traite sans attendre. La thiamine est donnée sans délai, en même temps que le glucose. C'est un apport prolongé de glucose sans thiamine qui peut déclencher ou aggraver l'encéphalopathie de Wernicke. La règle ancienne « thiamine avant glucose » repose sur des cas isolés (Schabelman et Kuo, 2012 ; slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, notes de l'orateur)."
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1-W329",
+      "batch": "FO11PACE-partie3-web-plus-v1",
+      "type": "two_tier",
+      "lo": "LO13",
+      "topic": "Acide folique avant la grossesse",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Mme V., 31 ans, en bonne santé, souhaite une grossesse dans les prochains mois. Elle demande si elle doit prendre un supplément.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        "P3-15b"
+      ],
+      "explanation": "L'acide folique est recommandé avant la conception et au début de la grossesse pour prévenir les anomalies du tube neural. Les valeurs suisses (OSAV, 2022) fixent l'apport en folates à 550 µg/j pendant la grossesse, plus un supplément de 400 µg d'acide folique. Les folates, peu stockés, doivent être apportés chaque jour (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, et notes de l'orateur).",
+      "tier1": {
+        "lead_in": "Quel supplément est recommandé dès maintenant ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "L'acide folique (vitamine B9)",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "La vitamine B12",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "Le magnésium",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Pris avant la conception et au début de la grossesse, il prévient les anomalies du tube neural, comme le spina bifida.",
+            "correct": true,
+            "rationale": "Correct. Les folates servent à la synthèse de l'ADN et à la division cellulaire. Un supplément d'acide folique avant la conception et au début de la grossesse prévient les anomalies du tube neural (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, et notes de l'orateur)."
+          },
+          {
+            "letter": "B",
+            "text": "Les folates sont stockés pour plusieurs années : une réserve faite avant la grossesse suffit pour les neuf mois.",
+            "correct": false,
+            "rationale": "Incorrect. Les vitamines B sont hydrosolubles et peu stockées ; seule la B12 dispose de réserves pour plusieurs années. Les valeurs suisses prévoient d'ailleurs un supplément de 400 µg d'acide folique par jour pendant la grossesse (slide P3-15b, notes de l'orateur ; OSAV, 2022).",
+            "misconception": "Les folates seraient stockés comme la vitamine B12."
+          },
+          {
+            "letter": "C",
+            "text": "Il prévient les crampes musculaires de la fin de la grossesse.",
+            "correct": false,
+            "rationale": "Incorrect. Les folates servent à la synthèse de l'ADN et à la division cellulaire. Les spasmes musculaires évoquent plutôt un manque de magnésium, qui n'est pas le supplément recommandé avant la conception (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b).",
+            "misconception": "Confusion entre le rôle des folates et celui du magnésium."
+          },
+          {
+            "letter": "D",
+            "text": "Pendant la grossesse, l'acide folique remplace la vitamine B12, dont les besoins disparaissent.",
+            "correct": false,
+            "rationale": "Incorrect. Les besoins en vitamine B12 augmentent pendant la grossesse : 4,5 µg/j, contre 4 µg/j en dehors (valeurs de référence de l'OSAV, 2022, notes de l'orateur de P3-15b).",
+            "misconception": "Les besoins en vitamine B12 disparaîtraient pendant la grossesse."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO11PACE-partie3-web-plus-v1-W330",
+      "batch": "FO11PACE-partie3-web-plus-v1",
+      "type": "mcq",
+      "lo": "LO13",
+      "topic": "Carence en vitamine B12 chez la personne âgée",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "M. L., 78 ans, est diabétique et prend de la metformine depuis dix ans. Il ne boit pas d'alcool. Depuis quelques mois, il décrit des fourmillements dans les pieds et marche de façon instable. Son hémoglobine est normale.",
+      "lead_in": "Quelle carence faut-il évoquer en premier ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Une carence en vitamine B12",
+          "correct": true,
+          "rationale": "Correct. L'âge et un traitement prolongé par metformine exposent à un manque de vitamine B12. Les signes neurologiques, comme les fourmillements et les troubles de la marche, peuvent survenir sans anémie, dans environ un quart des cas (slide 3a « Vitamines B et magnésium : rôles et carences », P3-15b, et notes de l'orateur)."
+        },
+        {
+          "letter": "B",
+          "text": "Une carence en folates (vitamine B9)",
+          "correct": false,
+          "rationale": "Incorrect. Le manque de folates donne surtout une anémie mégaloblastique ; son hémoglobine est normale. Les signes neurologiques, l'âge et la metformine orientent vers la vitamine B12 (slide 3a, P3-15b)."
+        },
+        {
+          "letter": "C",
+          "text": "Une carence en thiamine (vitamine B1)",
+          "correct": false,
+          "rationale": "Incorrect. La carence en thiamine touche surtout la personne alcoolodépendante ou dénutrie ; elle donne l'encéphalopathie de Wernicke, avec confusion, ataxie et troubles oculomoteurs. M. L. ne boit pas d'alcool (slide 3a, P3-15b)."
+        },
+        {
+          "letter": "D",
+          "text": "Une carence en magnésium",
+          "correct": false,
+          "rationale": "Incorrect. Le manque de magnésium se traduit par des tremblements, des spasmes musculaires et une hypokaliémie. Ses causes habituelles sont l'alcool, les diarrhées, les diurétiques et les inhibiteurs de la pompe à protons, absents ici (slide 3a, P3-15b)."
+        }
+      ],
+      "source_slides": [
+        "P3-15b"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-25",
+  "generated_at": "2026-09-28",
   "audiences": [
     {
       "id": "aps",
@@ -90,7 +90,7 @@
       "cohort": "BACH26 (2026-27)",
       "description": "La cellule, sa membrane et l'influx nerveux ; développement, vieillissement et mort cellulaire ; métabolisme et nutrition en soins infirmiers.",
       "file": "data/cellule.json",
-      "n_items": 70,
+      "n_items": 76,
       "n_formats": 15,
       "parts": [
         {
@@ -103,12 +103,12 @@
         },
         {
           "name": "Partie 3 : métabolisme et nutrition, applications en soins infirmiers",
-          "n_items": 24
+          "n_items": 30
         }
       ],
       "status": "valide",
-      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; relus et validés par l'auteur.",
-      "generated_at": "2026-09-25"
+      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5 et par un sous-agent (Claude Opus 5.5) mandaté par le modèle orchestrateur, sous la direction de l'auteur, Philippe Terrier ; relus et validés par l'auteur.",
+      "generated_at": "2026-09-28"
     }
   ]
 }
