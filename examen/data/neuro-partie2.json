@@ -1,0 +1,1894 @@
+{
+  "exam": {
+    "id": "neuro-partie2",
+    "title": "Le système nerveux, partie 2 : système nerveux central",
+    "subtitle": "Examen blanc : 15 questions à choix multiple, 20 minutes",
+    "course": "SPHANASN",
+    "course_title": "Le système nerveux, partie 2 : système nerveux central",
+    "cohort": "APS 2026-27",
+    "institution": "HE-ARC Neuchâtel",
+    "batch": "SPHANASN-partie2-examen-v1",
+    "n_questions": 15,
+    "duration_min": 20,
+    "n_options": 5,
+    "blocks": [
+      {
+        "id": "B1",
+        "label": "Encéphale, méninges, ventricules et liquide cérébrospinal",
+        "draw": 2
+      },
+      {
+        "id": "B2",
+        "label": "Hémisphères, substance grise et substance blanche, cortex et lobes",
+        "draw": 2
+      },
+      {
+        "id": "B3",
+        "label": "Aires corticales, homoncules, voies sensitives et motrices",
+        "draw": 3
+      },
+      {
+        "id": "B4",
+        "label": "Noyaux de la base, diencéphale et système limbique",
+        "draw": 2
+      },
+      {
+        "id": "B5",
+        "label": "Tronc cérébral et formation réticulée",
+        "draw": 2
+      },
+      {
+        "id": "B6",
+        "label": "Nerfs crâniens",
+        "draw": 2
+      },
+      {
+        "id": "B7",
+        "label": "Cervelet",
+        "draw": 2
+      }
+    ],
+    "generated_at": "2026-09-29",
+    "produced_by": "Questions rédigées dans le format pivot YAML du projet quiz_generator par des sous-agents rédacteurs (Claude Sonnet 5.5) mandatés par le modèle orchestrateur, avec vérification par des sous-agents (Claude Opus 5.5), sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
+    "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier."
+  },
+  "items": [
+    {
+      "id": "SPHANASN-partie2-examen-v1-E201",
+      "block": "B1",
+      "lo": "LO6",
+      "topic": "Méninges : couche la plus externe",
+      "difficulty": "easy",
+      "stem": "Un chirurgien soulève un volet de l'os du crâne pour accéder au cerveau.",
+      "lead_in": "Quelle structure rencontre-t-il en premier, juste sous l'os ?",
+      "options": [
+        {
+          "text": "La dure-mère",
+          "correct": true,
+          "rationale": "Correct. La dure-mère est la méninge la plus externe ; épaisse et résistante, elle adhère à l'os de la boîte crânienne (slides 6 et 7)."
+        },
+        {
+          "text": "L'arachnoïde",
+          "correct": false,
+          "rationale": "Incorrect. L'arachnoïde est la couche intermédiaire des méninges, située sous la dure-mère (slide 6)."
+        },
+        {
+          "text": "La pie-mère",
+          "correct": false,
+          "rationale": "Incorrect. La pie-mère est la couche la plus interne ; elle tapisse intimement la surface du cerveau (slide 6)."
+        },
+        {
+          "text": "L'espace sous-arachnoïdien",
+          "correct": false,
+          "rationale": "Incorrect. Cet espace est situé sous l'arachnoïde et contient le liquide cérébrospinal (slide 6)."
+        },
+        {
+          "text": "Le cortex cérébral",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex cérébral, substance grise en surface des hémisphères, est recouvert par les trois méninges (slides 6 et 20)."
+        }
+      ],
+      "explanation": "Les méninges se succèdent de la plus externe à la plus interne : dure-mère, arachnoïde, pie-mère. La dure-mère adhère à l'os et se rencontre donc en premier sous celui-ci (slides 6 et 7).",
+      "source_slides": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E202",
+      "block": "B1",
+      "lo": "LO6",
+      "topic": "Ventricules cérébraux : situation des ventricules latéraux",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Où se situent les ventricules latéraux ?",
+      "options": [
+        {
+          "text": "Un dans chaque hémisphère cérébral",
+          "correct": true,
+          "rationale": "Correct. Les deux ventricules latéraux, en forme de C, sont situés dans chaque hémisphère cérébral (slide 8)."
+        },
+        {
+          "text": "Au centre du diencéphale",
+          "correct": false,
+          "rationale": "Incorrect. Le troisième ventricule occupe le centre du diencéphale (slide 8)."
+        },
+        {
+          "text": "Entre le tronc cérébral et le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Cette position est celle du quatrième ventricule (slide 8)."
+        },
+        {
+          "text": "Un de chaque côté du cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Les ventricules latéraux sont situés dans les hémisphères cérébraux ; aucun ventricule n'est décrit de chaque côté du cervelet (slide 8)."
+        },
+        {
+          "text": "Un de chaque côté du tronc cérébral",
+          "correct": false,
+          "rationale": "Incorrect. Les ventricules latéraux sont situés dans les hémisphères cérébraux ; le quatrième ventricule est entre le tronc cérébral et le cervelet (slide 8)."
+        }
+      ],
+      "explanation": "Les ventricules cérébraux sont au nombre de quatre. Les deux ventricules latéraux, en forme de C, se trouvent chacun dans un hémisphère cérébral (slides 8 et 9).",
+      "source_slides": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E203",
+      "block": "B1",
+      "lo": "LO6",
+      "topic": "Liquide cérébrospinal : flottabilité du cerveau",
+      "difficulty": "medium",
+      "stem": "Chez M. T., 35 ans, une fuite de LCS a réduit le volume de liquide autour du cerveau. En position debout, son cerveau appuie davantage sur la base du crâne.",
+      "lead_in": "La perte de quelle fonction du LCS explique ce phénomène ?",
+      "options": [
+        {
+          "text": "La flottabilité qu'il procure à l'encéphale",
+          "correct": true,
+          "rationale": "Correct. Le LCS confère au cerveau une flottabilité qui allège son poids et évite qu'il n'appuie sur le crâne ; avec moins de liquide, cet effet diminue (slide 10)."
+        },
+        {
+          "text": "L'effet de coussin hydraulique qui amortit les chocs",
+          "correct": false,
+          "rationale": "Incorrect. Le coussin hydraulique protège le cerveau des chocs ; c'est une autre fonction du LCS (slide 10)."
+        },
+        {
+          "text": "L'apport de nutriments aux tissus nerveux",
+          "correct": false,
+          "rationale": "Incorrect. Le LCS apporte certains nutriments aux tissus nerveux, ce qui contribue à l'homéostasie du milieu neuronal ; cette fonction n'explique pas l'appui du cerveau sur la base du crâne en position debout (slide 10)."
+        },
+        {
+          "text": "Le drainage des déchets métaboliques",
+          "correct": false,
+          "rationale": "Incorrect. Le LCS draine les déchets métaboliques, ce qui contribue aussi à l'homéostasie du milieu neuronal ; cette fonction n'explique pas l'appui du cerveau sur la base du crâne en position debout (slide 10)."
+        },
+        {
+          "text": "La protection contre les infections",
+          "correct": false,
+          "rationale": "Incorrect. Ce sont les méninges qui forment une barrière supplémentaire contre les infections (slide 6) ; les slides ne donnent pas ce rôle au LCS (slide 10)."
+        }
+      ],
+      "explanation": "Le LCS protège mécaniquement le cerveau par un effet de coussin hydraulique et par la flottabilité qu'il lui confère. Cette flottabilité allège le poids du cerveau et l'empêche d'appuyer sur le crâne (slide 10).",
+      "source_slides": [
+        10
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E204",
+      "block": "B1",
+      "lo": "LO6",
+      "topic": "Méninges : rôles",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Outre la protection du système nerveux central contre les chocs et les infections, quel autre rôle les méninges assurent-elles ?",
+      "options": [
+        {
+          "text": "Elles soutiennent les vaisseaux sanguins à la surface du cerveau",
+          "correct": true,
+          "rationale": "Correct. Les méninges assurent le support des vaisseaux sanguins (slide 6). Il s'agit des vaisseaux de surface, qui envoient ensuite des branches dans le tissu nerveux (précision de l'enseignant)."
+        },
+        {
+          "text": "Elles produisent en continu le liquide cérébrospinal",
+          "correct": false,
+          "rationale": "Incorrect. Le LCS est produit en continu par les plexus choroïdes, contenus dans les parois des ventricules (slide 8)."
+        },
+        {
+          "text": "Elles produisent la myéline qui entoure les axones",
+          "correct": false,
+          "rationale": "Incorrect. La myéline recouvre les axones de la substance blanche ; les slides ne la rattachent pas aux méninges (slide 15)."
+        },
+        {
+          "text": "Elles trient les informations sensorielles destinées au cortex",
+          "correct": false,
+          "rationale": "Incorrect. C'est le thalamus qui trie et redirige les signaux sensoriels vers les aires corticales (slide 32)."
+        },
+        {
+          "text": "Elles relient entre eux les deux hémisphères cérébraux",
+          "correct": false,
+          "rationale": "Incorrect. Les deux hémisphères sont reliés par le corps calleux, une épaisse bande de fibres nerveuses (slide 13)."
+        }
+      ],
+      "explanation": "Les méninges protègent le SNC en amortissant les chocs et en constituant une barrière supplémentaire contre les infections. Elles soutiennent aussi les vaisseaux sanguins à la surface du cerveau, dont les branches pénètrent ensuite dans le tissu nerveux (slide 6 et précision de l'enseignant).",
+      "source_slides": [
+        6
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E205",
+      "block": "B1",
+      "lo": "LO6",
+      "topic": "Ventricules cérébraux : liaison entre le troisième et le quatrième",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Par quelle structure le troisième ventricule est-il relié au quatrième ?",
+      "options": [
+        {
+          "text": "L'aqueduc cérébral",
+          "correct": true,
+          "rationale": "Correct. Le quatrième ventricule est connecté au troisième via l'aqueduc cérébral (slide 8)."
+        },
+        {
+          "text": "Le canal central de la moelle épinière",
+          "correct": false,
+          "rationale": "Incorrect. Le canal central est situé dans la moelle épinière, en aval du quatrième ventricule (slide 9)."
+        },
+        {
+          "text": "Le corps calleux",
+          "correct": false,
+          "rationale": "Incorrect. Le corps calleux est une épaisse bande de fibres nerveuses qui relie les deux hémisphères (slide 13)."
+        },
+        {
+          "text": "Les plexus choroïdes",
+          "correct": false,
+          "rationale": "Incorrect. Les plexus choroïdes sont des structures des parois des ventricules qui produisent le LCS (slide 8)."
+        },
+        {
+          "text": "Les villosités arachnoïdiennes",
+          "correct": false,
+          "rationale": "Incorrect. Les villosités arachnoïdiennes réabsorbent le LCS dans les sinus veineux duraux (slide 10)."
+        }
+      ],
+      "explanation": "Le troisième ventricule est au centre du diencéphale, le quatrième entre le tronc cérébral et le cervelet. L'aqueduc cérébral relie ces deux ventricules (slides 8 et 9).",
+      "source_slides": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E206",
+      "block": "B1",
+      "lo": "LO6",
+      "topic": "Liquide cérébrospinal : trajet de la sécrétion à la réabsorption",
+      "difficulty": "hard",
+      "stem": "Le LCS finit par rejoindre les sinus veineux duraux.",
+      "lead_in": "Dans quel ordre le LCS traverse-t-il les structures suivantes, depuis sa sécrétion ?",
+      "options": [
+        {
+          "text": "Ventricules cérébraux, puis espace sous-arachnoïdien, puis villosités arachnoïdiennes",
+          "correct": true,
+          "rationale": "Correct. Le LCS sécrété circule dans les ventricules, s'écoule dans l'espace sous-arachnoïdien, puis est réabsorbé par les villosités arachnoïdiennes dans les sinus veineux duraux (slides 10 et 11)."
+        },
+        {
+          "text": "Espace sous-arachnoïdien, puis ventricules cérébraux, puis villosités arachnoïdiennes",
+          "correct": false,
+          "rationale": "Incorrect. Le LCS est sécrété dans les ventricules avant de gagner l'espace sous-arachnoïdien (slides 8 et 10)."
+        },
+        {
+          "text": "Ventricules cérébraux, puis villosités arachnoïdiennes, puis espace sous-arachnoïdien",
+          "correct": false,
+          "rationale": "Incorrect. Le LCS traverse l'espace sous-arachnoïdien avant d'atteindre les villosités arachnoïdiennes qui le réabsorbent (slides 10 et 11)."
+        },
+        {
+          "text": "Espace sous-arachnoïdien, puis villosités arachnoïdiennes, puis ventricules cérébraux",
+          "correct": false,
+          "rationale": "Incorrect. Les ventricules sont le lieu de sécrétion du LCS, au début du trajet ; les villosités le réabsorbent à la fin (slides 8, 10 et 11)."
+        },
+        {
+          "text": "Villosités arachnoïdiennes, puis ventricules cérébraux, puis espace sous-arachnoïdien",
+          "correct": false,
+          "rationale": "Incorrect. Les villosités arachnoïdiennes réabsorbent le LCS dans le sang, à la fin du trajet (slides 10 et 11)."
+        }
+      ],
+      "explanation": "Le LCS est sécrété dans les ventricules, puis s'écoule dans l'espace sous-arachnoïdien autour du cerveau et de la moelle épinière. Il retourne dans le sang par les villosités arachnoïdiennes, dans les sinus veineux duraux (slides 10 et 11).",
+      "source_slides": [
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E207",
+      "block": "B2",
+      "lo": "LO6",
+      "topic": "Hémisphères cérébraux : structure qui les sépare",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quelle structure sépare l'hémisphère cérébral gauche de l'hémisphère droit ?",
+      "options": [
+        {
+          "text": "La fissure longitudinale",
+          "correct": true,
+          "rationale": "Correct. La fissure longitudinale sépare les deux hémisphères cérébraux, gauche et droit (slide 13)."
+        },
+        {
+          "text": "Le corps calleux",
+          "correct": false,
+          "rationale": "Incorrect. Le corps calleux est une épaisse bande de fibres nerveuses qui relie les deux hémisphères (slide 13)."
+        },
+        {
+          "text": "Le sillon central",
+          "correct": false,
+          "rationale": "Incorrect. Le sillon central sépare le lobe frontal du lobe pariétal, dans un même hémisphère (slide 22)."
+        },
+        {
+          "text": "La fissure latérale",
+          "correct": false,
+          "rationale": "Incorrect. La fissure latérale sépare le lobe temporal des lobes frontal et pariétal (slide 22)."
+        },
+        {
+          "text": "Le gyrus du cingulum",
+          "correct": false,
+          "rationale": "Incorrect. Le gyrus du cingulum est un pli du cortex représenté au-dessus du corps calleux (slide 23)."
+        }
+      ],
+      "explanation": "Les deux hémisphères cérébraux sont séparés par la fissure longitudinale et reliés par le corps calleux (slide 13). Les autres fissures et sillons délimitent des lobes à l'intérieur d'un même hémisphère (slide 22).",
+      "source_slides": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E208",
+      "block": "B2",
+      "lo": "LO6",
+      "topic": "Substance grise : constituants",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "De quoi la substance grise est-elle composée principalement ?",
+      "options": [
+        {
+          "text": "Des corps cellulaires des neurones",
+          "correct": true,
+          "rationale": "Correct. La substance grise est composée principalement des corps cellulaires des neurones et de leurs dendrites (slides 15 et 16)."
+        },
+        {
+          "text": "Des axones recouverts de myéline",
+          "correct": false,
+          "rationale": "Incorrect. Les axones myélinisés forment la substance blanche, dont la myéline explique la couleur claire (slides 15 et 16)."
+        },
+        {
+          "text": "De la myéline qui entoure les axones",
+          "correct": false,
+          "rationale": "Incorrect. La myéline recouvre les axones de la substance blanche et lui donne sa couleur claire (slide 15)."
+        },
+        {
+          "text": "Des fibres nerveuses du corps calleux",
+          "correct": false,
+          "rationale": "Incorrect. Le corps calleux est formé de fibres nerveuses qui relient les deux hémisphères (slides 13 et 14)."
+        },
+        {
+          "text": "Des cellules des plexus choroïdes",
+          "correct": false,
+          "rationale": "Incorrect. Les parois des ventricules contiennent les plexus choroïdes, qui produisent le LCS (slide 8)."
+        }
+      ],
+      "explanation": "La substance grise est formée principalement des corps cellulaires des neurones. Cette substance, impliquée dans le traitement de l'information, se trouve dans le cortex cérébral, le cortex cérébelleux et à l'intérieur de la moelle épinière (slides 15 et 16).",
+      "source_slides": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E209",
+      "block": "B2",
+      "lo": "LO6",
+      "topic": "Substance blanche : rôle principal",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quel est le rôle principal de la substance blanche ?",
+      "options": [
+        {
+          "text": "Transmettre rapidement les signaux nerveux",
+          "correct": true,
+          "rationale": "Correct. La substance blanche, formée d'axones myélinisés, assure la transmission rapide des signaux nerveux entre les différentes régions du système nerveux central (slides 15 et 16)."
+        },
+        {
+          "text": "Assurer l'essentiel du traitement de l'information",
+          "correct": false,
+          "rationale": "Incorrect. Le traitement de l'information est assuré par la substance grise (slides 15 et 16)."
+        },
+        {
+          "text": "Élaborer le langage et le raisonnement",
+          "correct": false,
+          "rationale": "Incorrect. Le langage et le raisonnement font partie des fonctions supérieures dont le cortex cérébral est le siège (slide 20)."
+        },
+        {
+          "text": "Régler la température interne et la faim",
+          "correct": false,
+          "rationale": "Incorrect. La température interne et la faim sont contrôlées par l'hypothalamus (slide 32)."
+        },
+        {
+          "text": "Mémoriser les souvenirs chargés d'émotion",
+          "correct": false,
+          "rationale": "Incorrect. La mémorisation de ce qui est chargé de fortes émotions relève du système limbique (slide 33, notes de l'orateur)."
+        }
+      ],
+      "explanation": "La substance blanche correspond aux axones recouverts de myéline, situés sous le cortex dans le cerveau. Elle transmet rapidement les signaux nerveux entre les régions du système nerveux central (slides 15 et 16).",
+      "source_slides": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E210",
+      "block": "B2",
+      "lo": "LO6",
+      "topic": "Cortex cérébral : raison du plissement",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quelle est la raison du plissement intense du cortex cérébral ?",
+      "options": [
+        {
+          "text": "Loger une grande surface dans la boîte crânienne",
+          "correct": true,
+          "rationale": "Correct. Le cortex atteindrait environ 1 m² s'il était étalé à plat ; il est plissé pour tenir dans la boîte crânienne (slides 20 et 21)."
+        },
+        {
+          "text": "Augmenter l'épaisseur de la substance grise",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex reste une fine couche, épaisse de quelques millimètres seulement (slide 20)."
+        },
+        {
+          "text": "Accélérer la conduction des influx dans les axones",
+          "correct": false,
+          "rationale": "Incorrect. La conduction rapide des signaux dépend de la substance blanche, formée d'axones myélinisés (slide 15)."
+        },
+        {
+          "text": "Amortir les chocs contre la boîte crânienne",
+          "correct": false,
+          "rationale": "Incorrect. Les chocs sont amortis par les méninges et par le liquide cérébrospinal (slides 6 et 10)."
+        },
+        {
+          "text": "Séparer les deux hémisphères cérébraux",
+          "correct": false,
+          "rationale": "Incorrect. La séparation des deux hémisphères est assurée par la fissure longitudinale (slide 13)."
+        }
+      ],
+      "explanation": "Le cortex est une fine couche de substance grise, épaisse de quelques millimètres, dont la surface étalée atteindrait environ 1 m². Son plissement permet de la faire tenir dans la boîte crânienne (slides 20 et 21).",
+      "source_slides": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E211",
+      "block": "B2",
+      "lo": "LO6",
+      "topic": "Lobes cérébraux : audition et mémoire",
+      "difficulty": "medium",
+      "stem": "M. J., 58 ans, a subi une lésion cérébrale. Depuis, il perçoit mal les sons et présente des troubles de la mémoire.",
+      "lead_in": "Quelle région de l'encéphale est probablement atteinte ?",
+      "options": [
+        {
+          "text": "Le lobe temporal",
+          "correct": true,
+          "rationale": "Correct. Le lobe temporal gère l'audition et une partie de la mémoire (slide 22)."
+        },
+        {
+          "text": "Le lobe frontal",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe frontal intervient dans la planification des mouvements volontaires, le langage et les fonctions exécutives (slide 22)."
+        },
+        {
+          "text": "Le lobe pariétal",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe pariétal intègre les sensations du toucher et la perception de l'espace (slide 22)."
+        },
+        {
+          "text": "Le lobe occipital",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe occipital traite les informations visuelles (slide 22)."
+        },
+        {
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et maintient l'équilibre ; son dysfonctionnement se traduit par une ataxie (slide 46)."
+        }
+      ],
+      "explanation": "L'audition et une partie de la mémoire relèvent du lobe temporal, sur la partie inférieure et latérale de l'hémisphère (slide 22).",
+      "source_slides": [
+        22
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E212",
+      "block": "B2",
+      "lo": "LO6",
+      "topic": "Lobes cérébraux : localisation par le sillon central",
+      "difficulty": "hard",
+      "stem": "Un patient présente une lésion du lobe situé juste en arrière du sillon central.",
+      "lead_in": "Quelle fonction est la plus probablement perturbée ?",
+      "options": [
+        {
+          "text": "La perception du toucher et de l'espace",
+          "correct": true,
+          "rationale": "Correct. Le sillon central sépare le lobe frontal (à l'avant) du lobe pariétal (en arrière), qui intègre les sensations du toucher et la perception de l'espace (slide 22)."
+        },
+        {
+          "text": "La planification des mouvements volontaires",
+          "correct": false,
+          "rationale": "Incorrect. La planification des mouvements volontaires relève du lobe frontal, situé en avant du sillon central (slide 22)."
+        },
+        {
+          "text": "Le traitement des informations visuelles",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe occipital, à l'arrière de l'hémisphère, traite les informations visuelles (slide 22)."
+        },
+        {
+          "text": "L'audition et une partie de la mémoire",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe temporal, sur la partie inférieure et latérale de l'hémisphère, gère l'audition et une partie de la mémoire (slide 22)."
+        },
+        {
+          "text": "Le langage et le raisonnement",
+          "correct": false,
+          "rationale": "Incorrect. Le langage et les fonctions exécutives, dont le raisonnement, relèvent du lobe frontal (slide 22)."
+        }
+      ],
+      "explanation": "Le lobe frontal, à l'avant, est séparé du lobe pariétal par le sillon central. Le lobe situé juste en arrière de ce sillon est donc le lobe pariétal, qui intègre les sensations du toucher et la perception de l'espace (slides 22 et 23).",
+      "source_slides": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E213",
+      "block": "B3",
+      "lo": "LO6",
+      "topic": "Aires corticales : cortex somesthésique primaire",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quelle région du cortex cérébral reçoit les sensations tactiles venues de la peau ?",
+      "options": [
+        {
+          "text": "Le cortex moteur primaire",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex moteur primaire (aire motrice primaire), dans le lobe frontal, commande la contraction des muscles du corps (slides 24 et 25)."
+        },
+        {
+          "text": "Le cortex visuel primaire",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex visuel primaire reçoit les informations de la vision (slide 25)."
+        },
+        {
+          "text": "Le cortex somesthésique primaire",
+          "correct": true,
+          "rationale": "Correct. Le cortex somesthésique primaire (aire somesthésique primaire), dans le lobe pariétal, reçoit les sensations tactiles (slides 17, 24 et 25)."
+        },
+        {
+          "text": "Le cortex auditif primaire",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex auditif primaire reçoit les informations de l'audition (slide 25)."
+        },
+        {
+          "text": "Le cortex gustatif",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex gustatif reçoit les informations du goût (slide 25)."
+        }
+      ],
+      "explanation": "Une information tactile captée par la peau remonte la moelle épinière jusqu'au thalamus, qui la relaie au cortex somesthésique du lobe pariétal. L'aire somesthésique primaire reçoit les sensations tactiles (slides 17 et 24).",
+      "source_slides": [
+        17,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E214",
+      "block": "B3",
+      "lo": "LO7",
+      "topic": "Contrôle controlatéral : conséquence d'une lésion hémisphérique",
+      "difficulty": "medium",
+      "stem": "Mme S., 63 ans, est victime d'un accident vasculaire cérébral qui détruit les zones de commande des mouvements volontaires de son hémisphère cérébral droit.",
+      "lead_in": "Quelle conséquence est la plus probable ?",
+      "options": [
+        {
+          "text": "Une faiblesse des muscles du côté droit du corps",
+          "correct": false,
+          "rationale": "Incorrect. Le côté droit du corps est commandé en grande partie par l'hémisphère gauche (slide 13)."
+        },
+        {
+          "text": "Une faiblesse du bras gauche et de la jambe droite",
+          "correct": false,
+          "rationale": "Incorrect. Chaque hémisphère contrôle en grande partie tout le côté opposé du corps (slide 13 ; slide 25, notes de l'orateur)."
+        },
+        {
+          "text": "Une faiblesse des muscles du côté gauche du corps",
+          "correct": true,
+          "rationale": "Correct. Chaque hémisphère contrôle en grande partie le côté opposé du corps : l'hémisphère droit commande les muscles du côté gauche (slide 13 ; slide 25, notes de l'orateur)."
+        },
+        {
+          "text": "Une faiblesse des muscles des deux côtés du corps",
+          "correct": false,
+          "rationale": "Incorrect. Chaque hémisphère contrôle surtout le côté opposé ; la lésion d'un seul hémisphère atteint donc surtout un côté du corps (slide 13)."
+        },
+        {
+          "text": "Une faiblesse du bras droit et de la jambe gauche",
+          "correct": false,
+          "rationale": "Incorrect. Chaque hémisphère contrôle en grande partie tout le côté opposé du corps (slide 13 ; slide 25, notes de l'orateur)."
+        }
+      ],
+      "explanation": "Chaque hémisphère contrôle en grande partie le côté opposé du corps (slide 13 ; notes de la slide 25 : le côté droit du cerveau commande la gauche du corps). Une lésion motrice de l'hémisphère droit se traduit donc par une faiblesse du côté gauche.",
+      "source_slides": [
+        13,
+        25
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E215",
+      "block": "B3",
+      "lo": "LO7",
+      "topic": "Voies nerveuses : voies ascendantes et descendantes",
+      "difficulty": "easy",
+      "stem": "Une personne palpe une étoffe pour en juger la texture, puis décide volontairement de la lâcher.",
+      "lead_in": "Comment qualifie-t-on la voie qui transmet la sensation tactile au cerveau, puis celle qui transmet l'ordre de lâcher ?",
+      "options": [
+        {
+          "text": "Descendante, puis ascendante",
+          "correct": false,
+          "rationale": "Incorrect. C'est l'inverse : la sensation monte vers le cerveau par une voie ascendante, et l'ordre moteur descend par une voie descendante (slide 17)."
+        },
+        {
+          "text": "Commissurale, puis associative",
+          "correct": false,
+          "rationale": "Incorrect. Les fibres commissurales et associatives relient des régions de l'encéphale entre elles ; les projections sensorielles montent vers le cerveau et les projections motrices en descendent (slides 17 et 19)."
+        },
+        {
+          "text": "Ascendante, puis descendante",
+          "correct": true,
+          "rationale": "Correct. Les projections sensorielles sont des voies ascendantes vers le cerveau. Les projections motrices sont des voies descendantes qui envoient les ordres aux muscles (slide 17)."
+        },
+        {
+          "text": "Associative, puis commissurale",
+          "correct": false,
+          "rationale": "Incorrect. Les fibres commissurales et associatives relient des régions de l'encéphale entre elles ; les projections sensorielles montent vers le cerveau et les projections motrices en descendent (slides 17 et 19)."
+        },
+        {
+          "text": "Commissurale, puis descendante",
+          "correct": false,
+          "rationale": "Incorrect. Les fibres commissurales relient des régions de l'encéphale entre elles ; les projections sensorielles montent vers le cerveau et les projections motrices en descendent (slides 17 et 19)."
+        }
+      ],
+      "explanation": "Les projections sensorielles (voies ascendantes) acheminent les signaux des organes des sens vers le cerveau. Les projections motrices (voies descendantes) permettent au cerveau d'envoyer des ordres aux muscles (slide 17).",
+      "source_slides": [
+        17,
+        19
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E216",
+      "block": "B3",
+      "lo": "LO6",
+      "topic": "Aires corticales : rôle des aires associatives",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quel est le rôle des aires associatives du cortex cérébral ?",
+      "options": [
+        {
+          "text": "Recevoir directement les informations venues des organes des sens",
+          "correct": false,
+          "rationale": "Incorrect. Ce rôle est celui des aires sensorielles, qui reçoivent et analysent les informations provenant des sens ; les aires associatives intègrent ces informations (slide 24)."
+        },
+        {
+          "text": "Coordonner les gestes et maintenir l'équilibre du corps",
+          "correct": false,
+          "rationale": "Incorrect. La coordination des mouvements et l'équilibre relèvent du cervelet (slide 46)."
+        },
+        {
+          "text": "Permettre des fonctions cognitives comme le langage et la mémoire",
+          "correct": true,
+          "rationale": "Correct. Les aires associatives intègrent les informations sensorielles et motrices pour permettre des fonctions cognitives complexes (langage, mémoire, raisonnement) (slide 24)."
+        },
+        {
+          "text": "Commander directement la contraction des muscles du corps",
+          "correct": false,
+          "rationale": "Incorrect. Ce rôle est celui de l'aire motrice primaire, dans le lobe frontal (slide 24)."
+        },
+        {
+          "text": "Réguler la respiration et le rythme cardiaque",
+          "correct": false,
+          "rationale": "Incorrect. La respiration et le rythme cardiaque sont régulés par le tronc cérébral (slide 34)."
+        }
+      ],
+      "explanation": "Le cortex comprend des aires sensorielles (réception et analyse des informations des sens), des aires motrices (planification et contrôle des mouvements volontaires) et des aires associatives. Ces dernières intègrent les informations sensorielles et motrices pour les fonctions cognitives complexes (slide 24).",
+      "source_slides": [
+        24
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E217",
+      "block": "B3",
+      "lo": "LO7",
+      "topic": "Voie motrice : ordre des structures traversées",
+      "difficulty": "hard",
+      "stem": "Une personne décide de lever le bras.",
+      "lead_in": "Par quelles structures passe l'influx nerveux, dans l'ordre, depuis son point de départ jusqu'au muscle ?",
+      "options": [
+        {
+          "text": "Cortex moteur, moelle épinière, tronc cérébral, muscle",
+          "correct": false,
+          "rationale": "Incorrect. L'influx traverse le tronc cérébral avant d'atteindre la moelle épinière, qui contient les motoneurones (slides 17 et 19)."
+        },
+        {
+          "text": "Cervelet, tronc cérébral, moelle épinière, muscle",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet règle la réponse motrice, mais l'ordre d'un mouvement volontaire part du cortex moteur du lobe frontal (slides 17 et 47)."
+        },
+        {
+          "text": "Cortex moteur, tronc cérébral, moelle épinière, muscle",
+          "correct": true,
+          "rationale": "Correct. Un mouvement volontaire prend naissance dans le cortex moteur du lobe frontal. L'influx descend à travers le tronc cérébral et la moelle épinière jusqu'aux motoneurones, qui stimulent le muscle (slide 17)."
+        },
+        {
+          "text": "Cortex somesthésique, moelle épinière, tronc cérébral, muscle",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex somesthésique du lobe pariétal reçoit les sensations tactiles, et l'influx moteur traverse le tronc cérébral avant la moelle épinière (slides 17 et 24)."
+        },
+        {
+          "text": "Cortex somesthésique, tronc cérébral, moelle épinière, muscle",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex somesthésique du lobe pariétal reçoit les sensations tactiles ; l'ordre part du cortex moteur (slides 17 et 24)."
+        }
+      ],
+      "explanation": "Un mouvement volontaire prend naissance dans le cortex moteur du lobe frontal. L'influx nerveux descend à travers le tronc cérébral et la moelle épinière, par la voie pyramidale, jusqu'aux motoneurones de la moelle qui stimulent les muscles ciblés (slide 17).",
+      "source_slides": [
+        17,
+        19
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E218",
+      "block": "B3",
+      "lo": "LO6",
+      "topic": "Hémisphères : spécialisation pour le langage",
+      "difficulty": "medium",
+      "stem": "Mme P., 54 ans, droitière, a fait un accident vasculaire cérébral. Depuis, elle ne trouve plus ses mots et construit mal ses phrases ; elle avale et bouge la langue normalement.",
+      "lead_in": "Dans quelle partie de l'encéphale la lésion se situe-t-elle le plus probablement ?",
+      "options": [
+        {
+          "text": "Dans le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et maintient l'équilibre ; son dysfonctionnement se traduit par une ataxie (slide 46)."
+        },
+        {
+          "text": "Dans l'hémisphère gauche",
+          "correct": true,
+          "rationale": "Correct. Chez la plupart des droitiers, l'hémisphère gauche gère le langage (slide 13)."
+        },
+        {
+          "text": "Dans le tronc cérébral",
+          "correct": false,
+          "rationale": "Incorrect. Des nerfs crâniens issus du tronc cérébral commandent la déglutition et la parole (nerf X) et les mouvements de la langue (nerf XII) (slides 34 et 44). Ces fonctions sont préservées ici ; le trouble porte sur le langage, géré par l'hémisphère gauche chez la plupart des droitiers (slide 13)."
+        },
+        {
+          "text": "Dans l'hémisphère droit",
+          "correct": false,
+          "rationale": "Incorrect. Chez la plupart des droitiers, c'est l'hémisphère gauche qui gère le langage (slide 13)."
+        },
+        {
+          "text": "Dans le corps calleux",
+          "correct": false,
+          "rationale": "Incorrect. Le corps calleux est une épaisse bande de fibres nerveuses qui relie les deux hémisphères (slide 13)."
+        }
+      ],
+      "explanation": "Le cerveau humain est divisé en deux hémisphères qui présentent certaines spécialisations fonctionnelles. Chez la plupart des droitiers, l'hémisphère gauche gère le langage : une lésion de cet hémisphère est donc la cause la plus probable de troubles du langage (slide 13).",
+      "source_slides": [
+        13
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E219",
+      "block": "B3",
+      "lo": "LO7",
+      "topic": "Homoncule moteur : taille des représentations",
+      "difficulty": "medium",
+      "stem": "Sur l'homoncule moteur, la main est dessinée de taille disproportionnée par rapport au reste du corps.",
+      "lead_in": "Comment expliquer cette taille ?",
+      "options": [
+        {
+          "text": "Elle développe une force musculaire très élevée",
+          "correct": false,
+          "rationale": "Incorrect. La taille dessinée est proportionnelle à la superficie corticale dédiée à la région, liée à la finesse du contrôle ; la force n'est pas le critère (slide 27)."
+        },
+        {
+          "text": "Elle contient une masse musculaire très importante",
+          "correct": false,
+          "rationale": "Incorrect. La taille dessinée est proportionnelle à la superficie corticale dédiée à la région ; la masse musculaire n'est pas le critère (slide 27)."
+        },
+        {
+          "text": "Elle demande un contrôle très fin de ses mouvements",
+          "correct": true,
+          "rationale": "Correct. La main requiert un contrôle moteur très fin et occupe une grande portion du cortex moteur (slide 27)."
+        },
+        {
+          "text": "Elle est commandée par les deux hémisphères à la fois",
+          "correct": false,
+          "rationale": "Incorrect. Chaque hémisphère contrôle en grande partie le côté opposé du corps (slide 13), et la taille sur l'homoncule reflète la surface de cortex dédiée (slide 27)."
+        },
+        {
+          "text": "Elle effectue surtout des mouvements réflexes automatiques",
+          "correct": false,
+          "rationale": "Incorrect. L'homoncule moteur représente les commandes des mouvements volontaires ; la taille reflète la finesse du contrôle requis (slides 24 et 27)."
+        }
+      ],
+      "explanation": "Dans l'homoncule, chaque partie du corps est dessinée à une taille proportionnelle à la superficie corticale qui lui est dédiée. La main apparaît disproportionnée car elle requiert un contrôle moteur très fin et occupe une grande portion du cortex moteur (slide 27).",
+      "source_slides": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E220",
+      "block": "B3",
+      "lo": "LO7",
+      "topic": "Homoncule sensitif : régions très représentées",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Sur l'homoncule sensitif, quelle partie du corps est dessinée en très grand par rapport à sa taille réelle ?",
+      "options": [
+        {
+          "text": "Les orteils",
+          "correct": false,
+          "rationale": "Incorrect. Les orteils sont dessinés petits sur l'homoncule sensitif : ils occupent une surface modeste du cortex somesthésique (slide 28)."
+        },
+        {
+          "text": "Le cou",
+          "correct": false,
+          "rationale": "Incorrect. Le cou est dessiné petit sur l'homoncule sensitif : il occupe une surface modeste du cortex somesthésique (slide 28)."
+        },
+        {
+          "text": "L'avant-bras",
+          "correct": false,
+          "rationale": "Incorrect. L'avant-bras est dessiné petit sur l'homoncule sensitif : il occupe une surface modeste du cortex somesthésique (slide 28)."
+        },
+        {
+          "text": "Les lèvres",
+          "correct": true,
+          "rationale": "Correct. Les lèvres, comme les doigts, possèdent une sensibilité extrême et prennent beaucoup de place dans le cortex somesthésique (slides 27 et 28)."
+        },
+        {
+          "text": "Le tronc",
+          "correct": false,
+          "rationale": "Incorrect. Le tronc est dessiné petit sur l'homoncule sensitif : il occupe une surface modeste du cortex somesthésique (slide 28)."
+        }
+      ],
+      "explanation": "Sur l'homoncule sensitif, les zones à sensibilité extrême, comme les doigts ou les lèvres, sont dessinées en grand car elles occupent une surface importante de cortex somesthésique (slides 27 et 28).",
+      "source_slides": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E221",
+      "block": "B3",
+      "lo": "LO6",
+      "topic": "Aires corticales : cortex préfrontal",
+      "difficulty": "hard",
+      "stem": "Après un traumatisme crânien, M. K., 61 ans, n'arrive plus à organiser et diriger ses tâches ni à résoudre un problème complexe qui demande plusieurs habiletés.",
+      "lead_in": "Quelle région du cortex est probablement atteinte ?",
+      "options": [
+        {
+          "text": "Le cortex prémoteur",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex prémoteur figure parmi les régions motrices du schéma, distinctes du cortex préfrontal (slide 25)."
+        },
+        {
+          "text": "Le cortex préfrontal",
+          "correct": true,
+          "rationale": "Correct. Sur le schéma des aires corticales, le cortex préfrontal regroupe la gestion des tâches et la résolution de problèmes complexes nécessitant plusieurs habiletés (slide 25)."
+        },
+        {
+          "text": "L'aire de Broca",
+          "correct": false,
+          "rationale": "Incorrect. L'aire de Broca figure parmi les régions motrices et correspond à l'aire du langage (slides 25 et 26)."
+        },
+        {
+          "text": "Le cortex visuel primaire",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex visuel primaire fait partie des régions sensitives et concerne la vision (slide 25)."
+        },
+        {
+          "text": "Le cortex somesthésique primaire",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex somesthésique primaire fait partie des régions sensitives et reçoit les sensations tactiles (slides 24 et 25)."
+        }
+      ],
+      "explanation": "Sur le schéma des aires corticales, le cortex préfrontal regroupe la mémoire de travail, la gestion des tâches et la résolution de problèmes complexes nécessitant plusieurs habiletés (slide 25). Il occupe la partie antérieure du lobe frontal (slides 25 et 26). Une atteinte de cette région perturbe ces fonctions.",
+      "source_slides": [
+        25,
+        26
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E222",
+      "block": "B4",
+      "lo": "LO6",
+      "topic": "Noyaux de la base : fonction",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Dans quelle fonction les noyaux de la base sont-ils notamment impliqués ?",
+      "options": [
+        {
+          "text": "La production du liquide cérébrospinal",
+          "correct": false,
+          "rationale": "Incorrect. Le liquide cérébrospinal est produit par les plexus choroïdes des ventricules cérébraux (slide 8)."
+        },
+        {
+          "text": "La régulation de la respiration",
+          "correct": false,
+          "rationale": "Incorrect. La régulation de la respiration relève du tronc cérébral (slide 34)."
+        },
+        {
+          "text": "Le contrôle des mouvements",
+          "correct": true,
+          "rationale": "Correct. Les noyaux de la base, structures de substance grise situées en profondeur dans le cerveau, sont impliqués notamment dans le contrôle des mouvements (slide 30)."
+        },
+        {
+          "text": "La perception des sons",
+          "correct": false,
+          "rationale": "Incorrect. L'audition est gérée par le lobe temporal, dans les aires corticales sensorielles (slides 22 et 24)."
+        },
+        {
+          "text": "La sécrétion des hormones hypophysaires",
+          "correct": false,
+          "rationale": "Incorrect. L'hypothalamus commande le système hormonal en agissant sur l'hypophyse (slide 32)."
+        }
+      ],
+      "explanation": "Les noyaux de la base (ou ganglions de la base) sont des structures de substance grise situées en profondeur dans le cerveau. Ils sont impliqués notamment dans le contrôle des mouvements (slide 30).",
+      "source_slides": [
+        30
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E223",
+      "block": "B4",
+      "lo": "LO6",
+      "topic": "Maladie de Parkinson : mécanisme",
+      "difficulty": "medium",
+      "stem": "M. N., 70 ans, atteint de la maladie de Parkinson, présente des tremblements, une rigidité et une lenteur des mouvements.",
+      "lead_in": "Quel processus est à l'origine de ces symptômes ?",
+      "options": [
+        {
+          "text": "La perte de myéline autour des axones du système nerveux central",
+          "correct": false,
+          "rationale": "Incorrect. La myéline accélère la conduction de l'influx le long des axones ; sa perte n'est pas le mécanisme décrit pour la maladie de Parkinson (slides 15 et 30)."
+        },
+        {
+          "text": "L'atteinte des motoneurones de la moelle épinière",
+          "correct": false,
+          "rationale": "Incorrect. Les motoneurones de la moelle stimulent les muscles, mais le cours attribue la maladie de Parkinson à des neurones dopaminergiques (slides 17 et 30)."
+        },
+        {
+          "text": "La destruction des neurones du cortex moteur primaire",
+          "correct": false,
+          "rationale": "Incorrect. Dans la maladie de Parkinson, ce sont certains neurones dopaminergiques qui dégénèrent (slide 30)."
+        },
+        {
+          "text": "La dégénérescence de certains neurones dopaminergiques",
+          "correct": true,
+          "rationale": "Correct. La dégénérescence de certains neurones dopaminergiques perturbe le fonctionnement des circuits moteurs, ce qui entraîne tremblements, rigidité et lenteur des mouvements (slide 30)."
+        },
+        {
+          "text": "La dégénérescence de certains neurones du cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Un dysfonctionnement du cervelet se traduit par des mouvements maladroits et mal coordonnés, appelés ataxie (slide 46)."
+        }
+      ],
+      "explanation": "Dans la maladie de Parkinson, la dégénérescence de certains neurones dopaminergiques perturbe le fonctionnement des circuits moteurs. Elle entraîne des symptômes tels que des tremblements, une rigidité et une lenteur des mouvements (slide 30).",
+      "source_slides": [
+        30
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E224",
+      "block": "B4",
+      "lo": "LO6",
+      "topic": "Stimulation cérébrale profonde : principe",
+      "difficulty": "medium",
+      "stem": "Mme R., 66 ans, atteinte de la maladie de Parkinson, ne répond plus assez bien à ses médicaments. Une équipe de neurochirurgie lui propose la stimulation cérébrale profonde.",
+      "lead_in": "Quel est le principe de ce traitement ?",
+      "options": [
+        {
+          "text": "Une greffe de cellules nerveuses remplace les neurones perdus",
+          "correct": false,
+          "rationale": "Incorrect. La stimulation cérébrale profonde utilise de fines électrodes implantées dans l'un des noyaux de la base, qui délivrent de légères impulsions électriques (slide 30)."
+        },
+        {
+          "text": "Une pompe implantée diffuse un médicament dans le cerveau",
+          "correct": false,
+          "rationale": "Incorrect. La stimulation cérébrale profonde utilise de fines électrodes implantées dans l'un des noyaux de la base, qui délivrent de légères impulsions électriques (slide 30)."
+        },
+        {
+          "text": "Des électrodes implantées délivrent de légères impulsions électriques",
+          "correct": true,
+          "rationale": "Correct. De fines électrodes sont implantées dans l'un des noyaux de la base, souvent le noyau sous-thalamique, et délivrent de légères impulsions électriques qui modulent l'activité neuronale (slide 30)."
+        },
+        {
+          "text": "Des électrodes implantées enregistrent l'activité des neurones",
+          "correct": false,
+          "rationale": "Incorrect. Le principe du traitement est la stimulation : les électrodes délivrent de légères impulsions électriques qui modulent l'activité neuronale (slide 30)."
+        },
+        {
+          "text": "Des électrodes collées sur le cuir chevelu enregistrent l'activité du cerveau",
+          "correct": false,
+          "rationale": "Incorrect. Les électrodes sont implantées en profondeur dans l'un des noyaux de la base et délivrent de légères impulsions électriques qui modulent l'activité neuronale (slide 30)."
+        }
+      ],
+      "explanation": "La stimulation cérébrale profonde est un traitement neurochirurgical proposé lorsque les médicaments ne suffisent plus. De fines électrodes implantées dans l'un des noyaux de la base délivrent de légères impulsions électriques qui modulent l'activité neuronale et peuvent améliorer les symptômes moteurs (slide 30).",
+      "source_slides": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E225",
+      "block": "B4",
+      "lo": "LO6",
+      "topic": "Diencéphale : thalamus, station de relais",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quelle structure agit comme une station de relais majeure pour presque toutes les informations sensorielles qui parviennent au cortex ?",
+      "options": [
+        {
+          "text": "L'hypothalamus",
+          "correct": false,
+          "rationale": "Incorrect. L'hypothalamus maintient l'homéostasie du corps et commande le système hormonal en agissant sur l'hypophyse (slide 32)."
+        },
+        {
+          "text": "Le pont",
+          "correct": false,
+          "rationale": "Incorrect. Le pont est un segment du tronc cérébral ; le relais des informations sensorielles vers le cortex est le thalamus (slides 32 et 34)."
+        },
+        {
+          "text": "Le thalamus",
+          "correct": true,
+          "rationale": "Correct. Le thalamus est une station de relais majeure : il trie et redirige les signaux sensoriels vers les aires corticales appropriées (slides 32 et 33)."
+        },
+        {
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et maintient l'équilibre (slide 46)."
+        },
+        {
+          "text": "L'hypophyse",
+          "correct": false,
+          "rationale": "Incorrect. L'hypophyse est la glande sur laquelle agit l'hypothalamus pour commander le système hormonal (slide 32)."
+        }
+      ],
+      "explanation": "Le diencéphale comprend principalement le thalamus et l'hypothalamus. Le thalamus agit comme une station de relais majeure : presque toutes les informations sensorielles qui parviennent au cortex transitent par lui, et il les redirige vers les aires corticales appropriées (slide 32).",
+      "source_slides": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E226",
+      "block": "B4",
+      "lo": "LO6",
+      "topic": "Diencéphale : fonctions de l'hypothalamus",
+      "difficulty": "medium",
+      "stem": "Un patient a subi une lésion isolée de l'hypothalamus.",
+      "lead_in": "Quelles fonctions sont le plus probablement perturbées ?",
+      "options": [
+        {
+          "text": "La perception des informations visuelles, auditives et tactiles",
+          "correct": false,
+          "rationale": "Incorrect. La vision, l'audition et le toucher relèvent d'aires corticales sensorielles, après un relais par le thalamus (slides 24 et 32)."
+        },
+        {
+          "text": "La coordination des gestes, l'équilibre et le tonus des muscles",
+          "correct": false,
+          "rationale": "Incorrect. La coordination des gestes et l'équilibre relèvent du cervelet ; une atteinte du cervelet entraîne aussi une perte de tonus (slide 46 ; slide 47, notes de l'orateur)."
+        },
+        {
+          "text": "La température interne, la soif, la faim et les rythmes biologiques",
+          "correct": true,
+          "rationale": "Correct. L'hypothalamus maintient l'homéostasie du corps en contrôlant entre autres la température interne, la soif, la faim et les rythmes biologiques (slides 32 et 33)."
+        },
+        {
+          "text": "Le langage, le raisonnement, la prise de décision et la planification",
+          "correct": false,
+          "rationale": "Incorrect. Le langage et le raisonnement dépendent de zones du cortex, comme le lobe frontal (slide 22)."
+        },
+        {
+          "text": "Les mouvements des yeux, la mastication et la déglutition",
+          "correct": false,
+          "rationale": "Incorrect. Ces fonctions dépendent de nerfs crâniens, dont la plupart naissent de noyaux du tronc cérébral (slides 34 et 41)."
+        }
+      ],
+      "explanation": "L'hypothalamus est un centre de régulation essentiel de nombreuses fonctions vitales. Il maintient l'homéostasie du corps en contrôlant entre autres la température interne, la soif, la faim et les rythmes biologiques (slides 32 et 33).",
+      "source_slides": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E227",
+      "block": "B4",
+      "lo": "LO6",
+      "topic": "Système limbique : émotions et mémorisation",
+      "difficulty": "medium",
+      "stem": "Mme V., 34 ans, a échappé de justesse à un accident de la route. Des mois plus tard, elle se souvient très précisément de la scène, a oublié les détails neutres de la même journée et ressent encore une forte peur quand elle y repense.",
+      "lead_in": "Quelle partie de l'encéphale explique surtout ces réactions ?",
+      "options": [
+        {
+          "text": "Le tronc cérébral",
+          "correct": false,
+          "rationale": "Incorrect. Le tronc cérébral contrôle des fonctions vitales comme la respiration, le rythme cardiaque et la pression artérielle ; il n'est pas décrit comme le système des émotions et de leur mémorisation (slides 33 et 34)."
+        },
+        {
+          "text": "Le système limbique",
+          "correct": true,
+          "rationale": "Correct. Le système limbique adapte les systèmes de l'organisme aux réactions émotionnelles et intervient dans la mémorisation, surtout de ce qui est chargé de fortes émotions (slide 33, figure et notes de l'orateur)."
+        },
+        {
+          "text": "Les noyaux de la base",
+          "correct": false,
+          "rationale": "Incorrect. Les noyaux de la base sont impliqués notamment dans le contrôle des mouvements (slide 30)."
+        },
+        {
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et maintient l'équilibre (slide 46)."
+        },
+        {
+          "text": "Le lobe occipital",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe occipital traite les informations visuelles ; la mémorisation chargée d'émotions relève du système limbique (slide 22 ; slide 33, notes de l'orateur)."
+        }
+      ],
+      "explanation": "Le système limbique régule les émotions et adapte les systèmes de l'organisme aux réactions émotionnelles. Il participe aussi à l'apprentissage et à la mémorisation, surtout pour ce qui est chargé de fortes émotions (slide 33, figure et notes de l'orateur).",
+      "source_slides": [
+        33
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E228",
+      "block": "B5",
+      "lo": "LO6",
+      "topic": "Tronc cérébral : ordre des trois segments",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Dans quel ordre les trois segments du tronc cérébral se succèdent-ils, de haut en bas ?",
+      "options": [
+        {
+          "text": "Mésencéphale, pont, bulbe rachidien",
+          "correct": true,
+          "rationale": "Correct. Le mésencéphale est la partie supérieure du tronc cérébral, prolongement du diencéphale. Le pont occupe le centre. Le bulbe rachidien est en bas et se prolonge par la moelle épinière (slides 34 à 36)."
+        },
+        {
+          "text": "Mésencéphale, bulbe rachidien, pont",
+          "correct": false,
+          "rationale": "Incorrect. Le pont se situe entre le mésencéphale et le bulbe rachidien, qui est la partie inférieure du tronc cérébral (slides 36 et 37)."
+        },
+        {
+          "text": "Pont, mésencéphale, bulbe rachidien",
+          "correct": false,
+          "rationale": "Incorrect. Cette suite place le pont au sommet ; la partie supérieure du tronc cérébral est le mésencéphale, relié au diencéphale (slides 34 et 36)."
+        },
+        {
+          "text": "Bulbe rachidien, pont, mésencéphale",
+          "correct": false,
+          "rationale": "Incorrect. Cette suite inverse l'ordre : le bulbe rachidien est en bas et se prolonge par la moelle épinière (slides 36 et 37)."
+        },
+        {
+          "text": "Pont, bulbe rachidien, mésencéphale",
+          "correct": false,
+          "rationale": "Incorrect. Le mésencéphale est la partie supérieure, reliée au diencéphale ; il ne peut pas occuper la dernière position (slides 34 et 36)."
+        }
+      ],
+      "explanation": "De haut en bas, le tronc cérébral comprend le mésencéphale, relié au diencéphale, le pont (ou protubérance annulaire), puis le bulbe rachidien, que prolonge la moelle épinière (slides 34 à 37).",
+      "source_slides": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E229",
+      "block": "B5",
+      "lo": "LO6",
+      "topic": "Tronc cérébral : nature des comportements produits",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quel type de comportements les centres du tronc cérébral produisent-ils ?",
+      "options": [
+        {
+          "text": "Des comportements automatiques et immuables",
+          "correct": true,
+          "rationale": "Correct. Les centres du tronc cérébral produisent les comportements automatiques et immuables qui sont nécessaires à la survie (slide 35)."
+        },
+        {
+          "text": "Des comportements volontaires et réfléchis",
+          "correct": false,
+          "rationale": "Incorrect. La motricité volontaire et le raisonnement sont des fonctions supérieures dont le siège est le cortex cérébral (slide 20)."
+        },
+        {
+          "text": "Des comportements appris et mémorisés",
+          "correct": false,
+          "rationale": "Incorrect. L'apprentissage et la mémorisation relèvent notamment du système limbique (slide 33, notes de l'orateur) ; le tronc cérébral produit des comportements automatiques et immuables (slide 35)."
+        },
+        {
+          "text": "Des comportements émotionnels et affectifs",
+          "correct": false,
+          "rationale": "Incorrect. La régulation des émotions, de la peur et de l'agressivité relève du système limbique (slide 33, notes de l'orateur)."
+        },
+        {
+          "text": "Des comportements moteurs précis et coordonnés",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet règle les réponses motrices volontaires de manière précise et harmonieuse (slides 46 et 47)."
+        }
+      ],
+      "explanation": "Les centres du tronc cérébral produisent les comportements automatiques et immuables nécessaires à la survie, comme la régulation de la respiration et du rythme cardiaque (slides 34 et 35).",
+      "source_slides": [
+        35
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E230",
+      "block": "B5",
+      "lo": "LO6",
+      "topic": "Bulbe rachidien : centres cardiaque, vasomoteur et respiratoire",
+      "difficulty": "medium",
+      "stem": "Mme D., 72 ans, est hospitalisée après un traumatisme crânien grave. Elle présente un ralentissement important du rythme cardiaque, des variations importantes de la pression artérielle et des pauses respiratoires.",
+      "lead_in": "Quelle structure contient les centres dont l'atteinte explique ces trois signes ?",
+      "options": [
+        {
+          "text": "Le bulbe rachidien",
+          "correct": true,
+          "rationale": "Correct. Le bulbe rachidien contient les noyaux viscéraux qui régissent la fréquence cardiaque, le diamètre des vaisseaux sanguins (vasomotricité) et le rythme respiratoire (slide 38 ; slide 37, notes de l'orateur)."
+        },
+        {
+          "text": "Le pont",
+          "correct": false,
+          "rationale": "Incorrect. Le pont coopère avec les centres respiratoires du bulbe rachidien, mais les centres de la fréquence cardiaque et de la vasomotricité sont décrits dans le bulbe rachidien (slide 38)."
+        },
+        {
+          "text": "Le mésencéphale",
+          "correct": false,
+          "rationale": "Incorrect. Le mésencéphale contient des centres réflexes visuels et auditifs et des centres moteurs sous-corticaux ; les centres cardiaque, vasomoteur et respiratoire sont dans le bulbe rachidien (slide 38)."
+        },
+        {
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et maintient l'équilibre (slide 46). Les centres de la fréquence cardiaque, de la vasomotricité et du rythme respiratoire sont décrits dans le bulbe rachidien (slide 38 ; slide 37, notes de l'orateur)."
+        },
+        {
+          "text": "Le thalamus",
+          "correct": false,
+          "rationale": "Incorrect. Le thalamus est une station de relais des informations sensorielles vers le cortex (slide 32) ; les centres cardiaque, vasomoteur et respiratoire sont décrits dans le bulbe rachidien (slide 38)."
+        }
+      ],
+      "explanation": "Le bulbe rachidien, segment inférieur du tronc cérébral, abrite les centres de la fréquence cardiaque, de la vasomotricité et du rythme respiratoire. Une atteinte de ces centres explique les trois signes de la vignette (slides 34 et 38).",
+      "source_slides": [
+        34,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E231",
+      "block": "B5",
+      "lo": "LO6",
+      "topic": "Formation réticulée : filtrage des stimulus répétitifs",
+      "difficulty": "medium",
+      "stem": "Pendant sa garde de nuit, un infirmier ne remarque plus le bourdonnement régulier des appareils du service. Il perçoit pourtant aussitôt une alarme qui se déclenche.",
+      "lead_in": "Quel rôle de la formation réticulée cette situation illustre-t-elle ?",
+      "options": [
+        {
+          "text": "Atténuer les influx répétitifs et accentuer les influx importants",
+          "correct": true,
+          "rationale": "Correct. La formation réticulée diminue les influx répétitifs et accentue les influx importants, ce qui évite de surcharger les régions sensorielles (slide 38 ; slide 37, notes de l'orateur)."
+        },
+        {
+          "text": "Diminuer la vigilance de l'ensemble du cortex cérébral",
+          "correct": false,
+          "rationale": "Incorrect. La formation réticulée assure la vigilance du cortex et le garde en attention (slide 38 ; slide 37, notes de l'orateur)."
+        },
+        {
+          "text": "Relayer les informations sensorielles vers les aires du cortex",
+          "correct": false,
+          "rationale": "Incorrect. Le relais des informations sensorielles vers les aires corticales appropriées est le rôle du thalamus (slide 32)."
+        },
+        {
+          "text": "Analyser la signification des sons perçus",
+          "correct": false,
+          "rationale": "Incorrect. Le traitement des informations auditives relève du lobe temporal (slide 22)."
+        },
+        {
+          "text": "Relayer vers le cervelet les informations du cerveau",
+          "correct": false,
+          "rationale": "Incorrect. Le relais des informations qui partent du cerveau pour se rendre au cervelet est un rôle du pont (slide 38)."
+        }
+      ],
+      "explanation": "La formation réticulée maintient la vigilance du cortex. Elle atténue les influx répétitifs, ici le bourdonnement des appareils, et accentue les influx importants, ici l'alarme (slide 38 ; slide 37, notes de l'orateur).",
+      "source_slides": [
+        37,
+        38
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E232",
+      "block": "B5",
+      "lo": "LO6",
+      "topic": "Mésencéphale : centres de réflexes visuels et auditifs",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quels centres le mésencéphale contient-il ?",
+      "options": [
+        {
+          "text": "Des centres de réflexes liés à la vue et à l'ouïe",
+          "correct": true,
+          "rationale": "Correct. Le mésencéphale contient des centres réflexes visuels (collicules supérieurs) et auditifs (collicules inférieurs) (slide 38)."
+        },
+        {
+          "text": "Des centres du vomissement et de la toux",
+          "correct": false,
+          "rationale": "Incorrect. Les centres du vomissement et de la toux se trouvent dans le bulbe rachidien (slide 38)."
+        },
+        {
+          "text": "Des centres de la décision et du raisonnement",
+          "correct": false,
+          "rationale": "Incorrect. La prise de décision et le raisonnement relèvent du lobe frontal (slide 22)."
+        },
+        {
+          "text": "Des centres de la faim et de la soif",
+          "correct": false,
+          "rationale": "Incorrect. La faim et la soif sont réglées par l'hypothalamus, structure du diencéphale (slide 32)."
+        },
+        {
+          "text": "Des centres de la mémoire et des émotions",
+          "correct": false,
+          "rationale": "Incorrect. La régulation des émotions et la mémorisation relèvent du système limbique (slide 33, notes de l'orateur)."
+        }
+      ],
+      "explanation": "Le mésencéphale, segment supérieur du tronc cérébral, contient des centres réflexes visuels et auditifs (collicules supérieurs et inférieurs), des centres moteurs sous-corticaux et les noyaux des nerfs crâniens III et IV (slide 38).",
+      "source_slides": [
+        38
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E233",
+      "block": "B5",
+      "lo": "LO6",
+      "topic": "Tronc cérébral : origine des nerfs crâniens VI et VII",
+      "difficulty": "medium",
+      "stem": "M. B., 60 ans, a subi un accident vasculaire cérébral. Il ne peut plus diriger son œil droit vers l'extérieur, et les muscles de l'expression de son visage sont paralysés du côté droit.",
+      "lead_in": "Dans quelle partie de l'encéphale se trouvent les noyaux des deux nerfs crâniens responsables de ces signes ?",
+      "options": [
+        {
+          "text": "Le tronc cérébral",
+          "correct": true,
+          "rationale": "Correct. Le mouvement latéral de l'œil dépend du nerf abducens (VI) et l'expression faciale du nerf facial (VII) (slide 44). Les nerfs crâniens III à XII prennent naissance dans des noyaux du tronc cérébral (slides 34 et 41)."
+        },
+        {
+          "text": "Le cervelet",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet coordonne les mouvements et le maintien de l'équilibre (slide 46) ; l'origine des nerfs crâniens III à XII se trouve dans le tronc cérébral (slide 34)."
+        },
+        {
+          "text": "Le diencéphale",
+          "correct": false,
+          "rationale": "Incorrect. Le diencéphale comprend principalement le thalamus et l'hypothalamus (slide 32) ; l'origine des nerfs crâniens III à XII se trouve dans le tronc cérébral (slide 34)."
+        },
+        {
+          "text": "Le cortex cérébral",
+          "correct": false,
+          "rationale": "Incorrect. Le cortex cérébral est la couche superficielle de substance grise, siège de la motricité volontaire (slide 20). Les nerfs crâniens III à XII prennent naissance dans des noyaux du tronc cérébral (slides 34 et 41)."
+        },
+        {
+          "text": "Le système limbique",
+          "correct": false,
+          "rationale": "Incorrect. Le système limbique régule les émotions et les apprentissages (slide 33, notes de l'orateur) ; l'origine des nerfs crâniens III à XII se trouve dans le tronc cérébral (slide 34)."
+        }
+      ],
+      "explanation": "Le nerf abducens (VI) commande le mouvement latéral de l'œil et le nerf facial (VII) l'expression du visage (slide 44). Les nerfs crâniens III à XII prennent naissance dans des noyaux du tronc cérébral (slides 34 et 41).",
+      "source_slides": [
+        34,
+        41,
+        44
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E234",
+      "block": "B6",
+      "lo": "LO6",
+      "topic": "Nerfs crâniens : définition d'un nerf mixte",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Qu'est-ce qu'un nerf crânien mixte ?",
+      "options": [
+        {
+          "text": "Un nerf qui contient des fibres sensitives et des fibres motrices",
+          "correct": true,
+          "rationale": "Correct. Un nerf crânien mixte contient à la fois des fibres sensitives et des fibres motrices (slide 41)."
+        },
+        {
+          "text": "Un nerf qui naît à la fois du cerveau et de la moelle épinière",
+          "correct": false,
+          "rationale": "Incorrect. Les nerfs crâniens émergent de l'encéphale (cerveau ou tronc cérébral) ; les nerfs spinaux proviennent de la moelle épinière (slide 41)."
+        },
+        {
+          "text": "Un nerf qui innerve à la fois la tête et les membres",
+          "correct": false,
+          "rationale": "Incorrect. Les nerfs crâniens innervent principalement la tête et le cou (slide 41)."
+        },
+        {
+          "text": "Un nerf qui transmet l'odorat ou la vision vers l'encéphale",
+          "correct": false,
+          "rationale": "Incorrect. Les nerfs olfactif (I) et optique (II) sont des nerfs sensoriels ; un nerf mixte contient à la fois des fibres sensitives et des fibres motrices (slides 41 et 44)."
+        },
+        {
+          "text": "Un nerf qui commande à la fois des muscles lisses et des muscles squelettiques",
+          "correct": false,
+          "rationale": "Incorrect. Commander des muscles est une fonction motrice ; un nerf est mixte lorsqu'il contient aussi des fibres sensitives (slide 41)."
+        }
+      ],
+      "explanation": "Les nerfs crâniens sont 12 paires de nerfs qui émergent de l'encéphale. Certains sont sensoriels, d'autres moteurs, et quelques-uns sont mixtes, c'est-à-dire qu'ils contiennent à la fois des fibres sensitives et des fibres motrices (slide 41).",
+      "source_slides": [
+        41
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E235",
+      "block": "B6",
+      "lo": "LO6",
+      "topic": "Nerf accessoire (XI) : mouvements de la tête et des épaules",
+      "difficulty": "easy",
+      "stem": "Après une intervention chirurgicale au cou, M. F., 45 ans, ne parvient plus à hausser les épaules ni à tourner la tête normalement.",
+      "lead_in": "Quel nerf crânien est probablement lésé ?",
+      "options": [
+        {
+          "text": "Le nerf accessoire (XI)",
+          "correct": true,
+          "rationale": "Correct. Le nerf accessoire (XI) commande les mouvements de la tête et des épaules (slide 44). La planche le relie aux muscles sterno-cléido-mastoïdien et trapèze (slide 43)."
+        },
+        {
+          "text": "Le nerf hypoglosse (XII)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf hypoglosse (XII) commande les mouvements de la langue (slide 44)."
+        },
+        {
+          "text": "Le nerf vague (X)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf vague (X) intervient dans la régulation des organes viscéraux, la déglutition et la parole (slide 44)."
+        },
+        {
+          "text": "Le nerf facial (VII)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf facial (VII) est associé à l'expression faciale, au goût des deux tiers antérieurs de la langue et aux sécrétions salivaire et lacrymale (slide 44)."
+        },
+        {
+          "text": "Le nerf glossopharyngien (IX)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf glossopharyngien (IX) assure le goût du tiers postérieur de la langue, la déglutition et la sécrétion salivaire (slide 44)."
+        }
+      ],
+      "explanation": "Le nerf accessoire (XI) est un nerf moteur qui commande les mouvements de la tête et des épaules. Les nerfs hypoglosse (XII), vague (X), facial (VII) et glossopharyngien (IX) ont d'autres fonctions (slides 43 et 44).",
+      "source_slides": [
+        43,
+        44
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E236",
+      "block": "B6",
+      "lo": "LO6",
+      "topic": "Nerf vestibulocochléaire (VIII) : audition et équilibre",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quel nerf crânien transmet à l'encéphale les informations de l'audition et de l'équilibre ?",
+      "options": [
+        {
+          "text": "Le nerf vestibulocochléaire (VIII)",
+          "correct": true,
+          "rationale": "Correct. Le nerf vestibulocochléaire (VIII) est un nerf sensoriel responsable de l'audition et de l'équilibre (slide 44)."
+        },
+        {
+          "text": "Le nerf optique (II)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf optique (II) est un nerf sensoriel responsable de la vision (slide 44)."
+        },
+        {
+          "text": "Le nerf facial (VII)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf facial (VII) est un nerf mixte associé à l'expression faciale, au goût des deux tiers antérieurs de la langue et aux sécrétions salivaire et lacrymale (slide 44)."
+        },
+        {
+          "text": "Le nerf trijumeau (V)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf trijumeau (V) est un nerf mixte responsable des sensations faciales et de la mastication (slide 44)."
+        },
+        {
+          "text": "Le nerf glossopharyngien (IX)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf glossopharyngien (IX) est un nerf mixte qui assure le goût du tiers postérieur de la langue, la déglutition et la sécrétion salivaire (slide 44)."
+        }
+      ],
+      "explanation": "Le nerf vestibulocochléaire (VIII) est un nerf sensoriel responsable de l'audition et de l'équilibre. Les nerfs optique (II), facial (VII), trijumeau (V) et glossopharyngien (IX) ont d'autres fonctions (slides 41 et 44).",
+      "source_slides": [
+        41,
+        44
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E237",
+      "block": "B6",
+      "lo": "LO6",
+      "topic": "Nerf trochléaire (IV) : mouvement de l'œil vers le bas et l'intérieur",
+      "difficulty": "hard",
+      "stem": "Un patient a du mal à tourner l'œil vers son nez en regardant vers ses pieds, par exemple pour lire ou pour descendre un escalier. Les autres mouvements de l'œil et la constriction de la pupille sont normaux.",
+      "lead_in": "Quel nerf crânien est probablement atteint ?",
+      "options": [
+        {
+          "text": "Le nerf trochléaire (IV)",
+          "correct": true,
+          "rationale": "Correct. Le nerf trochléaire (IV) commande le mouvement de l'œil vers le bas et l'intérieur (slide 44). Les autres mouvements de l'œil et la constriction de la pupille, préservés ici, relèvent des nerfs oculomoteur (III) et abducens (VI) (slide 44)."
+        },
+        {
+          "text": "Le nerf oculomoteur (III)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf oculomoteur (III) commande la plupart des mouvements des yeux et la constriction de la pupille (slides 43 et 44). Son atteinte toucherait aussi la pupille et les autres mouvements, normaux ici."
+        },
+        {
+          "text": "Le nerf abducens (VI)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf abducens (VI) commande le mouvement latéral de l'œil (slide 44) ; ce mouvement est normal ici."
+        },
+        {
+          "text": "Le nerf optique (II)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf optique (II) est un nerf sensoriel responsable de la vision (slide 44)."
+        },
+        {
+          "text": "Le nerf vestibulocochléaire (VIII)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf vestibulocochléaire (VIII) est un nerf sensoriel responsable de l'audition et de l'équilibre (slide 44)."
+        }
+      ],
+      "explanation": "Le nerf trochléaire (IV) commande le mouvement de l'œil vers le bas et l'intérieur. Le nerf oculomoteur (III) commande les autres mouvements des yeux et la constriction de la pupille, et le nerf abducens (VI) le mouvement latéral (slides 43 et 44).",
+      "source_slides": [
+        43,
+        44
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E238",
+      "block": "B6",
+      "lo": "LO6",
+      "topic": "Nerf vague (X) : parole",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quelle fonction assure le nerf vague (X) ?",
+      "options": [
+        {
+          "text": "La parole",
+          "correct": true,
+          "rationale": "Correct. Le nerf vague (X) intervient dans la régulation des organes viscéraux, la déglutition et la parole (slide 44). La planche le montre relié au cœur, aux poumons et au tube digestif (slide 43)."
+        },
+        {
+          "text": "L'odorat",
+          "correct": false,
+          "rationale": "Incorrect. L'odorat dépend du nerf olfactif (I), un nerf sensoriel (slide 44)."
+        },
+        {
+          "text": "La vision",
+          "correct": false,
+          "rationale": "Incorrect. La vision dépend du nerf optique (II), un nerf sensoriel (slide 44)."
+        },
+        {
+          "text": "La mastication",
+          "correct": false,
+          "rationale": "Incorrect. La mastication dépend du nerf trijumeau (V) (slide 44)."
+        },
+        {
+          "text": "La sécrétion lacrymale",
+          "correct": false,
+          "rationale": "Incorrect. La sécrétion lacrymale dépend du nerf facial (VII) (slide 44)."
+        }
+      ],
+      "explanation": "Le nerf vague (X) est un nerf mixte qui intervient dans la régulation des organes viscéraux, la déglutition et la parole (slide 44). La planche le montre relié au cœur, aux poumons et au tube digestif (slide 43).",
+      "source_slides": [
+        43,
+        44
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E239",
+      "block": "B6",
+      "lo": "LO6",
+      "topic": "Nerf glossopharyngien (IX) : goût du tiers postérieur de la langue",
+      "difficulty": "medium",
+      "stem": "Un patient avale difficilement. Il perçoit encore le goût sur la partie avant de sa langue, mais plus sur sa partie arrière.",
+      "lead_in": "Quel nerf crânien est probablement atteint ?",
+      "options": [
+        {
+          "text": "Le nerf glossopharyngien (IX)",
+          "correct": true,
+          "rationale": "Correct. Le nerf glossopharyngien (IX) assure le goût du tiers postérieur de la langue, la déglutition et la sécrétion salivaire (slide 44)."
+        },
+        {
+          "text": "Le nerf vague (X)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf vague (X) intervient dans la déglutition, la parole et la régulation des organes viscéraux, sans fonction gustative dans la classification (slide 44)."
+        },
+        {
+          "text": "Le nerf facial (VII)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf facial (VII) assure le goût des deux tiers antérieurs de la langue, qui reste perçu ici (slide 44)."
+        },
+        {
+          "text": "Le nerf hypoglosse (XII)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf hypoglosse (XII) commande les mouvements de la langue ; il n'assure pas le goût (slide 44)."
+        },
+        {
+          "text": "Le nerf trijumeau (V)",
+          "correct": false,
+          "rationale": "Incorrect. Le nerf trijumeau (V) assure les sensations faciales et la mastication (slide 44)."
+        }
+      ],
+      "explanation": "Le nerf glossopharyngien (IX) assure le goût du tiers postérieur de la langue, la déglutition et la sécrétion salivaire. Le goût des deux tiers antérieurs dépend du nerf facial (VII), et la déglutition fait aussi intervenir le nerf vague (X) (slide 44).",
+      "source_slides": [
+        43,
+        44
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E240",
+      "block": "B7",
+      "lo": "LO6",
+      "topic": "Cervelet : attache au tronc cérébral",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Par quelles structures le cervelet est-il attaché au tronc cérébral ?",
+      "options": [
+        {
+          "text": "Par trois pédoncules",
+          "correct": true,
+          "rationale": "Correct. Le cervelet est attaché au tronc cérébral par trois pédoncules (slide 47)."
+        },
+        {
+          "text": "Par le corps calleux",
+          "correct": false,
+          "rationale": "Incorrect. Le corps calleux relie les deux hémisphères cérébraux (slide 13)."
+        },
+        {
+          "text": "Par les méninges",
+          "correct": false,
+          "rationale": "Incorrect. Les méninges enveloppent et protègent le cerveau et la moelle épinière (slide 6)."
+        },
+        {
+          "text": "Par les nerfs crâniens",
+          "correct": false,
+          "rationale": "Incorrect. Les nerfs crâniens émergent de l'encéphale et innervent principalement la tête et le cou (slide 41)."
+        },
+        {
+          "text": "Par le thalamus",
+          "correct": false,
+          "rationale": "Incorrect. Le thalamus est une station de relais des informations sensorielles vers le cortex (slide 32)."
+        }
+      ],
+      "explanation": "Le cervelet est attaché au tronc cérébral par trois pédoncules. Il est de forme triangulaire et strié horizontalement (slide 47).",
+      "source_slides": [
+        47
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E241",
+      "block": "B7",
+      "lo": "LO6",
+      "topic": "Cervelet : situation dans l'encéphale",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Où se situe le cervelet ?",
+      "options": [
+        {
+          "text": "À l'arrière de l'encéphale, sous les hémisphères",
+          "correct": true,
+          "rationale": "Correct. Le cervelet est situé à l'arrière de l'encéphale, sous les hémisphères cérébraux, et connecté au tronc cérébral (slide 46)."
+        },
+        {
+          "text": "À l'avant de l'encéphale, sous le lobe frontal",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe frontal est à l'avant de l'hémisphère (slide 22) ; le cervelet est situé à l'arrière de l'encéphale (slide 46)."
+        },
+        {
+          "text": "Au centre de l'encéphale, dans le diencéphale",
+          "correct": false,
+          "rationale": "Incorrect. Le diencéphale, structure centrale située sous les hémisphères, comprend le thalamus et l'hypothalamus (slide 32). Le cervelet est situé à l'arrière de l'encéphale, en arrière du tronc cérébral (slides 36 et 46)."
+        },
+        {
+          "text": "À l'arrière de l'encéphale, dans le lobe occipital",
+          "correct": false,
+          "rationale": "Incorrect. Le lobe occipital fait partie des hémisphères cérébraux, à l'arrière ; le cervelet est situé sous les hémisphères (slides 22 et 46)."
+        },
+        {
+          "text": "En avant du tronc cérébral, à la base de l'encéphale",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet est normalement situé en arrière du tronc cérébral (slide 36)."
+        }
+      ],
+      "explanation": "Le cervelet est situé à l'arrière de l'encéphale, sous les hémisphères cérébraux, en arrière du tronc cérébral auquel il est connecté (slides 36 et 46).",
+      "source_slides": [
+        36,
+        46
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E242",
+      "block": "B7",
+      "lo": "LO6",
+      "topic": "Cervelet : comparaison entre le mouvement voulu et le mouvement réalisé",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "Quels éléments le cervelet compare-t-il en permanence ?",
+      "options": [
+        {
+          "text": "L'intention du mouvement et son exécution réelle",
+          "correct": true,
+          "rationale": "Correct. Le cervelet compare l'intention du mouvement, issue du cortex moteur, aux informations sensorielles de retour ; il corrige ainsi les écarts entre mouvement voulu et exécution réelle (slide 46)."
+        },
+        {
+          "text": "Les sensations tactiles et les sensations douloureuses de la peau",
+          "correct": false,
+          "rationale": "Incorrect. Les sensations tactiles sont analysées dans le cortex somesthésique du lobe pariétal (slide 17)."
+        },
+        {
+          "text": "Le mouvement du côté gauche et celui du côté droit du corps",
+          "correct": false,
+          "rationale": "Incorrect. Le rôle décrit dans le cours est la comparaison du mouvement voulu avec son exécution réelle ; les deux côtés du corps ne sont pas mis en regard (slide 46)."
+        },
+        {
+          "text": "Les signaux du thalamus et ceux de l'hypothalamus",
+          "correct": false,
+          "rationale": "Incorrect. Le thalamus relaie les informations sensorielles vers le cortex, et l'hypothalamus régule l'homéostasie et commande le système hormonal (slide 32) ; ces signaux ne sont pas cités parmi ceux que compare le cervelet (slide 46)."
+        },
+        {
+          "text": "L'état de veille et l'état de sommeil du cortex",
+          "correct": false,
+          "rationale": "Incorrect. Le maintien de l'éveil relève de la formation réticulée du tronc cérébral (slide 34)."
+        }
+      ],
+      "explanation": "Le cervelet confronte l'intention du mouvement, venue du cortex moteur, aux informations sensorielles de retour. Il corrige ainsi les écarts entre le mouvement voulu et l'exécution réelle (slide 46).",
+      "source_slides": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E243",
+      "block": "B7",
+      "lo": "LO6",
+      "topic": "Cervelet : informations proprioceptives reçues",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "Quelle information le cervelet reçoit-il des récepteurs proprioceptifs ?",
+      "options": [
+        {
+          "text": "La tension des tendons et la position des articulations",
+          "correct": true,
+          "rationale": "Correct. Les récepteurs proprioceptifs renseignent le cervelet sur la tension des tendons et la position des articulations (slide 47)."
+        },
+        {
+          "text": "La position du membre perçue par la vision",
+          "correct": false,
+          "rationale": "Incorrect. La vision renseigne aussi le cervelet, mais par les voies visuelles, sans passer par les récepteurs proprioceptifs (slide 47)."
+        },
+        {
+          "text": "La pression artérielle mesurée dans les grosses artères",
+          "correct": false,
+          "rationale": "Incorrect. La pression artérielle est régulée par des centres du tronc cérébral (slide 34)."
+        },
+        {
+          "text": "La température de la peau au niveau des mains et des pieds",
+          "correct": false,
+          "rationale": "Incorrect. La température de la peau ne figure pas parmi les informations reçues par le cervelet (slide 47)."
+        },
+        {
+          "text": "Les sons captés par l'oreille pendant le mouvement",
+          "correct": false,
+          "rationale": "Incorrect. L'oreille interne renseigne le cervelet sur l'équilibre ; les sons captés par l'oreille ne figurent pas parmi les informations reçues (slide 47)."
+        }
+      ],
+      "explanation": "Le cervelet reçoit des informations du cortex moteur, des récepteurs proprioceptifs (tension des tendons, position des articulations), des voies visuelles et de l'équilibre (oreille interne) (slide 47).",
+      "source_slides": [
+        47
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E244",
+      "block": "B7",
+      "lo": "LO6",
+      "topic": "Cervelet : conséquence d'une atteinte sur le geste",
+      "difficulty": "medium",
+      "stem": "Mme G., 69 ans, présente une atteinte du cervelet.",
+      "lead_in": "Quel signe est le plus probable lorsqu'elle tend la main pour saisir un verre ?",
+      "options": [
+        {
+          "text": "Un geste maladroit et imprécis",
+          "correct": true,
+          "rationale": "Correct. Un dysfonctionnement du cervelet se traduit par des mouvements maladroits et mal coordonnés, appelés ataxie (slide 46)."
+        },
+        {
+          "text": "Une paralysie de la main",
+          "correct": false,
+          "rationale": "Incorrect. Une atteinte du cervelet provoque une perte de tonus et de coordination (slide 47, notes de l'orateur). L'ordre du mouvement est donné par le cortex (slide 47)."
+        },
+        {
+          "text": "Une absence de sensation au bout des doigts",
+          "correct": false,
+          "rationale": "Incorrect. Les sensations tactiles sont analysées dans le cortex somesthésique du lobe pariétal (slide 17)."
+        },
+        {
+          "text": "Une perte de la vision du verre",
+          "correct": false,
+          "rationale": "Incorrect. Les informations visuelles sont traitées par le lobe occipital (slide 22) ; le cervelet les utilise pour ajuster le mouvement (slide 47)."
+        },
+        {
+          "text": "Une incapacité à comprendre la demande",
+          "correct": false,
+          "rationale": "Incorrect. La compréhension d'une consigne relève des fonctions supérieures du cortex, dont le langage (slides 20 et 22)."
+        }
+      ],
+      "explanation": "Le cervelet ajuste la commande motrice pour que les gestes soient précis et harmonieux. Son dysfonctionnement produit des mouvements maladroits et mal coordonnés, l'ataxie, sans supprimer la commande du cortex (slides 46 et 47).",
+      "source_slides": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SPHANASN-partie2-examen-v1-E245",
+      "block": "B7",
+      "lo": "LO6",
+      "topic": "Cervelet : transmission du plan d'action",
+      "difficulty": "hard",
+      "stem": "",
+      "lead_in": "Que fait le cervelet du plan d'action qu'il a élaboré ?",
+      "options": [
+        {
+          "text": "Il le transmet au cortex, qui donne l'ordre du mouvement",
+          "correct": true,
+          "rationale": "Correct. Le cervelet fait part de son plan d'action au cortex, qui corrige au besoin et donne l'ordre de la réponse (slide 47)."
+        },
+        {
+          "text": "Il le transmet à la moelle épinière, qui donne l'ordre du mouvement",
+          "correct": false,
+          "rationale": "Incorrect. Les motoneurones de la moelle stimulent les muscles (slide 17), mais le plan d'action du cervelet est transmis au cortex, qui donne l'ordre (slide 47)."
+        },
+        {
+          "text": "Il le transmet au pont, qui donne l'ordre du mouvement",
+          "correct": false,
+          "rationale": "Incorrect. Le pont relaie les informations qui partent du cerveau pour se rendre au cervelet (slide 38) ; le plan d'action du cervelet est transmis au cortex, qui donne l'ordre (slide 47)."
+        },
+        {
+          "text": "Il le transmet à l'hypothalamus, qui donne l'ordre du mouvement",
+          "correct": false,
+          "rationale": "Incorrect. L'hypothalamus régule l'homéostasie et commande le système hormonal (slide 32)."
+        },
+        {
+          "text": "Il donne lui-même l'ordre du mouvement aux muscles",
+          "correct": false,
+          "rationale": "Incorrect. Le cervelet règle la réponse motrice volontaire ; c'est le cortex qui corrige au besoin et donne l'ordre (slide 47)."
+        }
+      ],
+      "explanation": "Le cervelet règle les réponses motrices volontaires de manière précise et harmonieuse. Il fait part de son plan d'action au cortex, qui corrige au besoin et donne l'ordre de la réponse (slide 47).",
+      "source_slides": [
+        47
+      ]
+    }
+  ]
+}

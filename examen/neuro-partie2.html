@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Examen blanc · Le système nerveux, partie 2 · HE-Arc Santé</title>
+<meta name="description" content="Examen blanc de la HE-Arc Santé : 15 questions à choix multiple tirées au hasard, 20 minutes, correction à la fin. Rien n'est enregistré ni transmis.">
+<meta name="robots" content="noindex">
+<meta name="build" content="20260929205523">
+<link rel="stylesheet" href="examen.css?b=20260929205523">
+</head>
+<!-- Examen blanc du site d'exercices quiz_generator. Produced by: written by the orchestrating
+     model, Claude Opus 5.5, without a code-generation model, 2026-09-29, at the author's request
+     (docs/author_decisions.md). The page reads data/<data-exam>.json, written by
+     R/05_export_exam.R; the logic is in examen.js. -->
+<body data-exam="neuro-partie2">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header class="top">
+  <a class="brand" href="../" aria-label="Site d'exercices de la HE-Arc Santé">
+    <img src="../img/logo-he-arc-sante.png?b=20260929205523" alt="Haute École Arc Santé" width="211" height="40">
+  </a>
+  <div class="top-timer" id="top-timer" hidden>
+    <span class="sr-only">Temps restant : </span><span id="timer" role="timer" aria-live="off">20:00</span>
+  </div>
+</header>
+
+<p id="sr-status" class="sr-only" role="status" aria-live="polite"></p>
+
+<main id="contenu" tabindex="-1">
+  <p id="loading" class="loading">Chargement de l'examen…</p>
+
+  <!-- Accueil de l'examen -->
+  <section id="view-intro" class="view" hidden>
+    <p class="eyebrow" id="intro-eyebrow"></p>
+    <h1 id="intro-title"></h1>
+    <p class="lead" id="intro-subtitle"></p>
+    <div class="card">
+      <h2>Déroulement</h2>
+      <ul class="rules" id="intro-rules"></ul>
+    </div>
+    <div class="card resume" id="intro-resume" hidden>
+      <p id="intro-resume-text"></p>
+    </div>
+    <div class="actions">
+      <button type="button" class="btn primary" id="btn-start">Commencer l'examen</button>
+    </div>
+    <p class="fineprint" id="intro-prov"></p>
+  </section>
+
+  <!-- Examen en cours -->
+  <section id="view-exam" class="view" hidden>
+    <div class="exam-head">
+      <p class="exam-code">Examen n° <span id="exam-code"></span></p>
+      <p class="exam-progress" id="exam-progress"></p>
+    </div>
+    <div class="card question" id="question-card">
+      <h2 class="q-num" id="q-num" tabindex="-1"></h2>
+      <p class="q-stem" id="q-stem"></p>
+      <fieldset class="q-options">
+        <legend class="q-lead" id="q-lead"></legend>
+        <div id="q-options"></div>
+      </fieldset>
+      <div class="q-tools">
+        <button type="button" class="btn ghost" id="btn-clear">Effacer ma réponse</button>
+        <button type="button" class="btn ghost" id="btn-flag" aria-pressed="false">Marquer pour revoir</button>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button type="button" class="btn" id="btn-prev">Précédente</button>
+      <button type="button" class="btn" id="btn-next">Suivante</button>
+    </div>
+    <nav class="card navigator" aria-label="Aller à une question">
+      <h2 class="nav-title">Questions</h2>
+      <ol id="navigator"></ol>
+      <p class="legend"><span class="dot answered"></span> répondue <span class="dot flagged"></span> à revoir <span class="dot empty"></span> sans réponse</p>
+    </nav>
+    <div class="actions">
+      <button type="button" class="btn primary" id="btn-finish">Terminer l'examen</button>
+    </div>
+  </section>
+
+  <!-- Confirmation de remise -->
+  <section id="view-confirm" class="view" hidden>
+    <h1>Remettre la copie ?</h1>
+    <div class="card">
+      <p id="confirm-text"></p>
+      <ul id="confirm-list" class="confirm-list"></ul>
+    </div>
+    <div class="actions">
+      <button type="button" class="btn" id="btn-back">Revenir à l'examen</button>
+      <button type="button" class="btn primary" id="btn-submit">Remettre ma copie</button>
+    </div>
+  </section>
+
+  <!-- Résultat et correction -->
+  <section id="view-result" class="view" hidden>
+    <p class="eyebrow" id="result-eyebrow"></p>
+    <h1>Résultat</h1>
+    <p class="notice" id="result-timeout" hidden>Temps écoulé : la copie a été remise automatiquement.</p>
+    <div class="card score-card">
+      <p class="score" id="score"></p>
+      <p class="score-detail" id="score-detail"></p>
+    </div>
+    <div class="card">
+      <h2>Par thème</h2>
+      <table class="by-block">
+        <thead><tr><th scope="col">Thème</th><th scope="col">Juste</th></tr></thead>
+        <tbody id="by-block"></tbody>
+      </table>
+    </div>
+    <h2 class="corr-title">Correction</h2>
+    <ol class="correction" id="correction"></ol>
+    <div class="actions">
+      <button type="button" class="btn primary" id="btn-new">Nouvel examen (nouveau tirage)</button>
+      <a class="btn" href="../">Site d'exercices</a>
+    </div>
+    <p class="fineprint" id="result-prov"></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p id="copyright"></p>
+  <p>Rien n'est enregistré ni transmis : les réponses restent dans ce navigateur.</p>
+</footer>
+<script src="examen.js?b=20260929205523"></script>
+</body>
+</html>
