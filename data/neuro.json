@@ -4,8 +4,8 @@
   "program": "Année propédeutique santé (APS)",
   "institution": "HE-ARC Neuchâtel",
   "cohort": "APS 2026-27",
-  "generated_at": "2026-09-24",
-  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5, sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
+  "generated_at": "2026-09-29",
+  "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5 et par des sous-agents rédacteurs (Claude Sonnet 5.5) mandatés par le modèle orchestrateur, avec vérification par des sous-agents (Claude Opus 5.5), sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
   "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
   "batches": [
     {
@@ -26,6 +26,16 @@
       "n_items": 30,
       "generated": "2026-09-23",
       "model": "claude-opus-5-5",
+      "approved": ""
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1",
+      "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
+      "title": "Le système nerveux, partie 3 : moelle épinière, système nerveux périphérique et autonome",
+      "scope": "Partie 3 du cours, slides 1 à 34 ; exercices à formats variés pour le site web",
+      "n_items": 32,
+      "generated": "2026-09-29",
+      "model": "claude-sonnet-5-5",
       "approved": ""
     }
   ],
@@ -71,6 +81,30 @@
       "short_title": "Voies motrices et sensitives",
       "part": "Partie 2 : système nerveux central",
       "n_items": 8
+    },
+    {
+      "id": "LO6_moelle",
+      "short_title": "Moelle épinière et arc réflexe",
+      "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
+      "n_items": 9
+    },
+    {
+      "id": "LO7_moelle",
+      "short_title": "Trajet des voies motrices et sensitives",
+      "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
+      "n_items": 6
+    },
+    {
+      "id": "LO1_snp",
+      "short_title": "Système nerveux périphérique et structure du nerf",
+      "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
+      "n_items": 3
+    },
+    {
+      "id": "LO8",
+      "short_title": "Système nerveux autonome : sympathique et parasympathique",
+      "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
+      "n_items": 14
     }
   ],
   "items": [
@@ -2352,6 +2386,1498 @@
       "distractors": [
         "pariétal",
         "même"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N201",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "cloze",
+      "lo": "LO6_moelle",
+      "topic": "Moelle épinière : position et rôles",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "Compléter la description de la moelle épinière.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        4
+      ],
+      "explanation": "La moelle épinière est enfermée dans la colonne vertébrale et va du bulbe rachidien jusqu'à L2 (deuxième vertèbre lombaire). Elle achemine les influx moteurs et sensitifs, et les nerfs du SNP convergent vers elle. C'est aussi un important centre réflexe (slide 4). Les centres respiratoires appartiennent au bulbe rachidien, dans le tronc cérébral (partie 2 du cours).",
+      "text": "La moelle épinière est enfermée dans la ___ et va du ___ jusqu'à la vertèbre ___. Elle achemine les influx moteurs et les influx sensitifs, et les nerfs du ___ convergent vers elle. C'est aussi un important centre ___.",
+      "blanks": [
+        "colonne vertébrale",
+        "bulbe rachidien",
+        "L2",
+        "SNP",
+        "réflexe"
+      ],
+      "distractors": [
+        "boîte crânienne",
+        "mésencéphale",
+        "L5",
+        "SNC",
+        "respiratoire"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N202",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "true_false",
+      "lo": "LO6_moelle",
+      "topic": "Canal vertébral : contenu au niveau lombaire",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        4,
+        5
+      ],
+      "statement": "Au niveau de la vertèbre L4, le canal vertébral contient la queue de cheval, un faisceau de racines nerveuses.",
+      "correct": true,
+      "rationale": "Vrai. La moelle épinière se termine vers L2 par le cône médullaire (slides 4 et 5). Plus bas, le canal vertébral contient la queue de cheval, faisceau de racines nerveuses qui descendent sous le cône médullaire (slide 5)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N203",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "matching",
+      "lo": "LO6_moelle",
+      "topic": "Coupe de la moelle épinière : structures et description",
+      "bloom": "remember",
+      "difficulty": "medium",
+      "stem": "Une coupe transversale de la moelle épinière et de ses racines montre plusieurs structures.",
+      "lead_in": "Associer chaque structure à sa description.",
+      "options": [],
+      "source_slides": [
+        4,
+        9,
+        11
+      ],
+      "explanation": "La substance blanche forme la zone externe de la moelle et la substance grise la zone interne (slide 4, notes de l'orateur). Les trois cordons, dorsal, latéral et ventral, sont légendés dans la zone externe (slide 11). La commissure grise est la bande centrale qui relie les moitiés droite et gauche de la substance grise (slide 11). Les cornes dorsales sont sensitives et les cornes ventrales motrices (slide 4, notes de l'orateur, où la corne ventrale est dite antérieure). Le ganglion spinal, renflement de la racine dorsale, contient les corps cellulaires des neurones sensitifs (slides 9 et 11 ; slide 4, notes de l'orateur).",
+      "pairs": [
+        {
+          "left": "Substance blanche",
+          "right": "Zone externe de la moelle, qui comprend les cordons dorsal, latéral et ventral"
+        },
+        {
+          "left": "Commissure grise",
+          "right": "Bande centrale qui relie les moitiés droite et gauche de la substance grise"
+        },
+        {
+          "left": "Corne dorsale",
+          "right": "Corne de la substance grise à fonction sensitive"
+        },
+        {
+          "left": "Corne ventrale",
+          "right": "Corne de la substance grise à fonction motrice"
+        },
+        {
+          "left": "Ganglion spinal",
+          "right": "Renflement de la racine dorsale contenant les corps cellulaires des neurones sensitifs"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N204",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "mcq",
+      "lo": "LO6_moelle",
+      "topic": "Réorganisation des fibres : lésion d'une seule racine",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Les fibres nerveuses sont réorganisées entre les racines vertébrales et les nerfs du membre supérieur, au niveau du plexus brachial. À la suite d'un accident, une seule racine, la racine C6, est lésée.",
+      "lead_in": "Quelle atteinte des nerfs du membre supérieur cette lésion provoque-t-elle ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Un nerf est atteint, pour une partie de ses fibres.",
+          "correct": false,
+          "rationale": "Incorrect. Une racine ne se limite pas à un seul nerf : sur le schéma, la racine C6 envoie des fibres dans les nerfs musculo-cutané, axillaire, médian et radial (slide 7)."
+        },
+        {
+          "letter": "B",
+          "text": "Un nerf est atteint, pour l'ensemble de ses fibres.",
+          "correct": false,
+          "rationale": "Incorrect. La racine C6 envoie des fibres dans quatre des cinq nerfs terminaux du membre supérieur, et chacun de ces nerfs conserve les fibres des autres racines (slide 7)."
+        },
+        {
+          "letter": "C",
+          "text": "Plusieurs nerfs sont atteints, chacun pour l'ensemble de ses fibres.",
+          "correct": false,
+          "rationale": "Incorrect. Chaque nerf qui reçoit des fibres de C6 en reçoit aussi d'autres racines et garde celles des racines intactes. Le nerf axillaire, par exemple, reçoit des fibres de C5 et de C6 : il perd celles de C6 et conserve celles de C5 (slide 7)."
+        },
+        {
+          "letter": "D",
+          "text": "Plusieurs nerfs sont atteints, chacun pour une partie de ses fibres.",
+          "correct": true,
+          "rationale": "Correct. Une même racine envoie des fibres dans plusieurs nerfs, et chaque nerf terminal contient des fibres de plusieurs racines. La lésion de C6 atteint donc plusieurs nerfs, chacun en partie. Le nerf ulnaire, formé de fibres de C8 et de T1, n'est pas touché (slide 7)."
+        }
+      ],
+      "source_slides": [
+        7
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N205",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "ordering",
+      "lo": "LO6_moelle",
+      "topic": "Arc réflexe : ordre des cinq éléments",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "Une épingle pique la peau et déclenche un réflexe de retrait.",
+      "lead_in": "Remettre les éléments de l'arc réflexe dans l'ordre où le signal les traverse.",
+      "options": [],
+      "source_slides": [
+        12
+      ],
+      "items": [
+        "Récepteur",
+        "Neurone sensitif",
+        "Centre d'intégration",
+        "Neurone moteur",
+        "Effecteur"
+      ],
+      "explanation": "Le récepteur, situé dans la peau, capte le stimulus. Le neurone sensitif conduit le signal jusqu'à la moelle épinière. Le centre d'intégration, situé dans la moelle, comporte au moins une synapse dans le SNC. Le neurone moteur quitte la moelle, et l'effecteur, ici un muscle, réalise la réponse (slide 12)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N206",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "two_tier",
+      "lo": "LO6_moelle",
+      "topic": "Arc réflexe : retrait et perception de la douleur",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Un étudiant se pique le doigt avec une épingle. Sa main se retire aussitôt et, au même moment, il perçoit la douleur.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        12
+      ],
+      "explanation": "Le retrait de la main est un réflexe. Son arc comprend un récepteur, un neurone sensitif, un centre d'intégration situé dans la moelle épinière (ici avec un interneurone), un neurone moteur et un effecteur. Parallèlement, l'information douloureuse monte vers l'encéphale pour la localisation et la perception du stimulus. Les deux phénomènes sont simultanés (slide 12).",
+      "tier1": {
+        "lead_in": "Où le retrait réflexe de la main est-il intégré ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Dans le cortex somesthésique",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "Dans la moelle épinière",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "Dans le thalamus",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Dans la moelle, un interneurone relie le neurone sensitif au neurone moteur, sans passer d'abord par l'encéphale.",
+            "correct": true,
+            "rationale": "Correct. Tout arc réflexe comprend un centre d'intégration, avec au moins une synapse dans le SNC. Ici, l'arc est polysynaptique : le neurone sensitif se termine sur un interneurone, qui se termine sur le neurone moteur (slide 12)."
+          },
+          {
+            "letter": "B",
+            "text": "Le cortex somesthésique perçoit d'abord la douleur, puis il commande le retrait de la main par la voie motrice.",
+            "correct": false,
+            "rationale": "Incorrect. La perception de la douleur et le retrait réflexe sont simultanés (slide 12) : le retrait n'attend pas la perception. Son centre d'intégration est dans la moelle épinière (slide 12).",
+            "misconception": "Le retrait serait décidé par le cortex une fois la douleur perçue."
+          },
+          {
+            "letter": "C",
+            "text": "La moelle épinière perçoit elle-même la douleur, puis commande le retrait de la main avant d'en informer l'encéphale.",
+            "correct": false,
+            "rationale": "Incorrect. L'information douloureuse monte vers l'encéphale (thalamus, structures du système limbique) en vue de la localisation et de la perception du stimulus. Cette montée est simultanée au réflexe (slide 12).",
+            "misconception": "La perception de la douleur aurait lieu dans la moelle épinière."
+          },
+          {
+            "letter": "D",
+            "text": "L'information sensitive passe d'abord par le thalamus, qui la renvoie ensuite vers le muscle par un neurone moteur.",
+            "correct": false,
+            "rationale": "Incorrect. L'information douloureuse monte vers l'encéphale (thalamus, structures du système limbique) pour la perception, en même temps que le réflexe se déroule. Le réflexe lui-même suit l'arc réflexe, dont le centre d'intégration est dans la moelle (slide 12).",
+            "misconception": "Le thalamus serait le relais obligatoire de tout réflexe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N208",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "diagram",
+      "lo": "LO6_moelle",
+      "topic": "Circuit réflexe : trajet anatomique du signal",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Dans un réflexe spinal, le signal va d'un récepteur de la peau à un muscle, en passant par un nerf spinal (rachidien) et par la moelle épinière.",
+      "lead_in": "Compléter le schéma du trajet anatomique du signal (les flèches suivent son sens de circulation). Deux étiquettes sont en trop. Deux cases peuvent être remplies dans n'importe quel ordre.",
+      "options": [],
+      "source_slides": [
+        4,
+        9,
+        11,
+        12
+      ],
+      "explanation": "Le récepteur de la peau génère le signal, que la fibre sensitive conduit par le nerf spinal (rachidien) jusqu'au ganglion spinal, où se trouve le corps cellulaire du neurone sensitif. Le ganglion spinal est un renflement de la racine dorsale. Les étiquettes « Ganglion spinal » et « Racine dorsale » sont donc acceptées dans l'une ou l'autre de ces deux cases (slides 9 et 11). Le signal entre dans la moelle par la racine dorsale et atteint l'interneurone, situé dans le centre d'intégration. Il gagne le neurone moteur de la corne ventrale, quitte la moelle par la racine ventrale, suit le nerf spinal et atteint le muscle. Au-delà du ganglion, les deux racines se réunissent en un nerf spinal qui transporte les fibres sensitives et motrices (slides 4, 9, 11 et 12).",
+      "distractors": [
+        "Canal central",
+        "Cordon latéral"
+      ],
+      "nodes": [
+        {
+          "id": "rec",
+          "label": "Récepteur de la peau",
+          "x": 2,
+          "y": 2,
+          "w": 42,
+          "h": 11,
+          "fixed": true
+        },
+        {
+          "id": "nsens",
+          "label": "Nerf spinal (fibre sensitive)",
+          "x": 2,
+          "y": 18,
+          "w": 42,
+          "h": 11
+        },
+        {
+          "id": "gang",
+          "label": "Ganglion spinal",
+          "x": 2,
+          "y": 34,
+          "w": 42,
+          "h": 11,
+          "group": "racine_d"
+        },
+        {
+          "id": "rdors",
+          "label": "Racine dorsale",
+          "x": 2,
+          "y": 50,
+          "w": 42,
+          "h": 11,
+          "group": "racine_d"
+        },
+        {
+          "id": "inter",
+          "label": "Interneurone (dans le centre d'intégration)",
+          "x": 26,
+          "y": 68,
+          "w": 48,
+          "h": 11,
+          "fixed": true
+        },
+        {
+          "id": "nmot",
+          "label": "Neurone moteur (corne ventrale)",
+          "x": 56,
+          "y": 50,
+          "w": 42,
+          "h": 11,
+          "fixed": true
+        },
+        {
+          "id": "rvent",
+          "label": "Racine ventrale",
+          "x": 56,
+          "y": 34,
+          "w": 42,
+          "h": 11
+        },
+        {
+          "id": "nmotr",
+          "label": "Nerf spinal (fibre motrice)",
+          "x": 56,
+          "y": 18,
+          "w": 42,
+          "h": 11
+        },
+        {
+          "id": "muscle",
+          "label": "Muscle",
+          "x": 56,
+          "y": 2,
+          "w": 42,
+          "h": 11,
+          "fixed": true
+        }
+      ],
+      "edges": [
+        [
+          "rec",
+          "nsens"
+        ],
+        [
+          "nsens",
+          "gang"
+        ],
+        [
+          "gang",
+          "rdors"
+        ],
+        [
+          "rdors",
+          "inter"
+        ],
+        [
+          "inter",
+          "nmot"
+        ],
+        [
+          "nmot",
+          "rvent"
+        ],
+        [
+          "rvent",
+          "nmotr"
+        ],
+        [
+          "nmotr",
+          "muscle"
+        ]
+      ],
+      "width": 100,
+      "height": 81,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N209",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "flashcard",
+      "lo": "LO6_moelle",
+      "topic": "Nerf spinal : formation à partir des racines",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        4,
+        9,
+        11,
+        12
+      ],
+      "answer": "Un nerf spinal (rachidien) se forme par la réunion, au-delà du ganglion spinal, de deux racines rattachées à la moelle épinière : la racine dorsale, qui porte ce ganglion, et la racine ventrale (slides 9 et 11). La racine dorsale conduit les influx sensitifs vers la moelle ; la racine ventrale conduit les influx moteurs hors de la moelle (slides 9 et 12 ; slide 4, notes de l'orateur).",
+      "prompt": "Comment un nerf spinal (rachidien) se forme-t-il à partir de la moelle épinière, et que conduit chacune de ses deux racines ?"
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N210",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "direction",
+      "lo": "LO6_moelle",
+      "topic": "Section de la moelle thoracique : sensibilité des jambes",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        4,
+        5
+      ],
+      "statement": "Un accident sectionne complètement la moelle épinière au niveau thoracique. La sensibilité que le patient perçoit dans ses jambes :",
+      "correct": "down",
+      "rationale": "Diminue. La moelle épinière achemine les influx sensitifs (afférences) vers le cerveau (slide 4). Les nerfs des jambes, lombaires et sacrés, rejoignent la moelle sous sa portion thoracique (slide 5). Une section complète interrompt le passage de leurs influx vers l'encéphale : la sensibilité perçue dans les jambes est abolie."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N211",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "classify",
+      "lo": "LO7_moelle",
+      "topic": "Voies de la moelle épinière : ascendantes ou descendantes",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Dans la moelle épinière, certaines voies (tractus) conduisent l'information vers l'encéphale, d'autres la conduisent depuis l'encéphale.",
+      "lead_in": "Classer chaque voie.",
+      "options": [],
+      "source_slides": [
+        10,
+        16,
+        17
+      ],
+      "explanation": "Les voies ascendantes portent l'information sensitive vers l'encéphale : faisceaux gracile et cunéiforme, tractus spinothalamique et tractus spinocérébelleux (slides 10 et 16). Les voies descendantes portent les ordres moteurs : tractus corticospinaux latéral et ventral, qui forment la voie pyramidale, et tractus rubrospinal (slides 10 et 17). Le tractus spinothalamique va de la moelle au thalamus et le tractus spinocérébelleux de la moelle au cervelet (slide 16). Le tractus corticospinal va du cortex à la moelle et le tractus rubrospinal du noyau rouge à la moelle (slide 17).",
+      "categories": [
+        "Voie ascendante (sensitive)",
+        "Voie descendante (motrice)"
+      ],
+      "elements": [
+        {
+          "text": "Faisceau gracile",
+          "category": "Voie ascendante (sensitive)"
+        },
+        {
+          "text": "Tractus corticospinal latéral",
+          "category": "Voie descendante (motrice)"
+        },
+        {
+          "text": "Tractus spinothalamique",
+          "category": "Voie ascendante (sensitive)"
+        },
+        {
+          "text": "Tractus rubrospinal",
+          "category": "Voie descendante (motrice)"
+        },
+        {
+          "text": "Faisceau cunéiforme",
+          "category": "Voie ascendante (sensitive)"
+        },
+        {
+          "text": "Tractus corticospinal ventral",
+          "category": "Voie descendante (motrice)"
+        },
+        {
+          "text": "Tractus spinocérébelleux",
+          "category": "Voie ascendante (sensitive)"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N212",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "matching",
+      "lo": "LO7_moelle",
+      "topic": "Voies sensitives ascendantes : récepteur et voie qui conduit l'information",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Chaque récepteur envoie son information par une voie ascendante de la moelle épinière.",
+      "lead_in": "Associer chaque récepteur à la voie ascendante qui conduit son information.",
+      "options": [],
+      "source_slides": [
+        16
+      ],
+      "explanation": "Le récepteur du toucher est relié à la voie du cordon dorsal et du lemnisque médial. Sur la planche, cette voie comprend deux faisceaux. Le faisceau gracile monte du niveau lombaire (récepteur de la plante du pied) ; le faisceau cunéiforme monte du niveau cervical (récepteur de l'étirement de l'articulation, dessiné au poignet). Sur la planche, les propriocepteurs empruntent deux voies. Le récepteur de l'étirement de l'articulation est relié au faisceau cunéiforme, le fuseau neuromusculaire au tractus spinocérébelleux, qui se termine dans le cervelet. Les récepteurs de la douleur et de la température sont reliés au tractus spinothalamique, qui atteint le thalamus (slide 16).",
+      "pairs": [
+        {
+          "left": "Récepteur du toucher",
+          "right": "Voie du cordon dorsal et du lemnisque médial"
+        },
+        {
+          "left": "Fuseau neuromusculaire (propriocepteur)",
+          "right": "Tractus spinocérébelleux"
+        },
+        {
+          "left": "Récepteurs de la douleur et de la température",
+          "right": "Tractus spinothalamique"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N213",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "ordering",
+      "lo": "LO7_moelle",
+      "topic": "Voie sensitive du toucher : ordre des relais",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Un toucher léger sur la plante du pied est conduit jusqu'au cortex somesthésique primaire.",
+      "lead_in": "Remettre ces éléments dans l'ordre, du récepteur au cortex.",
+      "options": [],
+      "source_slides": [
+        16
+      ],
+      "items": [
+        "Récepteur du toucher (plante du pied)",
+        "Axone du faisceau gracile, dans la moelle épinière",
+        "Noyau gracile, dans le bulbe rachidien",
+        "Croisement de la ligne médiane, dans le bulbe rachidien",
+        "Lemnisque médial, du côté opposé",
+        "Thalamus",
+        "Cortex somesthésique primaire"
+      ],
+      "explanation": "Le récepteur du toucher engendre l'information, que le neurone de premier ordre conduit par le faisceau gracile jusqu'au noyau gracile du bulbe rachidien. Le neurone de deuxième ordre traverse la ligne médiane dans le bulbe, d'après le tracé de la planche, puis monte par le lemnisque médial, du côté opposé, jusqu'au thalamus. Un neurone de troisième ordre relie le thalamus au cortex somesthésique primaire (slide 16)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N214",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "diagram",
+      "lo": "LO7_moelle",
+      "topic": "Voie sensitive de la température : schéma à compléter",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une allumette enflammée chauffe la peau du pied. L'information de température est conduite jusqu'au cortex.",
+      "lead_in": "Compléter le schéma du trajet de l'information de température (les flèches suivent le sens de l'influx). Deux étiquettes sont en trop.",
+      "options": [],
+      "source_slides": [
+        12,
+        16
+      ],
+      "explanation": "Le récepteur de la température, situé dans la peau du pied, envoie l'information par un neurone de premier ordre. Ce neurone se termine dans la corne dorsale, dans la substance grise de la moelle (slides 12 et 16). Le neurone de deuxième ordre traverse la ligne médiane dans la moelle, au niveau d'entrée de la fibre (ici le niveau lombaire). Il monte ensuite du côté opposé par le tractus spinothalamique jusqu'au thalamus (slides 12 et 16). Un neurone de troisième ordre relie le thalamus au cortex somesthésique primaire (slide 16). Le noyau gracile appartient à la voie du cordon dorsal et du lemnisque médial (slide 16). Le cervelet reçoit le tractus spinocérébelleux (slide 16). Ces deux étiquettes ne figurent pas dans le trajet de l'information de température.",
+      "distractors": [
+        "Noyau gracile du bulbe rachidien",
+        "Cervelet"
+      ],
+      "nodes": [
+        {
+          "id": "rec",
+          "label": "Récepteur de la température",
+          "x": 15,
+          "y": 2,
+          "w": 70,
+          "h": 10,
+          "fixed": true
+        },
+        {
+          "id": "n1",
+          "label": "Neurone de premier ordre, jusqu'à la corne dorsale",
+          "x": 15,
+          "y": 17,
+          "w": 70,
+          "h": 10
+        },
+        {
+          "id": "syn",
+          "label": "Synapse dans la substance grise de la moelle",
+          "x": 15,
+          "y": 32,
+          "w": 70,
+          "h": 10
+        },
+        {
+          "id": "cross",
+          "label": "Croisement de la ligne médiane",
+          "x": 15,
+          "y": 47,
+          "w": 70,
+          "h": 10,
+          "fixed": true
+        },
+        {
+          "id": "tract",
+          "label": "Tractus spinothalamique du côté opposé",
+          "x": 15,
+          "y": 62,
+          "w": 70,
+          "h": 10
+        },
+        {
+          "id": "thal",
+          "label": "Thalamus",
+          "x": 15,
+          "y": 77,
+          "w": 70,
+          "h": 10
+        },
+        {
+          "id": "cortex",
+          "label": "Cortex somesthésique primaire",
+          "x": 15,
+          "y": 92,
+          "w": 70,
+          "h": 10,
+          "fixed": true
+        }
+      ],
+      "edges": [
+        [
+          "rec",
+          "n1"
+        ],
+        [
+          "n1",
+          "syn"
+        ],
+        [
+          "syn",
+          "cross"
+        ],
+        [
+          "cross",
+          "tract"
+        ],
+        [
+          "tract",
+          "thal"
+        ],
+        [
+          "thal",
+          "cortex"
+        ]
+      ],
+      "width": 100,
+      "height": 104,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N215",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "two_tier",
+      "lo": "LO7_moelle",
+      "topic": "Lésion de la moelle cervicale : côté de la perte de douleur et de température",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Après une blessure au cou, seule la moitié droite de la moelle épinière cervicale d'un patient est lésée. La moitié gauche est intacte.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        12,
+        16
+      ],
+      "explanation": "Le neurone de deuxième ordre du tractus spinothalamique traverse la ligne médiane dans la moelle, au niveau d'entrée de la fibre, puis monte du côté opposé (slides 12 et 16). Sous la lésion, l'information de douleur et de température venue du côté gauche du corps monte donc dans la moitié droite de la moelle, où elle est interrompue. Celle du côté droit du corps a déjà croisé sous la lésion et monte dans la moitié gauche, intacte.",
+      "tier1": {
+        "lead_in": "Sous le niveau de la lésion, la sensibilité à la douleur et à la température est perdue :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "du côté droit du corps",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "du côté gauche du corps",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "des deux côtés du corps",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Le tractus spinothalamique croise la ligne médiane dans le bulbe rachidien : dans la moelle, il monte du même côté que le récepteur.",
+            "correct": false,
+            "rationale": "Incorrect. C'est le lemnisque médial qui croise la ligne médiane dans le bulbe rachidien. Le tractus spinothalamique a déjà croisé dans la moelle, au niveau d'entrée de la fibre (slide 16).",
+            "misconception": "Le tractus spinothalamique croiserait la ligne médiane dans le bulbe rachidien, comme le lemnisque médial."
+          },
+          {
+            "letter": "B",
+            "text": "Le tractus spinothalamique ne croise pas la ligne médiane : dans la moelle et au-dessus, il monte du même côté que le récepteur.",
+            "correct": false,
+            "rationale": "Incorrect. Le neurone de deuxième ordre traverse la ligne médiane dans la moelle, puis monte du côté opposé au récepteur (slides 12 et 16).",
+            "misconception": "Les fibres du tractus spinothalamique monteraient sans croiser la ligne médiane."
+          },
+          {
+            "letter": "C",
+            "text": "Dans la moelle, chaque moitié conduit les informations sensitives venues du côté opposé du corps : la lésion droite touche donc le côté gauche.",
+            "correct": false,
+            "rationale": "Incorrect. Cette règle générale est fausse, même si elle mène au bon côté pour la douleur et la température. La voie du cordon dorsal et du lemnisque médial monte du même côté dans la moelle et croise dans le bulbe rachidien (slide 16).",
+            "misconception": "Les voies sensitives de la moelle croiseraient la ligne médiane au niveau d'entrée."
+          },
+          {
+            "letter": "D",
+            "text": "Le tractus spinothalamique croise la ligne médiane dans la moelle, au niveau d'entrée : il monte du côté opposé à celui du récepteur.",
+            "correct": true,
+            "rationale": "Correct. Sur les slides 12 et 16, le neurone de deuxième ordre traverse la ligne médiane dans la moelle, au niveau d'entrée de la fibre, puis monte du côté opposé au récepteur."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N216",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "error_spot",
+      "lo": "LO7_moelle",
+      "topic": "Voie motrice pyramidale : erreurs dans une explication",
+      "bloom": "evaluate",
+      "difficulty": "medium",
+      "stem": "Une étudiante explique à un camarade le trajet de la voie motrice principale, dite pyramidale, du cortex jusqu'au muscle.",
+      "lead_in": "Toucher les phrases erronées de son explication.",
+      "options": [],
+      "source_slides": [
+        4,
+        17
+      ],
+      "explanation": "La voie pyramidale naît dans le cortex moteur primaire et traverse la capsule interne, le pédoncule cérébral, le pont et les pyramides du bulbe. Le tractus corticospinal latéral croise à la décussation des pyramides, à la jonction du bulbe rachidien et de la moelle épinière. Il descend dans la substance blanche latérale de la moelle et se termine dans la corne ventrale. Le tractus corticospinal ventral croise plus bas, dans la moelle. L'axone du neurone moteur inférieur sort par la racine ventrale vers le muscle squelettique du côté opposé à l'hémisphère d'origine (slide 17).",
+      "segments": [
+        {
+          "text": "Les cellules des pyramides du cortex moteur primaire sont les neurones moteurs primaires de la voie pyramidale.",
+          "error": false
+        },
+        {
+          "text": "Leurs axones descendent par la capsule interne.",
+          "error": false
+        },
+        {
+          "text": "Ils croisent la ligne médiane dans le thalamus.",
+          "error": true,
+          "correction": "Les axones du tractus corticospinal latéral croisent la ligne médiane plus bas, à la décussation des pyramides, située à la jonction du bulbe rachidien et de la moelle épinière.",
+          "rationale": "Sur la slide 17, les axones descendent de chaque côté par la capsule interne, le pédoncule cérébral, le pont et le bulbe rachidien. Les axones du tractus corticospinal latéral croisent à la décussation des pyramides, à la jonction du bulbe rachidien et de la moelle épinière ; le tractus corticospinal ventral croise plus bas, dans la moelle."
+        },
+        {
+          "text": "Leur trajet comprend le pédoncule cérébral, le pont et les pyramides du bulbe rachidien.",
+          "error": false
+        },
+        {
+          "text": "Dans la moelle épinière, le tractus corticospinal latéral descend dans la substance blanche latérale, du côté opposé à l'hémisphère d'origine.",
+          "error": false
+        },
+        {
+          "text": "Il se termine dans la corne dorsale, sur un neurone sensitif.",
+          "error": true,
+          "correction": "Il se termine dans la corne ventrale, où se trouve le neurone moteur inférieur (neurone moteur somatique) qui commande le muscle.",
+          "rationale": "Sur la slide 17, le tractus corticospinal latéral aboutit dans la corne ventrale, où se trouve le neurone moteur somatique (neurone moteur inférieur). Les cornes dorsales sont sensitives et les cornes ventrales motrices (slide 4, notes de l'orateur)."
+        },
+        {
+          "text": "L'axone du neurone moteur inférieur sort par la racine ventrale et atteint un muscle squelettique du côté opposé au cortex d'origine.",
+          "error": false
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N217",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "cloze",
+      "lo": "LO1_snp",
+      "topic": "Structure du nerf : texte à trous",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Compléter la description de la structure d'un nerf.",
+      "lead_in": "Choisir le mot qui convient pour chaque trou.",
+      "options": [],
+      "source_slides": [
+        20
+      ],
+      "explanation": "Un nerf est formé de faisceaux d'axones entourés d'enveloppes superposées et de tissu conjonctif (slide 20). D'après la planche, l'endonèvre entoure chaque fibre, le périnèvre entoure chaque fascicule et l'épinèvre entoure le nerf entier (slide 20). La dure-mère et la pie-mère sont des méninges, qui enveloppent l'encéphale et la moelle épinière (partie 2).",
+      "text": "Un nerf est formé de faisceaux d'axones entourés d'enveloppes superposées et de tissu ___. Ces enveloppes se nomment, de l'intérieur vers l'extérieur : ___ (autour d'une fibre), ___ (autour d'un fascicule, ou faisceau de fibres) et ___ (autour du nerf entier).",
+      "blanks": [
+        "conjonctif",
+        "endonèvre",
+        "périnèvre",
+        "épinèvre"
+      ],
+      "distractors": [
+        "musculaire",
+        "épithélial",
+        "dure-mère",
+        "pie-mère"
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N218",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "true_false",
+      "lo": "LO1_snp",
+      "topic": "Système nerveux périphérique : origine des informations sensitives",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        19
+      ],
+      "statement": "Quand une plume effleure la peau de la main, le potentiel sensitif est généré dans la moelle épinière, puis conduit jusqu'à la peau par le nerf.",
+      "correct": false,
+      "rationale": "Faux. Les informations sensitives (potentiels sensitifs) sont générées par des récepteurs spécialisés présents dans les tissus, ici la peau de la main (slide 19). Le SNP, « câblage » de l'organisme, les conduit ensuite vers le SNC ; sa partie motrice, somatique et autonome, transmet les ordres dans l'autre sens, depuis le SNC (slide 19)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N219",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "mcq",
+      "lo": "LO1_snp",
+      "topic": "Nerf mixte : conséquence d'une section",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Un homme de 35 ans se coupe profondément l'avant-bras gauche avec un éclat de verre. Un nerf de l'avant-bras est entièrement sectionné.",
+      "lead_in": "Quelle conséquence est la plus probable ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Une perte de la sensibilité et de la motricité dans le territoire du nerf sectionné",
+          "correct": true,
+          "rationale": "Correct. La plupart des nerfs sont mixtes (sensitifs et moteurs) : leur section interrompt les informations sensitives conduites vers le SNC et les ordres moteurs venus du SNC, dans le territoire desservi (slides 19 et 20)."
+        },
+        {
+          "letter": "B",
+          "text": "Une perte de la motricité, avec une sensibilité conservée, dans le territoire du nerf sectionné",
+          "correct": false,
+          "rationale": "Incorrect. Les nerfs exclusivement moteurs sont rares : la plupart des nerfs sont mixtes et contiennent aussi des fibres sensitives (slide 20)."
+        },
+        {
+          "letter": "C",
+          "text": "Une perte de la sensibilité et de la motricité dans l'ensemble du membre supérieur gauche",
+          "correct": false,
+          "rationale": "Incorrect. Le membre supérieur est desservi par plusieurs nerfs (slide 7). La section d'un seul nerf touche le territoire de ce nerf ; les autres nerfs du membre continuent de conduire les informations sensitives et les ordres moteurs (slides 19 et 20)."
+        },
+        {
+          "letter": "D",
+          "text": "Une perte de la motricité, avec une sensibilité conservée, dans l'ensemble du membre supérieur gauche",
+          "correct": false,
+          "rationale": "Incorrect. Cette option cumule deux erreurs. La plupart des nerfs sont mixtes et contiennent aussi des fibres sensitives (slide 20). Le membre supérieur est desservi par plusieurs nerfs (slide 7) : la section d'un seul nerf touche le territoire de ce nerf."
+        }
+      ],
+      "source_slides": [
+        7,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N220",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "ordering",
+      "lo": "LO8",
+      "topic": "Chaîne motrice autonome : ordre de la transmission",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "Dans le système nerveux autonome, l'influx moteur va du système nerveux central à l'organe effecteur en passant par deux neurones.",
+      "lead_in": "Remettre ces éléments dans l'ordre suivi par l'influx nerveux.",
+      "options": [],
+      "source_slides": [
+        24,
+        25
+      ],
+      "items": [
+        "Corps cellulaire du neurone préganglionnaire (dans l'encéphale ou la moelle épinière)",
+        "Axone du neurone préganglionnaire",
+        "Synapse dans un ganglion autonome",
+        "Corps cellulaire du neurone postganglionnaire (dans le ganglion)",
+        "Axone du neurone postganglionnaire",
+        "Organe effecteur (muscle lisse, muscle cardiaque ou glande)"
+      ],
+      "explanation": "Le corps cellulaire du premier neurone (préganglionnaire) se trouve dans l'encéphale ou la moelle épinière, et son axone rejoint un ganglion autonome. La synapse a lieu dans ce ganglion, où se situe le corps cellulaire du second neurone (postganglionnaire). L'axone de ce dernier rejoint l'organe effecteur (slides 24 et 25)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N221",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "classify",
+      "lo": "LO8",
+      "topic": "Système somatique et système autonome : comparaison des neurones moteurs",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les neurones moteurs du système nerveux somatique et ceux du système nerveux autonome ont des organisations différentes.",
+      "lead_in": "Classer chaque caractéristique.",
+      "options": [],
+      "source_slides": [
+        24,
+        25
+      ],
+      "explanation": "Le système somatique commande les muscles squelettiques par un neurone moteur, dont l'axone relie le système nerveux central à l'effecteur. Cet axone est fortement myélinisé, et le neurotransmetteur libéré à l'effecteur est l'acétylcholine. Le système autonome commande les muscles lisses, le muscle cardiaque et les glandes par une chaîne de deux neurones, avec une synapse dans un ganglion. L'axone préganglionnaire est faiblement myélinisé et l'axone postganglionnaire n'est pas myélinisé. À l'effecteur, le neurotransmetteur est la noradrénaline pour le sympathique et l'acétylcholine pour le parasympathique (slides 24 et 25).",
+      "categories": [
+        "Système nerveux somatique",
+        "Système nerveux autonome"
+      ],
+      "elements": [
+        {
+          "text": "Un neurone relie le système nerveux central à l'effecteur",
+          "category": "Système nerveux somatique"
+        },
+        {
+          "text": "Deux neurones en chaîne relient le système nerveux central à l'effecteur",
+          "category": "Système nerveux autonome"
+        },
+        {
+          "text": "Axone non myélinisé",
+          "category": "Système nerveux autonome"
+        },
+        {
+          "text": "Axone fortement myélinisé",
+          "category": "Système nerveux somatique"
+        },
+        {
+          "text": "Deux neurotransmetteurs à l'effecteur : l'acétylcholine et la noradrénaline",
+          "category": "Système nerveux autonome"
+        },
+        {
+          "text": "Un neurotransmetteur à l'effecteur : l'acétylcholine",
+          "category": "Système nerveux somatique"
+        },
+        {
+          "text": "Synapse dans un ganglion sur le trajet",
+          "category": "Système nerveux autonome"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N222",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "diagram",
+      "lo": "LO8",
+      "topic": "Sympathique et parasympathique : organisation comparée",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Les divisions sympathique et parasympathique du système nerveux autonome se distinguent par leur origine, la position de leurs ganglions, leur neurotransmetteur à l'effecteur et leur rôle général.",
+      "lead_in": "Compléter la comparaison : placer chaque étiquette dans la case de la bonne ligne et de la bonne colonne. Deux étiquettes sont en trop.",
+      "options": [],
+      "source_slides": [
+        21,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "explanation": "Sympathique : les fibres préganglionnaires naissent dans la moelle thoracique et lombaire (T1 à L2). Les ganglions sont proches de la moelle (chaîne sympathique et ganglions prévertébraux). Sur la figure de la slide 25, le neurone postganglionnaire sympathique libère de la noradrénaline à l'effecteur. Le rôle général est le combat ou la fuite. Parasympathique : les fibres naissent dans le tronc cérébral (nerfs crâniens III, VII, IX, X) et dans la moelle sacrée (S2 à S4). Les ganglions sont proches des organes. L'acétylcholine (ACh) est libérée à l'effecteur, et le rôle général est le repos et la digestion (slides 21 et 25 à 29).",
+      "distractors": [
+        "Dans la racine dorsale",
+        "Cervicale, de C1 à C8"
+      ],
+      "nodes": [
+        {
+          "id": "hsym",
+          "label": "Sympathique",
+          "x": 34,
+          "y": 2,
+          "w": 31,
+          "h": 8,
+          "fixed": true
+        },
+        {
+          "id": "hpar",
+          "label": "Parasympathique",
+          "x": 67,
+          "y": 2,
+          "w": 31,
+          "h": 8,
+          "fixed": true
+        },
+        {
+          "id": "row1",
+          "label": "Origine",
+          "x": 2,
+          "y": 13,
+          "w": 30,
+          "h": 14,
+          "fixed": true
+        },
+        {
+          "id": "row2",
+          "label": "Ganglions",
+          "x": 2,
+          "y": 29,
+          "w": 30,
+          "h": 14,
+          "fixed": true
+        },
+        {
+          "id": "row3",
+          "label": "Neurotransmetteur à l'effecteur",
+          "x": 2,
+          "y": 45,
+          "w": 30,
+          "h": 14,
+          "fixed": true
+        },
+        {
+          "id": "row4",
+          "label": "Rôle général",
+          "x": 2,
+          "y": 61,
+          "w": 30,
+          "h": 14,
+          "fixed": true
+        },
+        {
+          "id": "s1",
+          "label": "Thoraco-lombaire, de T1 à L2",
+          "x": 34,
+          "y": 13,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "p1",
+          "label": "Crânio-sacrée, nerfs crâniens et S2 à S4",
+          "x": 67,
+          "y": 13,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "s2",
+          "label": "Près de la moelle épinière",
+          "x": 34,
+          "y": 29,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "p2",
+          "label": "Près des organes cibles",
+          "x": 67,
+          "y": 29,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "s3",
+          "label": "Noradrénaline",
+          "x": 34,
+          "y": 45,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "p3",
+          "label": "Acétylcholine (ACh)",
+          "x": 67,
+          "y": 45,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "s4",
+          "label": "Combat ou fuite",
+          "x": 34,
+          "y": 61,
+          "w": 31,
+          "h": 14
+        },
+        {
+          "id": "p4",
+          "label": "Repos et digestion",
+          "x": 67,
+          "y": 61,
+          "w": 31,
+          "h": 14
+        }
+      ],
+      "width": 100,
+      "height": 78,
+      "edge_style": "line"
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N223",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "mcq",
+      "lo": "LO8",
+      "topic": "Médulla surrénale : lésion de l'axone préganglionnaire sympathique",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Une lésion interrompt seulement l'axone préganglionnaire sympathique qui aboutit à la médulla surrénale droite d'un patient ; les autres fibres sympathiques restent intactes. Ce patient est ensuite confronté à une situation de « combat ou fuite », qui active son système sympathique.",
+      "lead_in": "Quelle conséquence est attendue pendant cette réaction ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La médulla surrénale droite ne libère ni adrénaline ni noradrénaline dans le sang ; les neurones postganglionnaires sympathiques ne libèrent pas de noradrénaline sur les organes effecteurs.",
+          "correct": false,
+          "rationale": "Incorrect. L'axone interrompu se termine directement dans la médulla surrénale, sans second neurone (slide 25) : aucun neurone postganglionnaire ne dépend de lui. Les neurones postganglionnaires sympathiques sont commandés par d'autres axones préganglionnaires, que la lésion n'atteint pas."
+        },
+        {
+          "letter": "B",
+          "text": "La médulla surrénale droite ne libère ni adrénaline ni noradrénaline dans le sang ; les neurones postganglionnaires sympathiques libèrent de la noradrénaline sur les organes effecteurs.",
+          "correct": true,
+          "rationale": "Correct. Dans la médulla surrénale, l'axone préganglionnaire sympathique libère de l'acétylcholine, puis la médulla libère l'adrénaline et la noradrénaline dans un vaisseau sanguin (slides 25 et 26). Une fois cet axone interrompu, la médulla surrénale droite ne reçoit plus cette commande et ne libère pas ces substances pendant la réaction. Les neurones postganglionnaires sympathiques appartiennent à d'autres chaînes, restées intactes, et libèrent la noradrénaline à l'effecteur (slide 25)."
+        },
+        {
+          "letter": "C",
+          "text": "La médulla surrénale droite libère de l'adrénaline et de la noradrénaline dans le sang ; les neurones postganglionnaires sympathiques ne libèrent pas de noradrénaline sur les organes effecteurs.",
+          "correct": false,
+          "rationale": "Incorrect. Cette option attribue la lésion à la chaîne des neurones postganglionnaires et laisse la médulla surrénale intacte, ce qui confond les deux chaînes de la slide 25. L'axone interrompu aboutit à la médulla surrénale, qui n'est plus commandée. Les neurones postganglionnaires sympathiques appartiennent à une autre chaîne, restée intacte."
+        },
+        {
+          "letter": "D",
+          "text": "La médulla surrénale droite libère de l'adrénaline et de la noradrénaline dans le sang ; les neurones postganglionnaires sympathiques libèrent de la noradrénaline sur les organes effecteurs.",
+          "correct": false,
+          "rationale": "Incorrect. Sur les slides 25 à 27, un axone préganglionnaire sympathique aboutit directement à la médulla surrénale, sans second neurone, et la slide 27 ne montre aucune fibre postganglionnaire vers cette glande. Une fois cet axone interrompu, la médulla surrénale droite ne reçoit plus de commande et ne libère ni adrénaline ni noradrénaline dans le sang."
+        }
+      ],
+      "source_slides": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N224",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "flashcard",
+      "lo": "LO8",
+      "topic": "Système nerveux autonome : définition",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        22
+      ],
+      "answer": "Le système nerveux autonome (SNA), aussi appelé système nerveux végétatif, est la partie du système nerveux périphérique qui assure l'homéostasie. C'est un système moteur qui innerve les muscles lisses, le muscle cardiaque et les glandes. Il est formé du système nerveux sympathique et du système nerveux parasympathique (slide 22).",
+      "prompt": "Qu'est-ce que le système nerveux autonome (SNA) ?"
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N225",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "true_false",
+      "lo": "LO8",
+      "topic": "Système nerveux autonome : régulation par l'encéphale",
+      "bloom": "understand",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        22
+      ],
+      "statement": "Le système nerveux autonome fonctionne de manière indépendante de l'encéphale.",
+      "correct": false,
+      "rationale": "Faux. Le SNA est régulé par l'hypothalamus, qui appartient au diencéphale, une structure centrale de l'encéphale (partie 2 du cours, slide 32). La régulation du SNA est modulée par le cortex via le système limbique (slide 22). Le SNA dépend donc de plusieurs structures de l'encéphale."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N226",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "classify",
+      "lo": "LO8",
+      "topic": "Effets du sympathique et du parasympathique : classement",
+      "bloom": "remember",
+      "difficulty": "easy",
+      "stem": "Les deux divisions du système nerveux autonome agissent sur les mêmes organes cibles, souvent en sens opposés.",
+      "lead_in": "Classer chaque effet selon la division qui le produit.",
+      "options": [],
+      "source_slides": [
+        21,
+        29
+      ],
+      "explanation": "Le sympathique (« combat ou fuite ») dilate les pupilles et les bronches, inhibe la salivation et la digestion, accélère le rythme cardiaque et stimule la libération de glucose. Le parasympathique (« repos et digestion ») contracte les pupilles et les bronches, stimule la salivation et la digestion, et diminue le rythme cardiaque (slides 21 et 29). L'en-tête du schéma qualifie la division sympathique de stimulatrice et la division parasympathique d'inhibitrice. Organe par organe, le sens de l'effet varie : le sympathique inhibe la salivation et la digestion, le parasympathique les stimule (slide 29).",
+      "categories": [
+        "Sympathique",
+        "Parasympathique"
+      ],
+      "elements": [
+        {
+          "text": "Dilate les pupilles (mydriase)",
+          "category": "Sympathique"
+        },
+        {
+          "text": "Stimule la digestion",
+          "category": "Parasympathique"
+        },
+        {
+          "text": "Accélère le rythme cardiaque",
+          "category": "Sympathique"
+        },
+        {
+          "text": "Contracte les bronches",
+          "category": "Parasympathique"
+        },
+        {
+          "text": "Inhibe la salivation",
+          "category": "Sympathique"
+        },
+        {
+          "text": "Diminue le rythme cardiaque",
+          "category": "Parasympathique"
+        },
+        {
+          "text": "Stimule la libération de glucose par le foie",
+          "category": "Sympathique"
+        },
+        {
+          "text": "Contracte les pupilles (myosis)",
+          "category": "Parasympathique"
+        },
+        {
+          "text": "Inhibe la digestion",
+          "category": "Sympathique"
+        },
+        {
+          "text": "Stimule la salivation",
+          "category": "Parasympathique"
+        },
+        {
+          "text": "Dilate les bronches",
+          "category": "Sympathique"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N227",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "direction",
+      "lo": "LO8",
+      "topic": "Réaction de danger : diamètre des bronches",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        21,
+        29,
+        30,
+        31
+      ],
+      "statement": "Un cycliste évite de justesse une voiture qui lui coupe la route. Juste après, comparé à celui d'avant l'incident, le diamètre de ses bronches :",
+      "correct": "up",
+      "rationale": "Augmente. Une situation de danger active le sympathique, la division « combat ou fuite » du système nerveux autonome (slides 21 et 29). Le sympathique dilate les bronches (slide 29). Les récepteurs β2 du muscle lisse bronchique provoquent cette bronchodilatation (slides 30 et 31)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N228",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "direction",
+      "lo": "LO8",
+      "topic": "Stimulation du nerf vague : digestion gastrique",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        29,
+        31
+      ],
+      "statement": "Lors d'un examen, un médecin réalise chez un patient une manœuvre qui stimule le nerf vague. Comparée à celle d'avant la manœuvre, l'activité digestive de l'estomac du patient pendant la stimulation :",
+      "correct": "up",
+      "rationale": "Augmente. Le nerf vague transporte des fibres parasympathiques jusqu'à l'estomac (slide 29). Le parasympathique, division « repos et digestion », stimule la digestion (slide 29). Les récepteurs muscariniques M3 du muscle lisse et des glandes provoquent la motricité digestive et des sécrétions (slide 31)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N229",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "case",
+      "lo": "LO8",
+      "topic": "Frayeur puis retour au calme : situation en trois étapes",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Léa, 24 ans, marche sur un sentier de campagne. Un chien de grande taille surgit en aboyant : elle a très peur.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        21,
+        25,
+        29,
+        30,
+        31
+      ],
+      "explanation": "Pendant la frayeur, le sympathique inhibe la salivation et accélère le cœur (slide 29). Dans sa chaîne de deux neurones, le neurone préganglionnaire libère de l'acétylcholine dans le ganglion (slide 25). Au retour au calme, le parasympathique contracte les pupilles, que le sympathique dilate (slide 29).",
+      "stages": [
+        {
+          "type": "direction",
+          "statement": "Au moment de la frayeur, sa salivation :",
+          "rationale": "Diminue. Le sympathique, qui déclenche la réaction « combat ou fuite », inhibe la salivation (slides 21 et 29).",
+          "correct": "down"
+        },
+        {
+          "type": "mcq",
+          "add": "Pendant que la frayeur dure, le cœur de Léa bat plus vite. Dans la chaîne de deux neurones du sympathique qui le commande, le neurone préganglionnaire active le neurone postganglionnaire dans un ganglion.",
+          "lead_in": "Quel neurotransmetteur le neurone préganglionnaire libère-t-il dans ce ganglion ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "La noradrénaline",
+              "correct": false,
+              "rationale": "Incorrect. La noradrénaline est libérée à l'effecteur par le neurone postganglionnaire sympathique. Le ganglion fonctionne avec un autre neurotransmetteur, l'acétylcholine (slide 25)."
+            },
+            {
+              "letter": "B",
+              "text": "L'acétylcholine",
+              "correct": true,
+              "rationale": "Correct. Dans les chaînes de deux neurones du sympathique et du parasympathique, le neurone préganglionnaire libère de l'acétylcholine dans le ganglion (slide 25). Les récepteurs nicotiniques de tous les neurones postganglionnaires la reçoivent (slides 30 et 31)."
+            },
+            {
+              "letter": "C",
+              "text": "L'adrénaline",
+              "correct": false,
+              "rationale": "Incorrect. L'adrénaline est libérée, avec la noradrénaline, par la médulla surrénale dans le sang (slide 25). La question porte sur le neurone préganglionnaire d'une chaîne de deux neurones, qui libère de l'acétylcholine dans le ganglion."
+            }
+          ]
+        },
+        {
+          "type": "direction",
+          "add": "Quelques minutes plus tard, le chien s'éloigne et Léa retrouve son calme.",
+          "statement": "Comparé à celui du moment de la frayeur, le diamètre de ses pupilles :",
+          "rationale": "Diminue. Le retour au calme correspond à la situation « repos et digestion » : le parasympathique contracte les pupilles (myosis), alors que le sympathique les dilate (mydriase) (slide 29).",
+          "correct": "down"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N230",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "matching",
+      "lo": "LO8",
+      "topic": "Récepteurs cholinergiques et adrénergiques : effets",
+      "bloom": "remember",
+      "difficulty": "medium",
+      "stem": "Les récepteurs cholinergiques (M2, M3) et adrénergiques (α1, β1, β2, β3) des organes cibles déclenchent des effets différents selon leur type.",
+      "lead_in": "Associer chaque récepteur à l'un de ses effets.",
+      "options": [],
+      "source_slides": [
+        30,
+        31
+      ],
+      "explanation": "M2 (muscarinique) ralentit le cœur. M3, sur le muscle lisse et les glandes, provoque la contraction (bronchoconstriction, motricité digestive) et des sécrétions. Parmi les récepteurs adrénergiques, α1 provoque la vasoconstriction et la mydriase. β1 accélère le cœur et augmente sa force de contraction. β2 provoque la bronchodilatation, la vasodilatation (muscles) et la relaxation utérine. β3 déclenche la lipolyse dans le tissu adipeux (slides 30 et 31).",
+      "pairs": [
+        {
+          "left": "M2",
+          "right": "Ralentissement du cœur"
+        },
+        {
+          "left": "M3",
+          "right": "Contraction du muscle lisse bronchique (bronchoconstriction) et sécrétions"
+        },
+        {
+          "left": "α1",
+          "right": "Vasoconstriction"
+        },
+        {
+          "left": "β1",
+          "right": "Accélération du cœur et augmentation de sa force de contraction"
+        },
+        {
+          "left": "β2",
+          "right": "Dilatation des bronches"
+        },
+        {
+          "left": "β3",
+          "right": "Lipolyse dans le tissu adipeux"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N231",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "two_tier",
+      "lo": "LO8",
+      "topic": "Récepteurs ionotropes et métabotropes : vitesse de réponse",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Dans la chaîne de deux neurones du parasympathique, les récepteurs du ganglion sont nicotiniques et ceux du cœur, à l'effecteur, sont muscariniques M2.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        25,
+        30,
+        31
+      ],
+      "explanation": "Le récepteur nicotinique neuronal (Nn), situé dans le ganglion, est un canal ionotrope : l'ACh ouvre directement le canal, les ions passent et la dépolarisation est rapide (millisecondes). Le récepteur muscarinique M2 est métabotrope : il déclenche une cascade de seconds messagers, dont l'effet est plus lent (de l'ordre de 100 ms à la minute), amplifiable et durable (slides 25 et 31).",
+      "tier1": {
+        "lead_in": "La réponse d'un récepteur nicotinique du ganglion, comparée à celle d'un récepteur M2 du cœur, est :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "plus rapide",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "aussi rapide",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "plus lente",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Les deux récepteurs sont des canaux ioniques ; celui du cœur s'ouvre plus vite, car le cœur doit réagir rapidement.",
+            "correct": false,
+            "rationale": "Incorrect. Le récepteur M2 est métabotrope : il déclenche une cascade de seconds messagers, plus lente. Le canal ionotrope est le récepteur nicotinique (slide 31).",
+            "misconception": "Le récepteur M2 serait un canal ionique dont la vitesse d'ouverture s'adapte aux besoins de l'organe."
+          },
+          {
+            "letter": "B",
+            "text": "Le récepteur nicotinique est un canal ionique ; le récepteur M2 déclenche une cascade de seconds messagers dans la cellule.",
+            "correct": true,
+            "rationale": "Correct. Un récepteur ionotrope convertit directement la liaison du ligand en flux ionique et donne une réponse en millisecondes. Un récepteur métabotrope déclenche des cascades de seconds messagers, plus lentes, amplifiables et durables (slide 31)."
+          },
+          {
+            "letter": "C",
+            "text": "Le récepteur nicotinique se trouve sur un neurone dont l'axone, fortement myélinisé, conduit l'influx plus vite.",
+            "correct": false,
+            "rationale": "Incorrect. Le récepteur nicotinique du ganglion est porté par le neurone postganglionnaire, dont l'axone est non myélinisé (slides 25 et 30). La vitesse de réponse dépend du type de récepteur, ionotrope ou métabotrope (slide 31).",
+            "misconception": "La vitesse de réponse d'un récepteur dépendrait de la vitesse de conduction de l'axone du neurone qui le porte."
+          },
+          {
+            "letter": "D",
+            "text": "Les deux récepteurs se lient au même neurotransmetteur : leurs réponses ont donc la même vitesse de déclenchement.",
+            "correct": false,
+            "rationale": "Incorrect. L'ACh agit sur deux familles de récepteurs : les nicotiniques, ionotropes et rapides (de l'ordre de la milliseconde), et les muscariniques, métabotropes et plus lents, de l'ordre de 100 ms à la minute (slide 31).",
+            "misconception": "Un même neurotransmetteur donnerait des réponses de même vitesse."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N232",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "short_answer",
+      "lo": "LO8",
+      "topic": "Innervation double du cœur : explication écrite",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une étudiante en soins infirmiers constate que le sympathique et le parasympathique produisent des effets contraires sur le rythme cardiaque.",
+      "lead_in": "Expliquer en deux ou trois phrases pourquoi le sympathique et le parasympathique ont des effets opposés sur le cœur.",
+      "options": [],
+      "source_slides": [
+        25,
+        29,
+        30,
+        31
+      ],
+      "explanation": "Sur le schéma de la slide 29, le sympathique accélère le rythme cardiaque et le parasympathique le diminue. La figure de la slide 25 indique que l'effet du système nerveux autonome est stimulant ou inhibiteur en fonction du neurotransmetteur et des récepteurs des organes effecteurs. Le récepteur β1 est décrit aux slides 30 et 31, le récepteur M2 (muscarinique) à la slide 31.",
+      "model_answer": "Sur le cœur, les neurones postganglionnaires du sympathique libèrent de la noradrénaline, qui agit sur les récepteurs β1 : elle accélère le cœur et augmente sa force de contraction. Ceux du parasympathique libèrent de l'acétylcholine, qui agit sur les récepteurs M2 : elle ralentit le cœur. Le cœur reçoit les deux innervations, et le sens de l'effet, stimulant ou inhibiteur, dépend du neurotransmetteur et des récepteurs de l'organe effecteur.",
+      "criteria": [
+        {
+          "kind": "element",
+          "text": "Les neurones postganglionnaires du sympathique libèrent de la noradrénaline, qui accélère le cœur (récepteurs β1)."
+        },
+        {
+          "kind": "element",
+          "text": "Les neurones postganglionnaires du parasympathique libèrent de l'acétylcholine, qui ralentit le cœur (récepteurs M2)."
+        },
+        {
+          "kind": "relation",
+          "text": "Le lien entre les deux : le cœur reçoit les deux innervations, et l'effet, stimulant ou inhibiteur, dépend du neurotransmetteur et des récepteurs de l'organe effecteur."
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v1-N207",
+      "batch": "SPHANASN-partie3-web-v1",
+      "type": "case",
+      "lo": "LO8",
+      "topic": "Stress avant un exposé : effets vasculaires et métaboliques du sympathique",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Lucas, 21 ans, doit présenter un exposé oral devant sa classe. Il attend son tour, assis dans la salle. Dans les minutes qui précèdent son passage, il est très stressé : sa réaction « combat ou fuite » est déclenchée.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        21,
+        25,
+        29,
+        30,
+        31
+      ],
+      "explanation": "La réaction « combat ou fuite » correspond au sympathique (slides 21 et 29). Le sympathique contracte les vaisseaux (slide 29) : les récepteurs α1 du muscle lisse des vaisseaux de la peau et des viscères provoquent la vasoconstriction (slides 30 et 31). Il stimule aussi la libération de glucose par le foie (slide 29), ce qui élève la concentration de glucose dans le sang. Les neurones postganglionnaires sympathiques libèrent de la noradrénaline à l'effecteur, et la médulla surrénale libère de l'adrénaline et de la noradrénaline dans le sang (slide 25). Ces substances activent les récepteurs β3 du tissu adipeux, qui favorisent la lipolyse (slides 30 et 31).",
+      "stages": [
+        {
+          "type": "direction",
+          "statement": "Pendant qu'il attend son tour, le diamètre des vaisseaux sanguins de la peau de ses mains, comparé à sa valeur d'avant le début du stress :",
+          "rationale": "Diminue. La réaction « combat ou fuite » correspond au sympathique (slides 21 et 29). Le sympathique contracte les vaisseaux (slide 29), et les récepteurs α1 du muscle lisse des vaisseaux de la peau provoquent cette vasoconstriction (slides 30 et 31).",
+          "correct": "down"
+        },
+        {
+          "type": "direction",
+          "statement": "Pendant l'attente, la concentration de glucose dans le sang de Lucas, comparée à sa valeur d'avant le début du stress :",
+          "rationale": "Augmente. Le sympathique stimule la libération de glucose par le foie (slide 29). Le glucose ainsi libéré passe dans le sang, où sa concentration s'élève.",
+          "correct": "up"
+        },
+        {
+          "type": "true_false",
+          "add": "Le passage de Lucas est reporté d'une heure ; il reste très stressé.",
+          "statement": "Pendant l'attente, la lipolyse (dégradation des lipides) est freinée dans le tissu adipeux de Lucas.",
+          "rationale": "Faux. Pendant la réaction « combat ou fuite », les neurones postganglionnaires sympathiques libèrent de la noradrénaline sur les organes effecteurs, et la médulla surrénale libère de l'adrénaline et de la noradrénaline dans le sang (slide 25). Ces substances activent les récepteurs β3, qui prédominent dans le tissu adipeux et favorisent la lipolyse (slides 30 et 31). La lipolyse est donc favorisée.",
+          "correct": false
+        }
       ]
     }
   ],

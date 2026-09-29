@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-09-29",
   "audiences": [
     {
       "id": "aps",
@@ -62,10 +62,10 @@
       "short_title": "Le système nerveux",
       "code": "SPHANASN",
       "cohort": "APS 2026-27",
-      "description": "Neurones, influx nerveux et synapses ; structures du système nerveux central et grandes voies.",
+      "description": "Neurones, influx nerveux et synapses ; système nerveux central ; moelle épinière, grandes voies, systèmes nerveux périphérique et autonome.",
       "file": "data/neuro.json",
-      "n_items": 65,
-      "n_formats": 11,
+      "n_items": 97,
+      "n_formats": 15,
       "parts": [
         {
           "name": "Partie 1 : neurones et influx nerveux",
@@ -74,11 +74,15 @@
         {
           "name": "Partie 2 : système nerveux central",
           "n_items": 30
+        },
+        {
+          "name": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
+          "n_items": 32
         }
       ],
       "status": "en_relecture",
-      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5, sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
-      "generated_at": "2026-09-24"
+      "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5 et par des sous-agents rédacteurs (Claude Sonnet 5.5) mandatés par le modèle orchestrateur, avec vérification par des sous-agents (Claude Opus 5.5), sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
+      "generated_at": "2026-09-29"
     },
     {
       "id": "cellule",
