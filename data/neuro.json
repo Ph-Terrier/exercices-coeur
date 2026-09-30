@@ -4,7 +4,7 @@
   "program": "Année propédeutique santé (APS)",
   "institution": "HE-ARC Neuchâtel",
   "cohort": "APS 2026-27",
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "produced_by": "Exercices rédigés dans le format pivot YAML du projet quiz_generator par le modèle orchestrateur Claude Opus 5.5 et par des sous-agents rédacteurs (Claude Sonnet 5.5) mandatés par le modèle orchestrateur, avec vérification par des sous-agents (Claude Opus 5.5), sous la direction de l'auteur, Philippe Terrier ; en cours de relecture par l'auteur.",
   "copyright": "© HE-ARC Santé (Haute École Arc, Neuchâtel), 2026. Matériel d'enseignement ; auteur responsable : Philippe Terrier.",
   "batches": [
@@ -29,12 +29,12 @@
       "approved": ""
     },
     {
-      "id": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2",
       "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
       "title": "Le système nerveux, partie 3 : moelle épinière, système nerveux périphérique et autonome",
-      "scope": "Partie 3 du cours, slides 1 à 34 ; exercices à formats variés pour le site web",
-      "n_items": 32,
-      "generated": "2026-09-29",
+      "scope": "Partie 3 du cours, slides 1 à 37 ; exercices à formats variés pour le site web",
+      "n_items": 37,
+      "generated": "2026-09-30",
       "model": "claude-sonnet-5-5",
       "approved": ""
     }
@@ -104,7 +104,7 @@
       "id": "LO8",
       "short_title": "Système nerveux autonome : sympathique et parasympathique",
       "part": "Partie 3 : moelle épinière, système nerveux périphérique et autonome",
-      "n_items": 14
+      "n_items": 19
     }
   ],
   "items": [
@@ -2389,8 +2389,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N201",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N201",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "cloze",
       "lo": "LO6_moelle",
       "topic": "Moelle épinière : position et rôles",
@@ -2420,8 +2420,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N202",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N202",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "true_false",
       "lo": "LO6_moelle",
       "topic": "Canal vertébral : contenu au niveau lombaire",
@@ -2439,8 +2439,8 @@
       "rationale": "Vrai. La moelle épinière se termine vers L2 par le cône médullaire (slides 4 et 5). Plus bas, le canal vertébral contient la queue de cheval, faisceau de racines nerveuses qui descendent sous le cône médullaire (slide 5)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N203",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N203",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "matching",
       "lo": "LO6_moelle",
       "topic": "Coupe de la moelle épinière : structures et description",
@@ -2479,8 +2479,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N204",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N204",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "mcq",
       "lo": "LO6_moelle",
       "topic": "Réorganisation des fibres : lésion d'une seule racine",
@@ -2519,8 +2519,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N205",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N205",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "ordering",
       "lo": "LO6_moelle",
       "topic": "Arc réflexe : ordre des cinq éléments",
@@ -2542,8 +2542,8 @@
       "explanation": "Le récepteur, situé dans la peau, capte le stimulus. Le neurone sensitif conduit le signal jusqu'à la moelle épinière. Le centre d'intégration, situé dans la moelle, comporte au moins une synapse dans le SNC. Le neurone moteur quitte la moelle, et l'effecteur, ici un muscle, réalise la réponse (slide 12)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N206",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N206",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "two_tier",
       "lo": "LO6_moelle",
       "topic": "Arc réflexe : retrait et perception de la douleur",
@@ -2613,8 +2613,8 @@
       }
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N208",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N208",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "diagram",
       "lo": "LO6_moelle",
       "topic": "Circuit réflexe : trajet anatomique du signal",
@@ -2753,8 +2753,8 @@
       "edge_style": "line"
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N209",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N209",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "flashcard",
       "lo": "LO6_moelle",
       "topic": "Nerf spinal : formation à partir des racines",
@@ -2773,8 +2773,8 @@
       "prompt": "Comment un nerf spinal (rachidien) se forme-t-il à partir de la moelle épinière, et que conduit chacune de ses deux racines ?"
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N210",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N210",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "direction",
       "lo": "LO6_moelle",
       "topic": "Section de la moelle thoracique : sensibilité des jambes",
@@ -2792,8 +2792,8 @@
       "rationale": "Diminue. La moelle épinière achemine les influx sensitifs (afférences) vers le cerveau (slide 4). Les nerfs des jambes, lombaires et sacrés, rejoignent la moelle sous sa portion thoracique (slide 5). Une section complète interrompt le passage de leurs influx vers l'encéphale : la sensibilité perçue dans les jambes est abolie."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N211",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N211",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "classify",
       "lo": "LO7_moelle",
       "topic": "Voies de la moelle épinière : ascendantes ou descendantes",
@@ -2844,8 +2844,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N212",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N212",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "matching",
       "lo": "LO7_moelle",
       "topic": "Voies sensitives ascendantes : récepteur et voie qui conduit l'information",
@@ -2874,8 +2874,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N213",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N213",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "ordering",
       "lo": "LO7_moelle",
       "topic": "Voie sensitive du toucher : ordre des relais",
@@ -2899,8 +2899,8 @@
       "explanation": "Le récepteur du toucher engendre l'information, que le neurone de premier ordre conduit par le faisceau gracile jusqu'au noyau gracile du bulbe rachidien. Le neurone de deuxième ordre traverse la ligne médiane dans le bulbe, d'après le tracé de la planche, puis monte par le lemnisque médial, du côté opposé, jusqu'au thalamus. Un neurone de troisième ordre relie le thalamus au cortex somesthésique primaire (slide 16)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N214",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N214",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "diagram",
       "lo": "LO7_moelle",
       "topic": "Voie sensitive de la température : schéma à compléter",
@@ -3010,8 +3010,8 @@
       "edge_style": "line"
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N215",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N215",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "two_tier",
       "lo": "LO7_moelle",
       "topic": "Lésion de la moelle cervicale : côté de la perte de douleur et de température",
@@ -3082,8 +3082,8 @@
       }
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N216",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N216",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "error_spot",
       "lo": "LO7_moelle",
       "topic": "Voie motrice pyramidale : erreurs dans une explication",
@@ -3133,8 +3133,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N217",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N217",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "cloze",
       "lo": "LO1_snp",
       "topic": "Structure du nerf : texte à trous",
@@ -3162,8 +3162,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N218",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N218",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "true_false",
       "lo": "LO1_snp",
       "topic": "Système nerveux périphérique : origine des informations sensitives",
@@ -3180,8 +3180,8 @@
       "rationale": "Faux. Les informations sensitives (potentiels sensitifs) sont générées par des récepteurs spécialisés présents dans les tissus, ici la peau de la main (slide 19). Le SNP, « câblage » de l'organisme, les conduit ensuite vers le SNC ; sa partie motrice, somatique et autonome, transmet les ordres dans l'autre sens, depuis le SNC (slide 19)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N219",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N219",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "mcq",
       "lo": "LO1_snp",
       "topic": "Nerf mixte : conséquence d'une section",
@@ -3222,8 +3222,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N220",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N220",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "ordering",
       "lo": "LO8",
       "topic": "Chaîne motrice autonome : ordre de la transmission",
@@ -3247,8 +3247,8 @@
       "explanation": "Le corps cellulaire du premier neurone (préganglionnaire) se trouve dans l'encéphale ou la moelle épinière, et son axone rejoint un ganglion autonome. La synapse a lieu dans ce ganglion, où se situe le corps cellulaire du second neurone (postganglionnaire). L'axone de ce dernier rejoint l'organe effecteur (slides 24 et 25)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N221",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N221",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "classify",
       "lo": "LO8",
       "topic": "Système somatique et système autonome : comparaison des neurones moteurs",
@@ -3298,8 +3298,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N222",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N222",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "diagram",
       "lo": "LO8",
       "topic": "Sympathique et parasympathique : organisation comparée",
@@ -3446,8 +3446,8 @@
       "edge_style": "line"
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N223",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N223",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "mcq",
       "lo": "LO8",
       "topic": "Médulla surrénale : lésion de l'axone préganglionnaire sympathique",
@@ -3488,8 +3488,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N224",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N224",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "flashcard",
       "lo": "LO8",
       "topic": "Système nerveux autonome : définition",
@@ -3505,8 +3505,8 @@
       "prompt": "Qu'est-ce que le système nerveux autonome (SNA) ?"
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N225",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N225",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "true_false",
       "lo": "LO8",
       "topic": "Système nerveux autonome : régulation par l'encéphale",
@@ -3523,8 +3523,8 @@
       "rationale": "Faux. Le SNA est régulé par l'hypothalamus, qui appartient au diencéphale, une structure centrale de l'encéphale (partie 2 du cours, slide 32). La régulation du SNA est modulée par le cortex via le système limbique (slide 22). Le SNA dépend donc de plusieurs structures de l'encéphale."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N226",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N226",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "classify",
       "lo": "LO8",
       "topic": "Effets du sympathique et du parasympathique : classement",
@@ -3590,8 +3590,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N227",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N227",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "direction",
       "lo": "LO8",
       "topic": "Réaction de danger : diamètre des bronches",
@@ -3604,15 +3604,16 @@
         21,
         29,
         30,
-        31
+        31,
+        33
       ],
       "statement": "Un cycliste évite de justesse une voiture qui lui coupe la route. Juste après, comparé à celui d'avant l'incident, le diamètre de ses bronches :",
       "correct": "up",
-      "rationale": "Augmente. Une situation de danger active le sympathique, la division « combat ou fuite » du système nerveux autonome (slides 21 et 29). Le sympathique dilate les bronches (slide 29). Les récepteurs β2 du muscle lisse bronchique provoquent cette bronchodilatation (slides 30 et 31)."
+      "rationale": "Augmente. Une situation de danger active le sympathique, la division « combat ou fuite » du système nerveux autonome (slides 21 et 29). Le sympathique dilate les bronches (slide 29). Les récepteurs β2 du muscle lisse bronchique provoquent cette bronchodilatation (slides 30, 31 et 33)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N228",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N228",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "direction",
       "lo": "LO8",
       "topic": "Stimulation du nerf vague : digestion gastrique",
@@ -3623,15 +3624,16 @@
       "options": [],
       "source_slides": [
         29,
-        31
+        31,
+        33
       ],
       "statement": "Lors d'un examen, un médecin réalise chez un patient une manœuvre qui stimule le nerf vague. Comparée à celle d'avant la manœuvre, l'activité digestive de l'estomac du patient pendant la stimulation :",
       "correct": "up",
-      "rationale": "Augmente. Le nerf vague transporte des fibres parasympathiques jusqu'à l'estomac (slide 29). Le parasympathique, division « repos et digestion », stimule la digestion (slide 29). Les récepteurs muscariniques M3 du muscle lisse et des glandes provoquent la motricité digestive et des sécrétions (slide 31)."
+      "rationale": "Augmente. Le nerf vague transporte des fibres parasympathiques jusqu'à l'estomac (slide 29). Le parasympathique, division « repos et digestion », stimule la digestion (slide 29). Les récepteurs muscariniques M3 du muscle lisse et des glandes provoquent la motricité digestive et des sécrétions (slides 31 et 33)."
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N229",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N229",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "case",
       "lo": "LO8",
       "topic": "Frayeur puis retour au calme : situation en trois étapes",
@@ -3645,9 +3647,10 @@
         25,
         29,
         30,
-        31
+        31,
+        33
       ],
-      "explanation": "Pendant la frayeur, le sympathique inhibe la salivation et accélère le cœur (slide 29). Dans sa chaîne de deux neurones, le neurone préganglionnaire libère de l'acétylcholine dans le ganglion (slide 25). Au retour au calme, le parasympathique contracte les pupilles, que le sympathique dilate (slide 29).",
+      "explanation": "Pendant la frayeur, le sympathique inhibe la salivation et accélère le cœur (slide 29). Dans sa chaîne de deux neurones, le neurone préganglionnaire libère de l'acétylcholine dans le ganglion (slides 25 et 33). Au retour au calme, le parasympathique contracte les pupilles, que le sympathique dilate (slide 29).",
       "stages": [
         {
           "type": "direction",
@@ -3664,13 +3667,13 @@
               "letter": "A",
               "text": "La noradrénaline",
               "correct": false,
-              "rationale": "Incorrect. La noradrénaline est libérée à l'effecteur par le neurone postganglionnaire sympathique. Le ganglion fonctionne avec un autre neurotransmetteur, l'acétylcholine (slide 25)."
+              "rationale": "Incorrect. La noradrénaline est libérée à l'effecteur par le neurone postganglionnaire sympathique. Le ganglion fonctionne avec un autre neurotransmetteur, l'acétylcholine (slides 25 et 33)."
             },
             {
               "letter": "B",
               "text": "L'acétylcholine",
               "correct": true,
-              "rationale": "Correct. Dans les chaînes de deux neurones du sympathique et du parasympathique, le neurone préganglionnaire libère de l'acétylcholine dans le ganglion (slide 25). Les récepteurs nicotiniques de tous les neurones postganglionnaires la reçoivent (slides 30 et 31)."
+              "rationale": "Correct. Dans les chaînes de deux neurones du sympathique et du parasympathique, le neurone préganglionnaire libère de l'acétylcholine dans le ganglion (slides 25 et 33). Les récepteurs nicotiniques de tous les neurones postganglionnaires la reçoivent (slides 30 et 31)."
             },
             {
               "letter": "C",
@@ -3690,8 +3693,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N230",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N230",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "matching",
       "lo": "LO8",
       "topic": "Récepteurs cholinergiques et adrénergiques : effets",
@@ -3702,9 +3705,10 @@
       "options": [],
       "source_slides": [
         30,
-        31
+        31,
+        33
       ],
-      "explanation": "M2 (muscarinique) ralentit le cœur. M3, sur le muscle lisse et les glandes, provoque la contraction (bronchoconstriction, motricité digestive) et des sécrétions. Parmi les récepteurs adrénergiques, α1 provoque la vasoconstriction et la mydriase. β1 accélère le cœur et augmente sa force de contraction. β2 provoque la bronchodilatation, la vasodilatation (muscles) et la relaxation utérine. β3 déclenche la lipolyse dans le tissu adipeux (slides 30 et 31).",
+      "explanation": "M2 (muscarinique) ralentit le cœur. M3, sur le muscle lisse et les glandes, provoque la contraction (bronchoconstriction, motricité digestive) et des sécrétions. Parmi les récepteurs adrénergiques, α1 provoque la vasoconstriction et la mydriase. β1 accélère le cœur et augmente sa force de contraction. β2 provoque la bronchodilatation, la vasodilatation (muscles) et la relaxation utérine. β3 déclenche la lipolyse dans le tissu adipeux (slides 30, 31 et 33).",
       "pairs": [
         {
           "left": "M2",
@@ -3733,8 +3737,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N231",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N231",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "two_tier",
       "lo": "LO8",
       "topic": "Récepteurs ionotropes et métabotropes : vitesse de réponse",
@@ -3745,10 +3749,10 @@
       "options": [],
       "source_slides": [
         25,
-        30,
-        31
+        31,
+        33
       ],
-      "explanation": "Le récepteur nicotinique neuronal (Nn), situé dans le ganglion, est un canal ionotrope : l'ACh ouvre directement le canal, les ions passent et la dépolarisation est rapide (millisecondes). Le récepteur muscarinique M2 est métabotrope : il déclenche une cascade de seconds messagers, dont l'effet est plus lent (de l'ordre de 100 ms à la minute), amplifiable et durable (slides 25 et 31).",
+      "explanation": "Le récepteur nicotinique neuronal (Nn), situé dans le ganglion, est un canal ionotrope : l'ACh ouvre directement le canal, les ions passent et la dépolarisation est rapide (millisecondes). Le récepteur muscarinique M2 est métabotrope : il agit par des messagers à l'intérieur de la cellule, et son effet est plus lent, amplifiable et durable (slides 31 et 33).",
       "tier1": {
         "lead_in": "La réponse d'un récepteur nicotinique du ganglion, comparée à celle d'un récepteur M2 du cœur, est :",
         "options": [
@@ -3779,35 +3783,35 @@
             "letter": "A",
             "text": "Les deux récepteurs sont des canaux ioniques ; celui du cœur s'ouvre plus vite, car le cœur doit réagir rapidement.",
             "correct": false,
-            "rationale": "Incorrect. Le récepteur M2 est métabotrope : il déclenche une cascade de seconds messagers, plus lente. Le canal ionotrope est le récepteur nicotinique (slide 31).",
+            "rationale": "Incorrect. Le récepteur M2 est métabotrope : il agit par des messagers à l'intérieur de la cellule, et sa réponse est plus lente. Le canal ionique est le récepteur nicotinique (slides 31 et 33).",
             "misconception": "Le récepteur M2 serait un canal ionique dont la vitesse d'ouverture s'adapte aux besoins de l'organe."
           },
           {
             "letter": "B",
-            "text": "Le récepteur nicotinique est un canal ionique ; le récepteur M2 déclenche une cascade de seconds messagers dans la cellule.",
+            "text": "Le récepteur nicotinique est un canal ionique ; le récepteur M2 agit par des messagers à l'intérieur de la cellule.",
             "correct": true,
-            "rationale": "Correct. Un récepteur ionotrope convertit directement la liaison du ligand en flux ionique et donne une réponse en millisecondes. Un récepteur métabotrope déclenche des cascades de seconds messagers, plus lentes, amplifiables et durables (slide 31)."
+            "rationale": "Correct. Un récepteur ionotrope est un canal ionique que le neurotransmetteur ouvre directement : la réponse survient en millisecondes. Un récepteur métabotrope agit par des messagers à l'intérieur de la cellule : sa réponse est plus lente, amplifiable et durable (slides 31 et 33)."
           },
           {
             "letter": "C",
             "text": "Le récepteur nicotinique se trouve sur un neurone dont l'axone, fortement myélinisé, conduit l'influx plus vite.",
             "correct": false,
-            "rationale": "Incorrect. Le récepteur nicotinique du ganglion est porté par le neurone postganglionnaire, dont l'axone est non myélinisé (slides 25 et 30). La vitesse de réponse dépend du type de récepteur, ionotrope ou métabotrope (slide 31).",
+            "rationale": "Incorrect. L'axone du neurone postganglionnaire est non myélinisé (slide 25). La vitesse de réponse d'un récepteur dépend de son type : le récepteur nicotinique, un canal ionique, répond plus vite que le récepteur M2, métabotrope (slides 31 et 33).",
             "misconception": "La vitesse de réponse d'un récepteur dépendrait de la vitesse de conduction de l'axone du neurone qui le porte."
           },
           {
             "letter": "D",
             "text": "Les deux récepteurs se lient au même neurotransmetteur : leurs réponses ont donc la même vitesse de déclenchement.",
             "correct": false,
-            "rationale": "Incorrect. L'ACh agit sur deux familles de récepteurs : les nicotiniques, ionotropes et rapides (de l'ordre de la milliseconde), et les muscariniques, métabotropes et plus lents, de l'ordre de 100 ms à la minute (slide 31).",
+            "rationale": "Incorrect. L'ACh agit sur deux familles de récepteurs : les nicotiniques, ionotropes et rapides (de l'ordre de la milliseconde), et les muscariniques, métabotropes et plus lents (slides 31 et 33).",
             "misconception": "Un même neurotransmetteur donnerait des réponses de même vitesse."
           }
         ]
       }
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N232",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N232",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "short_answer",
       "lo": "LO8",
       "topic": "Innervation double du cœur : explication écrite",
@@ -3820,9 +3824,10 @@
         25,
         29,
         30,
-        31
+        31,
+        33
       ],
-      "explanation": "Sur le schéma de la slide 29, le sympathique accélère le rythme cardiaque et le parasympathique le diminue. La figure de la slide 25 indique que l'effet du système nerveux autonome est stimulant ou inhibiteur en fonction du neurotransmetteur et des récepteurs des organes effecteurs. Le récepteur β1 est décrit aux slides 30 et 31, le récepteur M2 (muscarinique) à la slide 31.",
+      "explanation": "Sur le schéma de la slide 29, le sympathique accélère le rythme cardiaque et le parasympathique le diminue. La figure de la slide 25 indique que l'effet du système nerveux autonome est stimulant ou inhibiteur en fonction du neurotransmetteur et des récepteurs des organes effecteurs. Le schéma de synthèse de la slide 33 place sur le cœur deux récepteurs : M2, qui diminue la fréquence cardiaque, et β1, qui augmente la fréquence et la force de contraction. Le récepteur β1 figure aussi aux slides 30 et 31. Le récepteur M2 figure à la slide 31 ; la slide 30 attribue aux récepteurs muscariniques l'inhibition du muscle cardiaque.",
       "model_answer": "Sur le cœur, les neurones postganglionnaires du sympathique libèrent de la noradrénaline, qui agit sur les récepteurs β1 : elle accélère le cœur et augmente sa force de contraction. Ceux du parasympathique libèrent de l'acétylcholine, qui agit sur les récepteurs M2 : elle ralentit le cœur. Le cœur reçoit les deux innervations, et le sens de l'effet, stimulant ou inhibiteur, dépend du neurotransmetteur et des récepteurs de l'organe effecteur.",
       "criteria": [
         {
@@ -3840,8 +3845,8 @@
       ]
     },
     {
-      "id": "SPHANASN-partie3-web-v1-N207",
-      "batch": "SPHANASN-partie3-web-v1",
+      "id": "SPHANASN-partie3-web-v2-N207",
+      "batch": "SPHANASN-partie3-web-v2",
       "type": "case",
       "lo": "LO8",
       "topic": "Stress avant un exposé : effets vasculaires et métaboliques du sympathique",
@@ -3855,14 +3860,15 @@
         25,
         29,
         30,
-        31
+        31,
+        33
       ],
-      "explanation": "La réaction « combat ou fuite » correspond au sympathique (slides 21 et 29). Le sympathique contracte les vaisseaux (slide 29) : les récepteurs α1 du muscle lisse des vaisseaux de la peau et des viscères provoquent la vasoconstriction (slides 30 et 31). Il stimule aussi la libération de glucose par le foie (slide 29), ce qui élève la concentration de glucose dans le sang. Les neurones postganglionnaires sympathiques libèrent de la noradrénaline à l'effecteur, et la médulla surrénale libère de l'adrénaline et de la noradrénaline dans le sang (slide 25). Ces substances activent les récepteurs β3 du tissu adipeux, qui favorisent la lipolyse (slides 30 et 31).",
+      "explanation": "La réaction « combat ou fuite » correspond au sympathique (slides 21 et 29). Le sympathique contracte les vaisseaux (slide 29) : les récepteurs α1 du muscle lisse des vaisseaux de la peau et des viscères provoquent la vasoconstriction (slides 30, 31 et 33). Il stimule aussi la libération de glucose par le foie (slide 29), ce qui élève la concentration de glucose dans le sang. Les neurones postganglionnaires sympathiques libèrent de la noradrénaline à l'effecteur, et la médulla surrénale libère de l'adrénaline et de la noradrénaline dans le sang (slide 25). Ces substances activent les récepteurs β3 du tissu adipeux, qui favorisent la lipolyse (slides 30, 31 et 33).",
       "stages": [
         {
           "type": "direction",
           "statement": "Pendant qu'il attend son tour, le diamètre des vaisseaux sanguins de la peau de ses mains, comparé à sa valeur d'avant le début du stress :",
-          "rationale": "Diminue. La réaction « combat ou fuite » correspond au sympathique (slides 21 et 29). Le sympathique contracte les vaisseaux (slide 29), et les récepteurs α1 du muscle lisse des vaisseaux de la peau provoquent cette vasoconstriction (slides 30 et 31).",
+          "rationale": "Diminue. La réaction « combat ou fuite » correspond au sympathique (slides 21 et 29). Le sympathique contracte les vaisseaux (slide 29), et les récepteurs α1 du muscle lisse des vaisseaux de la peau provoquent cette vasoconstriction (slides 30, 31 et 33).",
           "correct": "down"
         },
         {
@@ -3875,9 +3881,256 @@
           "type": "true_false",
           "add": "Le passage de Lucas est reporté d'une heure ; il reste très stressé.",
           "statement": "Pendant l'attente, la lipolyse (dégradation des lipides) est freinée dans le tissu adipeux de Lucas.",
-          "rationale": "Faux. Pendant la réaction « combat ou fuite », les neurones postganglionnaires sympathiques libèrent de la noradrénaline sur les organes effecteurs, et la médulla surrénale libère de l'adrénaline et de la noradrénaline dans le sang (slide 25). Ces substances activent les récepteurs β3, qui prédominent dans le tissu adipeux et favorisent la lipolyse (slides 30 et 31). La lipolyse est donc favorisée.",
+          "rationale": "Faux. Pendant la réaction « combat ou fuite », les neurones postganglionnaires sympathiques libèrent de la noradrénaline sur les organes effecteurs, et la médulla surrénale libère de l'adrénaline et de la noradrénaline dans le sang (slide 25). Ces substances activent les récepteurs β3, qui prédominent dans le tissu adipeux et favorisent la lipolyse (slides 30, 31 et 33). La lipolyse est donc favorisée.",
           "correct": false
         }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v2-N233",
+      "batch": "SPHANASN-partie3-web-v2",
+      "type": "direction",
+      "lo": "LO8",
+      "topic": "β-bloquants : effet sur la fréquence cardiaque",
+      "bloom": "apply",
+      "difficulty": "easy",
+      "stem": "",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        33,
+        34
+      ],
+      "statement": "Un patient hypertendu prend du bisoprolol, un β-bloquant cardiosélectif. Comparée à celle qu'il avait avant le traitement, sa fréquence cardiaque :",
+      "correct": "down",
+      "rationale": "Diminue. Le β-bloquant bloque les récepteurs β1 du cœur, qui accélèrent le cœur et augmentent sa force de contraction (slides 33 et 34)."
+    },
+    {
+      "id": "SPHANASN-partie3-web-v2-N234",
+      "batch": "SPHANASN-partie3-web-v2",
+      "type": "two_tier",
+      "lo": "LO8",
+      "topic": "β-bloquant non sélectif et asthme : opposition à l'effet du salbutamol",
+      "bloom": "analyze",
+      "difficulty": "hard",
+      "stem": "Mme A., 58 ans, est asthmatique. Lors de ses crises, elle inhale du salbutamol, un β2-agoniste. On envisage de lui prescrire du propranolol, un β-bloquant non sélectif, pour une migraine.",
+      "lead_in": "",
+      "options": [],
+      "source_slides": [
+        31,
+        33,
+        34
+      ],
+      "explanation": "Le salbutamol est un β2-agoniste : il active les récepteurs β2 du muscle lisse bronchique, ce qui dilate les bronches (slides 33 et 34). Le propranolol est un β-bloquant non sélectif : il bloque β1 et aussi β2 (slide 34, notes de l'orateur). Sur les bronches, il s'oppose donc au salbutamol et peut déclencher un bronchospasme (contraction des bronches). Cette situation explique la contre-indication relative des β-bloquants dans l'asthme, qui concerne surtout les non sélectifs (slide 34, notes de l'orateur).",
+      "tier1": {
+        "lead_in": "Si elle prenait aussi du propranolol, la dilatation des bronches que produit le salbutamol lors d'une crise, comparée à celle obtenue sans propranolol, serait :",
+        "options": [
+          {
+            "letter": "A",
+            "text": "plus faible",
+            "correct": true,
+            "rationale": ""
+          },
+          {
+            "letter": "B",
+            "text": "identique",
+            "correct": false,
+            "rationale": ""
+          },
+          {
+            "letter": "C",
+            "text": "plus forte",
+            "correct": false,
+            "rationale": ""
+          }
+        ]
+      },
+      "tier2": {
+        "lead_in": "Quelle raison justifie cette réponse ?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Le propranolol bloque les récepteurs β1, qui dilatent les bronches : il diminue donc la dilatation que le salbutamol produit.",
+            "correct": false,
+            "rationale": "Incorrect. Ce sont les récepteurs β2 qui dilatent les bronches (slides 31 et 33). Le récepteur β1 se trouve dans le cœur : il accélère le rythme et augmente la force de contraction (slides 31 et 33).",
+            "misconception": "Le récepteur β1 dilaterait les bronches."
+          },
+          {
+            "letter": "B",
+            "text": "Le propranolol agit sur les récepteurs β1 du cœur : les bronches ne sont pas concernées, et le salbutamol garde son effet.",
+            "correct": false,
+            "rationale": "Incorrect. Le propranolol est non sélectif : il bloque aussi β2, présent sur le muscle lisse des bronches (slides 33 et 34, notes de l'orateur). Les β-bloquants cardiosélectifs, comme le bisoprolol, agissent surtout sur β1. L'asthme reste pour eux une contre-indication relative (slide 34), et le risque de bronchospasme est plus grand avec les β-bloquants non sélectifs (notes de l'orateur).",
+            "misconception": "Les β-bloquants n'agiraient que sur le cœur."
+          },
+          {
+            "letter": "C",
+            "text": "Le propranolol bloque aussi les récepteurs β2 des bronches, que le salbutamol active : il s'oppose à l'effet du salbutamol.",
+            "correct": true,
+            "rationale": "Correct. Un β-bloquant non sélectif bloque β1 et aussi β2. Sur les bronches, le propranolol (antagoniste) s'oppose au salbutamol (agoniste) et peut déclencher un bronchospasme, une contraction des bronches (slide 34, notes de l'orateur)."
+          },
+          {
+            "letter": "D",
+            "text": "Le propranolol et le salbutamol agissent tous deux sur les récepteurs β2 des bronches : leurs effets s'additionnent.",
+            "correct": false,
+            "rationale": "Incorrect. Le salbutamol active β2 (agoniste, +) et le propranolol le bloque (antagoniste, −) : leurs effets s'opposent (slide 34, notes de l'orateur).",
+            "misconception": "Deux médicaments qui ciblent le même récepteur auraient des effets qui s'additionnent."
+          }
+        ]
+      }
+    },
+    {
+      "id": "SPHANASN-partie3-web-v2-N235",
+      "batch": "SPHANASN-partie3-web-v2",
+      "type": "classify",
+      "lo": "LO8",
+      "topic": "Antimuscariniques : manifestations possibles",
+      "bloom": "understand",
+      "difficulty": "medium",
+      "stem": "Une infirmière surveille un patient qui reçoit un antimuscarinique (exemple : la butylscopolamine). Ce type de médicament bloque l'acétylcholine (ACh) sur les récepteurs muscariniques.",
+      "lead_in": "Classer chaque manifestation selon qu'elle peut résulter ou non du blocage des récepteurs muscariniques.",
+      "options": [],
+      "source_slides": [
+        33,
+        34
+      ],
+      "explanation": "Un antimuscarinique bloque l'acétylcholine sur les récepteurs muscariniques : il a un effet « anti-parasympathique » (slide 34, notes de l'orateur). Sur le muscle lisse et les glandes, l'ACh agit par les récepteurs M3 et provoque contraction et sécrétions (slide 33). Leur blocage diminue les spasmes digestifs et les sécrétions (slide 34). Les effets indésirables forment le « syndrome sec » : bouche sèche, constipation, rétention urinaire, mydriase (slide 34, notes de l'orateur). Ils sont l'inverse des effets parasympathiques, la division « repos et digestion » (slide 34, notes de l'orateur). Des sécrétions bronchiques abondantes, un transit accéléré et un cœur plus lent résultent de l'action de l'ACh sur M2 et M3 (slide 33). Ces manifestations sont improbables lorsque les récepteurs muscariniques sont bloqués.",
+      "categories": [
+        "Possible sous antimuscarinique",
+        "Improbable sous antimuscarinique"
+      ],
+      "elements": [
+        {
+          "text": "Bouche sèche",
+          "category": "Possible sous antimuscarinique"
+        },
+        {
+          "text": "Sécrétions bronchiques abondantes",
+          "category": "Improbable sous antimuscarinique"
+        },
+        {
+          "text": "Constipation",
+          "category": "Possible sous antimuscarinique"
+        },
+        {
+          "text": "Cœur qui bat plus lentement (bradycardie)",
+          "category": "Improbable sous antimuscarinique"
+        },
+        {
+          "text": "Rétention urinaire",
+          "category": "Possible sous antimuscarinique"
+        },
+        {
+          "text": "Pupilles dilatées (mydriase)",
+          "category": "Possible sous antimuscarinique"
+        },
+        {
+          "text": "Transit intestinal accéléré",
+          "category": "Improbable sous antimuscarinique"
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v2-N236",
+      "batch": "SPHANASN-partie3-web-v2",
+      "type": "case",
+      "lo": "LO8",
+      "topic": "Salbutamol : effets indésirables et récepteurs en cause, situation en deux étapes",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "Nora, 19 ans, est asthmatique. Lors d'une crise, elle inhale du salbutamol, un β2-agoniste de courte durée.",
+      "lead_in": "Répondre aux questions de la situation, étape par étape.",
+      "options": [],
+      "source_slides": [
+        33,
+        34
+      ],
+      "explanation": "Le salbutamol est un β2-agoniste : il active les récepteurs β2 du muscle lisse bronchique et dilate les bronches (slides 33 et 34). Ses effets indésirables comprennent la tachycardie et les tremblements (slide 34). Les notes de l'orateur les relient à deux récepteurs : β1 du cœur à forte dose pour la tachycardie, β2 du muscle squelettique pour les tremblements (slide 34, notes de l'orateur).",
+      "stages": [
+        {
+          "type": "direction",
+          "statement": "Nora inhale plusieurs doses de salbutamol à la suite. Sa fréquence cardiaque, comparée à celle d'avant ces inhalations :",
+          "rationale": "Augmente. La tachycardie figure parmi les effets indésirables des β2-agonistes (slide 34). Les récepteurs β1 du cœur accélèrent la fréquence (slide 33). À forte dose, le salbutamol active aussi ces récepteurs (slide 34, notes de l'orateur).",
+          "correct": "up"
+        },
+        {
+          "type": "mcq",
+          "add": "Nora remarque aussi un léger tremblement de ses mains.",
+          "lead_in": "Quelle explication est correcte ?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Le salbutamol active les récepteurs β1 du cœur, ce qui provoque le tremblement.",
+              "correct": false,
+              "rationale": "Incorrect. L'activation de β1 accélère le cœur et augmente sa force de contraction (slide 33). Les tremblements figurent parmi les effets indésirables du salbutamol, un β2-agoniste (slide 34)."
+            },
+            {
+              "letter": "B",
+              "text": "Le salbutamol active aussi des récepteurs β2 situés dans le muscle squelettique.",
+              "correct": true,
+              "rationale": "Correct. Les tremblements figurent parmi les effets indésirables des β2-agonistes, qui activent les récepteurs β2 (slide 34). Ces récepteurs se trouvent dans le muscle squelettique (slide 34, notes de l'orateur)."
+            },
+            {
+              "letter": "C",
+              "text": "Le salbutamol bloque les récepteurs muscariniques, comme le fait un antimuscarinique.",
+              "correct": false,
+              "rationale": "Incorrect. Le salbutamol est un β2-agoniste : il active les récepteurs β2 (slide 34). Les antimuscariniques bloquent les récepteurs muscariniques, et leurs effets indésirables sont la bouche sèche et la rétention urinaire (slide 34)."
+            },
+            {
+              "letter": "D",
+              "text": "Le tremblement signale un bronchospasme provoqué par le salbutamol.",
+              "correct": false,
+              "rationale": "Incorrect. Le salbutamol dilate les bronches en activant β2 (slides 33 et 34). Le bronchospasme est un risque des β-bloquants non sélectifs (slide 34, notes de l'orateur)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SPHANASN-partie3-web-v2-N237",
+      "batch": "SPHANASN-partie3-web-v2",
+      "type": "mcq",
+      "lo": "LO8",
+      "topic": "Antimuscariniques : mécanisme de la bronchodilatation",
+      "bloom": "apply",
+      "difficulty": "medium",
+      "stem": "M. H., 67 ans, est atteint de bronchopneumopathie chronique obstructive (BPCO). Il inhale du tiotropium, un antimuscarinique.",
+      "lead_in": "Par quel mécanisme le tiotropium dilate-t-il les bronches ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Il active les récepteurs M3.",
+          "correct": false,
+          "rationale": "Incorrect. Activer M3 revient à imiter l'acétylcholine (ACh), dont l'action sur ce récepteur contracte le muscle lisse bronchique (slide 33). Un antimuscarinique bloque les récepteurs muscariniques (slide 34)."
+        },
+        {
+          "letter": "B",
+          "text": "Il bloque les récepteurs β2.",
+          "correct": false,
+          "rationale": "Incorrect. Le blocage de β2 s'oppose à la dilatation des bronches (slides 33 et 34) : c'est le risque des β-bloquants non sélectifs chez l'asthmatique (slide 34, notes de l'orateur). Le tiotropium est un antimuscarinique, qui agit sur les récepteurs muscariniques (slide 34)."
+        },
+        {
+          "letter": "C",
+          "text": "Il bloque les récepteurs M3.",
+          "correct": true,
+          "rationale": "Correct. Le tiotropium est un antimuscarinique : il bloque le récepteur M3 (slide 34). L'acétylcholine (ACh) ne peut plus contracter le muscle lisse bronchique par M3 (slide 33), et les bronches se dilatent (slide 34, notes de l'orateur)."
+        },
+        {
+          "letter": "D",
+          "text": "Il active les récepteurs β2.",
+          "correct": false,
+          "rationale": "Incorrect. L'activation de β2 dilate les bronches : c'est le mécanisme du salbutamol, un β2-agoniste (slide 34). Le tiotropium est un antimuscarinique, qui agit sur les récepteurs muscariniques (slide 34)."
+        },
+        {
+          "letter": "E",
+          "text": "Il bloque les récepteurs nicotiniques (Nn).",
+          "correct": false,
+          "rationale": "Incorrect. Les récepteurs nicotiniques (Nn) sont ceux des ganglions, activés par l'ACh dans les deux systèmes (slides 31 et 33). Un antimuscarinique agit sur les récepteurs muscariniques des organes, ici M3 des bronches (slide 34)."
+        }
+      ],
+      "source_slides": [
+        31,
+        33,
+        34
       ]
     }
   ],
